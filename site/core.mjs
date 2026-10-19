@@ -21,7 +21,7 @@ export function metrics(project,local){
  const drafts=local.manuscripts.length;
  const statuses=project.mysteries.map(m=>local.mysteries[m.id]?.status||m.status);
  const solved=statuses.filter(s=>s==='SOLVED').length;
- return {manuscripts:drafts,chaptersWithDraft:new Set(local.manuscripts.map(m=>m.chapter)).size,openMysteries:statuses.filter(s=>s!=='SOLVED').length,solved,reviewed:project.reviews.filter(x=>local.reviews[x.id]==='REVIEWED').length,reviewTotal:project.reviews.length,canonTotal:project.world.filter(x=>x.kind==='CANON').length,canonVerified:project.world.filter(x=>x.kind==='CANON'&&x.canonEvidence).length};
+ return {registeredManuscripts:(project.manuscripts||[]).length,registeredCharacters:(project.manuscripts||[]).reduce((sum,m)=>sum+m.characters,0),manuscripts:drafts,chaptersWithDraft:new Set(local.manuscripts.map(m=>m.chapter)).size,openMysteries:statuses.filter(s=>s!=='SOLVED').length,solved,reviewed:project.reviews.filter(x=>local.reviews[x.id]==='REVIEWED').length,reviewTotal:project.reviews.length,canonTotal:project.world.filter(x=>x.kind==='CANON').length,canonVerified:project.world.filter(x=>x.kind==='CANON'&&x.canonEvidence).length};
 }
 export function scanExpressions(text){
  // Literal expression candidates only. Never claims semantic contradiction or AI review.

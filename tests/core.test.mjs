@@ -1,13 +1,19 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
+import {createHash} from 'node:crypto';
 import {blankWorkspace,validateWorkspace,metrics,scanExpressions} from '../site/core.mjs';
 const project=JSON.parse(readFileSync(new URL('../site/data/project.json',import.meta.url),'utf8'));
-test('initial data has no fabricated manuscripts or solved mysteries',()=>{const m=metrics(project,blankWorkspace());assert.equal(m.manuscripts,0);assert.equal(m.solved,0);assert.equal(m.openMysteries,14);assert.equal(m.canonVerified,0);});
+test('public submissions and browser drafts are counted separately',()=>{const m=metrics(project,blankWorkspace());assert.equal(m.manuscripts,0);assert.equal(m.registeredManuscripts,2);assert.equal(m.solved,0);assert.equal(m.openMysteries,14);assert.equal(m.canonVerified,0);});
 test('all source records have unique ids',()=>{const rows=['world','characters','mysteries','chapters','reviews'].flatMap(k=>project[k]);assert.equal(new Set(rows.map(r=>r.id)).size,rows.length);assert.ok(rows.every(r=>r.source));});
 test('solved mysteries require evidence',()=>{const value=blankWorkspace();value.mysteries.m01={status:'SOLVED',evidence:''};assert.throws(()=>validateWorkspace(value,project),/근거/);value.mysteries.m01.evidence='01화 실제 회수 구절';const normalized=validateWorkspace(value,project);assert.equal(metrics(project,normalized).solved,1);});
 test('untrusted imported keys are rejected',()=>{const value=blankWorkspace();value.notes.unknown='x';assert.throws(()=>validateWorkspace(value,project));const injected=blankWorkspace();injected.chapters.ch01='anything';assert.throws(()=>validateWorkspace(injected,project));});
-test('manuscript versions preserve original text',()=>{const value=blankWorkspace();value.manuscripts.push({chapter:'ch01',text:'첫 줄\n둘째 줄',savedAt:'2026-10-19T12:00:00Z'});const copy=validateWorkspace(JSON.parse(JSON.stringify(value)),project);assert.equal(copy.manuscripts[0].text,'첫 줄\n둘째 줄');assert.equal(metrics(project,copy).chaptersWithDraft,1);assert.equal(project.manuscripts.length,0);});
+test('manuscript versions preserve original text',()=>{const value=blankWorkspace();value.manuscripts.push({chapter:'ch01',text:'첫 줄\n둘째 줄',savedAt:'2026-10-19T12:00:00Z'});const copy=validateWorkspace(JSON.parse(JSON.stringify(value)),project);assert.equal(copy.manuscripts[0].text,'첫 줄\n둘째 줄');assert.equal(metrics(project,copy).chaptersWithDraft,1);assert.equal(project.manuscripts.length,2);assert.equal(project.manuscripts[0].text,readFileSync(new URL('../manuscripts/000-prologue.md',import.meta.url),'utf8').trimEnd());});
 test('scanner returns candidates even for negation and never a contradiction verdict',()=>{const found=scanExpressions('에드는 연금술을 쓸 수 없었다\n진리와 이슈발라는 같은가');assert.equal(found.length,2);assert.equal(found[1].line,2);assert.ok(found.every(r=>!('verdict' in r)));});
 test('scanner has no false success when no expressions match',()=>assert.deepEqual(scanExpressions('아침에 길을 걸었다'),[]));
 test('unknown chapter and invalid timestamps do not import',()=>{const value=blankWorkspace();value.manuscripts.push({chapter:'ch99',text:'원고',savedAt:'x'});assert.throws(()=>validateWorkspace(value,project));});
+
+test('published manuscript text matches source files and hashes',()=>{
+ for(const m of project.manuscripts){const source=readFileSync(new URL('../manuscripts/'+m.file,import.meta.url),'utf8').replace(/\r\n/g,'\n').replace(/\n+$/,'');assert.equal(m.text,source);assert.equal(m.characters,source.length);assert.equal(m.sha256,createHash('sha256').update(source).digest('hex'));assert.equal(m.status,'DRAFT');}
+});
+test('submitted titles, unusual spellings and endings stay unchanged',()=>{const [p,c]=project.manuscripts;assert.ok(p.text.startsWith('프롤로그 — 연금술을 못 쓰는 연금술사\n\n“거기 아니야.”'));assert.ok(c.text.includes('리스embool 역에 기차가 들어섰다.'));assert.ok(c.text.endsWith('기차는 동쪽으로 달렸다.'));assert.ok(c.text.includes('“네 글자야.”'));});
