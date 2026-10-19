@@ -1,0 +1,515 @@
+{
+  "version": "0.1.0",
+  "updated": "2026-10-19",
+  "source": {
+    "id": "brief-v1",
+    "title": "사용자가 전달한 동양편 프로젝트 계획서",
+    "kind": "사용자 기획",
+    "note": "원작 사실 확인을 완료한 자료가 아닙니다. 창작 원칙과 제안된 이야기 구조의 원본입니다."
+  },
+  "principles": [
+    {
+      "id": "rule-01",
+      "title": "에드의 연금술을 되돌리지 않는다",
+      "text": "진리의 문을 대가로 알을 되찾았다는 결말의 의미를 지킨다. 에드는 연금술을 사용하지 못하지만 지식을 활용할 수 있다.",
+      "status": "확정"
+    },
+    {
+      "id": "rule-02",
+      "title": "인물의 성격을 이야기 편의로 바꾸지 않는다",
+      "text": "행동 변화에는 경험과 계기가 필요하다. 성격을 MBTI 하나로 확정하거나 모든 행동을 규칙으로 환원하지 않는다.",
+      "status": "확정"
+    },
+    {
+      "id": "rule-03",
+      "title": "출처와 창작을 분리한다",
+      "text": "CANON · INFERENCE · ORIGINAL을 구분하고, 확정 여부와 원작 근거 확인 여부를 별도로 기록한다.",
+      "status": "확정"
+    },
+    {
+      "id": "rule-04",
+      "title": "미스터리를 성급하게 확정하지 않는다",
+      "text": "진리 = 이슈발라를 확정하지 않는다. 서로 다른 문화가 비슷한 현상을 어떻게 설명하는지 탐구한다.",
+      "status": "확정"
+    }
+  ],
+  "world": [
+    {
+      "id": "w01",
+      "en": "Amestris",
+      "name": "아메스트리스",
+      "kind": "ORIGINAL",
+      "status": "검토 중",
+      "title": "전후 개혁과 책임",
+      "text": "머스탱의 개혁·이슈발 진상조사·자신의 전쟁 책임을 병렬 서사로 다룬다.",
+      "source": "brief-v1",
+      "canonEvidence": null
+    },
+    {
+      "id": "w02",
+      "en": "Ishval",
+      "name": "이슈발",
+      "kind": "ORIGINAL",
+      "status": "검토 중",
+      "title": "재건과 남겨진 연구",
+      "text": "스카와 재회하고 형의 연구 흔적과 오래된 종교 문양을 조사한다.",
+      "source": "brief-v1",
+      "canonEvidence": null
+    },
+    {
+      "id": "w03",
+      "en": "Xing",
+      "name": "싱",
+      "kind": "ORIGINAL",
+      "status": "검토 중",
+      "title": "연구와 통치",
+      "text": "알과 메이의 연구, 링의 부족 갈등과 정치적 책임을 연결한다.",
+      "source": "brief-v1",
+      "canonEvidence": null
+    },
+    {
+      "id": "w04",
+      "en": "Eastern Desert",
+      "name": "동쪽 사막",
+      "kind": "ORIGINAL",
+      "status": "검토 중",
+      "title": "사라진 교역로",
+      "text": "고대 지도에 남은 경로를 따라 이동한다. 지도·경로의 존재는 이번 이야기의 창작 제안이다.",
+      "source": "brief-v1",
+      "canonEvidence": null
+    },
+    {
+      "id": "w05",
+      "en": "Western Countries",
+      "name": "서쪽 국가",
+      "kind": "ORIGINAL",
+      "status": "검토 중",
+      "title": "연금술 없이 문제를 푸는 에드",
+      "text": "프롤로그의 광산 사고를 배치한다. 구체적인 나라와 사고의 세부 사항은 미정이다.",
+      "source": "brief-v1",
+      "canonEvidence": null
+    },
+    {
+      "id": "w06",
+      "en": "Alchemy",
+      "name": "연금술",
+      "kind": "CANON",
+      "status": "원작 근거 확인 전",
+      "title": "에드의 연금술 상실",
+      "text": "계획서가 원작의 결말로 제시한 내용. 권·화 근거를 아직 연결하지 않았으며 능력 복구는 창작 원칙상 금지한다.",
+      "source": "brief-v1",
+      "canonEvidence": null
+    },
+    {
+      "id": "w07",
+      "en": "Research",
+      "name": "연구 가설",
+      "kind": "INFERENCE",
+      "status": "검토 중",
+      "title": "서로 다른 문화의 설명",
+      "text": "비슷한 현상을 문화마다 다르게 해석했을 가능성. 원작의 확정 해답으로 등록하지 않는다.",
+      "source": "brief-v1",
+      "canonEvidence": null
+    },
+    {
+      "id": "w08",
+      "en": "Three symbols",
+      "name": "세 문양",
+      "kind": "ORIGINAL",
+      "status": "검토 중",
+      "title": "공통점과 남겨진 문장",
+      "text": "아메스트리스 연성진·싱 연단술진·이슈발 종교 문양 사이 공통점과 문장을 발견하는 장면 제안.",
+      "source": "brief-v1",
+      "canonEvidence": null
+    }
+  ],
+  "characters": [
+    {
+      "id": "edward",
+      "en": "EDWARD ELRIC",
+      "name": "에드워드 엘릭",
+      "subtitle": "연금술을 못 쓰는 연금술사",
+      "location": "아메스트리스 → 이슈발 → 사막 → 싱",
+      "goal": "연금술을 쓰는 사람에서 그 본질을 이해하려는 사람으로",
+      "conflict": "연금술 없이 지식을 어떻게 행동으로 바꿀 것인가",
+      "ending": "계획서가 원작 결말로 제시한 연금술 상실 · 원작 출처 미연결",
+      "knows": "연금술 지식이 남아 있음",
+      "unknown": "동방의 연결에 대한 답",
+      "relation": "알과 형제 · 스카와 연구 추적",
+      "change": "본편은 서쪽 여행 이후 귀환한 상태라는 창작 시작점",
+      "kind": "ORIGINAL",
+      "status": "검토 중",
+      "source": "brief-v1"
+    },
+    {
+      "id": "alphonse",
+      "en": "ALPHONSE ELRIC",
+      "name": "알폰스 엘릭",
+      "subtitle": "형과 다른 방식으로 접근하는 연구자",
+      "location": "싱",
+      "goal": "메이와 연단술을 배우며 연금술의 본질을 연구한다",
+      "conflict": "스카의 형은 어떻게 연단술을 알았을까",
+      "ending": "계획서가 제시한 싱 유학 출발점 · 원작 출처 미연결",
+      "knows": "형과 공유한 경험",
+      "unknown": "스카 형의 지식 획득 경로",
+      "relation": "메이와 공동 연구 · 에드에게 편지",
+      "change": "에드와 별도 연구를 진행한 뒤 합류",
+      "kind": "ORIGINAL",
+      "status": "검토 중",
+      "source": "brief-v1"
+    },
+    {
+      "id": "ling",
+      "en": "LING YAO",
+      "name": "링 야오",
+      "subtitle": "황제가 된 다음의 이야기",
+      "location": "싱",
+      "goal": "모든 부족을 지키는 통치를 실천한다",
+      "conflict": "내 사람은 어디까지인가",
+      "ending": "계획서가 제시한 황제 즉위 이후 · 원작 출처 미연결",
+      "knows": "그리드와 함께한 경험",
+      "unknown": "부족 갈등을 해결할 답",
+      "relation": "그리드의 마지막 깨달음과 연결",
+      "change": "통치의 책임을 경험하는 창작 방향",
+      "kind": "ORIGINAL",
+      "status": "검토 중",
+      "source": "brief-v1"
+    },
+    {
+      "id": "mustang",
+      "en": "ROY MUSTANG",
+      "name": "로이 머스탱",
+      "subtitle": "나라를 바꾸려는 사람의 책임",
+      "location": "아메스트리스",
+      "goal": "군부 개혁과 이슈발 문제를 다룬다",
+      "conflict": "개혁하는 사람이 자신의 전쟁 책임을 어떻게 다룰까",
+      "ending": "전후 상태의 구체적인 시점·직위는 아직 미정",
+      "knows": "자신이 관여한 전쟁",
+      "unknown": "개혁이 어떤 결과를 만들지",
+      "relation": "이슈발 재건과 병렬 진행",
+      "change": "정치적 해결과 개인적 책임을 함께 다룸",
+      "kind": "ORIGINAL",
+      "status": "검토 중",
+      "source": "brief-v1"
+    },
+    {
+      "id": "scar",
+      "en": "SCAR",
+      "name": "스카",
+      "subtitle": "형의 연구를 다시 마주하는 사람",
+      "location": "이슈발",
+      "goal": "이슈발 재건에 참여하며 형의 연구 흔적을 추적한다",
+      "conflict": "형의 연구를 어떻게 받아들일 것인가",
+      "ending": "계획서가 제시한 재건 참여 · 원작 출처 미연결",
+      "knows": "형이 남긴 연구와 자신의 경험",
+      "unknown": "남겨진 연구의 범위와 출처",
+      "relation": "에드와 재회 · 죽은 형의 연구",
+      "change": "구체적인 반응과 대사는 아직 쓰지 않음",
+      "kind": "ORIGINAL",
+      "status": "검토 중",
+      "source": "brief-v1"
+    }
+  ],
+  "mysteries": [
+    {
+      "id": "m01",
+      "group": "연금술",
+      "title": "연금술의 에너지는 정확히 무엇인가",
+      "status": "UNSOLVED",
+      "kind": "ORIGINAL",
+      "clues": [],
+      "plannedClues": [],
+      "resolution": null,
+      "source": "brief-v1"
+    },
+    {
+      "id": "m02",
+      "group": "연금술",
+      "title": "연금술과 연단술은 왜 비슷하면서 다른가",
+      "status": "UNSOLVED",
+      "kind": "ORIGINAL",
+      "clues": [],
+      "plannedClues": [],
+      "resolution": null,
+      "source": "brief-v1"
+    },
+    {
+      "id": "m03",
+      "group": "연금술",
+      "title": "용맥은 정확히 무엇인가",
+      "status": "UNSOLVED",
+      "kind": "ORIGINAL",
+      "clues": [],
+      "plannedClues": [],
+      "resolution": null,
+      "source": "brief-v1"
+    },
+    {
+      "id": "m04",
+      "group": "이슈발",
+      "title": "진리와 이슈발라 사이에 관계가 있는가",
+      "status": "UNSOLVED",
+      "kind": "ORIGINAL",
+      "clues": [],
+      "plannedClues": [],
+      "resolution": null,
+      "source": "brief-v1"
+    },
+    {
+      "id": "m05",
+      "group": "이슈발",
+      "title": "왜 이슈발 신앙에서는 연금술을 금기시했는가",
+      "status": "UNSOLVED",
+      "kind": "ORIGINAL",
+      "clues": [],
+      "plannedClues": [],
+      "resolution": null,
+      "source": "brief-v1"
+    },
+    {
+      "id": "m06",
+      "group": "스카의 형",
+      "title": "스카의 형은 어떻게 연단술을 알았는가",
+      "status": "UNSOLVED",
+      "kind": "ORIGINAL",
+      "clues": [],
+      "plannedClues": [
+        "형의 연단술 연구의 원작 근거 확인",
+        "역전연성진 관련 원작 근거 확인",
+        "고대 이슈발 문헌 · 창작 제안"
+      ],
+      "resolution": null,
+      "source": "brief-v1"
+    },
+    {
+      "id": "m07",
+      "group": "스카의 형",
+      "title": "왜 두 체계를 동시에 연구했는가",
+      "status": "UNSOLVED",
+      "kind": "ORIGINAL",
+      "clues": [],
+      "plannedClues": [],
+      "resolution": null,
+      "source": "brief-v1"
+    },
+    {
+      "id": "m08",
+      "group": "스카의 형",
+      "title": "그의 연구는 어디까지 진행되었는가",
+      "status": "UNSOLVED",
+      "kind": "ORIGINAL",
+      "clues": [],
+      "plannedClues": [],
+      "resolution": null,
+      "source": "brief-v1"
+    },
+    {
+      "id": "m09",
+      "group": "스카의 형",
+      "title": "남겨진 연구자료가 존재하는가",
+      "status": "UNSOLVED",
+      "kind": "ORIGINAL",
+      "clues": [],
+      "plannedClues": [],
+      "resolution": null,
+      "source": "brief-v1"
+    },
+    {
+      "id": "m10",
+      "group": "고대 동방",
+      "title": "싱·이슈발·아메스트리스 사이에 교류가 있었는가",
+      "status": "UNSOLVED",
+      "kind": "ORIGINAL",
+      "clues": [],
+      "plannedClues": [],
+      "resolution": null,
+      "source": "brief-v1"
+    },
+    {
+      "id": "m11",
+      "group": "고대 동방",
+      "title": "사막은 과거부터 존재했는가",
+      "status": "UNSOLVED",
+      "kind": "ORIGINAL",
+      "clues": [],
+      "plannedClues": [],
+      "resolution": null,
+      "source": "brief-v1"
+    },
+    {
+      "id": "m12",
+      "group": "고대 동방",
+      "title": "고대 교역로가 있었는가",
+      "status": "UNSOLVED",
+      "kind": "ORIGINAL",
+      "clues": [],
+      "plannedClues": [],
+      "resolution": null,
+      "source": "brief-v1"
+    },
+    {
+      "id": "m13",
+      "group": "고대 동방",
+      "title": "연금술과 연단술의 지식은 과거 이동했는가",
+      "status": "UNSOLVED",
+      "kind": "ORIGINAL",
+      "clues": [],
+      "plannedClues": [],
+      "resolution": null,
+      "source": "brief-v1"
+    },
+    {
+      "id": "m14",
+      "group": "이슈발",
+      "title": "이슈발라란 무엇인가",
+      "status": "UNSOLVED",
+      "kind": "ORIGINAL",
+      "clues": [],
+      "plannedClues": [],
+      "resolution": null,
+      "source": "brief-v1"
+    }
+  ],
+  "chapters": [
+    {
+      "id": "ch01",
+      "number": 1,
+      "title": "연금술을 못 쓰는 연금술사",
+      "status": "OUTLINE",
+      "outline": "서쪽 여행 중 광산 사고를 지식으로 해결하는 에드. 구체적 해결 과정은 아직 원고가 없다.",
+      "source": "brief-v1"
+    },
+    {
+      "id": "ch02",
+      "number": 2,
+      "title": "알의 편지",
+      "status": "OUTLINE",
+      "outline": "알이 스카의 형의 연단술 지식에 대한 의문을 편지로 전한다.",
+      "source": "brief-v1"
+    },
+    {
+      "id": "ch03",
+      "number": 3,
+      "title": "이슈발",
+      "status": "OUTLINE",
+      "outline": "에드는 싱으로 바로 가지 않고 이슈발로 향한다.",
+      "source": "brief-v1"
+    },
+    {
+      "id": "ch04",
+      "number": 4,
+      "title": "스카",
+      "status": "OUTLINE",
+      "outline": "이슈발 재건에 참여하는 스카와 에드가 재회한다.",
+      "source": "brief-v1"
+    },
+    {
+      "id": "ch05",
+      "number": 5,
+      "title": "형의 연구실",
+      "status": "OUTLINE",
+      "outline": "형의 연구 흔적을 조사하는 화. 실제 연구실과 남은 자료의 세부 설정은 미정이다.",
+      "source": "brief-v1"
+    },
+    {
+      "id": "ch06",
+      "number": 6,
+      "title": "세 개의 문양",
+      "status": "OUTLINE",
+      "outline": "세 문화의 문양 사이 공통점과 남겨진 문장을 발견하는 구상.",
+      "source": "brief-v1"
+    }
+  ],
+  "acts": [
+    {
+      "id": "prologue",
+      "title": "PROLOGUE",
+      "name": "연금술을 못 쓰는 연금술사",
+      "place": "서쪽 국가",
+      "text": "서쪽 여행 중 광산 사고. 에드는 연금술이 아닌 지식으로 사고를 해결한다. 본편과의 시간 관계는 확인이 필요하다."
+    },
+    {
+      "id": "act1",
+      "title": "ACT 1",
+      "name": "이슈발",
+      "place": "이슈발",
+      "text": "알의 편지를 받은 에드는 스카와 재회하고 형의 연구 흔적을 조사한다. 세 문양의 공통점과 남겨진 문장을 발견한다."
+    },
+    {
+      "id": "act2",
+      "title": "ACT 2",
+      "name": "사막",
+      "place": "동쪽 사막",
+      "text": "고대 자료의 옛 지도를 바탕으로 이슈발에서 싱으로 이어지는 잊힌 교역로를 따라간다."
+    },
+    {
+      "id": "act3",
+      "title": "ACT 3",
+      "name": "싱",
+      "place": "싱",
+      "text": "알·메이와 합류한다. 링은 부족 간 갈등과 모든 부족을 지키겠다는 약속의 어려움을 마주한다."
+    },
+    {
+      "id": "act4",
+      "title": "ACT 4",
+      "name": "흐름",
+      "place": "여러 지역",
+      "text": "연금술·용맥·이슈발라의 숨결을 연결하는 가능성을 탐구한다. 같은 실체라고 결론 내린 것은 아니다."
+    }
+  ],
+  "reviews": [
+    {
+      "id": "review-01",
+      "title": "프롤로그와 본편 시작 시점 연결",
+      "severity": "확인 필요",
+      "status": "OPEN",
+      "source": "계획서 6장 · 7장",
+      "text": "인물 설정에서는 서쪽 여행 이후 귀환한 에드로 시작하지만, 프롤로그는 서쪽 여행 중이다. 회상 또는 선행 사건인지 아직 명시되지 않았다.",
+      "evidence": [
+        "서쪽 여행 이후 아메스트리스로 돌아온 상태에서 이야기를 시작한다",
+        "PROLOGUE — 서쪽 여행 중인 에드"
+      ],
+      "related": [
+        "edward",
+        "prologue"
+      ],
+      "proposal": "프롤로그의 상대 시점을 확정한 뒤 타임라인에 기록한다. 아직 충돌로 확정하지 않는다."
+    },
+    {
+      "id": "review-02",
+      "title": "스카 형 연구와 고대 자료의 출처 구분",
+      "severity": "근거 필요",
+      "status": "OPEN",
+      "source": "계획서 5장 · 7장 · 9장",
+      "text": "기존 연구와 이번에 새로 등장할 자료가 섞여 있다. 고대 문헌·옛 지도·세 문양의 문장은 현재 기획에서 제안된 창작 요소다.",
+      "evidence": [
+        "고대 이슈발 자료에서 옛 지도를 발견한다",
+        "이 세 가지는 서로 다른 것이 아니다"
+      ],
+      "related": [
+        "scar",
+        "m03",
+        "m06"
+      ],
+      "proposal": "원작 연구의 권·화 출처를 확인하고 새로운 자료에는 ORIGINAL 태그를 유지한다."
+    },
+    {
+      "id": "review-03",
+      "title": "세 문화의 유사성은 동일성의 증명이 아니다",
+      "severity": "원칙 점검",
+      "status": "OPEN",
+      "source": "계획서 4장 · 7장",
+      "text": "문양과 개념의 공통점은 단서가 될 수 있지만 진리·이슈발라·용맥이 같은 존재라는 확정 근거로 사용하지 않는다.",
+      "evidence": [
+        "진리 = 이슈발라라고 확정하지 않는다",
+        "그것이 정확히 무엇인지는 쉽게 정의하지 않는다"
+      ],
+      "related": [
+        "m02",
+        "m04"
+      ],
+      "proposal": "인물의 가설과 세계관의 사실을 분리하여 등록한다."
+    }
+  ],
+  "manuscripts": []
+}
