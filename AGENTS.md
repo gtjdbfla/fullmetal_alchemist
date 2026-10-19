@@ -1,14 +1,12 @@
-# Story data and disclosure
+# Story data and dashboard rules
 
-- 사용자가 확정한 이야기와 원고를 보존한다. 스토리·대사·연구 근거·이동 사건을 임의로 창작하거나 원고를 자동 수정하지 않는다.
-- 기준 우선순위: 출처가 확인된 원작 CANON → 사용자 Story Master Plan → 제출 원고 → 초기 구계획. 충돌은 기록하고 사용자에게 알린다. 사용자 확정 창작 설정은 ORIGINAL이며 원작 CANON으로 승격하지 않는다.
-- `private/STORY_MASTER_PLAN_v2.1.md`, `private/STORY_DECISIONS_v2.1.md`, `private/master-data.json`이 활성 작가 기준이다. 확정 결정 9개가 v2.0의 미정·충돌 표현보다 우선한다. v1·v2는 보존 이력이다. 실제 설정, 현재 인물 가설, 독자 공개 정보, 공개 예정 시점을 별도 필드로 유지한다.
-- Political Board의 요구·예시·미정 양보선을 구분한다. 적맥석의 합금 핵심 용도·싱 수요·운송 우위는 확정이고 이름·정확한 물성 수치·분석 장면은 미정이다. 연금술 특수능력을 부여하지 않는다. A/B부족 이름·협상 비율은 미정이다.
-- 옛길 기록 → 문화 속 돌·전략자원 → 에드의 실제 경로 확인 → 경제적 가치 순서를 유지한다. 에드의 최초 동기는 지식이며 서→동으로만 이동한다. 최종 알 재회는 싱 측 구간이다. 마일즈는 전체 이슈발 대표가 아니다. 대표 선출·협정 구조는 후반 집필 전에 설계한다.
-- Al Trail은 실제 원고와 미집필 후보를 구분한다. 편지의 미제시 날짜·도시·발견 내용을 임의 확정하지 않는다. POV·발견을 숨기되 이동 흔적은 노출한다. 중반 알 합류는 폐기됐다.
-- 최신 원고는 새로 제출된 연속 수정본: 프롤로그 v2·1화 v5·2화 v4다. `manuscripts/submissions/continuous-draft/`에 수신 원문, archive에 이전 버전을 보존한다. 지명·띄어쓰기 교정 외 본문을 임의 수정하지 않는다. 혈통·시험 주어·도로 표현 등은 내용 검토로 남아 있다.
-- 붉은 돌 관찰·금기는 2화 공개 정보지만 전략자원 정체·물성·경제성은 작가 전용이다. 새 출처 표식도 동방 기원으로 자동 확정하지 않는다. 기록된 길·실제 경로·경제적 활용을 구분한다. 현재 원고에 있는 단서는 CLUE FOUND이며 회수 완료가 아니다.
-- `site/`는 공개 정적 루트다. 결말과 미공개 설정은 화면 숨김만으로 보호하지 않는다. `private/`와 `author-site/`를 공개 루트에 복사하지 않는다. 작가용 서비스는 tailnet 전용이며 Funnel로 공개하지 않는다.
-- 최종 빌드: `python scripts/build_views.py`. `publish_manuscripts.py`만 단독 실행한 결과를 배포하지 않는다.
-- 배포 전 `node --test tests/core.test.mjs`, `node --check site/app.js`, `python -m unittest discover -s tests -p test_disclosure.py`를 실행한다. 공개/작가용 화면과 공개 데이터 격리를 확인한다.
-- 모든 미래 화수를 임의 고정하지 않는다. 미정 공개 시점은 null과 단계명으로 관리한다. SOLVED는 실제 근거가 필요하다.
+- 사용자가 확정한 이야기와 원고를 임의로 창작하거나 수정하지 않는다.
+- 활성 정답지는 `private/STORYLINE_MASTER_v2.0.md`, 검증 규칙은 `private/STORY_DASHBOARD_SPEC_v2.0.md`다.
+- 원작 CANON, 원작과 양립 가능한 창작 설정, 추측, 인물의 틀린 가설을 분리한다.
+- 공개 메뉴는 글 읽기와 글 분석 두 개만 유지한다. 분석 하위 분류는 캐릭터·개연성·세계관이다.
+- 글 읽기는 프롤로그부터 최신 회차까지 한 화면에서 이어서 보여준다.
+- 현재 원고만 `site/data/project.json`에 넣는다. 이전 버전과 폐기 원고는 공개 데이터에 절대 포함하지 않는다.
+- 과거 버전은 관리자 화면과 Git 이력에서만 확인한다. 관리자용 `author-site`는 tailnet 전용이며 Funnel로 공개하지 않는다.
+- 스토리라인과 검증 규칙 원문은 `private/`에 둔다. 공개 또는 관리자 정적 루트로 복사하지 않는다.
+- 최종 빌드는 `python scripts/build_views.py`로 만든다.
+- 배포 전 `node --test tests/core.test.mjs`, `node --check site/app.js`, `python -m unittest discover -s tests -p test_disclosure.py`를 실행한다.
