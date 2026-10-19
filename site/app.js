@@ -21,7 +21,7 @@ function updateUrl() {
 
 function adminUrl() {
   if (['127.0.0.1', 'localhost'].includes(location.hostname)) return 'http://127.0.0.1:8092/?view=read';
-  return `${location.protocol}//${location.hostname}:8444/?view=read`;
+  return `${location.protocol}//${location.hostname}:10000/east/admin/?view=read`;
 }
 
 function publicUrl() {
@@ -70,7 +70,12 @@ function readPage() {
 
 function charactersPage() {
   const characters = project.publicCharacters || [];
-  return `<header class="characters-head"><span>CHARACTERS</span><h1>이야기를 함께 걷는 사람들</h1><p>각 인물의 소개는 현재 공개된 회차를 기준으로 정리했어.</p></header><section class="character-grid">${characters.map(item => `<article class="character-card"><span>${esc(item.group)}</span><h2>${esc(item.name)}</h2><p>${esc(item.summary)}</p></article>`).join('')}</section>`;
+  const groups = characters.reduce((all, item) => {
+    const key = item.group || '기타';
+    (all[key] ||= []).push(item);
+    return all;
+  }, {});
+  return `<header class="characters-head"><span>CHARACTERS</span><h1>이야기를 함께 걷는 사람들</h1><p>소속별로 나누고, 지금 이야기에서 어떤 인물과 연결되는지도 적었어.</p></header>${Object.entries(groups).map(([group, people]) => `<section class="character-group"><header><span>FACTION</span><h2>${esc(group)}</h2><p>${esc(people[0].groupDescription || '')}</p></header><div class="character-grid">${people.map(item => `<article class="character-card"><span>${esc(item.affiliation || group)}</span><h2>${esc(item.name)}</h2><p>${esc(item.summary)}</p><dl><dt>연관성</dt><dd>${esc(item.relationship || '이야기의 흐름과 연결되는 인물.')}</dd></dl></article>`).join('')}</div></section>`).join('')}`;
 }
 
 function reviewPage() {

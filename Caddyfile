@@ -1,5 +1,10 @@
 :8091 {
     redir /east /east/ 308
+    redir /east/admin /east/admin/ 308
+    handle_path /east/admin/* {
+        root * /author
+        file_server
+    }
     handle_path /east/* {
         root * /srv
         file_server
