@@ -32,8 +32,11 @@ def main() -> None:
     write_json(SITE / "data" / "project.json", public)
 
     if AUTHOR_SITE.exists():
-        shutil.rmtree(AUTHOR_SITE)
-    shutil.copytree(SITE, AUTHOR_SITE)
+        for child in AUTHOR_SITE.iterdir():
+            shutil.rmtree(child) if child.is_dir() else child.unlink()
+    else:
+        AUTHOR_SITE.mkdir(parents=True)
+    shutil.copytree(SITE, AUTHOR_SITE, dirs_exist_ok=True)
     author = deepcopy(base)
     author["audience"] = "author"
     author["history"] = legacy_history()
