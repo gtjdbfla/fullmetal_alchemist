@@ -26,8 +26,8 @@
     }
   ],
   "sourceDocuments": [
-    {"name": "STORYLINE MASTER", "version": "2.0", "file": "private/STORYLINE_MASTER_v2.0.md", "role": "작품에서 실제로 일어나는 사건과 인물의 최종 방향을 관리하는 정답지"},
-    {"name": "STORY DASHBOARD MASTER SPEC", "version": "2.0", "file": "private/STORY_DASHBOARD_SPEC_v2.0.md", "role": "원작·캐릭터·인과·정보 흐름·복선을 지속적으로 검사하는 규칙"}
+    {"name": "STORYLINE MASTER", "version": "3.0", "file": "private/STORYLINE_MASTER_v3.0.md", "role": "작품에서 실제로 일어나는 사건과 인물의 최종 방향을 관리하는 정답지"},
+    {"name": "STORY DASHBOARD MASTER SPEC", "version": "3.0", "file": "private/STORY_DASHBOARD_SPEC_v3.0.md", "role": "원작·캐릭터·인과·정보 흐름·복선을 지속적으로 검사하는 규칙"}
   ],
   "analysis": {
     "characters": {
@@ -42,7 +42,7 @@
       ]
     },
     "causality": {
-      "title": "개연성", "description": "사건이 편의로 이어지지 않고 원인과 정보 전달을 거쳐 발생하는지 본다.",
+      "title": "개연성", "description": "사건의 원인과 정보 전달, 그리고 에드의 가설과 실제 상태가 섞이지 않는지 본다.",
       "chain": ["원인", "동기", "결정", "행동", "즉각적 결과", "장기적 결과"],
       "checks": [
         {"name": "인과관계", "test": "연속된 두 단계가 빠지면 CAUSALITY GAP"},
@@ -51,9 +51,18 @@
         {"name": "시간과 이동", "test": "날짜·위치·이동 시간을 장별로 기록하고 불가능한 동선 검사"},
         {"name": "복선", "test": "PLANNED → PLANTED → REINFORCED → PARTIAL PAYOFF → PAYOFF"},
         {"name": "편의성", "test": "우연한 등장, 갑작스러운 변화, 지나치게 빠른 전파, 주인공 특혜 검사"},
-        {"name": "세계의 반응", "test": "전쟁·자원·정치개혁 뒤 사회·경제·정치적 파장이 빠지지 않았는지 검사"}
+        {"name": "세계의 반응", "test": "전쟁·자원·정치개혁 뒤 사회·경제·정치적 파장이 빠지지 않았는지 검사"},
+        {"name": "가설 분리", "test": "에드의 현재 가설과 작품의 실제 상태를 같은 사실처럼 쓰지 않는지 검사"},
+        {"name": "고대 술법", "test": "흐름의 해석을 대가 없는 공짜 연금술이나 상위 파워로 만들지 않는지 검사"}
       ],
-      "score": ["원작", "캐릭터", "동기", "인과", "지식", "시간", "복선", "회수", "주제", "재미"]
+      "score": ["원작", "캐릭터", "동기", "인과", "지식", "시간", "복선", "회수", "주제", "재미", "집중", "형식"],
+      "mysteries": [
+        {"question": "이슈발라는 무엇인가", "hypothesis": "3화의 에드: 진리.", "counterEvidence": "대가가 없고, 진리 경험과 맞지 않는 기록이 있으며 시대와 지역마다 표현이 다르다.", "actualState": "정확한 의미는 미확정. 단, 진리와 동일하지 않다."},
+        {"question": "고대 기록의 문은 무엇인가", "hypothesis": "에드: 진리의 문.", "counterEvidence": "신체적 대가가 없고 인체연성·금기 위반과 연결되지 않는다.", "actualState": "미확정."},
+        {"question": "스카의 형은 어떻게 연단술을 알았나", "hypothesis": "초기에는 연단술을 먼저 배웠다고 보았고, 2화부터 이슈발 기록이 먼저일 수 있다고 본다.", "counterEvidence": "노트 배열은 연구의 실제 시간 순서를 완전히 증명하지 않는다.", "actualState": "이슈발 고대 기록에서 출발해 옛길·카르사·싱의 용맥과 연단술까지 추적한 경로."},
+        {"question": "검붉은 돌은 무엇인가", "hypothesis": "에드: 고대 술법의 힘 또는 에너지원일 수 있다.", "counterEvidence": "돌이 없는 지역에도 유사한 흐름 개념이 존재한다.", "actualState": "세계 흐름의 근원이 아닌 희귀 전략 광물 적맥석."},
+        {"question": "왜 아메스트리스인만 진리를 보았나", "hypothesis": "미정.", "counterEvidence": "아메스트리스 연금술의 특수한 역사, 아버지의 개입, 국토연성진, 대가 언어가 단서다.", "actualState": "후반까지 추적하며 정답을 확정하지 않는다."}
+      ]
     },
     "world": {
       "title": "세계관", "description": "원작 사실, 원작과 양립 가능한 창작, 추측, 작중의 틀린 가설을 분리한다.",

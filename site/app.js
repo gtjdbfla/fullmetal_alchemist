@@ -62,7 +62,8 @@ function characterView(data) {
 }
 
 function causalityView(data) {
-  return `<section class="causal-flow">${data.chain.map((step, index) => `<div><small>${String(index + 1).padStart(2, '0')}</small><b>${esc(step)}</b></div>`).join('')}</section><div class="analysis-grid compact">${data.checks.map(item => `<article class="analysis-card"><span class="card-type">CHECK</span><h2>${esc(item.name)}</h2><p>${esc(item.test)}</p></article>`).join('')}</div><section class="score-line"><span>장별 20점 검토</span>${data.score.map(item => `<b>${esc(item)}</b>`).join('')}</section>`;
+  const mysteryBoard = data.mysteries?.length ? `<section class="mystery-board"><div class="section-title"><div><span>MYSTERY BOARD</span><h2>가설과 실제 상태를 분리한다</h2></div><p>작품의 실제 상태는 에드의 인식과 다를 수 있어.</p></div>${data.mysteries.map(item => `<article class="mystery-card"><h3>${esc(item.question)}</h3><dl><dt>에드의 현재 가설</dt><dd>${esc(item.hypothesis)}</dd><dt>반대 증거</dt><dd>${esc(item.counterEvidence)}</dd><dt>작품의 실제 상태</dt><dd>${esc(item.actualState)}</dd></dl></article>`).join('')}</section>` : '';
+  return `<section class="causal-flow">${data.chain.map((step, index) => `<div><small>${String(index + 1).padStart(2, '0')}</small><b>${esc(step)}</b></div>`).join('')}</section>${mysteryBoard}<div class="analysis-grid compact">${data.checks.map(item => `<article class="analysis-card"><span class="card-type">CHECK</span><h2>${esc(item.name)}</h2><p>${esc(item.test)}</p></article>`).join('')}</div><section class="score-line"><span>장별 24점 검토</span>${data.score.map(item => `<b>${esc(item)}</b>`).join('')}</section>`;
 }
 
 function worldView(data) {

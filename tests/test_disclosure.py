@@ -37,11 +37,20 @@ class DashboardDisclosureTests(unittest.TestCase):
     def test_dashboard_has_only_requested_analysis_groups(self):
         self.assertEqual(set(self.public["analysis"]), {"characters", "causality", "world"})
 
+    def test_mystery_board_separates_ed_hypothesis_from_story_state(self):
+        mysteries = self.public["analysis"]["causality"]["mysteries"]
+        self.assertEqual(len(mysteries), 5)
+        self.assertTrue(all({"question", "hypothesis", "counterEvidence", "actualState"} <= set(item) for item in mysteries))
+        ishvala = next(item for item in mysteries if item["question"] == "이슈발라는 무엇인가")
+        self.assertIn("진리", ishvala["hypothesis"])
+        self.assertIn("동일하지 않다", ishvala["actualState"])
+
     def test_source_documents_are_saved_privately(self):
         for item in self.config["sourceDocuments"]:
             path = ROOT / item["file"]
             self.assertTrue(path.exists(), item["file"])
             self.assertGreater(len(path.read_text(encoding="utf-8")), 10000)
+        self.assertEqual({item["version"] for item in self.config["sourceDocuments"]}, {"3.0"})
 
     def test_private_storyline_is_not_copied_to_public_site(self):
         self.assertFalse((ROOT / "site/STORYLINE_MASTER_v2.0.md").exists())

@@ -22,8 +22,8 @@
 
 ## 기준 문서
 
-- `private/STORYLINE_MASTER_v2.0.md`: 작품에서 실제로 일어나는 사건과 최종 방향
-- `private/STORY_DASHBOARD_SPEC_v2.0.md`: 원작·캐릭터·인과·정보 흐름·복선을 검사하는 규칙
+- `private/STORYLINE_MASTER_v3.0.md`: v2.0의 정치·인물·결말 구조를 유지하면서 초반 미스터리와 연금술 해석을 갱신한 활성 스토리라인
+- `private/STORY_DASHBOARD_SPEC_v3.0.md`: 원작·캐릭터·인과·정보 흐름·복선·가설/실제 상태 분리를 검사하는 활성 규칙
 - `private/dashboard-config.json`: 두 화면에 필요한 최소 데이터
 
 스토리라인 문서와 검증 규칙은 공개 정적 루트로 복사하지 않는다.
