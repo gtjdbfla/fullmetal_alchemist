@@ -14,20 +14,31 @@ class DashboardDisclosureTests(unittest.TestCase):
 
     def test_public_has_only_current_manuscripts_and_no_history(self):
         self.assertEqual(self.public["audience"], "reader")
-        self.assertEqual(len(self.public["manuscripts"]), 3)
-        prologue, chapter_one, chapter_two = self.public["manuscripts"]
+        self.assertEqual(len(self.public["manuscripts"]), 19)
+        prologue, chapter_one, chapter_two = self.public["manuscripts"][:3]
         self.assertEqual(prologue["episode"], "프롤로그")
         self.assertTrue(prologue["text"].startswith("“거기 아니야.”"))
         self.assertNotIn("# 프롤로그", prologue["text"])
         self.assertEqual(chapter_one["episode"], "제1화")
-        self.assertTrue(chapter_one["text"].startswith("편지가 도착한 건 아침이었다."))
-        self.assertIn("기차는 동쪽으로 달렸다.", chapter_one["text"])
+        self.assertTrue(chapter_one["text"].startswith("편지는 생각보다 길었다."))
+        self.assertIn("스카 씨의 형 말이야.", chapter_one["text"])
         self.assertNotIn("# 제1화", chapter_one["text"])
         self.assertEqual(chapter_two["episode"], "제2화")
-        self.assertTrue(chapter_two["text"].startswith("“많이 변했네.”"))
+        self.assertTrue(chapter_two["text"].startswith("이슈발은 에드가 기억하던 곳과 달랐다."))
         self.assertIn("이슈발라란 무엇인가.", chapter_two["text"])
         self.assertNotIn("# 제2화", chapter_two["text"])
+        chapter_eighteen = self.public["manuscripts"][-1]
+        self.assertEqual(chapter_eighteen["episode"], "제18화")
+        self.assertEqual(chapter_eighteen["title"], "소위 그라우스")
+        self.assertTrue(chapter_eighteen["text"].startswith("아침 일곱 시."))
+        self.assertNotIn("간략 분석", chapter_eighteen["text"])
         self.assertNotIn("history", self.public)
+
+    def test_public_character_cards_are_spoiler_limited(self):
+        self.assertGreaterEqual(len(self.public["publicCharacters"]), 10)
+        edward = next(item for item in self.public["publicCharacters"] if item["name"] == "에드워드 엘릭")
+        self.assertIn("연금술을 잃은", edward["summary"])
+        self.assertNotIn("결말", " ".join(item["summary"] for item in self.public["publicCharacters"]))
 
     def test_author_keeps_legacy_versions_outside_public_data(self):
         self.assertEqual(self.author["audience"], "author")
@@ -38,9 +49,7 @@ class DashboardDisclosureTests(unittest.TestCase):
         self.assertNotIn("analysis", self.public)
         self.assertNotIn("chapterReviews", self.public)
         self.assertEqual(set(self.author["analysis"]), {"characters", "causality", "world"})
-        self.assertEqual(len(self.author["chapterReviews"]), 3)
-        self.assertEqual(self.author["chapterReviews"][-1]["episode"], "제2화")
-        self.assertEqual(self.author["chapterReviews"][-1]["score"], 9.0)
+        self.assertEqual(self.author["chapterReviews"], [])
 
     def test_mystery_board_separates_ed_hypothesis_from_story_state(self):
         mysteries = self.author["analysis"]["causality"]["mysteries"]
@@ -55,7 +64,7 @@ class DashboardDisclosureTests(unittest.TestCase):
             path = ROOT / item["file"]
             self.assertTrue(path.exists(), item["file"])
             self.assertGreater(len(path.read_text(encoding="utf-8")), 10000)
-        self.assertEqual({item["version"] for item in self.config["sourceDocuments"]}, {"3.0"})
+        self.assertEqual({item["version"] for item in self.config["sourceDocuments"]}, {"3.0", "4.0"})
 
     def test_private_storyline_is_not_copied_to_public_site(self):
         self.assertFalse((ROOT / "site/STORYLINE_MASTER_v2.0.md").exists())

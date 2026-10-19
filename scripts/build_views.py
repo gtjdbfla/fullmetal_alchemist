@@ -28,8 +28,12 @@ def hydrate_manuscripts(payload: dict) -> None:
         source = ROOT / item.pop("file")
         text = source.read_text(encoding="utf-8").strip()
         lines = text.splitlines()
-        if len(lines) >= 2 and lines[0].startswith("# ") and lines[1].startswith("## "):
-            text = "\n".join(lines[2:]).strip()
+        if lines and lines[0].startswith("# "):
+            heading_index = 1
+            while heading_index < len(lines) and not lines[heading_index].strip():
+                heading_index += 1
+            if heading_index < len(lines) and lines[heading_index].startswith("## "):
+                text = "\n".join(lines[heading_index + 1:]).strip()
         item["text"] = text
         item["characters"] = len(text)
 

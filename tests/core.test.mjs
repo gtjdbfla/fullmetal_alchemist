@@ -2,8 +2,9 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import { chapterLabel, normalizeAnalysisSection, normalizeChapterIndex, normalizeView } from '../site/core.mjs';
 
-test('public navigation only accepts read and analysis', () => {
+test('navigation accepts the public reader and character views plus protected analysis', () => {
   assert.equal(normalizeView('read'), 'read');
+  assert.equal(normalizeView('characters'), 'characters');
   assert.equal(normalizeView('analysis'), 'analysis');
   assert.equal(normalizeView('world'), 'read');
 });

@@ -1,4 +1,4 @@
-export const VIEWS = ['read', 'analysis'];
+export const VIEWS = ['read', 'characters', 'analysis'];
 
 export const ANALYSIS_SECTIONS = ['characters', 'causality', 'world'];
 
