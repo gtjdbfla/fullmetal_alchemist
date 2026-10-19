@@ -9,6 +9,7 @@ export function validateWorkspace(value,project){
   if(!value[key]||typeof value[key]!=='object'||Array.isArray(value[key]))throw new Error('작업함 구조가 올바르지 않습니다');
  }
  const ids=new Set(['world','characters','mysteries','chapters','reviews'].flatMap(k=>project[k].map(x=>x.id)));
+ for(const party of project.politicalBoard?.parties||[])ids.add(party.id);
  for(const [key,v] of Object.entries(value.notes)){if(!ids.has(key)||typeof v!=='string'||v.length>20000)throw new Error('메모 항목이 올바르지 않습니다');out.notes[key]=v;}
  for(const [key,v] of Object.entries(value.mysteries)){if(!project.mysteries.some(x=>x.id===key)||!MYSTERY_STATES.includes(v.status)||typeof v.evidence!=='string'||v.evidence.length>20000)throw new Error('미스터리 항목이 올바르지 않습니다');if(v.status==='SOLVED'&&!v.evidence.trim())throw new Error('회수 완료에는 원고 근거가 필요합니다');out.mysteries[key]={status:v.status,evidence:v.evidence};}
  for(const [key,v] of Object.entries(value.chapters)){if(!project.chapters.some(x=>x.id===key)||!CHAPTER_STATES.includes(v))throw new Error('챕터 상태가 올바르지 않습니다');out.chapters[key]=v;}

@@ -8,6 +8,14 @@ test('public submissions and browser drafts are counted separately',()=>{const m
 test('all source records have unique ids',()=>{const rows=['world','characters','mysteries','chapters','reviews'].flatMap(k=>project[k]);assert.equal(new Set(rows.map(r=>r.id)).size,rows.length);assert.ok(rows.every(r=>r.source));});
 test('solved mysteries require evidence',()=>{const value=blankWorkspace();value.mysteries.m01={status:'SOLVED',evidence:''};assert.throws(()=>validateWorkspace(value,project),/근거/);value.mysteries.m01.evidence='01화 실제 회수 구절';const normalized=validateWorkspace(value,project);assert.equal(metrics(project,normalized).solved,1);});
 test('untrusted imported keys are rejected',()=>{const value=blankWorkspace();value.notes.unknown='x';assert.throws(()=>validateWorkspace(value,project));const injected=blankWorkspace();injected.chapters.ch01='anything';assert.throws(()=>validateWorkspace(injected,project));});
+
+test('political review notes survive author export but are rejected by the reader workspace',()=>{
+ const author=JSON.parse(readFileSync(new URL('../author-site/data/project.json',import.meta.url),'utf8'));
+ const value=blankWorkspace();value.notes['pol-b']='양보선은 작가 미정으로 유지';
+ assert.equal(validateWorkspace(JSON.parse(JSON.stringify(value)),author).notes['pol-b'],value.notes['pol-b']);
+ assert.throws(()=>validateWorkspace(value,project));
+ assert.throws(()=>validateWorkspace({...value,notes:{'pol-invented':'임의 세력'}},author));
+});
 test('manuscript versions preserve original text',()=>{const value=blankWorkspace();value.manuscripts.push({chapter:'ch01',text:'첫 줄\n둘째 줄',savedAt:'2026-10-19T12:00:00Z'});const copy=validateWorkspace(JSON.parse(JSON.stringify(value)),project);assert.equal(copy.manuscripts[0].text,'첫 줄\n둘째 줄');assert.equal(metrics(project,copy).chaptersWithDraft,1);assert.equal(project.manuscripts.length,3);assert.equal(project.manuscripts[0].text,readFileSync(new URL('../manuscripts/000-prologue.md',import.meta.url),'utf8').trimEnd());});
 test('scanner returns candidates even for negation and never a contradiction verdict',()=>{const found=scanExpressions('에드는 연금술을 쓸 수 없었다\n진리와 이슈발라는 같은가');assert.equal(found.length,2);assert.equal(found[1].line,2);assert.ok(found.every(r=>!('verdict' in r)));});
 test('scanner has no false success when no expressions match',()=>assert.deepEqual(scanExpressions('아침에 길을 걸었다'),[]));

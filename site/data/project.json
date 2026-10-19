@@ -1,5 +1,5 @@
 {
-  "version": "0.4.0",
+  "version": "0.5.0",
   "updated": "2026-10-19",
   "source": {
     "id": "brief-v1",
@@ -959,7 +959,7 @@
   },
   "audience": "reader",
   "revealedThrough": 2,
-  "masterVersion": "1.0",
+  "masterVersion": "2.0",
   "masterPlan": null,
   "masterAlignment": null,
   "disclosureBoard": [
@@ -1169,5 +1169,6 @@
       "MUSTANG / MILES",
       "재건·조사 권한 문제 제기 · 아직 결론 없음"
     ]
-  ]
+  ],
+  "politicalBoard": null
 }
