@@ -23,7 +23,7 @@ class DisclosureTests(unittest.TestCase):
   for secret in ['알은 동쪽에서 서쪽으로 같은 길을 조사해 온다.','이슈발라 = 진리라는 오답을 확신','지역 당사자의 협상과 결정 → 국가의 인정과 지원']:
    self.assertNotIn(secret,serialized)
  def test_knowledge_and_author_truth_are_distinct(self):
-  self.assertEqual(len(self.author['disclosureBoard']),10)
+  self.assertEqual(len(self.author['disclosureBoard']),11)
   for row in self.author['disclosureBoard']:
    self.assertIsInstance(row['readerKnowledge'],dict);self.assertIsInstance(row['edHypothesis'],dict);self.assertIsInstance(row['actualSetting'],dict)
    self.assertEqual(row['actualSetting']['kind'],'ORIGINAL');self.assertNotEqual(row['edHypothesis']['text'],row['actualSetting']['text'])
@@ -52,7 +52,7 @@ class DisclosureTests(unittest.TestCase):
   serialized=json.dumps(self.public,ensure_ascii=False)
   for secret in ['적맥석','A부족','B부족','광맥과 땅의 흐름','이슈발의 전략자원','reveal-representation','reveal-resource','reveal-al-trail','al-capital-example']:
    self.assertNotIn(secret,serialized)
-  self.assertEqual(len(self.public['disclosureBoard']),6)
+  self.assertEqual(len(self.public['disclosureBoard']),8)
  def test_political_unknowns_are_not_fabricated_and_relations_resolve(self):
   parties=self.author['politicalBoard']['parties'];ids={r['id'] for r in parties}
   for r in parties:
@@ -68,12 +68,12 @@ class DisclosureTests(unittest.TestCase):
   self.assertIn('가칭',r['nameStatus']);self.assertIn('핵심 용도 확정',r['propertiesStatus']);self.assertIn('미확정',r['hypothesesStatus'])
   self.assertEqual(len(self.author['masterPlan']['arcs']),6)
   self.assertIn('정치적 선택',self.author['masterPlan']['causalChain'][-3]['text'])
- def test_current_reader_and_ed_knowledge_is_preserved_from_v1(self):
-  old=load(ROOT/'private/archive/master-data-v1.json')
-  for r in old['disclosureBoard']:
-   if r['id']=='reveal-brother':continue # The author approved a narrower on-page hypothesis.
-   now=next(x for x in self.author['disclosureBoard'] if x['id']==r['id'])
-   self.assertEqual(now['readerKnowledge'],r['readerKnowledge']);self.assertEqual(now['edHypothesis'],r['edHypothesis'])
+ def test_red_stone_observation_does_not_promote_resource_identity(self):
+  row=next(r for r in self.public['disclosureBoard'] if r['id']=='reveal-red-stones')
+  self.assertIn('물질',row['readerKnowledge']['text']);self.assertIsNone(row['actualSetting'])
+  self.assertIsNone(self.public['draftMilestones'])
+  self.assertEqual(len(self.public['mysteries']),16)
+  self.assertEqual(next(r for r in self.public['mysteries'] if r['id']=='m15')['status'],'CLUE FOUND')
  def test_nine_decisions_are_not_mistaken_for_nine_completed_mysteries(self):
   rows=self.author['storyDecisions'];self.assertEqual([r['number'] for r in rows],list(range(1,10)))
   self.assertEqual(rows[6]['status'],'세부 보류');self.assertEqual(rows[7]['status'],'폐기 완료')

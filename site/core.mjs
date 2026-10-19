@@ -1,6 +1,11 @@
 export const MYSTERY_STATES=['UNSOLVED','CLUE FOUND','PARTIALLY SOLVED','SOLVED'];
 export const CHAPTER_STATES=['IDEA','OUTLINE','DRAFT','COMPLETE','THREADS'];
 export const LOCAL_VERSION=1;
+export function evidenceParagraph(text,quote){
+ const paragraphs=text.split(/\n\s*\n/).slice(1),parts=quote.split(/\n\s*\n/);
+ const index=paragraphs.findIndex((_,i)=>parts.every((part,j)=>paragraphs[i+j]?.includes(part)));
+ return index<0?0:index+1;
+}
 export function blankWorkspace(){return {version:LOCAL_VERSION,notes:{},mysteries:{},chapters:{},reviews:{},manuscripts:[]};}
 export function validateWorkspace(value,project){
  if(!value||value.version!==LOCAL_VERSION)throw new Error('지원하지 않는 작업함 버전입니다');

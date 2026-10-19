@@ -492,11 +492,11 @@
       "title": "스카 형의 연단술 습득",
       "asOfEpisode": 2,
       "readerKnowledge": {
-        "text": "기도 문양이 연단술 기록보다 먼저 반복된다는 관찰과, 이슈발 기록에서 연구가 시작됐을 수 있다는 에드의 가설이 제시됐다.",
+        "text": "문양이 먼저 나온다는 관찰, 배열이 실제 연구 순서는 아니라는 유보, 이슈발 기록에서 출발했을 수 있다는 가설이 명시됐다.",
         "evidence": [
           {
             "manuscript": "ms-002-v1",
-            "quote": "반대였을지도 몰라."
+            "quote": "그냥 가설이야."
           }
         ]
       },
@@ -506,7 +506,7 @@
         "evidence": [
           {
             "manuscript": "ms-002-v1",
-            "quote": "반대였을지도 몰라."
+            "quote": "그냥 가설이야."
           }
         ]
       },
@@ -528,21 +528,21 @@
       "title": "고대 교역로",
       "asOfEpisode": 2,
       "readerKnowledge": {
-        "text": "링은 이슈발로 이어지는 오래 끊어진 길을 열어달라는 요청을 받는다.",
+        "text": "싱 서부 국경 부족이 상인들의 옛길 문의를 전했고 링이 조사를 명령했다. 정확한 위치는 전승에만 남아 있다.",
         "evidence": [
           {
             "manuscript": "ms-001-v1",
-            "quote": "아주 오래전에 끊어진 길을 다시 열어야 한다고 주장하고 있습니다."
+            "quote": "정확한 위치는 알 수 없습니다. 오래된 전승에만 남아 있다고 합니다."
           }
         ]
       },
       "edHypothesis": {
-        "text": "현재 원고에서 이 길의 재개방 요청을 전달받는 장면은 없다.",
+        "text": "에드가 싱 쪽의 전승과 링의 조사 명령을 전달받은 장면은 없다.",
         "status": "에드 미인지",
         "evidence": [
           {
             "manuscript": "ms-001-v1",
-            "quote": "아주 오래전에 끊어진 길을 다시 열어야 한다고 주장하고 있습니다."
+            "quote": "정확한 위치는 알 수 없습니다. 오래된 전승에만 남아 있다고 합니다."
           }
         ]
       },
@@ -568,7 +568,7 @@
         "evidence": [
           {
             "manuscript": "ms-002-v1",
-            "quote": "지도 위에서 가운데 있다는 이유만으로 역사가 생기는 건 아니다."
+            "quote": "지리적으로 가운데 있다는 것과 지식이 실제로 오갔다는 것은 전혀 다른 문제다."
           }
         ]
       },
@@ -578,7 +578,7 @@
         "evidence": [
           {
             "manuscript": "ms-002-v1",
-            "quote": "지도 위에서 가운데 있다는 이유만으로 역사가 생기는 건 아니다."
+            "quote": "지리적으로 가운데 있다는 것과 지식이 실제로 오갔다는 것은 전혀 다른 문제다."
           }
         ]
       },
@@ -600,15 +600,15 @@
       "title": "고대 기도문양",
       "asOfEpisode": 2,
       "readerKnowledge": {
-        "text": "에드는 연성진과 닮았다고 하고 스카는 기도라고 말한다. 기능과 기원은 미상이다.",
+        "text": "원형 기도 문양은 연성진과 닮았지만 같지 않고 선이 순환하듯 이어진다. 기능과 기원은 미상이다.",
         "evidence": [
           {
             "manuscript": "ms-002-v1",
-            "quote": "그것은 연금술이 아니다."
+            "quote": "연성진이 아니다."
           },
           {
             "manuscript": "ms-002-v1",
-            "quote": "이슈발라에게 바치는 기도."
+            "quote": "기도다."
           }
         ]
       },
@@ -618,11 +618,11 @@
         "evidence": [
           {
             "manuscript": "ms-002-v1",
-            "quote": "그것은 연금술이 아니다."
+            "quote": "연성진이 아니다."
           },
           {
             "manuscript": "ms-002-v1",
-            "quote": "이슈발라에게 바치는 기도."
+            "quote": "기도다."
           }
         ]
       },
@@ -648,7 +648,7 @@
         "evidence": [
           {
             "manuscript": "ms-001-v1",
-            "quote": "모르는 것을 멋대로 연결하는 건 연구가 아니다."
+            "quote": "모르는 것을 자기 경험에 멋대로 끼워 맞추는 건 연구가 아니다."
           }
         ]
       },
@@ -658,7 +658,7 @@
         "evidence": [
           {
             "manuscript": "ms-001-v1",
-            "quote": "모르는 것을 멋대로 연결하는 건 연구가 아니다."
+            "quote": "모르는 것을 자기 경험에 멋대로 끼워 맞추는 건 연구가 아니다."
           }
         ]
       },
@@ -677,16 +677,26 @@
     },
     {
       "id": "reveal-resource",
-      "title": "이슈발의 전략자원",
+      "title": "기도소의 붉은 돌",
       "asOfEpisode": 2,
       "readerKnowledge": {
-        "text": "2화까지 공개된 원고에는 이 사안이 제시되지 않았다.",
-        "evidence": []
+        "text": "기도소 벽 아래 작은 붉은 돌과 빼지 않는 관습이 있다. 물질의 정체·성질·기능은 공개되지 않았다.",
+        "evidence": [
+          {
+            "manuscript": "ms-002-v1",
+            "quote": "벽 아래쪽에는 작은 붉은 돌들이 박혀 있었다."
+          }
+        ]
       },
       "edHypothesis": {
-        "text": "2화까지 이 사안에 대한 에드의 지식·가설은 제시되지 않았다.",
-        "status": "미공개",
-        "evidence": []
+        "text": "돌을 만지려다 스카의 요청에 손을 거뒀다. 어떤 물질인지 판단하거나 분석한 장면은 없다.",
+        "status": "관찰만 공개",
+        "evidence": [
+          {
+            "manuscript": "ms-002-v1",
+            "quote": "에드는 손을 거뒀다."
+          }
+        ]
       },
       "actualSetting": {
         "text": "고대 문화에서 이미 쓰던 붉은 돌을 유적 조사로 발견하고 분석한다. 극한 열·압력 합금의 핵심 소재이며 싱 수요와 대규모 산지 부족, 옛길의 대량 운송 우위가 경제 갈등을 만든다. 특수능력은 없다.",
@@ -699,7 +709,8 @@
         "episode": null,
         "fixed": false
       },
-      "readerVisible": false
+      "readerVisible": true,
+      "readerId": "reveal-red-stones"
     },
     {
       "id": "reveal-mineral-flow",
@@ -759,11 +770,11 @@
       "asOfEpisode": 2,
       "readerVisible": false,
       "readerKnowledge": {
-        "text": "알이 싱에서 편지를 보냈다는 사실만 공개됐다. 서쪽으로 이동 중이라는 정보는 아직 원고에 없다.",
+        "text": "싱에서 온 알의 여러 편지와 최근 질문이 공개됐다. 서쪽 이동 흔적은 아직 없다.",
         "evidence": [
           {
             "manuscript": "ms-001-v1",
-            "quote": "싱으로 떠난 뒤 알은 비교적 꾸준히 소식을 보내왔다."
+            "quote": "대부분 알에게서 온 것이었다."
           }
         ]
       },
@@ -780,6 +791,42 @@
       },
       "revealPlan": {
         "stage": "중간 편지·타인 언급 → 최종부 역방향 조사와 재회 공개",
+        "episode": null,
+        "fixed": false
+      }
+    },
+    {
+      "id": "reveal-citation",
+      "title": "사원과 다른 출처 표식",
+      "asOfEpisode": 2,
+      "readerVisible": true,
+      "readerKnowledge": {
+        "text": "스카가 현 사원 표식과 다르다고 했고 여러 이슈발 문장 인용에 같은 표시가 반복된다. 에드가 이를 옮겨 그렸다.",
+        "evidence": [
+          {
+            "manuscript": "ms-002-v1",
+            "quote": "“이곳에서 쓰던 표식과 다르다.”"
+          }
+        ]
+      },
+      "edHypothesis": {
+        "text": "알 수 없는 출처를 추적할 단서로 기록했다. 동방에서 왔다고는 아직 판단하지 않았다.",
+        "status": "출처 미상",
+        "evidence": [
+          {
+            "manuscript": "ms-002-v1",
+            "quote": "어디에서 온 것인지도 알 수 없었다."
+          }
+        ]
+      },
+      "actualSetting": {
+        "text": "고대 기록·동방 지식 교류를 추적할 수 있는 후보 단서. 이 표식의 정확한 소속·기원은 새 원고만으로 확정하지 않는다.",
+        "kind": "ORIGINAL",
+        "source": "master-v2.1",
+        "certainty": "작중 관찰 확정 · 구체 기원은 미정"
+      },
+      "revealPlan": {
+        "stage": "후속 조사에서 출처 확인 · 세부 화수 미정",
         "episode": null,
         "fixed": false
       }
@@ -807,12 +854,12 @@
         "title": "2. 2화 에드 확신",
         "state": "수정 완료",
         "planQuote": "확정 표현을 승인된 가설 대화로 교정",
-        "reason": "제2화 v2에 반영. PART II 증거 축적, PART III 경로 최종 규명.",
+        "reason": "새 2화의 가설 유보와 반론이 반영됐다. 최종 연구 경로의 증거는 여전히 후속 집필 대상이다.",
         "action": "활성 기준에 반영 · 장면 집필·떡밥 회수 완료와 별도",
         "evidence": [
           {
             "manuscript": "ms-002-v1",
-            "quote": "반대였을지도 몰라."
+            "quote": "그냥 가설이야."
           }
         ]
       },
@@ -834,12 +881,12 @@
         "title": "4. 1화 동부 부족",
         "state": "수정 완료",
         "planQuote": "서부 국경지역 대표로 교정",
-        "reason": "제1화 v3에 반영. 불필요한 동부 이해관계를 만들지 않음.",
+        "reason": "새 1화의 서부 국경 부족 요청과 전승 조사가 반영됐다.",
         "action": "활성 기준에 반영 · 장면 집필·떡밥 회수 완료와 별도",
         "evidence": [
           {
             "manuscript": "ms-001-v1",
-            "quote": "폐하. 서부 국경지역 대표들이 도착했습니다."
+            "quote": "서부 국경 부족들의 요청입니다."
           }
         ]
       },
@@ -894,53 +941,134 @@
         "title": "9. 자원 발견 개연성",
         "state": "확정",
         "planQuote": "고대 문화 속 붉은 돌 → 유적 조사 → 분석 → 산업적 가치",
-        "reason": "같은 물질을 유산과 자원으로 다르게 보는 갈등. 정확한 의식·분석 장면은 예시·미정.",
+        "reason": "새 2화에 문화적 단서가 심겼다. 돌 관찰과 이후 자원 확인을 구분한다.",
         "action": "활성 기준에 반영 · 장면 집필·떡밥 회수 완료와 별도",
         "evidence": []
       }
     ],
     "checks": [
       {
-        "title": "1화의 편지와 2화 이슈발 조사는 새 로드맵과 일치",
+        "id": "c01",
+        "title": "에드의 연금술은 돌아오지 않고 지식과 협업으로 구조한다",
+        "result": "현재 원고에서 확인",
         "evidence": [
           {
-            "manuscript": "ms-002-v1",
-            "quote": "다음 역, 이슈발 동부 임시역입니다."
+            "manuscript": "ms-prologue-v1",
+            "quote": "“그리는 건 할 수 있잖아.”"
+          },
+          {
+            "manuscript": "ms-prologue-v1",
+            "quote": "남자가 수정된 연성진에 손을 댔다."
           }
         ]
       },
       {
-        "title": "에드의 능력은 돌아오지 않았고 알은 직접 POV로 나오지 않음",
-        "evidence": [
-          {
-            "manuscript": "ms-002-v1",
-            "quote": "그리고 연금술도 못 써."
-          }
-        ]
-      },
-      {
-        "title": "1화의 신중함과 3화의 오답 확신은 그 자체로 모순이 아님",
+        "id": "c02",
+        "title": "알은 편지로 등장하고 직접 POV를 열지 않는다",
+        "result": "현재 원고에서 확인",
         "evidence": [
           {
             "manuscript": "ms-001-v1",
-            "quote": "모르는 것을 멋대로 연결하는 건 연구가 아니다."
-          }
-        ],
-        "note": "새로 얻은 기록과 진리 경험이 왜 확신을 키웠는지 장면 근거가 필요하다."
-      },
-      {
-        "title": "2화 재건·조사 권한 갈등이 머스탱·마일즈 축과 일치",
-        "evidence": [
-          {
-            "manuscript": "ms-002-v1",
-            "quote": "재건을 돕는 것과 다시 소유하는 것은 다릅니다."
+            "quote": "대부분 알에게서 온 것이었다."
           }
         ]
       },
       {
-        "title": "자원 발견 이전의 2화 조사권 갈등은 v2의 갈등 씨앗으로 유지 가능",
-        "evidence": [],
-        "note": "이미 제시된 재건·문화유산 조사권 문제를 이후 자원·소유권 갈등이 확대한다. 2화에 광물을 소급 삽입하지 않는다."
+        "id": "c03",
+        "title": "서부 국경 떡밥과 실제 경로 미확인을 구분한다",
+        "result": "현재 원고에서 확인",
+        "evidence": [
+          {
+            "manuscript": "ms-001-v1",
+            "quote": "“서부 국경 부족들의 요청입니다.”"
+          },
+          {
+            "manuscript": "ms-001-v1",
+            "quote": "“정확한 위치는 알 수 없습니다. 오래된 전승에만 남아 있다고 합니다.”"
+          }
+        ]
+      },
+      {
+        "id": "c04",
+        "title": "노트 배열과 실제 연구 순서를 구분한다",
+        "result": "현재 원고에서 확인",
+        "evidence": [
+          {
+            "manuscript": "ms-002-v1",
+            "quote": "연구 노트의 작성 순서가 곧 연구의 순서라고 단정할 수는 없었다."
+          },
+          {
+            "manuscript": "ms-002-v1",
+            "quote": "“그냥 가설이야.”"
+          }
+        ]
+      },
+      {
+        "id": "c05",
+        "title": "붉은 돌은 위치와 관습만 관찰하고 정체·기능은 밝히지 않는다",
+        "result": "현재 원고에서 확인",
+        "evidence": [
+          {
+            "manuscript": "ms-002-v1",
+            "quote": "벽 아래쪽에는 작은 붉은 돌들이 박혀 있었다."
+          },
+          {
+            "manuscript": "ms-002-v1",
+            "quote": "“그렇게 전해졌으니까.”"
+          }
+        ]
+      },
+      {
+        "id": "c06",
+        "title": "새 출처 표식을 복사했지만 동방 기원으로 확정하지 않는다",
+        "result": "현재 원고에서 확인",
+        "evidence": [
+          {
+            "manuscript": "ms-002-v1",
+            "quote": "“이곳에서 쓰던 표식과 다르다.”"
+          },
+          {
+            "manuscript": "ms-002-v1",
+            "quote": "어디에서 온 것인지도 알 수 없었다."
+          }
+        ]
+      },
+      {
+        "id": "c07",
+        "title": "이슈발라와 진리의 동일성은 확정하지 않는다",
+        "result": "현재 원고에서 확인",
+        "evidence": [
+          {
+            "manuscript": "ms-002-v1",
+            "quote": "모르는 것을 자기 경험에 끼워 맞추지 말자고 하지 않았던가."
+          }
+        ]
+      },
+      {
+        "id": "c08",
+        "title": "전후 책임의 경고가 재건·조사권 갈등으로 이어진다",
+        "result": "현재 원고에서 확인",
+        "evidence": [
+          {
+            "manuscript": "ms-001-v1",
+            "quote": "누군가에게는 아직 자기 가족 이야기일 수 있다."
+          },
+          {
+            "manuscript": "ms-002-v1",
+            "quote": "― 재건을 돕는 것과 다시 소유하는 것은 다릅니다."
+          }
+        ]
+      },
+      {
+        "id": "c09",
+        "title": "수정본의 2화 조사는 도착 첫날 안에서 이어진다",
+        "result": "현재 원고에서 확인",
+        "evidence": [
+          {
+            "manuscript": "ms-002-v1",
+            "quote": "에드워드 엘릭이 이슈발에 온 첫날."
+          }
+        ]
       }
     ]
   },
@@ -1985,13 +2113,13 @@
         "origin": "싱 · 세부 도시·발신일 미상",
         "sentAt": null,
         "receivedAt": null,
-        "readerKnowledge": "싱에서 연단술을 배우며 형에게 질문한 편지",
+        "readerKnowledge": "알의 여러 편지와 가장 최근의 연단술 연구 질문이 공개됨",
         "edKnowledge": "편지를 읽고 연구 경로에 의문을 가짐",
         "hidden": "알의 실제 이동 방향과 발견은 아직 공개되지 않음",
         "evidence": [
           {
             "manuscript": "ms-001-v1",
-            "quote": "싱으로 떠난 뒤 알은 비교적 꾸준히 소식을 보내왔다."
+            "quote": "대부분 알에게서 온 것이었다."
           }
         ]
       },
@@ -2066,7 +2194,7 @@
       "title": "2화 에드 확신",
       "status": "수정 완료",
       "decision": "확정 표현을 승인된 가설 대화로 교정",
-      "detail": "제2화 v2에 반영. PART II 증거 축적, PART III 경로 최종 규명.",
+      "detail": "새 연속 원고 제2화 v4에서 그냥 가설이야로 명시. 실제 연구 경로는 미회수.",
       "source": "master-v2.1"
     },
     {
@@ -2084,7 +2212,7 @@
       "title": "1화 동부 부족",
       "status": "수정 완료",
       "decision": "서부 국경지역 대표로 교정",
-      "detail": "제1화 v3에 반영. 불필요한 동부 이해관계를 만들지 않음.",
+      "detail": "새 연속 원고 제1화 v5의 서부 국경 부족 요청으로 유지.",
       "source": "master-v2.1"
     },
     {
@@ -2129,8 +2257,111 @@
       "title": "자원 발견 개연성",
       "status": "확정",
       "decision": "고대 문화 속 붉은 돌 → 유적 조사 → 분석 → 산업적 가치",
-      "detail": "같은 물질을 유산과 자원으로 다르게 보는 갈등. 정확한 의식·분석 장면은 예시·미정.",
+      "detail": "새 2화에 붉은 돌과 빼지 않는 관습이 등장. 성분 분석·전략자원 확인·경제적 가치 공개는 아직 없음.",
       "source": "master-v2.1"
     }
-  ]
+  ],
+  "revealedMysteries": [
+    {
+      "id": "m15",
+      "title": "기도소의 붉은 돌은 무엇인가",
+      "group": "이슈발",
+      "status": "CLUE FOUND",
+      "kind": "ORIGINAL",
+      "clues": [
+        "붉은 돌의 위치와 빼지 않는 관습"
+      ],
+      "plannedClues": [],
+      "resolution": null,
+      "source": "manuscript-continuous-draft"
+    },
+    {
+      "id": "m16",
+      "title": "사원과 다른 출처 표식은 어디에서 왔는가",
+      "group": "이슈발",
+      "status": "CLUE FOUND",
+      "kind": "ORIGINAL",
+      "clues": [
+        "여러 이슈발 문장 인용에서 반복되는 표시",
+        "에드의 표식 복사"
+      ],
+      "plannedClues": [],
+      "resolution": null,
+      "source": "manuscript-continuous-draft"
+    },
+    {
+      "id": "m06",
+      "group": "스카의 형",
+      "title": "스카의 형은 어떻게 연단술을 알았는가",
+      "status": "CLUE FOUND",
+      "kind": "ORIGINAL",
+      "clues": [
+        "노트에 기도 문양·연단술·인용 출처가 함께 있음; 유입 경로는 가설"
+      ],
+      "plannedClues": [],
+      "resolution": null,
+      "source": "manuscript-continuous-draft"
+    },
+    {
+      "id": "m09",
+      "group": "스카의 형",
+      "title": "남겨진 연구자료가 존재하는가",
+      "status": "CLUE FOUND",
+      "kind": "ORIGINAL",
+      "clues": [
+        "기도소 상자에서 형의 노트 확인; 기존 연구서와의 관계는 미상"
+      ],
+      "plannedClues": [],
+      "resolution": null,
+      "source": "manuscript-continuous-draft"
+    },
+    {
+      "id": "m12",
+      "group": "고대 동방",
+      "title": "고대 교역로가 있었는가",
+      "status": "CLUE FOUND",
+      "kind": "ORIGINAL",
+      "clues": [
+        "싱 서부의 옛길 전승과 링의 조사 명령; 실물 경로는 미확인"
+      ],
+      "plannedClues": [],
+      "resolution": null,
+      "source": "manuscript-continuous-draft"
+    },
+    {
+      "id": "m14",
+      "group": "이슈발",
+      "title": "이슈발라란 무엇인가",
+      "status": "CLUE FOUND",
+      "kind": "ORIGINAL",
+      "clues": [
+        "나는 지금까지 이슈발라를 신의 이름이라고 생각했다는 노트 문장"
+      ],
+      "plannedClues": [],
+      "resolution": null,
+      "source": "manuscript-continuous-draft"
+    }
+  ],
+  "draftMilestones": {
+    "source": "manuscript-continuous-draft",
+    "items": [
+      {
+        "stage": "옛길의 존재",
+        "state": "싱 측 전승 공개 · 에드 측 기록 연결은 아직 미확인"
+      },
+      {
+        "stage": "문화 속 붉은 돌",
+        "state": "2화 관찰 · 산업적 성질·자원 확인 전"
+      },
+      {
+        "stage": "실제 옛길",
+        "state": "미확인"
+      },
+      {
+        "stage": "경제적 가치",
+        "state": "미공개"
+      }
+    ],
+    "note": "문화적 소품의 선행 관찰은 전략자원 발견과 다르다. 확정된 순서를 완료한 것으로 처리하지 않는다."
+  }
 }
