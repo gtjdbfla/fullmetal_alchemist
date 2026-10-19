@@ -3,7 +3,7 @@
 망상연구소의 소설 프로젝트 대시보드다.
 
 - 공개 화면: https://yulmserver.tail261e6c.ts.net:10000/east/
-- 관리자 화면: https://yulmserver.tail261e6c.ts.net:8444/ (Tailscale 전용 · HTTP Basic Auth)
+- 관리자 화면: https://yulmserver.tail261e6c.ts.net:8444/ (Tailscale 전용)
 - GitHub: https://github.com/gtjdbfla/fullmetal_alchemist
 
 ## 화면 구조

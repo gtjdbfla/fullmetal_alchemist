@@ -1,7 +1,4 @@
 :8092 {
-    basic_auth {
-        admin $2a$14$s.v0VE3chE7WyYLGsmkutumHGEtSBYU0AEmdpIcVZ8fYwHXqkHuTm
-    }
     encode gzip zstd
     root * /srv
     file_server
