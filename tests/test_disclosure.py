@@ -10,9 +10,9 @@ class DisclosureTests(unittest.TestCase):
  def setUpClass(cls):
   cls.public=load(ROOT/'site/data/project.json');cls.author=load(ROOT/'author-site/data/project.json');cls.master=load(ROOT/'private/master-data.json')
  def test_author_keeps_exact_v2_source_and_twenty_three_sections(self):
-  text=(ROOT/'private/STORY_MASTER_PLAN_v2.md').read_text('utf8')
+  text=(ROOT/'private/STORY_MASTER_PLAN_v2.1.md').read_text('utf8')
   plan=self.author['masterPlan'];self.assertEqual(plan['fullText'],text);self.assertEqual(len(plan['sections']),23);self.assertEqual(plan['sourceHash'],hashlib.sha256(text.encode()).hexdigest())
-  self.assertEqual(self.author['masterVersion'],'2.0')
+  self.assertEqual(self.author['masterVersion'],'2.1')
   self.assertEqual(load(ROOT/'private/archive/master-data-v1.json')['masterPlan']['version'],'1.0')
  def test_reader_payload_has_no_truth_or_future_reveal_fields(self):
   self.assertIsNone(self.public['masterPlan']);self.assertIsNone(self.public['masterAlignment'])
@@ -23,7 +23,7 @@ class DisclosureTests(unittest.TestCase):
   for secret in ['알은 동쪽에서 서쪽으로 같은 길을 조사해 온다.','이슈발라 = 진리라는 오답을 확신','지역 당사자의 협상과 결정 → 국가의 인정과 지원']:
    self.assertNotIn(secret,serialized)
  def test_knowledge_and_author_truth_are_distinct(self):
-  self.assertEqual(len(self.author['disclosureBoard']),9)
+  self.assertEqual(len(self.author['disclosureBoard']),10)
   for row in self.author['disclosureBoard']:
    self.assertIsInstance(row['readerKnowledge'],dict);self.assertIsInstance(row['edHypothesis'],dict);self.assertIsInstance(row['actualSetting'],dict)
    self.assertEqual(row['actualSetting']['kind'],'ORIGINAL');self.assertNotEqual(row['edHypothesis']['text'],row['actualSetting']['text'])
@@ -48,9 +48,9 @@ class DisclosureTests(unittest.TestCase):
     text=path.read_text('utf8')
     self.assertNotIn('알은 동쪽에서 서쪽으로 같은 길을 조사해 온다.',text)
  def test_politics_and_unrevealed_resource_titles_are_not_public(self):
-  self.assertIsNone(self.public['politicalBoard'])
+  self.assertIsNone(self.public['politicalBoard']);self.assertIsNone(self.public['storyDecisions']);self.assertIsNone(self.public['alTrail'])
   serialized=json.dumps(self.public,ensure_ascii=False)
-  for secret in ['적맥석','A부족','B부족','광맥과 땅의 흐름','이슈발의 전략자원','reveal-representation','reveal-resource']:
+  for secret in ['적맥석','A부족','B부족','광맥과 땅의 흐름','이슈발의 전략자원','reveal-representation','reveal-resource','reveal-al-trail','al-capital-example']:
    self.assertNotIn(secret,serialized)
   self.assertEqual(len(self.public['disclosureBoard']),6)
  def test_political_unknowns_are_not_fabricated_and_relations_resolve(self):
@@ -65,12 +65,27 @@ class DisclosureTests(unittest.TestCase):
   mining=next(r for r in parties if r['id']=='pol-mining');self.assertIsNone(mining['redlines']['text'])
  def test_resource_examples_and_tentative_hypotheses_stay_tentative(self):
   r=self.author['masterPlan']['resource']
-  self.assertIn('가칭',r['nameStatus']);self.assertIn('예시',r['propertiesStatus']);self.assertIn('미확정',r['hypothesesStatus'])
+  self.assertIn('가칭',r['nameStatus']);self.assertIn('핵심 용도 확정',r['propertiesStatus']);self.assertIn('미확정',r['hypothesesStatus'])
   self.assertEqual(len(self.author['masterPlan']['arcs']),6)
   self.assertIn('정치적 선택',self.author['masterPlan']['causalChain'][-3]['text'])
  def test_current_reader_and_ed_knowledge_is_preserved_from_v1(self):
   old=load(ROOT/'private/archive/master-data-v1.json')
   for r in old['disclosureBoard']:
+   if r['id']=='reveal-brother':continue # The author approved a narrower on-page hypothesis.
    now=next(x for x in self.author['disclosureBoard'] if x['id']==r['id'])
    self.assertEqual(now['readerKnowledge'],r['readerKnowledge']);self.assertEqual(now['edHypothesis'],r['edHypothesis'])
+ def test_nine_decisions_are_not_mistaken_for_nine_completed_mysteries(self):
+  rows=self.author['storyDecisions'];self.assertEqual([r['number'] for r in rows],list(range(1,10)))
+  self.assertEqual(rows[6]['status'],'세부 보류');self.assertEqual(rows[7]['status'],'폐기 완료')
+  self.assertEqual(rows[1]['status'],'수정 완료');self.assertEqual(rows[3]['status'],'수정 완료')
+  self.assertTrue(all(r['status']!='SOLVED' for r in self.author['mysteries']))
+ def test_al_trail_never_invents_dates_or_promotes_candidates(self):
+  rows=self.author['alTrail']['entries'];self.assertEqual(sum(r['status']=='원고 제시' for r in rows),1)
+  for r in rows:self.assertIsNone(r['sentAt']);self.assertIsNone(r['receivedAt'])
+  for r in rows[1:]:self.assertEqual(r['status'],'예시 · 미집필');self.assertEqual(r['evidence'],[])
+ def test_brother_hypothesis_matches_revised_prose_and_keeps_final_answer_private(self):
+  row=next(r for r in self.public['disclosureBoard'] if r['id']=='reveal-brother')
+  self.assertIn('미확정',row['edHypothesis']['status']);self.assertNotIn('단정',row['edHypothesis']['text'])
+  self.assertIn('합금',self.author['masterPlan']['resource']['confirmed'][0])
+  self.assertIn('동쪽',self.author['timelineLanes'][0][1])
 if __name__=='__main__':unittest.main()

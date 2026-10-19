@@ -26,6 +26,15 @@ test('published manuscript text matches source files and hashes',()=>{
 });
 test('submitted prose stays intact except the documented spelling correction',()=>{const [p,c]=project.manuscripts;assert.ok(p.text.startsWith('프롤로그 — 연금술을 못 쓰는 연금술사\n\n“거기 아니야.”'));assert.ok(c.text.includes('리셈블 역에 기차가 들어섰다.'));assert.ok(c.text.endsWith('기차는 동쪽으로 달렸다.'));assert.ok(c.text.includes('“네 글자야.”'));});
 
-test('proofreading changes exactly the requested mixed-script place name',()=>{const original=readFileSync(new URL('../manuscripts/archive/001-eastbound.v1.md',import.meta.url),'utf8').replace(/\r\n/g,'\n').trimEnd();const current=project.manuscripts.find(m=>m.order===1);assert.equal(current.text,original.replace('리스embool','리셈블'));assert.equal(current.version,2);assert.ok(!current.text.includes('embool'));});
+test('approved revision chain changes only logged passages and preserves every older version',()=>{
+ for(const order of [1,2]){
+  const current=project.manuscripts.find(m=>m.order===order);
+  const changes=project.proofreading.corrections.filter(c=>c.manuscript===current.id);
+  let expected=readFileSync(new URL('../'+changes[0].originalFile,import.meta.url),'utf8').replace(/\r\n/g,'\n').trimEnd();
+  for(const c of changes){const saved=readFileSync(new URL('../'+c.originalFile,import.meta.url),'utf8').replace(/\r\n/g,'\n').trimEnd();assert.equal(saved,expected);assert.equal(expected.split(c.before).length,2);expected=expected.replace(c.before,c.after);}
+  assert.equal(current.text,expected);assert.equal(current.version,order===1?3:2);
+ }
+ const episode=project.manuscripts.find(m=>m.order===2);assert.ok(episode.text.includes('반대였을지도 몰라.'));assert.ok(!episode.text.includes('연단술까지 간 거야.'));assert.ok(episode.text.includes('흐름.'));
+});
 test('episode two is preserved and every analysis quote exists in its source',()=>{const episode=project.manuscripts.find(m=>m.order===2);assert.equal(episode.title,'신의 이름');assert.ok(episode.text.endsWith('이슈발라란 무엇인가.'));assert.ok(episode.text.includes('내 피의 절반은 이슈발인이지만'));for(const item of [...project.analysis.findings,...project.analysis.checks,...project.analysis.threads])for(const e of item.evidence){const m=project.manuscripts.find(m=>m.id===e.manuscript);assert.ok(m, e.manuscript);assert.ok(m.text.includes(e.quote),e.quote);}});
-test('analysis separates observations from canon verification and unresolved clues',()=>{assert.equal(project.analysis.findings.length,6);assert.equal(project.analysis.threads.length,6);assert.ok(project.analysis.findings.find(f=>f.id==='a01').sources.includes('miles-secondary'));assert.ok(project.analysis.findings.every(f=>f.state==='OPEN'));assert.ok(project.analysis.threads.every(t=>t.status!=='회수 완료'));});
+test('analysis separates an approved prose fix from unresolved canon and mystery recovery',()=>{assert.equal(project.analysis.findings.length,6);assert.equal(project.analysis.threads.length,6);assert.ok(project.analysis.findings.find(f=>f.id==='a01').sources.includes('miles-secondary'));assert.equal(project.analysis.findings.find(f=>f.id==='a02').state,'RESOLVED');assert.equal(project.analysis.findings.filter(f=>f.state==='OPEN').length,5);assert.ok(project.analysis.threads.every(t=>t.status!=='회수 완료'));});
