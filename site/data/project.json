@@ -1,5 +1,5 @@
 {
-  "version": "0.3.0",
+  "version": "0.4.0",
   "updated": "2026-10-19",
   "source": {
     "id": "brief-v1",
@@ -29,7 +29,7 @@
     {
       "id": "rule-04",
       "title": "미스터리를 성급하게 확정하지 않는다",
-      "text": "진리 = 이슈발라를 확정하지 않는다. 서로 다른 문화가 비슷한 현상을 어떻게 설명하는지 탐구한다.",
+      "text": "인물의 해석·추측과 작품의 확정 설정을 구분한다. 공개 원고의 미스터리를 성급히 해답으로 바꾸지 않는다.",
       "status": "확정"
     }
   ],
@@ -40,8 +40,8 @@
       "name": "아메스트리스",
       "kind": "ORIGINAL",
       "status": "검토 중",
-      "title": "전후 개혁과 책임",
-      "text": "머스탱의 개혁·이슈발 진상조사·자신의 전쟁 책임을 병렬 서사로 다룬다.",
+      "title": "전후 재건과 조사 권한",
+      "text": "머스탱과 마일즈는 국가의 재건 책임과 이슈발의 결정권을 두고 논의한다.",
       "source": "brief-v1",
       "canonEvidence": null
     },
@@ -51,8 +51,8 @@
       "name": "이슈발",
       "kind": "ORIGINAL",
       "status": "검토 중",
-      "title": "재건과 남겨진 연구",
-      "text": "스카와 재회하고 형의 연구 흔적과 오래된 종교 문양을 조사한다.",
+      "title": "재건 현장과 기도소",
+      "text": "에드는 마일즈·스카를 만나 오래된 기도소와 형의 노트를 조사한다.",
       "source": "brief-v1",
       "canonEvidence": null
     },
@@ -62,8 +62,8 @@
       "name": "싱",
       "kind": "ORIGINAL",
       "status": "검토 중",
-      "title": "연구와 통치",
-      "text": "알과 메이의 연구, 링의 부족 갈등과 정치적 책임을 연결한다.",
+      "title": "알의 편지와 링의 통치",
+      "text": "알이 싱에서 보낸 편지와 링에게 들어온 교역로 요청이 제시됐다. 이후 동선은 미공개다.",
       "source": "brief-v1",
       "canonEvidence": null
     },
@@ -73,8 +73,8 @@
       "name": "동쪽 사막",
       "kind": "ORIGINAL",
       "status": "검토 중",
-      "title": "사라진 교역로",
-      "text": "고대 지도에 남은 경로를 따라 이동한다. 지도·경로의 존재는 이번 이야기의 창작 제안이다.",
+      "title": "지도 속 동쪽 사막",
+      "text": "싱과 아메스트리스 사이의 사막. 오래된 길의 존재는 요청과 기록의 단서로만 제시됐다.",
       "source": "brief-v1",
       "canonEvidence": null
     },
@@ -84,8 +84,8 @@
       "name": "서쪽 국가",
       "kind": "ORIGINAL",
       "status": "검토 중",
-      "title": "연금술 없이 문제를 푸는 에드",
-      "text": "프롤로그의 광산 사고를 배치한다. 구체적인 나라와 사고의 세부 사항은 미정이다.",
+      "title": "연금술 없이 지식을 쓰는 에드",
+      "text": "서쪽 광산 사고를 현지 연금술사와 함께 해결한 프롤로그.",
       "source": "brief-v1",
       "canonEvidence": null
     },
@@ -106,19 +106,19 @@
       "name": "연구 가설",
       "kind": "INFERENCE",
       "status": "검토 중",
-      "title": "서로 다른 문화의 설명",
-      "text": "비슷한 현상을 문화마다 다르게 해석했을 가능성. 원작의 확정 해답으로 등록하지 않는다.",
+      "title": "미확정 질문",
+      "text": "관찰된 유사성과 인물의 해석을 구분한다. 문양의 기원과 작동 원리는 아직 밝혀지지 않았다.",
       "source": "brief-v1",
       "canonEvidence": null
     },
     {
       "id": "w08",
-      "en": "Three symbols",
+      "en": "Prayer motif",
       "name": "세 문양",
       "kind": "ORIGINAL",
       "status": "검토 중",
-      "title": "공통점과 남겨진 문장",
-      "text": "아메스트리스 연성진·싱 연단술진·이슈발 종교 문양 사이 공통점과 문장을 발견하는 장면 제안.",
+      "title": "기도의 문양",
+      "text": "에드는 연성진과 닮았다고 하고 스카는 기도라고 설명한다. 동일한 기술인지는 미확정이다.",
       "source": "brief-v1",
       "canonEvidence": null
     }
@@ -129,14 +129,14 @@
       "en": "EDWARD ELRIC",
       "name": "에드워드 엘릭",
       "subtitle": "연금술을 못 쓰는 연금술사",
-      "location": "아메스트리스 → 이슈발 → 사막 → 싱",
+      "location": "제2화 시점 · 이슈발 기도소",
       "goal": "연금술을 쓰는 사람에서 그 본질을 이해하려는 사람으로",
       "conflict": "연금술 없이 지식을 어떻게 행동으로 바꿀 것인가",
       "ending": "계획서가 원작 결말로 제시한 연금술 상실 · 원작 출처 미연결",
       "knows": "연금술 지식이 남아 있음",
       "unknown": "동방의 연결에 대한 답",
       "relation": "알과 형제 · 스카와 연구 추적",
-      "change": "본편은 서쪽 여행 이후 귀환한 상태라는 창작 시작점",
+      "change": "공개된 원고 이후의 변화는 작가 전용 자료로 분리되어 있습니다.",
       "kind": "ORIGINAL",
       "status": "검토 중",
       "source": "brief-v1"
@@ -146,14 +146,14 @@
       "en": "ALPHONSE ELRIC",
       "name": "알폰스 엘릭",
       "subtitle": "형과 다른 방식으로 접근하는 연구자",
-      "location": "싱",
-      "goal": "메이와 연단술을 배우며 연금술의 본질을 연구한다",
+      "location": "편지에 나타난 싱 · 현재 상세 동선 미공개",
+      "goal": "에드에게 연단술과 스카 형에 관한 질문을 편지로 전한다.",
       "conflict": "스카의 형은 어떻게 연단술을 알았을까",
       "ending": "계획서가 제시한 싱 유학 출발점 · 원작 출처 미연결",
       "knows": "형과 공유한 경험",
       "unknown": "스카 형의 지식 획득 경로",
       "relation": "메이와 공동 연구 · 에드에게 편지",
-      "change": "에드와 별도 연구를 진행한 뒤 합류",
+      "change": "공개된 원고 이후의 변화는 작가 전용 자료로 분리되어 있습니다.",
       "kind": "ORIGINAL",
       "status": "검토 중",
       "source": "brief-v1"
@@ -170,7 +170,7 @@
       "knows": "그리드와 함께한 경험",
       "unknown": "부족 갈등을 해결할 답",
       "relation": "그리드의 마지막 깨달음과 연결",
-      "change": "통치의 책임을 경험하는 창작 방향",
+      "change": "공개된 원고 이후의 변화는 작가 전용 자료로 분리되어 있습니다.",
       "kind": "ORIGINAL",
       "status": "검토 중",
       "source": "brief-v1"
@@ -187,7 +187,7 @@
       "knows": "자신이 관여한 전쟁",
       "unknown": "개혁이 어떤 결과를 만들지",
       "relation": "이슈발 재건과 병렬 진행",
-      "change": "정치적 해결과 개인적 책임을 함께 다룸",
+      "change": "공개된 원고 이후의 변화는 작가 전용 자료로 분리되어 있습니다.",
       "kind": "ORIGINAL",
       "status": "검토 중",
       "source": "brief-v1"
@@ -204,7 +204,7 @@
       "knows": "형이 남긴 연구와 자신의 경험",
       "unknown": "남겨진 연구의 범위와 출처",
       "relation": "에드와 재회 · 죽은 형의 연구",
-      "change": "구체적인 반응과 대사는 아직 쓰지 않음",
+      "change": "공개된 원고 이후의 변화는 작가 전용 자료로 분리되어 있습니다.",
       "kind": "ORIGINAL",
       "status": "검토 중",
       "source": "brief-v1"
@@ -273,11 +273,7 @@
       "status": "UNSOLVED",
       "kind": "ORIGINAL",
       "clues": [],
-      "plannedClues": [
-        "형의 연단술 연구의 원작 근거 확인",
-        "역전연성진 관련 원작 근거 확인",
-        "고대 이슈발 문헌 · 창작 제안"
-      ],
+      "plannedClues": [],
       "resolution": null,
       "source": "brief-v1"
     },
@@ -414,47 +410,33 @@
     {
       "id": "ch06",
       "number": 6,
-      "title": "세 개의 문양",
+      "title": "미공개 초기 구성 항목",
       "status": "OUTLINE",
-      "outline": "세 문화의 문양 사이 공통점과 남겨진 문장을 발견하는 구상.",
+      "outline": "초기 구성안의 항목. 공개된 원고에서는 기도소 문양과 연구 노트를 확인한 단계이며 이후 전개는 미공개다.",
       "source": "brief-v1"
     }
   ],
   "acts": [
     {
       "id": "prologue",
-      "title": "PROLOGUE",
-      "name": "연금술을 못 쓰는 연금술사",
+      "title": "프롤로그",
+      "name": "서쪽 여행",
       "place": "서쪽 국가",
-      "text": "서쪽 여행 중 광산 사고. 에드는 연금술이 아닌 지식으로 사고를 해결한다. 본편과의 시간 관계는 확인이 필요하다."
+      "text": "광산 사고에서 연금술 대신 지식으로 문제를 푸는 에드."
     },
     {
-      "id": "act1",
-      "title": "ACT 1",
-      "name": "이슈발",
+      "id": "ep01",
+      "title": "제1화",
+      "name": "귀환과 편지",
+      "place": "리셈블 → 센트럴 → 동부행",
+      "text": "알의 질문을 받은 에드는 이슈발을 먼저 조사하기로 한다. 링에게 옛길 개방 요청이 들어온다."
+    },
+    {
+      "id": "ep02",
+      "title": "제2화",
+      "name": "신의 이름",
       "place": "이슈발",
-      "text": "알의 편지를 받은 에드는 스카와 재회하고 형의 연구 흔적을 조사한다. 세 문양의 공통점과 남겨진 문장을 발견한다."
-    },
-    {
-      "id": "act2",
-      "title": "ACT 2",
-      "name": "사막",
-      "place": "동쪽 사막",
-      "text": "고대 자료의 옛 지도를 바탕으로 이슈발에서 싱으로 이어지는 잊힌 교역로를 따라간다."
-    },
-    {
-      "id": "act3",
-      "title": "ACT 3",
-      "name": "싱",
-      "place": "싱",
-      "text": "알·메이와 합류한다. 링은 부족 간 갈등과 모든 부족을 지키겠다는 약속의 어려움을 마주한다."
-    },
-    {
-      "id": "act4",
-      "title": "ACT 4",
-      "name": "흐름",
-      "place": "여러 지역",
-      "text": "연금술·용맥·이슈발라의 숨결을 연결하는 가능성을 탐구한다. 같은 실체라고 결론 내린 것은 아니다."
+      "text": "마일즈·스카와 재건 현장을 보고 기도소에서 형의 노트를 발견한다. 연구의 시작점을 추정하지만 답은 아직 모른다."
     }
   ],
   "reviews": [
@@ -974,5 +956,218 @@
         "text": "형제는 몰랐는데 형은 알았다는 설명이 1화부터 반복된다. 마일즈와 스카에게 각각 말하는 동기는 있지만 독자에게는 이미 아는 정보여서 대화 분량을 추후 검토할 수 있다."
       }
     ]
-  }
+  },
+  "audience": "reader",
+  "revealedThrough": 2,
+  "masterVersion": "1.0",
+  "masterPlan": null,
+  "masterAlignment": null,
+  "disclosureBoard": [
+    {
+      "id": "reveal-ishvala",
+      "title": "이슈발라의 정체",
+      "asOfEpisode": 2,
+      "readerKnowledge": {
+        "text": "신앙의 대상이며, 형의 노트에는 신의 이름이라고 생각해 왔다는 문장이 있다.",
+        "evidence": [
+          {
+            "manuscript": "ms-002-v1",
+            "quote": "나는 지금까지 이슈발라를 신의 이름이라고 생각했다."
+          }
+        ]
+      },
+      "edHypothesis": {
+        "text": "무엇인지 아직 모른다.",
+        "status": "질문",
+        "evidence": [
+          {
+            "manuscript": "ms-002-v1",
+            "quote": "나는 지금까지 이슈발라를 신의 이름이라고 생각했다."
+          }
+        ]
+      },
+      "actualSetting": null,
+      "revealPlan": null,
+      "restricted": true
+    },
+    {
+      "id": "reveal-brother",
+      "title": "스카 형의 연단술 습득",
+      "asOfEpisode": 2,
+      "readerKnowledge": {
+        "text": "형이 기도소에 드나들었고 노트에 기도 문양과 연단술 흔적이 함께 있다.",
+        "evidence": [
+          {
+            "manuscript": "ms-002-v1",
+            "quote": "이슈발의 기록을 조사하다가 뭔가를 발견했고, 그걸 확인하려고 연단술까지 간 거야."
+          }
+        ]
+      },
+      "edHypothesis": {
+        "text": "이슈발 기록에서 시작해 연단술에 도달했다고 추정·단정한다. 장면의 증거 충분성은 검토 중이다.",
+        "status": "에드의 가설",
+        "evidence": [
+          {
+            "manuscript": "ms-002-v1",
+            "quote": "이슈발의 기록을 조사하다가 뭔가를 발견했고, 그걸 확인하려고 연단술까지 간 거야."
+          }
+        ]
+      },
+      "actualSetting": null,
+      "revealPlan": null,
+      "restricted": true
+    },
+    {
+      "id": "reveal-route",
+      "title": "고대 교역로",
+      "asOfEpisode": 2,
+      "readerKnowledge": {
+        "text": "링은 이슈발로 이어지는 오래 끊어진 길을 열어달라는 요청을 받는다.",
+        "evidence": [
+          {
+            "manuscript": "ms-001-v1",
+            "quote": "아주 오래전에 끊어진 길을 다시 열어야 한다고 주장하고 있습니다."
+          }
+        ]
+      },
+      "edHypothesis": {
+        "text": "현재 원고에서 이 길의 재개방 요청을 전달받는 장면은 없다.",
+        "status": "에드 미인지",
+        "evidence": [
+          {
+            "manuscript": "ms-001-v1",
+            "quote": "아주 오래전에 끊어진 길을 다시 열어야 한다고 주장하고 있습니다."
+          }
+        ]
+      },
+      "actualSetting": null,
+      "revealPlan": null,
+      "restricted": true
+    },
+    {
+      "id": "reveal-exchange",
+      "title": "이슈발·싱 관계",
+      "asOfEpisode": 2,
+      "readerKnowledge": {
+        "text": "형의 연구와 지도상 위치가 연결될 가능성은 제시됐지만 역사적 교류는 증명되지 않았다.",
+        "evidence": [
+          {
+            "manuscript": "ms-002-v1",
+            "quote": "지도 위에서 가운데 있다는 이유만으로 역사가 생기는 건 아니다."
+          }
+        ]
+      },
+      "edHypothesis": {
+        "text": "두 기술 사이의 위치와 형의 연구를 의심한다. 위치만으로 역사를 단정하지 않는다.",
+        "status": "추정",
+        "evidence": [
+          {
+            "manuscript": "ms-002-v1",
+            "quote": "지도 위에서 가운데 있다는 이유만으로 역사가 생기는 건 아니다."
+          }
+        ]
+      },
+      "actualSetting": null,
+      "revealPlan": null,
+      "restricted": true
+    },
+    {
+      "id": "reveal-symbol",
+      "title": "고대 기도문양",
+      "asOfEpisode": 2,
+      "readerKnowledge": {
+        "text": "에드는 연성진과 닮았다고 하고 스카는 기도라고 말한다. 기능과 기원은 미상이다.",
+        "evidence": [
+          {
+            "manuscript": "ms-002-v1",
+            "quote": "그것은 연금술이 아니다."
+          },
+          {
+            "manuscript": "ms-002-v1",
+            "quote": "이슈발라에게 바치는 기도."
+          }
+        ]
+      },
+      "edHypothesis": {
+        "text": "구조가 연성진과 매우 닮았다고 본다. 실제 작동은 확인하지 않았다.",
+        "status": "관찰·해석",
+        "evidence": [
+          {
+            "manuscript": "ms-002-v1",
+            "quote": "그것은 연금술이 아니다."
+          },
+          {
+            "manuscript": "ms-002-v1",
+            "quote": "이슈발라에게 바치는 기도."
+          }
+        ]
+      },
+      "actualSetting": null,
+      "revealPlan": null,
+      "restricted": true
+    },
+    {
+      "id": "reveal-truth",
+      "title": "진리와의 관계",
+      "asOfEpisode": 2,
+      "readerKnowledge": {
+        "text": "에드는 1화에서 연결을 떠올렸다가 근거 없는 추론이라며 멈춘다. 2화에도 동일성은 확정되지 않는다.",
+        "evidence": [
+          {
+            "manuscript": "ms-001-v1",
+            "quote": "모르는 것을 멋대로 연결하는 건 연구가 아니다."
+          }
+        ]
+      },
+      "edHypothesis": {
+        "text": "현재는 의문이며 연결을 떠올렸다가 근거 부족으로 멈춘 상태다.",
+        "status": "미확정",
+        "evidence": [
+          {
+            "manuscript": "ms-001-v1",
+            "quote": "모르는 것을 멋대로 연결하는 건 연구가 아니다."
+          }
+        ]
+      },
+      "actualSetting": null,
+      "revealPlan": null,
+      "restricted": true
+    }
+  ],
+  "chapterRoadmap": [
+    {
+      "id": "road-01",
+      "label": "1화",
+      "title": "동쪽으로 가는 길",
+      "summary": "알의 편지 → 스카 형의 의문 → 이슈발로 출발. 머스탱과 링의 현재 상황 소개.",
+      "status": "DRAFT",
+      "publishedThrough": 1
+    },
+    {
+      "id": "road-02",
+      "label": "2화",
+      "title": "신의 이름",
+      "summary": "이슈발 도착 → 마일즈/스카 → 고대 기도소 → 형의 노트와 신의 이름 문장.",
+      "status": "DRAFT",
+      "publishedThrough": 2
+    }
+  ],
+  "timelineLanes": [
+    [
+      "EDWARD",
+      "서쪽 여행 → 귀환 → 편지 → 이슈발 기도소"
+    ],
+    [
+      "ALPHONSE",
+      "싱에서 보낸 편지 · 현재 정확한 동선은 미공개"
+    ],
+    [
+      "LING",
+      "황제가 된 뒤 · 이슈발 옛길 요청 수신"
+    ],
+    [
+      "MUSTANG / MILES",
+      "재건·조사 권한 문제 제기 · 아직 결론 없음"
+    ]
+  ]
 }

@@ -1,0 +1,13 @@
+:8092 {
+    encode gzip zstd
+    root * /srv
+    file_server
+    header {
+        Cache-Control "no-store"
+        X-Content-Type-Options nosniff
+        Referrer-Policy no-referrer
+        X-Frame-Options SAMEORIGIN
+        X-Robots-Tag "noindex, nofollow, noarchive"
+        Content-Security-Policy "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'self'; frame-ancestors 'self'"
+    }
+}

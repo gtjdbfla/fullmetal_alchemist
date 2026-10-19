@@ -8,6 +8,16 @@
 
 로컬: `python scripts/serve.py` → http://127.0.0.1:8091
 
+작가 전용: https://yulmserver.tail261e6c.ts.net:8444/?view=master (Tailscale 연결 필요). 공개 Funnel과 분리된 tailnet 전용 Serve다. 로컬은 `python scripts/serve.py --author` → http://127.0.0.1:8092.
+
+## 스토리 나침반 v1.0
+
+`private/STORY_MASTER_PLAN_v1.md`에 사용자 마스터 플랜 전문을 보존한다. `private/master-data.json`은 구조화한 기준으로, 실제 설정·독자 지식·현재 에드의 가설·공개 예정 단계를 각각 별도 필드로 관리한다. 3화의 오답 가설은 현재 에드의 지식으로 표시하지 않는다. 예정 화수가 정해지지 않은 공개 시점은 null로 유지한다.
+
+작가용 화면에는 전문 13개 절, 인물 성장축, 새 로드맵, 정합성 검토 5개와 맞는 흐름 4개를 등록했다. 구계획은 `private/archive`에 보존하고 활성 타임라인은 새 계획으로 교체했다. 원고는 변경하지 않았다.
+
+최종 빌드는 반드시 `python scripts/build_views.py`를 실행한다. 내부에서 원고 게시 스크립트를 먼저 실행한 뒤 공개 `site/`와 작가용 `author-site/`를 생성한다. 원고 게시 스크립트만 단독 실행한 결과를 배포하지 않는다. 공개 데이터에는 마스터 플랜·결말·미공개 실제 설정·미래 가설을 넣지 않는다. 화면에서 숨기는 방식에 의존하지 않는다. 작가용 출력은 Git에서 제외하며 서버에서도 빌드한다. `private/`와 `author-site/`를 공개 정적 루트에 복사하지 않는다.
+
 ## 등록 원고
 
 - 프롤로그 — 연금술을 못 쓰는 연금술사 / 원문 v1 / 2,748자
@@ -43,11 +53,15 @@
 
 `node --check site/app.js`
 
+`python -m unittest discover -s tests -p test_disclosure.py` (원본 해시·13절 보존, 공개 데이터 격리, 인물 지식 분리, 원고 근거, 빌드 재현성 7개)
+
 브라우저 검증: 메뉴/필터/검색/기록 상세/저장/재접속/회수 근거 제약/원고 표현 후보 및 모바일 개요·미스터리·타임라인·검토실 가로 넘침.
 
 ## 배포
 
 `docker compose up -d`로 Caddy가 127.0.0.1:8091에서 읽기 전용 정적 자료를 제공한다. 기존 Funnel 10000의 `/east`에만 연결하고 `/`와 `/ggolde`는 유지한다.
+
+먼저 `python3 scripts/build_views.py`를 실행한다. 작가용 Caddy는 127.0.0.1:8092에서 별도 루트를 제공하며 `tailscale serve --bg --https=8444 http://127.0.0.1:8092`로 연결한다. 8444에 Funnel을 활성화하지 않는다. tailnet 구성원이 접근할 수 있으며 사용자별 로그인을 제공하는 구조는 아니다.
 
 `tailscale funnel --bg --https=10000 --set-path=/east http://127.0.0.1:8091`
 
