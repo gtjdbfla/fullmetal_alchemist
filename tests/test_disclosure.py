@@ -35,10 +35,13 @@ class DashboardDisclosureTests(unittest.TestCase):
         self.assertNotIn("history", self.public)
 
     def test_public_character_cards_are_spoiler_limited(self):
-        self.assertEqual(len(self.public["publicCharacters"]), 24)
+        self.assertEqual(len(self.public["publicCharacters"]), 25)
         edward = next(item for item in self.public["publicCharacters"] if item["name"] == "에드워드 엘릭")
         self.assertIn("연금술을 잃은", edward["summary"])
         self.assertIn("relationship", edward)
+        hasim = next(item for item in self.public["publicCharacters"] if item["name"] == "하심")
+        self.assertEqual(hasim["group"], "이슈발 · 재건과 옛 기록")
+        self.assertIn("옛길", hasim["relationship"])
         self.assertNotIn("결말", " ".join(item["summary"] for item in self.public["publicCharacters"]))
 
     def test_author_keeps_legacy_versions_outside_public_data(self):
