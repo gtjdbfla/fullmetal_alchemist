@@ -293,72 +293,72 @@
     },
     {
       "name": "리엔",
-      "group": "동쪽의 옛길 · 란시와 카르사",
-      "groupDescription": "기록, 교역, 그리고 사라진 길의 의미를 붙잡고 있는 사람들.",
+      "group": "란시",
+      "groupDescription": "옛 기록과 정보, 교역의 흐름을 읽는 도시의 인물들.",
       "affiliation": "란시",
       "summary": "오래된 기록과 서쪽의 흔적을 조사하는 고문서 연구자.",
       "relationship": "기록을 통해 에드 일행의 추적을 돕는다."
     },
     {
       "name": "진웨이",
-      "group": "동쪽의 옛길 · 란시와 카르사",
-      "groupDescription": "기록, 교역, 그리고 사라진 길의 의미를 붙잡고 있는 사람들.",
+      "group": "란시",
+      "groupDescription": "옛 기록과 정보, 교역의 흐름을 읽는 도시의 인물들.",
       "affiliation": "란시",
       "summary": "지식과 물자의 흐름을 누구보다 빠르게 읽는 상업·정보 중개인.",
       "relationship": "옛길과 교역의 의미를 연결하는 인물."
     },
     {
       "name": "샤오린",
-      "group": "동쪽의 옛길 · 란시와 카르사",
-      "groupDescription": "기록, 교역, 그리고 사라진 길의 의미를 붙잡고 있는 사람들.",
+      "group": "싱 서부 · 안족과 바이족",
+      "groupDescription": "교역로가 바꿀 지역의 미래를 서로 다르게 바라보는 싱 서부의 사람들.",
       "affiliation": "안족",
       "summary": "옛길이 가져올 경제적 기회를 주목하는 안족 인물.",
       "relationship": "천루오와 다른 입장에서 지역의 미래를 바라본다."
     },
     {
       "name": "천루오",
-      "group": "동쪽의 옛길 · 란시와 카르사",
-      "groupDescription": "기록, 교역, 그리고 사라진 길의 의미를 붙잡고 있는 사람들.",
+      "group": "싱 서부 · 안족과 바이족",
+      "groupDescription": "교역로가 바꿀 지역의 미래를 서로 다르게 바라보는 싱 서부의 사람들.",
       "affiliation": "안족",
       "summary": "외부 자본과 황실의 개입을 경계하는 안족 인물.",
       "relationship": "샤오린과 다른 입장에서 지역의 미래를 바라본다."
     },
     {
       "name": "바이 루한",
-      "group": "동쪽의 옛길 · 란시와 카르사",
-      "groupDescription": "기록, 교역, 그리고 사라진 길의 의미를 붙잡고 있는 사람들.",
+      "group": "싱 서부 · 안족과 바이족",
+      "groupDescription": "교역로가 바꿀 지역의 미래를 서로 다르게 바라보는 싱 서부의 사람들.",
       "affiliation": "바이족",
       "summary": "자기 부족의 미래를 고민하는 바이족의 젊은 인물.",
       "relationship": "린과 닮은 질문을 품고 있는 인물."
     },
     {
       "name": "나디르",
-      "group": "동쪽의 옛길 · 란시와 카르사",
-      "groupDescription": "기록, 교역, 그리고 사라진 길의 의미를 붙잡고 있는 사람들.",
+      "group": "카르사",
+      "groupDescription": "사라진 길과 공동체의 삶을 지키며 외부의 변화를 마주하는 사람들.",
       "affiliation": "카르사",
       "summary": "사라진 길과 외부의 변화에 신중한 카르사의 지도자.",
       "relationship": "사하라·라심·하산과 함께 카르사의 목소리를 이룬다."
     },
     {
       "name": "사하라",
-      "group": "동쪽의 옛길 · 란시와 카르사",
-      "groupDescription": "기록, 교역, 그리고 사라진 길의 의미를 붙잡고 있는 사람들.",
+      "group": "카르사",
+      "groupDescription": "사라진 길과 공동체의 삶을 지키며 외부의 변화를 마주하는 사람들.",
       "affiliation": "카르사",
       "summary": "카르사의 오래된 기록을 지키는 기록관리자.",
       "relationship": "카르사의 과거와 현재를 잇는 인물."
     },
     {
       "name": "라심",
-      "group": "동쪽의 옛길 · 란시와 카르사",
-      "groupDescription": "기록, 교역, 그리고 사라진 길의 의미를 붙잡고 있는 사람들.",
+      "group": "카르사",
+      "groupDescription": "사라진 길과 공동체의 삶을 지키며 외부의 변화를 마주하는 사람들.",
       "affiliation": "카르사",
       "summary": "외부인을 경계하며 카르사를 지키는 방어 담당.",
       "relationship": "나디르와 함께 공동체의 안전을 고민한다."
     },
     {
       "name": "하산",
-      "group": "동쪽의 옛길 · 란시와 카르사",
-      "groupDescription": "기록, 교역, 그리고 사라진 길의 의미를 붙잡고 있는 사람들.",
+      "group": "카르사",
+      "groupDescription": "사라진 길과 공동체의 삶을 지키며 외부의 변화를 마주하는 사람들.",
       "affiliation": "카르사",
       "summary": "카르사의 생활을 지탱하는 기술자.",
       "relationship": "스카의 형과 가까웠던 과거가 남아 있다."
