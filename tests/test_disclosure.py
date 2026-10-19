@@ -12,13 +12,17 @@ class DashboardDisclosureTests(unittest.TestCase):
         cls.author = json.loads((ROOT / "author-site/data/project.json").read_text(encoding="utf-8"))
         cls.config = json.loads((ROOT / "private/dashboard-config.json").read_text(encoding="utf-8"))
 
-    def test_public_has_only_current_manuscript_and_no_history(self):
+    def test_public_has_only_current_manuscripts_and_no_history(self):
         self.assertEqual(self.public["audience"], "reader")
-        self.assertEqual(len(self.public["manuscripts"]), 1)
-        manuscript = self.public["manuscripts"][0]
-        self.assertEqual(manuscript["episode"], "프롤로그")
-        self.assertTrue(manuscript["text"].startswith("“거기 아니야.”"))
-        self.assertNotIn("# 프롤로그", manuscript["text"])
+        self.assertEqual(len(self.public["manuscripts"]), 2)
+        prologue, chapter_one = self.public["manuscripts"]
+        self.assertEqual(prologue["episode"], "프롤로그")
+        self.assertTrue(prologue["text"].startswith("“거기 아니야.”"))
+        self.assertNotIn("# 프롤로그", prologue["text"])
+        self.assertEqual(chapter_one["episode"], "제1화")
+        self.assertTrue(chapter_one["text"].startswith("편지가 도착한 건 아침이었다."))
+        self.assertIn("기차는 동쪽으로 달렸다.", chapter_one["text"])
+        self.assertNotIn("# 제1화", chapter_one["text"])
         self.assertNotIn("history", self.public)
 
     def test_author_keeps_legacy_versions_outside_public_data(self):
