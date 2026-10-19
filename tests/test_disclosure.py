@@ -14,8 +14,8 @@ class DashboardDisclosureTests(unittest.TestCase):
 
     def test_public_has_only_current_manuscripts_and_no_history(self):
         self.assertEqual(self.public["audience"], "reader")
-        self.assertEqual(len(self.public["manuscripts"]), 2)
-        prologue, chapter_one = self.public["manuscripts"]
+        self.assertEqual(len(self.public["manuscripts"]), 3)
+        prologue, chapter_one, chapter_two = self.public["manuscripts"]
         self.assertEqual(prologue["episode"], "프롤로그")
         self.assertTrue(prologue["text"].startswith("“거기 아니야.”"))
         self.assertNotIn("# 프롤로그", prologue["text"])
@@ -23,6 +23,10 @@ class DashboardDisclosureTests(unittest.TestCase):
         self.assertTrue(chapter_one["text"].startswith("편지가 도착한 건 아침이었다."))
         self.assertIn("기차는 동쪽으로 달렸다.", chapter_one["text"])
         self.assertNotIn("# 제1화", chapter_one["text"])
+        self.assertEqual(chapter_two["episode"], "제2화")
+        self.assertTrue(chapter_two["text"].startswith("“많이 변했네.”"))
+        self.assertIn("이슈발라란 무엇인가.", chapter_two["text"])
+        self.assertNotIn("# 제2화", chapter_two["text"])
         self.assertNotIn("history", self.public)
 
     def test_author_keeps_legacy_versions_outside_public_data(self):

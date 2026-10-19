@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { chapterLabel, normalizeAnalysisSection, normalizeView } from '../site/core.mjs';
+import { chapterLabel, normalizeAnalysisSection, normalizeChapterIndex, normalizeView } from '../site/core.mjs';
 
 test('public navigation only accepts read and analysis', () => {
   assert.equal(normalizeView('read'), 'read');
@@ -19,4 +19,12 @@ test('chapter labels keep the prologue and numbered flow readable', () => {
   assert.equal(chapterLabel({}, 0), '프롤로그');
   assert.equal(chapterLabel({}, 2), '2화');
   assert.equal(chapterLabel({episode: '제1화'}, 1), '제1화');
+});
+
+test('reader falls back to the prologue for invalid chapter choices', () => {
+  assert.equal(normalizeChapterIndex('0', 3), 0);
+  assert.equal(normalizeChapterIndex('2', 3), 2);
+  assert.equal(normalizeChapterIndex('-1', 3), 0);
+  assert.equal(normalizeChapterIndex('3', 3), 0);
+  assert.equal(normalizeChapterIndex('not-a-number', 3), 0);
 });

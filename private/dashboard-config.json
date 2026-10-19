@@ -16,6 +16,13 @@
       "title": "동쪽으로 가는 길",
       "version": 1,
       "file": "manuscripts/current/001-eastbound.md"
+    },
+    {
+      "id": "chapter-02-v2-storyline",
+      "episode": "제2화",
+      "title": "신의 이름",
+      "version": 1,
+      "file": "manuscripts/current/002-name-of-god.md"
     }
   ],
   "sourceDocuments": [

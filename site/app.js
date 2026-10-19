@@ -1,4 +1,4 @@
-import { ANALYSIS_SECTIONS, chapterLabel, normalizeAnalysisSection, normalizeView } from './core.mjs';
+import { ANALYSIS_SECTIONS, chapterLabel, normalizeAnalysisSection, normalizeChapterIndex, normalizeView } from './core.mjs';
 
 const $ = selector => document.querySelector(selector);
 const esc = value => String(value ?? '').replace(/[&<>'"]/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[char]));
@@ -7,11 +7,13 @@ let project;
 const params = new URLSearchParams(location.search);
 let view = normalizeView(params.get('view'));
 let section = normalizeAnalysisSection(params.get('section'));
+let chapterIndex = 0;
 
 function updateUrl() {
   const next = new URLSearchParams();
   next.set('view', view);
   if (view === 'analysis') next.set('section', section);
+  if (view === 'read' && chapterIndex > 0) next.set('chapter', String(chapterIndex));
   history.replaceState(null, '', `${location.pathname}?${next}`);
 }
 
@@ -37,7 +39,7 @@ function prose(text) {
 }
 
 function emptyReader() {
-  return `<section class="empty-state"><span class="empty-mark">原</span><h1>새 원고를 기다리고 있어</h1><p>확정한 스토리라인에 맞춰 프롤로그부터 다시 등록할 예정이야.<br>원고가 들어오면 이 화면에서 회차가 끊기지 않고 이어서 읽을 수 있어.</p>${project.audience === 'author' ? '<span class="admin-note">관리자 모드 · 이전 원고는 아래 보관함에서만 확인 가능</span>' : ''}</section>`;
+  return `<section class="empty-state"><span class="empty-mark">原</span><h1>새 원고를 기다리고 있어</h1><p>확정한 스토리라인에 맞춰 프롤로그부터 다시 등록할 예정이야.<br>원고가 들어오면 이 화면에서 회차별로 읽을 수 있어.</p>${project.audience === 'author' ? '<span class="admin-note">관리자 모드 · 이전 원고는 아래 보관함에서만 확인 가능</span>' : ''}</section>`;
 }
 
 function historyView() {
@@ -48,7 +50,11 @@ function historyView() {
 function readPage() {
   const chapters = project.manuscripts || [];
   if (!chapters.length) return emptyReader() + historyView();
-  return `<section class="reader-intro"><span>MANUSCRIPT</span><h1>${esc(project.title)}</h1><p>프롤로그부터 최신 회차까지 한 흐름으로 읽어.</p><nav class="chapter-index">${chapters.map((chapter, index) => `<a href="#chapter-${index}">${esc(chapterLabel(chapter, index))}</a>`).join('')}</nav></section><article class="continuous-reader">${chapters.map((chapter, index) => `<section class="chapter" id="chapter-${index}"><header><span>${esc(chapterLabel(chapter, index))}</span><h2>${esc(chapter.title)}</h2></header><div class="reader-body">${prose(chapter.text)}</div></section>`).join('')}</article>${historyView()}`;
+  chapterIndex = normalizeChapterIndex(chapterIndex, chapters.length);
+  const chapter = chapters[chapterIndex];
+  const previous = chapterIndex - 1;
+  const next = chapterIndex + 1;
+  return `<section class="reader-intro"><span>MANUSCRIPT</span><h1>${esc(project.title)}</h1><p>목차에서 원하는 회차를 골라 읽어.</p><nav class="chapter-index" aria-label="회차 목차">${chapters.map((item, index) => `<button data-chapter="${index}" class="${chapterIndex === index ? 'active' : ''}" ${chapterIndex === index ? 'aria-current="page"' : ''}>${esc(chapterLabel(item, index))}</button>`).join('')}</nav></section><article class="chapter-reader"><section class="chapter" id="chapter-${chapterIndex}"><header><span>${esc(chapterLabel(chapter, chapterIndex))}</span><h2>${esc(chapter.title)}</h2></header><div class="reader-body">${prose(chapter.text)}</div></section><nav class="chapter-controls" aria-label="원고 이동"><button data-chapter="${previous}" ${previous < 0 ? 'disabled' : ''}>← 이전화</button><button data-scroll-top="true">맨 위로 · 목차</button><button data-chapter="${next}" ${next >= chapters.length ? 'disabled' : ''}>다음화 →</button></nav></article>${historyView()}`;
 }
 
 function characterView(data) {
@@ -81,6 +87,12 @@ function render() {
   document.querySelectorAll('[data-view]').forEach(button => button.onclick = () => {
     view = button.dataset.view; updateUrl(); render(); scrollTo({top: 0});
   });
+  document.querySelectorAll('[data-chapter]').forEach(button => button.onclick = () => {
+    chapterIndex = Number(button.dataset.chapter); view = 'read'; updateUrl(); render(); scrollTo({top: 0, behavior: 'smooth'});
+  });
+  document.querySelectorAll('[data-scroll-top]').forEach(button => button.onclick = () => {
+    scrollTo({top: 0, behavior: 'smooth'});
+  });
   document.querySelectorAll('[data-section]').forEach(button => button.onclick = () => {
     section = button.dataset.section; updateUrl(); render(); scrollTo({top: 0});
   });
@@ -90,6 +102,7 @@ try {
   const response = await fetch('./data/project.json');
   if (!response.ok) throw new Error('프로젝트 자료를 불러오지 못했습니다.');
   project = await response.json();
+  chapterIndex = normalizeChapterIndex(params.get('chapter'), project.manuscripts?.length ?? 0);
   render();
 } catch (error) {
   $('#main').innerHTML = `<section class="empty-state"><h1>기록을 불러오지 못했어</h1><p>${esc(error.message)}</p></section>`;
