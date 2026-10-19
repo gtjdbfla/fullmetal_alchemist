@@ -24,7 +24,7 @@ services:
       - ./author-site:/srv:ro
       - ./Author.Caddyfile:/etc/caddy/Caddyfile:ro
     healthcheck:
-      test: ["CMD", "wget", "-q", "-O", "/dev/null", "http://127.0.0.1:8092/data/project.json"]
+      test: ["CMD", "wget", "--header=Authorization: Basic YWRtaW46MDkyMQ==", "-q", "-O", "/dev/null", "http://127.0.0.1:8092/data/project.json"]
       interval: 30s
       timeout: 5s
       retries: 3
