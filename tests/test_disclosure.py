@@ -34,11 +34,16 @@ class DashboardDisclosureTests(unittest.TestCase):
         self.assertEqual(len(self.author["history"]), 3)
         self.assertTrue(all(item["text"].strip() for item in self.author["history"]))
 
-    def test_dashboard_has_only_requested_analysis_groups(self):
-        self.assertEqual(set(self.public["analysis"]), {"characters", "causality", "world"})
+    def test_analysis_is_only_available_to_author_data(self):
+        self.assertNotIn("analysis", self.public)
+        self.assertNotIn("chapterReviews", self.public)
+        self.assertEqual(set(self.author["analysis"]), {"characters", "causality", "world"})
+        self.assertEqual(len(self.author["chapterReviews"]), 3)
+        self.assertEqual(self.author["chapterReviews"][-1]["episode"], "제2화")
+        self.assertEqual(self.author["chapterReviews"][-1]["score"], 9.0)
 
     def test_mystery_board_separates_ed_hypothesis_from_story_state(self):
-        mysteries = self.public["analysis"]["causality"]["mysteries"]
+        mysteries = self.author["analysis"]["causality"]["mysteries"]
         self.assertEqual(len(mysteries), 5)
         self.assertTrue(all({"question", "hypothesis", "counterEvidence", "actualState"} <= set(item) for item in mysteries))
         ishvala = next(item for item in mysteries if item["question"] == "이슈발라는 무엇인가")

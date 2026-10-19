@@ -40,6 +40,8 @@ def main() -> None:
     public["audience"] = "reader"
     public.pop("admin", None)
     public.pop("history", None)
+    public.pop("analysis", None)
+    public.pop("chapterReviews", None)
     write_json(SITE / "data" / "project.json", public)
 
     if AUTHOR_SITE.exists():
