@@ -2,7 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import { chapterLabel, normalizeAnalysisSection, normalizeChapterIndex, normalizeView } from '../site/core.mjs';
 
-test('navigation accepts the public reader and character views plus protected analysis', () => {
+test('navigation accepts the public reader and character views plus administrator-only analysis', () => {
   assert.equal(normalizeView('read'), 'read');
   assert.equal(normalizeView('characters'), 'characters');
   assert.equal(normalizeView('analysis'), 'analysis');
@@ -29,3 +29,4 @@ test('reader falls back to the prologue for invalid chapter choices', () => {
   assert.equal(normalizeChapterIndex('3', 3), 0);
   assert.equal(normalizeChapterIndex('not-a-number', 3), 0);
 });
+
