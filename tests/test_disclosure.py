@@ -49,11 +49,19 @@ class DashboardDisclosureTests(unittest.TestCase):
     def test_analysis_is_only_available_to_author_data(self):
         self.assertNotIn("analysis", self.public)
         self.assertNotIn("chapterReviews", self.public)
+        self.assertNotIn("storyline", self.public)
         self.assertEqual(set(self.author["analysis"]), {"characters", "causality", "world"})
         reviews = self.author["chapterReviews"]
         self.assertEqual(len(reviews), 18)
         self.assertTrue(all(len(item["categories"]) == 3 for item in reviews))
         self.assertTrue(all(0 <= item["score"] <= 10 for item in reviews))
+
+    def test_storyline_map_is_only_available_to_author_data(self):
+        storyline = self.author["storyline"]
+        self.assertEqual(storyline["currentChapter"], 18)
+        self.assertEqual(storyline["totalChapters"], 38)
+        self.assertEqual(len(storyline["parts"]), 9)
+        self.assertGreaterEqual(len(storyline["threads"]), 5)
 
     def test_mystery_board_separates_ed_hypothesis_from_story_state(self):
         mysteries = self.author["analysis"]["causality"]["mysteries"]

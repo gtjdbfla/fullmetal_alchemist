@@ -86,15 +86,22 @@ function reviewPage() {
   return `<header class="analysis-head"><span>AUTHOR REVIEW</span><h1>원고를 읽고<br>근거를 남긴다</h1><p>점수는 현재 원고가 확정 스토리라인과 검증 규칙을 얼마나 지키는지 보는 편집 메모야. 작품의 정답을 자동으로 만들지는 않아.</p></header><nav class="review-index" aria-label="원고 검토 선택">${reviews.map((item, index) => `<button data-review="${index}" class="${reviewIndex === index ? 'active' : ''}" ${reviewIndex === index ? 'aria-current="page"' : ''}>${esc(item.episode)}<small>${esc(item.title)}</small></button>`).join('')}</nav><section class="review-hero"><div><span>OVERALL</span><h2>${esc(review.episode)} · ${esc(review.title)}</h2><p>${esc(review.summary)}</p></div><strong>${Number(review.score).toFixed(1)}<small>/ 10</small></strong></section><section class="review-grid">${review.categories.map(item => `<article class="review-card"><header><span>${esc(item.name)}</span><b>${Number(item.score).toFixed(1)}<small>/10</small></b></header><p>${esc(item.assessment)}</p><dl><dt>원고에서 확인한 근거</dt><dd>${esc(item.evidence)}</dd></dl></article>`).join('')}</section><aside class="next-checks"><span>NEXT CHECK</span><h2>다음 원고에서 확인할 것</h2><ul>${review.nextChecks.map(item => `<li>${esc(item)}</li>`).join('')}</ul></aside><aside class="method-note">검토 기준: 캐릭터가 원작의 중심을 지키는지, 사건의 원인과 정보 전달이 연결되는지, 세계관이 새 힘으로 덮이지 않는지, 심은 질문이 다음 장면으로 자연스럽게 이어지는지를 함께 본다.</aside>`;
 }
 
+function storylinePage() {
+  const story = project.storyline;
+  if (!story) return `<section class="empty-state"><h1>스토리라인을 준비 중이야</h1><p>활성 스토리라인 문서를 정리하면 이곳에 표시돼.</p></section>`;
+  const alignment = story.alignment;
+  return `<header class="analysis-head"><span>STORYLINE MASTER</span><h1>${esc(story.title)}</h1><p>${esc(story.summary)}</p></header><section class="story-progress"><div><span>MANUSCRIPT PROGRESS</span><h2>${story.currentChapter}화 <small>/ ${story.totalChapters}화</small></h2><div class="progress-track"><i style="width:${Number(story.progress)}%"></i></div><p>현재 원고는 ${esc(story.currentRange)}까지 작성됨 · 전체 진행률 ${Number(story.progress).toFixed(1)}%</p></div><div class="alignment-score"><span>STORYLINE FIT</span><strong>${Number(alignment.score).toFixed(1)}<small>/10</small></strong><p>${esc(alignment.label)}</p></div></section><section class="metric-grid">${alignment.metrics.map(item => `<article><span>${esc(item.name)}</span><b>${esc(item.value)}</b><p>${esc(item.note)}</p></article>`).join('')}</section><section class="story-themes"><span>CORE QUESTIONS</span><h2>이야기가 향하는 질문</h2><ul>${story.coreQuestions.map(item => `<li>${esc(item)}</li>`).join('')}</ul></section><section class="part-board"><div class="section-title"><div><span>STORY MAP</span><h2>전체 진행 지도</h2></div><p>완료된 원고와 앞으로의 계획을 분리해 본다.</p></div>${story.parts.map(part => `<article class="part-card ${part.status.toLowerCase()}"><header><div><span>${esc(part.label)} · ${esc(part.episodes)}</span><h3>${esc(part.title)}</h3></div><b>${esc(part.statusLabel)}</b></header><p>${esc(part.summary)}</p><dl><dt>개연성의 핵심</dt><dd>${esc(part.causality)}</dd><dt>떡밥·회수</dt><dd>${esc(part.foreshadowing)}</dd><dt>설정 경계</dt><dd>${esc(part.worldRule)}</dd></dl></article>`).join('')}</section><section class="mystery-board"><div class="section-title"><div><span>ACTIVE THREADS</span><h2>현재 떡밥과 설정 상태</h2></div><p>가설과 작품의 실제 설정을 같은 사실로 취급하지 않는다.</p></div>${story.threads.map(item => `<article class="mystery-card"><header><span>${esc(item.status)}</span><h3>${esc(item.title)}</h3></header><dl><dt>현재 원고</dt><dd>${esc(item.current)}</dd><dt>향후 진행</dt><dd>${esc(item.next)}</dd><dt>주의할 점</dt><dd>${esc(item.guardrail)}</dd></dl></article>`).join('')}</section><aside class="method-note">정합 점수는 현재 1~18화 검토의 평균과 계획 회차 대비 실제 진행 상태를 함께 반영한다. 높은 점수는 원고가 스토리라인을 지킨다는 뜻이며, 앞으로의 전개를 자동으로 확정한다는 뜻은 아니다.</aside>`;
+}
+
 function render() {
-  $('#navigation').innerHTML = `<button data-view="read" class="${view === 'read' ? 'active' : ''}"><span>01</span>글 읽기</button><button data-view="characters" class="${view === 'characters' ? 'active' : ''}"><span>02</span>등장인물</button>${isAuthor() ? `<button data-view="analysis" class="${view === 'analysis' ? 'active' : ''}"><span>03</span>글 분석</button>` : ''}`;
+  $('#navigation').innerHTML = `<button data-view="read" class="${view === 'read' ? 'active' : ''}"><span>01</span>글 읽기</button><button data-view="characters" class="${view === 'characters' ? 'active' : ''}"><span>02</span>등장인물</button>${isAuthor() ? `<button data-view="analysis" class="${view === 'analysis' ? 'active' : ''}"><span>03</span>글 분석</button><button data-view="storyline" class="${view === 'storyline' ? 'active' : ''}"><span>04</span>스토리라인</button>` : ''}`;
   $('#mode-link').href = isAuthor() ? publicUrl() : adminUrl();
   $('#home-brand').href = homeUrl();
   $('#home-link').href = homeUrl();
   $('#mode-link').textContent = isAuthor() ? '공개 화면으로' : '관리자 모드';
   $('#mode-badge').textContent = isAuthor() ? 'AUTHOR' : 'READER';
-  $('#breadcrumb').textContent = view === 'read' ? '글 읽기' : view === 'characters' ? '등장인물' : '글 분석 / 회차별 검토';
-  $('#main').innerHTML = view === 'read' ? readPage() : view === 'characters' ? charactersPage() : reviewPage();
+  $('#breadcrumb').textContent = view === 'read' ? '글 읽기' : view === 'characters' ? '등장인물' : view === 'analysis' ? '글 분석 / 회차별 검토' : '스토리라인 / 전체 진행';
+  $('#main').innerHTML = view === 'read' ? readPage() : view === 'characters' ? charactersPage() : view === 'analysis' ? reviewPage() : storylinePage();
   document.querySelectorAll('[data-view]').forEach(button => button.onclick = () => {
     view = button.dataset.view; updateUrl(); render(); scrollTo({top: 0});
   });
@@ -115,7 +122,7 @@ try {
   project = await response.json();
   chapterIndex = normalizeChapterIndex(params.get('chapter'), project.manuscripts?.length ?? 0);
   reviewIndex = normalizeChapterIndex(params.get('review'), project.chapterReviews?.length ?? 0);
-  if (!isAuthor() && view === 'analysis') view = 'read';
+  if (!isAuthor() && ['analysis', 'storyline'].includes(view)) view = 'read';
   updateUrl();
   render();
 } catch (error) {

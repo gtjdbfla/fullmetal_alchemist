@@ -2,10 +2,11 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import { chapterLabel, normalizeAnalysisSection, normalizeChapterIndex, normalizeView } from '../site/core.mjs';
 
-test('navigation accepts the public reader and character views plus administrator-only analysis', () => {
+test('navigation accepts reader, character, and administrator workspace views', () => {
   assert.equal(normalizeView('read'), 'read');
   assert.equal(normalizeView('characters'), 'characters');
   assert.equal(normalizeView('analysis'), 'analysis');
+  assert.equal(normalizeView('storyline'), 'storyline');
   assert.equal(normalizeView('world'), 'read');
 });
 
