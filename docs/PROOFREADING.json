@@ -1,0 +1,35 @@
+{
+  "checked": [
+    "프롤로그 v1",
+    "제1화 v1"
+  ],
+  "corrections": [
+    {
+      "manuscript": "ms-001-v1",
+      "fromVersion": 1,
+      "toVersion": 2,
+      "before": "리스embool 역에 기차가 들어섰다.",
+      "after": "리셈블 역에 기차가 들어섰다.",
+      "reason": "한글과 영문이 섞인 지명 표기를 사용자가 지정한 한글 표기로 수정",
+      "originalFile": "manuscripts/archive/001-eastbound.v1.md"
+    }
+  ],
+  "unchanged": [
+    {
+      "manuscript": "ms-prologue-v1",
+      "reason": "확실한 오타를 발견하지 못해 원고를 유지했다."
+    }
+  ],
+  "notApplied": [
+    {
+      "manuscript": "ms-001-v1",
+      "quote": "“네 글자야.”",
+      "reason": "잘 있음의 글자 수를 두고 하는 농담은 의도 확인이 필요한 대사이므로 오타로 단정하지 않았다."
+    },
+    {
+      "manuscript": "ms-001-v1",
+      "quote": "본편의 싸움에서도 그 차이는 결정적이었다.",
+      "reason": "소설 밖 설명처럼 보일 수 있지만 문체 선택이므로 자동으로 고치지 않았다."
+    }
+  ]
+}
