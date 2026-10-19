@@ -2,7 +2,15 @@
   "version": "1.0.0",
   "title": "강철의 연금술사 — 동쪽으로",
   "subtitle": "원고를 읽고, 이야기가 무너지지 않는지 점검하는 작업실",
-  "manuscripts": [],
+  "manuscripts": [
+    {
+      "id": "prologue-v2-storyline",
+      "episode": "프롤로그",
+      "title": "연금술을 못 쓰는 연금술사",
+      "version": 1,
+      "file": "manuscripts/current/000-prologue.md"
+    }
+  ],
   "sourceDocuments": [
     {"name": "STORYLINE MASTER", "version": "2.0", "file": "private/STORYLINE_MASTER_v2.0.md", "role": "작품에서 실제로 일어나는 사건과 인물의 최종 방향을 관리하는 정답지"},
     {"name": "STORY DASHBOARD MASTER SPEC", "version": "2.0", "file": "private/STORY_DASHBOARD_SPEC_v2.0.md", "role": "원작·캐릭터·인과·정보 흐름·복선을 지속적으로 검사하는 규칙"}

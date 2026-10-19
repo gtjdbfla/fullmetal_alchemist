@@ -31,7 +31,7 @@ function homeUrl() {
 }
 
 function prose(text) {
-  return text.split(/\n\s*\n/).map(paragraph => paragraph.trim() === '⸻'
+  return text.split(/\n\s*\n/).map(paragraph => ['⸻', '*'].includes(paragraph.trim())
     ? '<div class="scene-break" aria-label="장면 전환">⸻</div>'
     : `<p>${esc(paragraph)}</p>`).join('');
 }

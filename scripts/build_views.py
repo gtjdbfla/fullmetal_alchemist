@@ -23,8 +23,19 @@ def legacy_history() -> list[dict]:
         "archivedReason": "대시보드 구조 개편 전 보관본",
     } for item in payload.get("manuscripts", [])]
 
+def hydrate_manuscripts(payload: dict) -> None:
+    for item in payload.get("manuscripts", []):
+        source = ROOT / item.pop("file")
+        text = source.read_text(encoding="utf-8").strip()
+        lines = text.splitlines()
+        if len(lines) >= 2 and lines[0].startswith("# ") and lines[1].startswith("## "):
+            text = "\n".join(lines[2:]).strip()
+        item["text"] = text
+        item["characters"] = len(text)
+
 def main() -> None:
     base = json.loads(CONFIG.read_text(encoding="utf-8"))
+    hydrate_manuscripts(base)
     public = deepcopy(base)
     public["audience"] = "reader"
     public.pop("admin", None)
