@@ -1,7 +1,7 @@
 # Story data and dashboard rules
 
 - 사용자가 확정한 이야기와 원고를 임의로 창작하거나 수정하지 않는다.
-- 활성 정답지는 세계관 HARD UPDATE `story_bible/11_WORLD_HARD_UPDATE.md`, `story_bible/09_LATEST_INTEGRATED_UPDATE.md`, Ch9~13 개정 범위의 `story_bible/10_CH09_13_REVISION.md` 및 최신 승인 원고, `private/dashboard-config.json`의 `storyBible` 구조화 데이터다. `private/STORYLINE_MASTER_v5.0.md`와 이전 문서는 참조 보관본이다.
+- 활성 정답지는 세계관 HARD UPDATE `story_bible/11_WORLD_HARD_UPDATE.md`, `story_bible/12_CH25_32_APPROVED_UPDATE.md`, `story_bible/09_LATEST_INTEGRATED_UPDATE.md`, Ch9~13 개정 범위의 `story_bible/10_CH09_13_REVISION.md` 및 최신 승인 원고, `private/dashboard-config.json`의 `storyBible` 구조화 데이터다. `private/STORYLINE_MASTER_v5.0.md`와 이전 문서는 참조 보관본이다.
 - 원작 CANON, 원작과 양립 가능한 창작 설정, 추측, 인물의 틀린 가설을 분리한다.
 - 공개 메뉴는 글 읽기와 등장인물 두 개만 유지한다. 글 분석과 Story Bible은 `/east/admin/` 관리자 모드에서만 연다.
 - Story Bible 변경은 인과 체인·인물 아크·복선·지식 상태·하드 룰에 미칠 영향을 함께 기록한다.
