@@ -66,43 +66,43 @@
 
 ## 제9화 《사막으로》
 
-**질문:** 사라진 길은 누구의 것인가?
+**질문:** 보이지 않는 대가는 어디에 있는가?
 
-하심과 사막 초입
+카르사 도착과 낯선 현상. 에드는 연금술 없이 구조를 읽어 스카를 돕고 “계산이 안 맞아”라고 느낀다.
 
-**에드 역할:** 조사·가설·행동
+**에드 역할:** 현장 분석과 전투 보조.
 
 ## 제10화 《길을 지운 사람들》
 
-**질문:** 길을 지운 사람들은 왜 그랬는가?
+**질문:** 카르사는 왜 길을 지웠고 무엇을 사용했는가?
 
-카르사와 다우드
+카르사의 이름 없는 방식과 외부 간섭 때문에 길을 지운 역사. 에드는 “대가는?”을 묻는다.
 
-**에드 역할:** 조사·가설·행동
+**에드 역할:** 술법의 이름과 계의 경계를 조사.
 
 ## 제11화 《형이 걸었던 길》
 
-**질문:** 형은 왜 동쪽으로 갔는가?
+**질문:** 형은 왜 이슈발에서 쓸 방법을 묻기 시작했는가?
 
-스카 형의 이동 경로
+자연의 흐름과 구조의 길. 스카 형의 질문은 물·지반·생활로 옮겨간다.
 
-**에드 역할:** 조사·가설·행동
+**에드 역할:** 용맥을 연상하되 계산과 기원은 보류.
 
 ## 제12화 《흐르는 땅》
 
-**질문:** 땅의 흐름은 무엇을 의미하는가?
+**질문:** 비슷한 흐름은 같은 기원을 뜻하는가?
 
-카르사의 흐름 기록
+카르사→서쪽 여행자→싱의 단일 계보는 반증되고, 에드는 등가교환의 계를 넓혀 이해한다.
 
-**에드 역할:** 조사·가설·행동
+**에드 역할:** 자신의 기원 가설을 폐기하고 더 나은 질문을 만든다.
 
-## 제13화 《두 개의 길》
+## 제13화 《서쪽에서 온 사람》
 
-**질문:** 두 개의 길은 무엇을 바꾸는가?
+**질문:** 서쪽 여행자는 누구이고 형은 무엇을 가져가려 했는가?
 
-마지드의 증언
+마지드의 증언과 금발·금빛 눈·크세르크세스·연대 단서. 호엔하임 가설은 강하지만 미확정이다.
 
-**에드 역할:** 조사·가설·행동
+**에드 역할:** 증거를 모으고 단정은 보류.
 
 ## 제14화 《형이 원했던 것》
 
@@ -366,23 +366,23 @@ Karsa refuses reopening the old road. That choice is respected; the final route 
 
 ## Ch17 approved-manuscript update
 
-The approved Chapter 17 now establishes the resident debate, Brandt’s parallel independent-review proposal, Graus’s selection, and Graus’s accurate first report. Its endpoint is the old prayer-ground survey at 7 a.m.; Ch18 must begin from that appointment without repeating the institutional setup. The approved body length is 7,490 characters including spaces, above the normal 5,000–6,000 target; retain this approved text until the user explicitly requests compression.
+The approved Chapter 17 now establishes the resident debate, Brandt’s parallel independent-review proposal, Graus’s selection, and Graus’s accurate first report. Its endpoint is the old prayer-ground survey at 7 a.m.; Ch18 must begin from that appointment without repeating the institutional setup. The approved body length is 7,490 characters including spaces, above the normal 4,800–5,000 target; retain this approved text until the user explicitly requests compression.
 
 ## Ch18 approved-manuscript update
 
-Chapter 18 now directly opens at the 7 a.m. old prayer-ground appointment from Ch17. Graus is competent and initially faithful to agreements, accurate reporting, and non-escalation. He sees the pre-war transitions in old records but does not yet plan a war; his future design belongs to Ch29. The chapter plants Bradley’s decision doctrine, Mustang’s unexplained “위선자,” and Bark’s literal completion model. The approved body length is 7,642 characters including spaces, above the normal 5,000–6,000 target; retain this approved text until the user explicitly requests compression.
+Chapter 18 now directly opens at the 7 a.m. old prayer-ground appointment from Ch17. Graus is competent and initially faithful to agreements, accurate reporting, and non-escalation. He sees the pre-war transitions in old records but does not yet plan a war; his future design belongs to Ch29. The chapter plants Bradley’s decision doctrine, Mustang’s unexplained “위선자,” and Bark’s literal completion model. The approved body length is 7,642 characters including spaces, above the normal 4,800–5,000 target; retain this approved text until the user explicitly requests compression.
 
 ## Ch19 approved-manuscript update
 
-Chapter 19 moves fully to Lansi and Xing. Edward’s route question becomes a public rumor, then an An internal disagreement, then a Bai concern represented by Luhan. Lin is already on a western tour and extends his stay because the rumor and red-mineral question have changed local behavior. Edward’s Hohenheim/Sage-of-the-West statement remains a hypothesis. The approved body length is 7,956 characters including spaces, above the normal 5,000–6,000 target; retain this approved text until the user explicitly requests compression.
+Chapter 19 moves fully to Lansi and Xing. Edward’s route question becomes a public rumor, then an An internal disagreement, then a Bai concern represented by Luhan. Lin is already on a western tour and extends his stay because the rumor and red-mineral question have changed local behavior. Edward’s Hohenheim/Sage-of-the-West statement remains a hypothesis. The approved body length is 7,956 characters including spaces, above the normal 4,800–5,000 target; retain this approved text until the user explicitly requests compression.
 
 ## Ch20 approved-manuscript update
 
-Chapter 20 confirms that Luhan is not a reflexive opponent of the southern route: he accepts An opportunity and An land/water rights, while asking who will carry the northern route’s losses. His current answer is still a sincerely held “a good emperor listens and decides.” Lin begins quietly reading imperial land, water, and route decisions, seeing that a later emperor can reverse a prior guarantee. The approved body length is 6,009 characters including spaces, nine characters over the normal 5,000–6,000 target; retain the approved text.
+Chapter 20 confirms that Luhan is not a reflexive opponent of the southern route: he accepts An opportunity and An land/water rights, while asking who will carry the northern route’s losses. His current answer is still a sincerely held “a good emperor listens and decides.” Lin begins quietly reading imperial land, water, and route decisions, seeing that a later emperor can reverse a prior guarantee. The approved body length is 6,009 characters including spaces, 1,009 characters over the normal 4,800–5,000 target; retain the approved text.
 
 ## Ch21 approved-manuscript update
 
-Chapter 21 tests the route question in northern relay communities. Luhan acknowledges that a route worker can both fear lost traffic and want easier life for family in the south; he accepts the loss of his own throne as painful but finished, because protecting Bai continues without becoming emperor. Wei appears only as the elder who taught Luhan why an emperor was necessary. A new Sage-of-the-West record strengthens, but does not prove, Edward’s Hohenheim hypothesis and frames Hohenheim as a learner across knowledge traditions. The approved body length is 6,433 characters including spaces, 433 characters above the normal target; retain the approved text.
+Chapter 21 tests the route question in northern relay communities. Luhan acknowledges that a route worker can both fear lost traffic and want easier life for family in the south; he accepts the loss of his own throne as painful but finished, because protecting Bai continues without becoming emperor. Wei appears only as the elder who taught Luhan why an emperor was necessary. A new Sage-of-the-West record strengthens, but does not prove, Edward’s Hohenheim hypothesis and frames Hohenheim as a learner across knowledge traditions. The approved body length is 6,433 characters including spaces, 1,433 characters above the normal target; retain the approved text.
 
 ## Ch22 approved-manuscript update
 
@@ -394,4 +394,8 @@ Chapter 23 confirms red mineral as a non-magical heat/pressure-resistant materia
 
 ## Ch24 approved-manuscript update
 
-Chapter 24 establishes the timing explicitly: Lin returns to Lansi, spends six days reviewing protections, then informal information travels three days to Haojin and two more days to Muranheo before the formal temporary protection rule arrives later. Kairun reads both versions, joins an otherwise ordinary protest journey to Lansi, and privately approaches a different conclusion. The existing trade network carries support and an old accessory without any direct order to Kairun. The approved body length is 5,019 characters including spaces and meets the normal target.
+Chapter 24 establishes the timing explicitly: Lin returns to Lansi, spends six days reviewing protections, then informal information travels three days to Haojin and two more days to Muranheo before the formal temporary protection rule arrives later. Kairun reads both versions, joins an otherwise ordinary protest journey to Lansi, and privately approaches a different conclusion. The existing trade network carries support and an old accessory without any direct order to Kairun. The revised approved body is 5,052 characters including spaces, slightly above the 4,800–5,000 target. Keep the user-approved scene and record a length note.
+
+
+## v7.0 update
+The full latest outline is `09_LATEST_INTEGRATED_UPDATE.md`. For Ch24, preserve Lin’s six-day review; informal information travels Lansi → Haojin (about 3 days) → Muranheo (about 2 days); formal temporary protections arrive later. Kairun joins a protest group, does not reveal his ability, and only leaves the small “칼 안 가져가?” / “필요 없어.” seed. From Ch25, Kairun’s one-circle natural-flow alkahestry is revealed without confirming a Karsa lineage.

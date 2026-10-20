@@ -69,8 +69,20 @@ class DashboardDisclosureTests(unittest.TestCase):
         self.assertEqual(chapter_twenty_four["title"], "두 개의 미래")
         self.assertTrue(chapter_twenty_four["text"].startswith("무란허를 다녀온 날 저녁, 린은 다시 란시로 돌아왔다."))
         self.assertIn("그렇게 엿새가 지났다.", chapter_twenty_four["text"])
+        self.assertIn("너는 칼 안 가져가?", chapter_twenty_four["text"])
+        self.assertNotIn("연성진", chapter_twenty_four["text"])
         self.assertNotIn("24화 분석", chapter_twenty_four["text"])
         self.assertNotIn("history", self.public)
+
+    def test_revised_karsa_chapters_are_current_manuscripts(self):
+        expected = {9: "사막으로", 10: "길을 지운 사람들", 11: "형이 걸었던 길", 12: "흐르는 땅", 13: "서쪽에서 온 사람"}
+        for number, title in expected.items():
+            chapter = next(item for item in self.public["manuscripts"] if item["episode"] == f"제{number}화")
+            self.assertEqual(chapter["title"], title)
+            self.assertNotIn(f"제{number}화 검증", chapter["text"])
+            self.assertNotIn("하산", chapter["text"])
+        chapter_twelve = next(item for item in self.public["manuscripts"] if item["episode"] == "제12화")
+        self.assertIn("대가가 없는 게 아니야", chapter_twelve["text"])
 
     def test_public_character_cards_are_spoiler_limited(self):
         self.assertEqual(len(self.public["publicCharacters"]), 28)
@@ -100,10 +112,13 @@ class DashboardDisclosureTests(unittest.TestCase):
         self.assertEqual(set(self.author["analysis"]), {"characters", "causality", "world"})
         reviews = self.author["chapterReviews"]
         self.assertEqual(len(reviews), 24)
-        self.assertTrue(all(3 <= len(item["categories"]) <= 4 for item in reviews))
+        self.assertTrue(all(len(item["categories"]) == 4 for item in reviews))
+        self.assertTrue(all({c["name"] for c in item["categories"]} == {"캐릭터", "개연성", "스토리라인", "세계관·복선"} for item in reviews))
+        self.assertTrue(all(c["status"] in {"O", "△", "X"} for item in reviews for c in item["categories"]))
+        self.assertTrue(all("score" not in item for item in reviews))
         chapter_seventeen = next(item for item in reviews if item["episode"] == "제17화")
         self.assertEqual(len(chapter_seventeen["categories"]), 4)
-        self.assertTrue(all(0 <= item["score"] <= 10 for item in reviews))
+        self.assertTrue(all(item["length"]["characters"] > 0 for item in reviews))
 
     def test_storyline_map_is_only_available_to_author_data(self):
         storyline = self.author["storyline"]
@@ -111,12 +126,15 @@ class DashboardDisclosureTests(unittest.TestCase):
         self.assertEqual(storyline["totalChapters"], 42)
         self.assertEqual(len(storyline["parts"]), 9)
         self.assertGreaterEqual(len(storyline["threads"]), 5)
+        self.assertEqual(set(storyline["tabs"]), {"chapters", "settings", "foreshadowing"})
+        self.assertTrue(any(item["chapter"] == "12화" for item in storyline["settingsMilestones"]))
         bible = self.author["storyBible"]
         self.assertEqual(len(bible["chapters"]), 44)
         self.assertTrue(any(item["name"] == "바르크" for item in bible["characterArcs"]))
         self.assertTrue(any(item["id"] == "BARK-COMPLETION" for item in bible["foreshadowing"]))
         self.assertIn("hiddenArchitecture", bible)
         self.assertTrue(any(item["id"] == "INFORMATION-INTERPRETATION" for item in bible["foreshadowing"]))
+        self.assertTrue(any(item["id"] == "KARSA-EXCHANGE" and item["status"] == "PAYOFF" for item in bible["foreshadowing"]))
 
     def test_mystery_board_separates_ed_hypothesis_from_story_state(self):
         mysteries = self.author["analysis"]["causality"]["mysteries"]
@@ -131,7 +149,7 @@ class DashboardDisclosureTests(unittest.TestCase):
             path = ROOT / item["file"]
             self.assertTrue(path.exists(), item["file"])
             self.assertGreater(len(path.read_text(encoding="utf-8")), 200)
-        self.assertEqual({item["version"] for item in self.config["sourceDocuments"]}, {"6.1"})
+        self.assertEqual({item["version"] for item in self.config["sourceDocuments"]}, {"7.0", "7.1"})
         self.assertIn("story_bible/01_STORYLINE_CH18_42.md", {item["file"] for item in self.config["sourceDocuments"]})
 
     def test_private_storyline_is_not_copied_to_public_site(self):

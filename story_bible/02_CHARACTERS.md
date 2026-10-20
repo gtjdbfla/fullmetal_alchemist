@@ -115,3 +115,7 @@
 - **Graus:** remains capable. His failure is the belief that he can start and end a war as if people were unit markers.
 - **Bark:** calm, literal, and efficient; never delighted by harm. He obeys T0 literally while treating the original objective as active.
 - **Hawkeye:** defeats Bark by modeling his target selection and looking for the watcher rather than watching Scar.
+
+
+## Ch9–13 Karsa cast / revised arcs
+사하라(연장자·기록), 나디르(외부 경계·기록 신뢰도), 다우드(현장 시연), 마지드(스카 형의 직접 증언자) 네 명으로 고정한다. 하산은 폐기한다. 에드는 Ch12에 단일 기원 가설을 폐기하고 Ch13 호엔하임 가설을 보류한다. 스카는 형의 생활 질문을 이해해 Ch14 이슈발 사람들에게 돌아간다.

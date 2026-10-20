@@ -8,6 +8,7 @@ SITE = ROOT / "site"
 AUTHOR_SITE = ROOT / "author-site"
 CONFIG = ROOT / "private" / "dashboard-config.json"
 LEGACY = ROOT / "private" / "archive" / "project-before-dashboard-reset.json"
+CHAPTER_TARGET = (4800, 5000)
 
 def write_json(path: Path, payload: dict) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
@@ -24,6 +25,7 @@ def legacy_history() -> list[dict]:
     } for item in payload.get("manuscripts", [])]
 
 def hydrate_manuscripts(payload: dict) -> None:
+    reviews = {item["episode"]: item for item in payload.get("chapterReviews", [])}
     for item in payload.get("manuscripts", []):
         source = ROOT / item.pop("file")
         text = source.read_text(encoding="utf-8").strip()
@@ -36,6 +38,18 @@ def hydrate_manuscripts(payload: dict) -> None:
                 text = "\n".join(lines[heading_index + 1:]).strip()
         item["text"] = text
         item["characters"] = len(text)
+        review = reviews.get(item.get("episode"))
+        if review is not None:
+            length_ok = CHAPTER_TARGET[0] <= len(text) <= CHAPTER_TARGET[1]
+            review["length"] = {
+                "characters": len(text),
+                "status": "O" if length_ok else "△",
+                "target": "4,800–5,000자",
+                "reason": f"공백 포함 {len(text):,}자 · 목표 {'충족' if length_ok else '범위 밖'}",
+            }
+            statuses = {category.get("status", "△") for category in review.get("categories", [])}
+            review["overallStatus"] = "X" if "X" in statuses else "△" if not length_ok or "△" in statuses else "O"
+            review["overallReason"] = review["length"]["reason"]
         for chapter in payload.get("storyBible", {}).get("chapters", []):
             if chapter.get("label") == item.get("episode"):
                 chapter["characterCount"] = len(text)

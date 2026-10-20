@@ -8,6 +8,8 @@ const params = new URLSearchParams(location.search);
 let view = normalizeView(params.get('view'));
 let chapterIndex = 0;
 let reviewIndex = 0;
+let storyTab = ["chapters", "settings", "foreshadowing"].includes(params.get("tab")) ? params.get("tab") : "chapters";
+let settingGroup = 0;
 
 function isAuthor() { return project.audience === 'author'; }
 
@@ -15,6 +17,7 @@ function updateUrl() {
   const next = new URLSearchParams();
   next.set('view', view);
   if (view === 'analysis') next.set('review', String(reviewIndex));
+  if (view === 'storyline') next.set('tab', storyTab);
   if (view === 'read' && chapterIndex > 0) next.set('chapter', String(chapterIndex));
   history.replaceState(null, '', `${location.pathname}?${next}`);
 }
@@ -78,37 +81,69 @@ function charactersPage() {
   return `<header class="characters-head"><span>CHARACTERS</span><h1>이야기를 함께 걷는 사람들</h1><p>소속별로 나누고, 지금 이야기에서 어떤 인물과 연결되는지도 적었어.</p></header>${Object.entries(groups).map(([group, people]) => `<section class="character-group"><header><span>FACTION</span><h2>${esc(group)}</h2><p>${esc(people[0].groupDescription || '')}</p></header><div class="character-grid">${people.map(item => `<article class="character-card"><span>${esc(item.affiliation || group)}</span><h2>${esc(item.name)}</h2><p>${esc(item.summary)}</p><dl><dt>연관성</dt><dd>${esc(item.relationship || '이야기의 흐름과 연결되는 인물.')}</dd></dl></article>`).join('')}</div></section>`).join('')}`;
 }
 
-function reviewPage() {
-  const reviews = project.chapterReviews || [];
-  if (!reviews.length) return `<section class="empty-state"><h1>아직 검토할 원고가 없어</h1><p>원고를 등록하면 이곳에서 회차별 검토를 남길 수 있어.</p></section>`;
-  reviewIndex = normalizeChapterIndex(reviewIndex, reviews.length);
-  const review = reviews[reviewIndex];
-  return `<header class="analysis-head"><span>AUTHOR REVIEW</span><h1>원고를 읽고<br>근거를 남긴다</h1><p>점수는 현재 원고가 확정 스토리라인과 검증 규칙을 얼마나 지키는지 보는 편집 메모야. 작품의 정답을 자동으로 만들지는 않아.</p></header><nav class="review-index" aria-label="원고 검토 선택">${reviews.map((item, index) => `<button data-review="${index}" class="${reviewIndex === index ? 'active' : ''}" ${reviewIndex === index ? 'aria-current="page"' : ''}>${esc(item.episode)}<small>${esc(item.title)}</small></button>`).join('')}</nav><section class="review-hero"><div><span>OVERALL</span><h2>${esc(review.episode)} · ${esc(review.title)}</h2><p>${esc(review.summary)}</p></div><strong>${Number(review.score).toFixed(1)}<small>/ 10</small></strong></section><section class="review-grid">${review.categories.map(item => `<article class="review-card"><header><span>${esc(item.name)}</span><b>${Number(item.score).toFixed(1)}<small>/10</small></b></header><p>${esc(item.assessment)}</p><dl><dt>원고에서 확인한 근거</dt><dd>${esc(item.evidence)}</dd></dl></article>`).join('')}</section><aside class="next-checks"><span>NEXT CHECK</span><h2>다음 원고에서 확인할 것</h2><ul>${review.nextChecks.map(item => `<li>${esc(item)}</li>`).join('')}</ul></aside><aside class="method-note">검토 기준: 캐릭터가 원작의 중심을 지키는지, 사건의 원인과 정보 전달이 연결되는지, 세계관이 새 힘으로 덮이지 않는지, 심은 질문이 다음 장면으로 자연스럽게 이어지는지를 함께 본다.</aside>`;
+function statusBadge(status, label = status) {
+  const key = status === 'X' ? 'fail' : status === 'O' || status === 'PAYOFF' ? 'pass' : 'warn';
+  return `<span class="state-badge ${key}">${esc(label)}</span>`;
 }
 
-function storyBiblePanels() {
+function reviewPage() {
+  const reviews = project.chapterReviews || [];
+  if (!reviews.length) return `<section class="empty-state"><h1>아직 검토할 원고가 없어</h1></section>`;
+  reviewIndex = normalizeChapterIndex(reviewIndex, reviews.length);
+  const review = reviews[reviewIndex];
+  const reviewByEpisode = new Map(reviews.map(item => [item.episode, item]));
+  const rows = (project.manuscripts || []).map(chapter => {
+    const item = reviewByEpisode.get(chapter.episode);
+    const count = chapter.characters ?? chapter.text?.length ?? 0;
+    const lengthStatus = count >= 4800 && count <= 5000 ? 'O' : '△';
+    const status = item?.overallStatus || '△';
+    const reason = item ? item.summary : '회차별 검토 기록을 준비 중';
+    return `<tr><td>${esc(chapter.episode)}</td><td>${esc(chapter.title)}</td><td>${count.toLocaleString()}자</td><td>${statusBadge(lengthStatus)}</td><td>${statusBadge(status)}</td><td>${esc(reason)}</td></tr>`;
+  }).join('');
+  return `<header class="analysis-head"><span>AUTHOR REVIEW</span><h1>원고 검토</h1><p>O는 현재 기준과 일치, △는 확인하거나 조정할 항목, X는 수정이 필요한 충돌을 뜻한다. 글자 수 기준은 공백 포함 4,800–5,000자다.</p></header>
+    <section class="review-overview"><div class="section-title"><div><span>ALL CHAPTERS</span><h2>전체 화 결과</h2></div><p>원고에 표시되는 본문을 기준으로 계수한다.</p></div><div class="timeline-scroll"><table class="chapter-timeline"><thead><tr><th>회차</th><th>제목</th><th>공백 포함</th><th>분량</th><th>종합</th><th>짧은 결과</th></tr></thead><tbody>${rows}</tbody></table></div></section>
+    <nav class="review-index" aria-label="원고 검토 선택">${reviews.map((item, index) => `<button data-review="${index}" class="${reviewIndex === index ? 'active' : ''}" ${reviewIndex === index ? 'aria-current="page"' : ''}>${esc(item.episode)}<small>${esc(item.title)}</small></button>`).join('')}</nav>
+    <section class="review-hero"><div><span>CHAPTER REVIEW</span><h2>${esc(review.episode)} · ${esc(review.title)}</h2><p>${esc(review.summary)}</p><p class="length-note">${esc(review.length?.reason || review.overallReason || '')}</p></div>${statusBadge(review.overallStatus)}</section>
+    <section class="review-grid">${review.categories.map(item => `<article class="review-card"><header><span>${esc(item.name)}</span>${statusBadge(item.status)}</header><p>${esc(item.assessment)}</p></article>`).join('')}</section>
+    <aside class="next-checks"><span>NEXT CHECK</span><h2>다음 원고에서 확인할 것</h2><ul>${review.nextChecks.map(item => `<li>${esc(item)}</li>`).join('')}</ul></aside>`;
+}
+
+function chapterStoryPanel() {
   const bible = project.storyBible;
-  if (!bible) return `<aside class="method-note">Story Bible 구조 데이터를 준비 중이야.</aside>`;
-  const chapterRows = bible.chapters.map(item => `<tr class="${esc(item.status).toLowerCase()}"><td>${esc(item.label)}</td><td><b>${esc(item.title)}</b></td><td>${esc(item.status)}</td><td>${esc(item.characterCount)}</td><td>${esc(item.mainQuestion)}</td><td>${esc(item.mainEvent)}</td><td>${esc(item.pov)}</td><td>${esc(item.edwardRole)}</td><td><span class="continuity ${esc(item.continuity).toLowerCase()}">${esc(item.continuity)}</span></td></tr>`).join('');
-  return `<section class="bible-dashboard">
-    <div class="section-title bible-title"><div><span>STORY BIBLE v${esc(bible.version)}</span><h2>집필과 검증을 위한 구조 데이터</h2></div><p>${esc(bible.purpose)}</p></div>
-    ${bible.hiddenArchitecture ? `<section class="bible-panel architecture-panel"><header><span>${esc(bible.hiddenArchitecture.label)}</span><h3>후반부의 숨은 구조</h3></header><p>${esc(bible.hiddenArchitecture.instruction)}</p><div class="chain-stack">${bible.hiddenArchitecture.chains.map(item => `<article class="chain-card"><p>${esc(item)}</p></article>`).join('')}</div></section>` : ''}
-    <section class="bible-panel"><header><span>CHAPTER TIMELINE</span><h3>회차별 역할</h3></header><div class="timeline-scroll"><table class="chapter-timeline"><thead><tr><th>회차</th><th>제목</th><th>상태</th><th>글자 수</th><th>중심 질문</th><th>핵심 사건</th><th>시점</th><th>에드 역할</th><th>정합성</th></tr></thead><tbody>${chapterRows}</tbody></table></div></section>
-    <section class="bible-panel"><header><span>CHARACTER ARC TRACKER</span><h3>인물 아크</h3></header><div class="arc-grid">${bible.characterArcs.map(item => `<article class="arc-card"><h4>${esc(item.name)}</h4><dl><dt>현재 심리 단계</dt><dd>${esc(item.current)}</dd><dt>목표</dt><dd>${esc(item.goal)}</dd><dt>갈등</dt><dd>${esc(item.conflict)}</dd><dt>다음 필수 비트</dt><dd>${esc(item.nextBeat)}</dd></dl></article>`).join('')}</div></section>
-    <section class="bible-panel"><header><span>FORESHADOWING TRACKER</span><h3>복선의 심기와 회수</h3></header><div class="foreshadow-grid">${bible.foreshadowing.map(item => `<article class="foreshadow-card"><header><span>${esc(item.status)}</span><h4>${esc(item.plot)}</h4></header><dl><dt>심기</dt><dd>${esc(item.planted)}</dd><dt>강화</dt><dd>${esc(item.reinforcement)}</dd><dt>회수</dt><dd>${esc(item.payoff)}</dd><dt>위험</dt><dd>${esc(item.risk)}</dd></dl></article>`).join('')}</div></section>
-    <section class="bible-panel"><header><span>KNOWLEDGE STATE TRACKER</span><h3>인물별 정보 상태</h3></header><div class="knowledge-grid">${bible.knowledgeStates.map(item => `<article class="knowledge-card"><h4>${esc(item.name)}</h4><dl><dt>아는 것</dt><dd>${esc(item.knows)}</dd><dt>모르는 것</dt><dd>${esc(item.unknown)}</dd><dt>다음 확인</dt><dd>${esc(item.next)}</dd></dl></article>`).join('')}</div></section>
-    <section class="bible-panel"><header><span>CAUSAL CHAIN VIEW</span><h3>인과 체인</h3></header><div class="chain-stack">${bible.causalChains.map(chain => `<article class="chain-card"><h4>${esc(chain.title)}</h4><ol>${chain.steps.map(step => `<li>${esc(step)}</li>`).join('')}</ol></article>`).join('')}</div></section>
-    <section class="bible-panel"><header><span>HARD RULE MONITOR</span><h3>고정 규칙</h3></header><div class="rule-grid">${bible.hardRules.map(item => `<article class="rule-card ${esc(item.level).toLowerCase()}"><header><span>${esc(item.level)}</span><b>${esc(item.status)}</b></header><h4>${esc(item.rule)}</h4><p>${esc(item.description)}</p><small>${esc(item.note)}</small></article>`).join('')}</div></section>
-    <section class="bible-panel change-panel"><header><span>CHANGE IMPACT ANALYSIS</span><h3>설정 변경 전 확인</h3></header><ol>${bible.changeImpact.map(item => `<li>${esc(item)}</li>`).join('')}</ol><p>승인 원고와 Story Bible이 충돌하면 어느 한쪽을 자동으로 고치지 않고, 사용자 결정이 필요한 충돌로 기록한다.</p></section>
-    <aside class="method-note">원고 검토 순서: ${bible.reviewProtocol.map(item => esc(item)).join(' → ')}. 설정 변경의 우선순위: ${bible.sourcePolicy.map(item => esc(item)).join(' → ')}.</aside>
-  </section>`;
+  const chapters = bible?.chapters || [];
+  const milestones = project.storyline?.settingsMilestones || [];
+  return `<section class="section-title"><div><span>CHAPTER PLAN</span><h2>각 화의 역할</h2></div><p>승인 원고와 이후 계획의 중심 질문·사건·에드 역할을 확인한다.</p></section>
+    <div class="chapter-plan-grid">${chapters.map(item => `<article class="chapter-plan-card"><header><span>${esc(item.label)} · ${esc(item.status)}</span><h3>${esc(item.title)}</h3></header><p><b>중심 질문</b> ${esc(item.mainQuestion)}</p><p><b>핵심 사건</b> ${esc(item.mainEvent)}</p><p><b>에드 역할</b> ${esc(item.edwardRole)}</p></article>`).join('')}</div>
+    <section class="bible-panel"><header><span>KNOWLEDGE MILESTONES</span><h3>에드의 가설과 지식 변화</h3></header><div class="timeline-scroll"><table class="chapter-timeline"><thead><tr><th>회차</th><th>에드의 가설</th><th>확신</th><th>아는 것</th><th>모르는 것</th><th>스카 목표</th><th>호엔하임</th><th>카르사·연단술</th><th>카이룬</th><th>결정권 주제</th><th>심은 복선</th><th>회수 상태</th><th>연속성 위험</th></tr></thead><tbody>${milestones.map(m => `<tr><td>${esc(m.chapter)}</td><td>${esc(m.edwardHypothesis)}</td><td>${esc(m.confidence)}</td><td>${esc(m.known)}</td><td>${esc(m.unknown)}</td><td>${esc(m.scarGoal)}</td><td>${esc(m.hohenheim)}</td><td>${esc(m.karsa)} / ${esc(m.alkahestry)}</td><td>${esc(m.kairun)}</td><td>${esc(m.decisionTheme)}</td><td>${esc(m.seed)}</td><td>${esc(m.payoff)}</td><td>${esc(m.continuityRisk)}</td></tr>`).join('')}</tbody></table></div></section>`;
+}
+
+function settingsPanel() {
+  const bible = project.storyBible;
+  const groups = project.storyline?.tabs?.settings?.groups || [];
+  settingGroup = normalizeChapterIndex(settingGroup, groups.length);
+  const group = groups[settingGroup];
+  if (!group) return '';
+  return `<nav class="subtabs" aria-label="설정 분류">${groups.map((g, i) => `<button data-setting-group="${i}" class="${i === settingGroup ? 'active' : ''}">${esc(g.label)}</button>`).join('')}</nav>
+    <div class="setting-grid">${group.items.map(item => `<article class="setting-card"><h3>${esc(item.title)}</h3><p>${esc(item.description)}</p><dl><dt>본편 대비 개연성</dt><dd>${esc(item.canon)}</dd></dl></article>`).join('')}</div>
+    ${settingGroup === 0 ? `<section class="bible-panel"><header><span>CHARACTER ARC</span><h3>인물의 현재 단계와 다음 비트</h3></header><div class="arc-grid">${bible.characterArcs.map(item => `<article class="arc-card"><h4>${esc(item.name)}</h4><dl><dt>현재</dt><dd>${esc(item.current)}</dd><dt>목표</dt><dd>${esc(item.goal)}</dd><dt>갈등</dt><dd>${esc(item.conflict)}</dd><dt>다음 비트</dt><dd>${esc(item.nextBeat)}</dd></dl></article>`).join('')}</div></section>` : ''}
+    ${settingGroup === 1 ? `<section class="bible-panel"><header><span>KNOWLEDGE STATE</span><h3>아는 것과 모르는 것</h3></header><div class="knowledge-grid">${bible.knowledgeStates.map(item => `<article class="knowledge-card"><h4>${esc(item.name)}</h4><dl><dt>아는 것</dt><dd>${esc(item.knows)}</dd><dt>모르는 것</dt><dd>${esc(item.unknown)}</dd><dt>다음 확인</dt><dd>${esc(item.next)}</dd></dl></article>`).join('')}</div></section>` : ''}
+    ${settingGroup === 2 ? `<section class="bible-panel"><header><span>HARD RULES</span><h3>설정 경계</h3></header><div class="rule-grid">${bible.hardRules.map(item => `<article class="rule-card ${esc(item.level).toLowerCase()}"><header><span>${esc(item.level)}</span>${statusBadge(item.status === 'PASS' ? 'O' : '△')}</header><h4>${esc(item.rule)}</h4><p>${esc(item.description)}</p><small>${esc(item.note)}</small></article>`).join('')}</div></section><section class="bible-panel"><header><span>CONTINUITY SCAN</span><h3>14화 이후 충돌 점검</h3></header><div class="setting-grid">${(project.storyline?.continuityConflicts || []).map(item => `<article class="setting-card"><header>${statusBadge(item.status)} <strong>${esc(item.location)}</strong></header><p>${esc(item.issue)}</p><dl><dt>최소 수정 권고</dt><dd>${esc(item.minimalFix)}</dd></dl></article>`).join('')}</div></section>` : ''}`;
+}
+
+function foreshadowPanel() {
+  const items = project.storyBible?.foreshadowing || [];
+  const label = {NOT_PLANTED:'심기 전', PLANTED:'심음', REINFORCED:'강화', PARTIALLY_REVEALED:'부분 공개', PAYOFF:'회수 성공'};
+  return `<section class="section-title"><div><span>FORESHADOWING</span><h2>복선과 떡밥의 진행</h2></div><p>계획된 회수와 실제 원고에서 완료된 회수를 구분한다.</p></section><div class="foreshadow-grid">${items.map(item => `<article class="foreshadow-card ${item.status === 'PAYOFF' ? 'paid-off' : ''}"><header>${statusBadge(item.status === 'PAYOFF' ? 'PAYOFF' : '△', label[item.status] || item.status)}<h4>${esc(item.plot)}</h4></header><dl><dt>심기</dt><dd>${esc(item.planted)}</dd><dt>강화</dt><dd>${esc(item.reinforcement)}</dd><dt>회수 / 예정</dt><dd>${esc(item.payoff)}</dd><dt>현재 단계</dt><dd>${esc(label[item.status] || item.status)}</dd><dt>주의</dt><dd>${esc(item.risk)}</dd></dl></article>`).join('')}</div>`;
 }
 
 function storylinePage() {
   const story = project.storyline;
-  if (!story) return `<section class="empty-state"><h1>스토리라인을 준비 중이야</h1><p>활성 스토리라인 문서를 정리하면 이곳에 표시돼.</p></section>`;
-  const alignment = story.alignment;
-  return `<header class="analysis-head"><span>STORYLINE MASTER</span><h1>${esc(story.title)}</h1><p>${esc(story.summary)}</p></header><section class="story-progress"><div><span>MANUSCRIPT PROGRESS</span><h2>${story.currentChapter}화 <small>/ ${story.totalChapters}화</small></h2><div class="progress-track"><i style="width:${Number(story.progress)}%"></i></div><p>현재 원고는 ${esc(story.currentRange)}까지 작성됨 · 전체 진행률 ${Number(story.progress).toFixed(1)}%</p></div><div class="alignment-score"><span>STORYLINE FIT</span><strong>${Number(alignment.score).toFixed(1)}<small>/10</small></strong><p>${esc(alignment.label)}</p></div></section><section class="metric-grid">${alignment.metrics.map(item => `<article><span>${esc(item.name)}</span><b>${esc(item.value)}</b><p>${esc(item.note)}</p></article>`).join('')}</section><section class="story-themes"><span>CORE QUESTIONS</span><h2>이야기가 향하는 질문</h2><ul>${story.coreQuestions.map(item => `<li>${esc(item)}</li>`).join('')}</ul></section><section class="part-board"><div class="section-title"><div><span>STORY MAP</span><h2>전체 진행 지도</h2></div><p>완료된 원고와 앞으로의 계획을 분리해 본다.</p></div>${story.parts.map(part => `<article class="part-card ${part.status.toLowerCase()}"><header><div><span>${esc(part.label)} · ${esc(part.episodes)}</span><h3>${esc(part.title)}</h3></div><b>${esc(part.statusLabel)}</b></header><p>${esc(part.summary)}</p><dl><dt>개연성의 핵심</dt><dd>${esc(part.causality)}</dd><dt>떡밥·회수</dt><dd>${esc(part.foreshadowing)}</dd><dt>설정 경계</dt><dd>${esc(part.worldRule)}</dd></dl></article>`).join('')}</section><section class="mystery-board"><div class="section-title"><div><span>ACTIVE THREADS</span><h2>현재 떡밥과 설정 상태</h2></div><p>가설과 작품의 실제 설정을 같은 사실로 취급하지 않는다.</p></div>${story.threads.map(item => `<article class="mystery-card"><header><span>${esc(item.status)}</span><h3>${esc(item.title)}</h3></header><dl><dt>현재 원고</dt><dd>${esc(item.current)}</dd><dt>향후 진행</dt><dd>${esc(item.next)}</dd><dt>주의할 점</dt><dd>${esc(item.guardrail)}</dd></dl></article>`).join('')}</section>${storyBiblePanels()}<aside class="method-note">정합 점수는 현재 승인 원고의 회차별 검토와 Story Bible의 하드 룰을 함께 반영한다. 점수가 높다고 해서 앞으로의 전개를 자동으로 확정하는 것은 아니다.</aside>`;
+  if (!story) return `<section class="empty-state"><h1>스토리라인을 준비 중이야</h1></section>`;
+  const tabs = story.tabs || {};
+  const content = storyTab === 'settings' ? settingsPanel() : storyTab === 'foreshadowing' ? foreshadowPanel() : chapterStoryPanel();
+  return `<header class="analysis-head"><span>STORY BIBLE v${esc(project.storyBible?.version || '')}</span><h1>스토리라인</h1><p>${esc(story.summary)}</p></header>
+    <nav class="subtabs storyline-tabs" aria-label="스토리라인 세부 탭">${Object.entries(tabs).map(([key, tab]) => `<button data-story-tab="${esc(key)}" class="${storyTab === key ? 'active' : ''}" ${storyTab === key ? 'aria-current="page"' : ''}>${esc(tab.label)}</button>`).join('')}</nav>
+    <p class="tab-description">${esc(tabs[storyTab]?.description || '')}</p>${content}`;
 }
 
 function render() {
@@ -128,6 +163,12 @@ function render() {
   });
   document.querySelectorAll('[data-scroll-top]').forEach(button => button.onclick = () => {
     scrollTo({top: 0, behavior: 'smooth'});
+  });
+  document.querySelectorAll('[data-story-tab]').forEach(button => button.onclick = () => {
+    storyTab = button.dataset.storyTab; updateUrl(); render(); scrollTo({top: 0});
+  });
+  document.querySelectorAll('[data-setting-group]').forEach(button => button.onclick = () => {
+    settingGroup = Number(button.dataset.settingGroup); render();
   });
   document.querySelectorAll('[data-review]').forEach(button => button.onclick = () => {
     reviewIndex = Number(button.dataset.review); view = 'analysis'; updateUrl(); render(); scrollTo({top: 0, behavior: 'smooth'});

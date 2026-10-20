@@ -1,9 +1,9 @@
-# Writing Rules
+# Writing Rules v7.0
 
-- 일반 화는 공백 포함 5,000~6,000자를 목표로 하고 1개의 중심 질문과 1~2개의 핵심 사건을 둔다.
-- 사건 뒤에 철학을 둔다. 인물이 주제를 먼저 강의하지 않는다.
-- 에드는 성급하고 직접적이며, 증거에 흥분하고 반증 앞에서 가설을 수정한다. 현자처럼 쓰지 않는다.
-- 스카는 과묵하며 장황한 철학 대사를 맡지 않는다.
-- 린의 대식가 성격과 코미디를 정치 전개가 지우지 않는다.
-- 루한은 악역 독백 대신 망설임·반복된 말·죄책감·선택으로 심리를 드러낸다.
-- 바르크는 미치거나 즐거워하는 살인자가 아니라, 문자적·효율적 완료 모델을 가진 장교다.
+- A normal chapter targets about **4,800–5,000 Korean characters including spaces**.
+- One central question and one or two core events per chapter.
+- Let action and dialogue carry exposition; philosophy follows events.
+- Edward moves through question → action → evidence → provisional conclusion → revision.
+- Scar stays terse; Lin retains appetite and comedy; Luhan’s psychology appears in hesitation, repetition, guilt, and choice.
+- Give physical travel and information transmission realistic elapsed time.
+- Do not explain the hidden information/command architecture directly in manuscript prose.

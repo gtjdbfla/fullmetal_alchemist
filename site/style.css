@@ -39,3 +39,32 @@ footer{display:flex;justify-content:space-between;gap:15px;border-top:1px solid 
 .bible-dashboard{margin-top:52px}.bible-title{border-bottom:1px solid var(--line);padding-bottom:16px}.bible-panel{margin-top:28px;background:var(--card);border:1px solid var(--line);border-radius:8px;padding:24px}.bible-panel>header{border-bottom:1px solid var(--line);padding-bottom:14px;margin-bottom:18px}.bible-panel>header span{font-size:9px;color:var(--gold);letter-spacing:1.7px}.bible-panel>header h3{font-size:21px;margin:8px 0 0}.timeline-scroll{overflow:auto;border:1px solid var(--line)}.chapter-timeline{width:100%;min-width:1110px;border-collapse:collapse;font-size:11px}.chapter-timeline th{background:#eee9dc;color:#68736d;font-weight:600;text-align:left;white-space:nowrap}.chapter-timeline th,.chapter-timeline td{padding:12px 11px;border-bottom:1px solid var(--line);vertical-align:top;line-height:1.65}.chapter-timeline td:first-child,.chapter-timeline td:nth-child(3),.chapter-timeline td:nth-child(4),.chapter-timeline td:last-child{white-space:nowrap}.chapter-timeline tr.planned{background:#faf8f1;color:#647069}.continuity{display:inline-block;padding:3px 6px;border-radius:99px;font-size:9px;border:1px solid #b6cbb9;color:#3d7044;background:#edf5ed}.continuity.planned{border-color:#d8c48f;color:#866b37;background:#fff8e8}.arc-grid,.knowledge-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}.arc-card,.knowledge-card,.foreshadow-card,.chain-card,.rule-card{border:1px solid var(--line);background:#fffefa;padding:19px;border-radius:6px}.arc-card h4,.knowledge-card h4,.foreshadow-card h4,.chain-card h4,.rule-card h4{font-size:16px;margin:0 0 15px}.arc-card dl,.knowledge-card dl,.foreshadow-card dl{margin:0}.arc-card dt,.knowledge-card dt,.foreshadow-card dt{font-size:9px;color:var(--gold);letter-spacing:.8px;margin-top:12px}.arc-card dd,.knowledge-card dd,.foreshadow-card dd{margin:4px 0 0;font-size:11px;line-height:1.75;color:#546159}.foreshadow-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.foreshadow-card header{display:flex;gap:10px;align-items:baseline}.foreshadow-card header span{font-size:9px;color:var(--gold);letter-spacing:.8px}.foreshadow-card header h4{margin:0}.chain-stack{display:grid;gap:12px}.chain-card ol{display:flex;gap:7px;flex-wrap:wrap;margin:0;padding:0;list-style:none}.chain-card li{font-size:11px;line-height:1.5;background:var(--dark);color:#fff;padding:8px 10px;border-radius:4px}.chain-card li:not(:last-child):after{content:'→';color:var(--gold);margin-left:14px}.rule-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}.rule-card header{display:flex;justify-content:space-between}.rule-card header span,.rule-card header b{font-size:9px;letter-spacing:1px}.rule-card.red{border-left:3px solid #a95247}.rule-card.red header span{color:#a95247}.rule-card.yellow{border-left:3px solid #b78c32}.rule-card.yellow header span{color:#9d7727}.rule-card header b{color:#3e7148}.rule-card p,.rule-card small,.change-panel p,.change-panel li{font-size:11px;line-height:1.8;color:#59655f}.rule-card p{margin:0 0 8px}.rule-card small{color:#7b847e}.change-panel ol{margin:0;padding-left:20px;display:grid;gap:6px}.change-panel p{margin:16px 0 0;padding:13px;background:#ece7db}
 @media(max-width:900px){.arc-grid,.knowledge-grid,.rule-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.foreshadow-grid{grid-template-columns:1fr}}
 @media(max-width:720px){.bible-panel{padding:18px}.arc-grid,.knowledge-grid,.rule-grid{grid-template-columns:1fr}.chain-card ol{display:grid}.chain-card li:not(:last-child):after{display:none}}
+
+/* Administrator status review and Story Bible tabs */
+.state-badge{display:inline-flex;align-items:center;justify-content:center;min-width:30px;padding:5px 9px;border-radius:999px;font-size:12px;font-weight:700;white-space:nowrap;border:1px solid transparent}
+.state-badge.pass{background:#e8f4e9;border-color:#9ac5a0;color:#25723a}
+.state-badge.warn{background:#fff6df;border-color:#dfc47c;color:#8a631c}
+.state-badge.fail{background:#fbeaea;border-color:#dc9999;color:#a03434}
+.review-overview,.setting-card,.chapter-plan-card{background:var(--card);border:1px solid var(--line);border-radius:8px}
+.review-overview{padding:23px;margin:28px 0}
+.review-overview .section-title{margin-bottom:15px}
+.review-overview .chapter-timeline td:last-child{min-width:260px;max-width:480px;line-height:1.65}
+.review-hero>.state-badge{font-size:25px;min-width:54px;padding:10px 16px}
+.review-hero .length-note{margin-top:12px;color:#e4cb97}
+.review-card header .state-badge{font-family:inherit;font-size:12px}
+.storyline-tabs{flex-wrap:wrap;margin-bottom:8px}
+.tab-description{font-size:13px;color:var(--muted);margin:0 0 25px;line-height:1.7}
+.chapter-plan-grid,.setting-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:13px;margin:20px 0 32px}
+.chapter-plan-card,.setting-card{padding:22px}
+.chapter-plan-card header{border-bottom:1px solid var(--line);padding-bottom:12px;margin-bottom:14px}
+.chapter-plan-card header span{color:var(--gold);font-size:10px;letter-spacing:.5px}
+.chapter-plan-card h3,.setting-card h3{font-size:18px;margin:8px 0 0}
+.chapter-plan-card p,.setting-card p,.setting-card dd{font-size:12px;line-height:1.75;color:#526058}
+.chapter-plan-card p{margin:8px 0}
+.chapter-plan-card p b{color:#34493a;margin-right:5px}
+.setting-card dl{border-top:1px solid var(--line);padding-top:13px;margin:15px 0 0}
+.setting-card dt{font-size:10px;color:var(--gold);letter-spacing:.6px}
+.setting-card dd{margin:6px 0 0}
+.foreshadow-card.paid-off{border-color:#9ac5a0;background:#f5fbf4}
+.foreshadow-card header .state-badge{letter-spacing:0}
+@media(max-width:720px){.chapter-plan-grid,.setting-grid{grid-template-columns:1fr}.review-overview{padding:16px}.storyline-tabs button{flex:1 1 140px}}
