@@ -387,3 +387,7 @@ Chapter 21 tests the route question in northern relay communities. Luhan acknowl
 ## Ch22 approved-manuscript update
 
 Chapter 22 moves through Lansi, Haojin, and Muranheo to test route development in lived terms: bad roads, low herb prices, youth leaving, seasonal water rights, and early land inquiries prompted solely by rumor. Lin asks who currently uses water rather than counting wells. The unnamed Kairun appears as a person whose community saw imperial decree remove and later restore pasture and water rights; his distrust already exists before any Bai-linked information arrives. The approved body length is 7,633 characters including spaces, above the normal target; retain the approved text until explicitly requested to compress.
+
+## Ch23 approved-manuscript update
+
+Chapter 23 confirms red mineral as a non-magical heat/pressure-resistant material with possible economic scale in Ishval and gemstone value in Xing. Graus reports the real plurality of Ishval views and stable security; Brandt’s trust is therefore reasonable. Jenha does not create a new spy network or treat An as an enemy: Bai traders have long tracked the potential southern competitor through normal trade. The new action is using that existing network to learn, support, and if possible delay anti-route political voices, while keeping Tianluo’s independent position independent. The approved body length is 8,292 characters including spaces, above the normal target; retain until explicitly requested to compress.
