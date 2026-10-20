@@ -391,3 +391,7 @@ Chapter 22 moves through Lansi, Haojin, and Muranheo to test route development i
 ## Ch23 approved-manuscript update
 
 Chapter 23 confirms red mineral as a non-magical heat/pressure-resistant material with possible economic scale in Ishval and gemstone value in Xing. Graus reports the real plurality of Ishval views and stable security; Brandt’s trust is therefore reasonable. Jenha does not create a new spy network or treat An as an enemy: Bai traders have long tracked the potential southern competitor through normal trade. The new action is using that existing network to learn, support, and if possible delay anti-route political voices, while keeping Tianluo’s independent position independent. The approved body length is 8,292 characters including spaces, above the normal target; retain until explicitly requested to compress.
+
+## Ch24 approved-manuscript update
+
+Chapter 24 establishes the timing explicitly: Lin returns to Lansi, spends six days reviewing protections, then informal information travels three days to Haojin and two more days to Muranheo before the formal temporary protection rule arrives later. Kairun reads both versions, joins an otherwise ordinary protest journey to Lansi, and privately approaches a different conclusion. The existing trade network carries support and an old accessory without any direct order to Kairun. The approved body length is 5,019 characters including spaces and meets the normal target.
