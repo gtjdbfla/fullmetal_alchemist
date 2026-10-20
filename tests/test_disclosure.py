@@ -59,6 +59,8 @@ class DashboardDisclosureTests(unittest.TestCase):
         self.assertNotIn("analysis", self.public)
         self.assertNotIn("chapterReviews", self.public)
         self.assertNotIn("storyline", self.public)
+        self.assertNotIn("storyBible", self.public)
+        self.assertNotIn("sourceDocuments", self.public)
         self.assertEqual(set(self.author["analysis"]), {"characters", "causality", "world"})
         reviews = self.author["chapterReviews"]
         self.assertEqual(len(reviews), 18)
@@ -68,9 +70,13 @@ class DashboardDisclosureTests(unittest.TestCase):
     def test_storyline_map_is_only_available_to_author_data(self):
         storyline = self.author["storyline"]
         self.assertEqual(storyline["currentChapter"], 18)
-        self.assertEqual(storyline["totalChapters"], 38)
+        self.assertEqual(storyline["totalChapters"], 42)
         self.assertEqual(len(storyline["parts"]), 9)
         self.assertGreaterEqual(len(storyline["threads"]), 5)
+        bible = self.author["storyBible"]
+        self.assertEqual(len(bible["chapters"]), 44)
+        self.assertTrue(any(item["name"] == "바르크" for item in bible["characterArcs"]))
+        self.assertTrue(any(item["id"] == "BARK-COMPLETION" for item in bible["foreshadowing"]))
 
     def test_mystery_board_separates_ed_hypothesis_from_story_state(self):
         mysteries = self.author["analysis"]["causality"]["mysteries"]
@@ -84,8 +90,9 @@ class DashboardDisclosureTests(unittest.TestCase):
         for item in self.config["sourceDocuments"]:
             path = ROOT / item["file"]
             self.assertTrue(path.exists(), item["file"])
-            self.assertGreater(len(path.read_text(encoding="utf-8")), 5000)
-        self.assertEqual({item["version"] for item in self.config["sourceDocuments"]}, {"3.0", "5.0"})
+            self.assertGreater(len(path.read_text(encoding="utf-8")), 200)
+        self.assertEqual({item["version"] for item in self.config["sourceDocuments"]}, {"6.0"})
+        self.assertIn("story_bible/01_STORYLINE_CH18_42.md", {item["file"] for item in self.config["sourceDocuments"]})
 
     def test_private_storyline_is_not_copied_to_public_site(self):
         self.assertFalse((ROOT / "site/STORYLINE_MASTER_v2.0.md").exists())

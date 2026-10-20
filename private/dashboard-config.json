@@ -1,5 +1,5 @@
 {
-  "version": "1.1.0",
+  "version": "2.0.0",
   "title": "강철의 연금술사 — 동쪽으로",
   "subtitle": "원고를 읽고, 이야기가 무너지지 않는지 점검하는 작업실",
   "manuscripts": [
@@ -139,16 +139,22 @@
   ],
   "sourceDocuments": [
     {
-      "name": "STORYLINE & CHARACTER MASTER",
-      "version": "5.0",
-      "file": "private/STORYLINE_MASTER_v5.0.md",
-      "role": "1~18화 기준 원고와 19~38화의 인과·등장인물·표기·검증 규칙을 관리하는 활성 기준 문서"
+      "name": "STORY BIBLE — STORYLINE",
+      "version": "6.0",
+      "file": "story_bible/01_STORYLINE_CH18_42.md",
+      "role": "18~42화와 에필로그의 회차 역할·중심 질문·에드 역할을 관리하는 활성 스토리라인"
     },
     {
-      "name": "STORY DASHBOARD MASTER SPEC",
-      "version": "3.0",
-      "file": "private/STORY_DASHBOARD_SPEC_v3.0.md",
-      "role": "원작·캐릭터·인과·정보 흐름·복선을 지속적으로 검사하는 규칙"
+      "name": "STORY BIBLE — CORE RULES",
+      "version": "6.0",
+      "file": "story_bible/00_CORE_RULES.md",
+      "role": "승인 원고와 설정 충돌을 판단할 때 가장 먼저 보는 하드 룰과 우선순위"
+    },
+    {
+      "name": "STORY BIBLE — VALIDATION",
+      "version": "6.0",
+      "file": "story_bible/08_VALIDATION_RULES.md",
+      "role": "원고 검토 출력과 설정 변경 영향 분석의 기준"
     }
   ],
   "chapterReviews": [
@@ -1085,11 +1091,11 @@
   ],
   "storyline": {
     "title": "《강철의 연금술사 — 동쪽으로》 전체 스토리라인",
-    "summary": "에드의 학문적 호기심이 이슈발의 과거와 적맥석, 싱과 이슈발의 정치적 충돌을 지나 “누가 결정하는가”라는 질문으로 확대되는 38화 구성이다.",
+    "summary": "에드의 질문이 이슈발라와 진리에서 시작해, 정보·명령·해석이 낳는 결과와 “누가 결정하는가”로 확장되는 42화와 에필로그 구성이다.",
     "currentChapter": 18,
-    "totalChapters": 38,
-    "progress": 47.4,
-    "currentRange": "제5부 《두 나라의 균열》 — 바르크의 첫 복선까지 반영",
+    "totalChapters": 42,
+    "progress": 42.9,
+    "currentRange": "CH18 《소위 그라우스》 · Story Bible v6.0 기준",
     "coreQuestions": [
       "연금술과 진리는 무엇인가?",
       "알아낸 지식은 누구를 위해 어떻게 사용해야 하는가?",
@@ -1098,12 +1104,12 @@
     ],
     "alignment": {
       "score": 8.8,
-      "label": "현재 1~18화는 이슈발 미스터리와 자원·정치 갈등의 출발점을 통과했고, 바르크의 첫 복선을 심었다.",
+      "label": "승인 원고는 1~18화까지이며, 이후 19~42화와 에필로그는 Story Bible에서 복선·지식 상태·인과 체인으로 관리한다.",
       "metrics": [
         {
           "name": "계획 회차 일치",
-          "value": "18 / 18",
-          "note": "현재 공개 원고가 제5부 종료 지점까지 계획 순서와 일치."
+          "value": "18 / 42",
+          "note": "프롤로그와 1~18화가 승인 원고. 19~42화와 에필로그는 집필 전 계획."
         },
         {
           "name": "캐릭터 평균",
@@ -1191,8 +1197,8 @@
       },
       {
         "label": "PART VII",
-        "title": "선을 넘는 사람들",
-        "episodes": "23화 ~ 27화",
+        "title": "전달되는 정보",
+        "episodes": "23화 ~ 28화",
         "status": "PLANNED",
         "statusLabel": "집필 예정",
         "summary": "싱의 적맥석·개발 갈등과 이슈발의 군부선이 교차한다. 바르크의 과잉 해석과 부족 간 불신이 함께 한계로 향한다.",
@@ -1203,7 +1209,7 @@
       {
         "label": "PART VIII",
         "title": "두 번째 이슈발 전쟁",
-        "episodes": "28화 ~ 33화",
+        "episodes": "29화 ~ 37화",
         "status": "PLANNED",
         "statusLabel": "집필 예정",
         "summary": "그라우스가 만든 제한적 충돌은 바르크의 선택으로 전쟁이 된다. 머스탱과 스카는 각각 자기 편의 폭력을 멈춘다.",
@@ -1214,7 +1220,7 @@
       {
         "label": "PART IX",
         "title": "누가 결정하는가",
-        "episodes": "34화 ~ 38화",
+        "episodes": "38화 ~ 42화 · 에필로그",
         "status": "PLANNED",
         "statusLabel": "집필 예정",
         "summary": "재판과 개혁, 린과 루한 바이의 충돌, 당사자가 참여하는 협의를 거쳐 권력을 나누는 방향으로 끝난다.",
@@ -1259,6 +1265,930 @@
         "next": "린과 루한 바이의 갈등, 제2차 이슈발 전쟁, 전쟁 이후의 제도 개혁을 통해 결말의 질문으로 수렴한다.",
         "guardrail": "결말을 한 사람의 선의나 완벽한 해답으로 처리하지 않는다."
       }
+    ]
+  },
+  "storyBible": {
+    "version": "6.0",
+    "title": "《강철의 연금술사 — 동쪽으로》 Story Bible",
+    "purpose": "승인 원고를 임의로 바꾸지 않고, 확정 설정·지식 상태·인과·복선을 추적하는 관리자용 기준 데이터.",
+    "chapters": [
+      {
+        "chapter": 0,
+        "label": "프롤로그",
+        "title": "연금술을 못 쓰는 연금술사",
+        "status": "APPROVED",
+        "characterCount": 0,
+        "mainQuestion": "연금술을 잃은 뒤에도 무엇을 할 수 있는가?",
+        "mainEvent": "광산 구조와 에드의 새 출발",
+        "pov": "에드워드",
+        "edwardRole": "능력과 질문의 출발점",
+        "continuity": "PASS"
+      },
+      {
+        "chapter": 1,
+        "label": "제1화",
+        "title": "동쪽으로 가는 길",
+        "status": "APPROVED",
+        "characterCount": 0,
+        "mainQuestion": "연금술을 잃은 뒤에도 무엇을 할 수 있는가?",
+        "mainEvent": "광산 구조와 에드의 새 출발",
+        "pov": "에드워드",
+        "edwardRole": "조사·가설·행동",
+        "continuity": "PASS"
+      },
+      {
+        "chapter": 2,
+        "label": "제2화",
+        "title": "신의 이름",
+        "status": "APPROVED",
+        "characterCount": 0,
+        "mainQuestion": "스카의 형은 어떻게 연단술을 알았는가?",
+        "mainEvent": "알의 편지와 이슈발행",
+        "pov": "에드워드",
+        "edwardRole": "조사·가설·행동",
+        "continuity": "PASS"
+      },
+      {
+        "chapter": 3,
+        "label": "제3화",
+        "title": "신을 본 자",
+        "status": "APPROVED",
+        "characterCount": 0,
+        "mainQuestion": "이슈발라란 무엇인가?",
+        "mainEvent": "기도소 기록 조사",
+        "pov": "에드워드",
+        "edwardRole": "조사·가설·행동",
+        "continuity": "PASS"
+      },
+      {
+        "chapter": 4,
+        "label": "제4화",
+        "title": "문 너머의 신",
+        "status": "APPROVED",
+        "characterCount": 0,
+        "mainQuestion": "진리를 봤다는 것은 무엇인가?",
+        "mainEvent": "이슈발라=진리 가설",
+        "pov": "에드워드",
+        "edwardRole": "조사·가설·행동",
+        "continuity": "PASS"
+      },
+      {
+        "chapter": 5,
+        "label": "제5화",
+        "title": "붉은 돌",
+        "status": "APPROVED",
+        "characterCount": 0,
+        "mainQuestion": "붉은 돌은 무엇인가?",
+        "mainEvent": "적맥석 단서 발견",
+        "pov": "에드워드",
+        "edwardRole": "조사·가설·행동",
+        "continuity": "PASS"
+      },
+      {
+        "chapter": 6,
+        "label": "제6화",
+        "title": "선의",
+        "status": "APPROVED",
+        "characterCount": 0,
+        "mainQuestion": "좋은 의도로 결정해도 되는가?",
+        "mainEvent": "재건과 유적 조사권 충돌",
+        "pov": "에드워드",
+        "edwardRole": "조사·가설·행동",
+        "continuity": "PASS"
+      },
+      {
+        "chapter": 7,
+        "label": "제7화",
+        "title": "좋은 총통",
+        "status": "APPROVED",
+        "characterCount": 0,
+        "mainQuestion": "좋은 총통은 충분한가?",
+        "mainEvent": "머스탱·브란트의 정치적 대립",
+        "pov": "에드워드",
+        "edwardRole": "조사·가설·행동",
+        "continuity": "PASS"
+      },
+      {
+        "chapter": 8,
+        "label": "제8화",
+        "title": "동쪽에서 온 기록",
+        "status": "APPROVED",
+        "characterCount": 0,
+        "mainQuestion": "지식은 어디에서 왔는가?",
+        "mainEvent": "동쪽 기록 발견",
+        "pov": "에드워드",
+        "edwardRole": "조사·가설·행동",
+        "continuity": "PASS"
+      },
+      {
+        "chapter": 9,
+        "label": "제9화",
+        "title": "사막으로",
+        "status": "APPROVED",
+        "characterCount": 0,
+        "mainQuestion": "사라진 길은 누구의 것인가?",
+        "mainEvent": "하심과 사막 초입",
+        "pov": "에드워드",
+        "edwardRole": "조사·가설·행동",
+        "continuity": "PASS"
+      },
+      {
+        "chapter": 10,
+        "label": "제10화",
+        "title": "길을 지운 사람들",
+        "status": "APPROVED",
+        "characterCount": 0,
+        "mainQuestion": "길을 지운 사람들은 왜 그랬는가?",
+        "mainEvent": "카르사와 다우드",
+        "pov": "에드워드",
+        "edwardRole": "조사·가설·행동",
+        "continuity": "PASS"
+      },
+      {
+        "chapter": 11,
+        "label": "제11화",
+        "title": "형이 걸었던 길",
+        "status": "APPROVED",
+        "characterCount": 0,
+        "mainQuestion": "형은 왜 동쪽으로 갔는가?",
+        "mainEvent": "스카 형의 이동 경로",
+        "pov": "에드워드",
+        "edwardRole": "조사·가설·행동",
+        "continuity": "PASS"
+      },
+      {
+        "chapter": 12,
+        "label": "제12화",
+        "title": "흐르는 땅",
+        "status": "APPROVED",
+        "characterCount": 0,
+        "mainQuestion": "땅의 흐름은 무엇을 의미하는가?",
+        "mainEvent": "카르사의 흐름 기록",
+        "pov": "에드워드",
+        "edwardRole": "조사·가설·행동",
+        "continuity": "PASS"
+      },
+      {
+        "chapter": 13,
+        "label": "제13화",
+        "title": "두 개의 길",
+        "status": "APPROVED",
+        "characterCount": 0,
+        "mainQuestion": "두 개의 길은 무엇을 바꾸는가?",
+        "mainEvent": "마지드의 증언",
+        "pov": "에드워드",
+        "edwardRole": "조사·가설·행동",
+        "continuity": "PASS"
+      },
+      {
+        "chapter": 14,
+        "label": "제14화",
+        "title": "형이 원했던 것",
+        "status": "APPROVED",
+        "characterCount": 0,
+        "mainQuestion": "형이 원했던 것은 무엇인가?",
+        "mainEvent": "스카의 형이 원한 귀환",
+        "pov": "에드워드",
+        "edwardRole": "조사·가설·행동",
+        "continuity": "PASS"
+      },
+      {
+        "chapter": 15,
+        "label": "제15화",
+        "title": "서쪽 끝의 도시",
+        "status": "APPROVED",
+        "characterCount": 0,
+        "mainQuestion": "기록은 누구의 소유인가?",
+        "mainEvent": "란시의 기록",
+        "pov": "에드워드",
+        "edwardRole": "조사·가설·행동",
+        "continuity": "PASS"
+      },
+      {
+        "chapter": 16,
+        "label": "제16화",
+        "title": "정보의 가격",
+        "status": "APPROVED",
+        "characterCount": 0,
+        "mainQuestion": "정보에는 어떤 가격이 붙는가?",
+        "mainEvent": "진웨이와 정보 거래",
+        "pov": "에드워드",
+        "edwardRole": "조사·가설·행동",
+        "continuity": "PASS"
+      },
+      {
+        "chapter": 17,
+        "label": "제17화",
+        "title": "불안정성을 보여주시오",
+        "status": "APPROVED",
+        "characterCount": 0,
+        "mainQuestion": "불안정성을 누가 정의하는가?",
+        "mainEvent": "그라우스의 독립 조사",
+        "pov": "그라우스 · 스카",
+        "edwardRole": "직접 등장 없음 · 이전 질문의 결과가 현장을 움직임",
+        "continuity": "PASS"
+      },
+      {
+        "chapter": 18,
+        "label": "제18화",
+        "title": "소위 그라우스",
+        "status": "APPROVED",
+        "characterCount": 0,
+        "mainQuestion": "작은 충돌은 어디까지 번질 수 있는가?",
+        "mainEvent": "경계 충돌과 바르크의 첫 복선",
+        "pov": "그라우스 · 스카",
+        "edwardRole": "직접 등장 없음 · 이전 질문의 결과가 현장을 움직임",
+        "continuity": "PASS"
+      },
+      {
+        "chapter": 19,
+        "label": "제19화",
+        "title": "황제의 백성",
+        "status": "PLANNED",
+        "characterCount": "—",
+        "mainQuestion": "누가 결정할 수 있는가와 누가 결정해야 하는가는 같은가?",
+        "mainEvent": "린은 서부 순행 중 에드와 재회한다. 안족의 샤오린·천루오와 루한 바이의 입장이 처음 맞선다.",
+        "pov": "에드·린",
+        "edwardRole": "질문을 던지고 현장을 관찰한다.",
+        "continuity": "PLANNED"
+      },
+      {
+        "chapter": 20,
+        "label": "제20화",
+        "title": "황제가 되는 법",
+        "status": "PLANNED",
+        "characterCount": "—",
+        "mainQuestion": "좋은 황제는 충분한가?",
+        "mainEvent": "루한은 안족의 기회와 바이족의 손실을 모두 인정하며, 좋은 황제가 듣고 결정하면 된다고 주장한다.",
+        "pov": "에드·린·루한",
+        "edwardRole": "린의 판단을 흔드는 질문자.",
+        "continuity": "PLANNED"
+      },
+      {
+        "chapter": 21,
+        "label": "제21화",
+        "title": "두 번째 린",
+        "status": "PLANNED",
+        "characterCount": "—",
+        "mainQuestion": "부족을 지키려면 황제가 되어야 하는가?",
+        "mainEvent": "북부 공동체에서 린과 루한의 공통된 성장 배경, 웨이의 첫 압박, 호엔하임 지식의 한계를 확인한다.",
+        "pov": "에드·린·루한",
+        "edwardRole": "호엔하임 가설을 수정한다.",
+        "continuity": "PLANNED"
+      },
+      {
+        "chapter": 22,
+        "label": "제22화",
+        "title": "황제와 강철",
+        "status": "PLANNED",
+        "characterCount": "—",
+        "mainQuestion": "보호는 누구의 권한인가?",
+        "mainEvent": "안족 지역을 직접 걸으며 길의 기회와 피해를 보고 카이룬의 불신을 처음 마주한다.",
+        "pov": "에드·린·샤오린",
+        "edwardRole": "현장 조건을 읽고 행동한다.",
+        "continuity": "PLANNED"
+      },
+      {
+        "chapter": 23,
+        "label": "제23화",
+        "title": "좋은 재료",
+        "status": "PLANNED",
+        "characterCount": "—",
+        "mainQuestion": "좋은 정보는 좋은 결론으로 이어지는가?",
+        "mainEvent": "적맥석의 비마법적 가치가 확정되고, 브란트는 그라우스의 객관적 첫 보고를 신뢰한다. 젠하가 등장한다.",
+        "pov": "에드·스카·그라우스",
+        "edwardRole": "지식의 경제적 결과를 마주한다.",
+        "continuity": "PLANNED"
+      },
+      {
+        "chapter": 24,
+        "label": "제24화",
+        "title": "두 개의 미래",
+        "status": "PLANNED",
+        "characterCount": "—",
+        "mainQuestion": "다음 지도자도 약속을 지킬 수 있는가?",
+        "mainEvent": "린은 안족 보호장치를 논의하고, 젠하의 정보망을 통해 낡은 바이 장신구가 카이룬에게 우연히 흘러간다.",
+        "pov": "린·카이룬",
+        "edwardRole": "직접 해결하지 않고 관찰한다.",
+        "continuity": "PLANNED"
+      },
+      {
+        "chapter": 25,
+        "label": "제25화",
+        "title": "황제를 죽이는 사람",
+        "status": "PLANNED",
+        "characterCount": "—",
+        "mainQuestion": "좋은 명령도 지배가 될 수 있는가?",
+        "mainEvent": "카이룬이 린을 습격한다. 에드는 연금술 없이 싸우고 란팡은 린을 지키기 위해 카이룬을 죽인다.",
+        "pov": "에드·린·카이룬",
+        "edwardRole": "상대의 의도와 지형을 읽어 저지한다.",
+        "continuity": "PLANNED"
+      },
+      {
+        "chapter": 26,
+        "label": "제26화",
+        "title": "소문",
+        "status": "PLANNED",
+        "characterCount": "—",
+        "mainQuestion": "증거 하나로 명령자를 단정할 수 있는가?",
+        "mainEvent": "장신구가 오래된 바이 네트워크 표식임을 알아내며 소문이 폭발한다. 린은 물건과 명령을 구분하라고 한다.",
+        "pov": "에드·린",
+        "edwardRole": "가설을 세우되 보류한다.",
+        "continuity": "PLANNED"
+      },
+      {
+        "chapter": 27,
+        "label": "제27화",
+        "title": "선을 넘는 사람",
+        "status": "PLANNED",
+        "characterCount": "—",
+        "mainQuestion": "맞는 사실을 모아도 답은 틀릴 수 있는가?",
+        "mainEvent": "에드는 카이룬→안족 네트워크→바이 정보망→젠하를 추적하고, 실제 공작과 암살 명령은 다르다는 사실을 확인한다.",
+        "pov": "에드·젠하·천루오",
+        "edwardRole": "가설을 수정하는 주인공.",
+        "continuity": "PLANNED"
+      },
+      {
+        "chapter": 28,
+        "label": "제28화",
+        "title": "불이 없는 전쟁",
+        "status": "PLANNED",
+        "characterCount": "—",
+        "mainQuestion": "결정을 피하지 않으면서 권력을 제한할 수 있는가?",
+        "mainEvent": "정정된 사실에도 보복은 커진다. 린은 황군으로 양쪽을 분리하고, 에드와 린은 즉각적인 결정이 필요한 현장을 막는다.",
+        "pov": "에드·린",
+        "edwardRole": "린과 협력해 충돌을 저지한다.",
+        "continuity": "PLANNED"
+      },
+      {
+        "chapter": 29,
+        "label": "제29화",
+        "title": "총통을 움직이는 법",
+        "status": "PLANNED",
+        "characterCount": "—",
+        "mainQuestion": "통제된 전쟁은 가능한가?",
+        "mainEvent": "그라우스는 처음부터 짧은 제2차 이슈발 전쟁을 계획했음이 드러난다. 바르크에게 5인 셀을 맡긴다.",
+        "pov": "그라우스·바르크",
+        "edwardRole": "서쪽의 결과가 왜곡되는 축과 연결된다.",
+        "continuity": "PLANNED"
+      },
+      {
+        "chapter": 30,
+        "label": "제30화",
+        "title": "바이족의 아들",
+        "status": "PLANNED",
+        "characterCount": "—",
+        "mainQuestion": "좋은 황제를 믿는 일은 안전한가?",
+        "mainEvent": "루한은 바이족의 무장 해제를 설득하고, 신뢰했던 사람이 죽은 뒤 처음으로 황제가 되었더라면을 생각한다.",
+        "pov": "루한·린",
+        "edwardRole": "루한의 질문을 옆에서 목격한다.",
+        "continuity": "PLANNED"
+      },
+      {
+        "chapter": 31,
+        "label": "제31화",
+        "title": "두 번째 총성",
+        "status": "PLANNED",
+        "characterCount": "—",
+        "mainQuestion": "명령의 효과를 위해 누구까지 재료가 되는가?",
+        "mainEvent": "바르크가 민간인 아이를 표적으로 삼아 반응을 만든다. 싱에서는 린이 실제로 바이족을 지킨다.",
+        "pov": "바르크·린·루한",
+        "edwardRole": "직접적 해결 대신 두 축의 결과를 잇는다.",
+        "continuity": "PLANNED"
+      },
+      {
+        "chapter": 32,
+        "label": "제32화",
+        "title": "끝나지 않은 전쟁",
+        "status": "PLANNED",
+        "characterCount": "—",
+        "mainQuestion": "명령을 고치면 이미 만든 결과도 사라지는가?",
+        "mainEvent": "그라우스는 민간인 살해를 알고 T0 명령을 내린다. 이후 직접 민간인 사살은 멈추지만 전쟁은 유기적으로 확전한다.",
+        "pov": "그라우스·바르크",
+        "edwardRole": "전쟁의 구조를 이해한다.",
+        "continuity": "PLANNED"
+      },
+      {
+        "chapter": 33,
+        "label": "제33화",
+        "title": "황제가 아닌 사람",
+        "status": "PLANNED",
+        "characterCount": "—",
+        "mainQuestion": "좋은 사람이 사라진 뒤에도 체제는 버티는가?",
+        "mainEvent": "루한은 린이 좋은 황제임을 확인한 뒤 오히려 다음 황제를 두려워한다. 전쟁 보고가 중앙에 도착한다.",
+        "pov": "루한·린·머스탱",
+        "edwardRole": "정치적 답을 대신 내리지 않는다.",
+        "continuity": "PLANNED"
+      },
+      {
+        "chapter": 34,
+        "label": "제34화",
+        "title": "한 사람",
+        "status": "PLANNED",
+        "characterCount": "—",
+        "mainQuestion": "결정과 결정권은 어디서 갈리는가?",
+        "mainEvent": "전쟁 뒤 머스탱·호크아이·그라우스·마일즈가 지휘소에서 만난다. 스카와 머스탱은 각자 자기 편의 폭력을 멈춘다.",
+        "pov": "머스탱·스카·호크아이",
+        "edwardRole": "전투적 판단을 돕되 정치 결론은 맡기지 않는다.",
+        "continuity": "PLANNED"
+      },
+      {
+        "chapter": 35,
+        "label": "제35화",
+        "title": "칼을 드는 이유",
+        "status": "PLANNED",
+        "characterCount": "—",
+        "mainQuestion": "사람을 막는 것과 미래를 정하는 것은 다른가?",
+        "mainEvent": "루한은 린을 죽이고 황제가 되어 바이족을 지키려 한다. 에드는 죽음을 막지만 루한의 정치 문제를 해결하지 않는다.",
+        "pov": "에드·린·루한",
+        "edwardRole": "능동적으로 비살상 저지를 선택한다.",
+        "continuity": "PLANNED"
+      },
+      {
+        "chapter": 36,
+        "label": "제36화",
+        "title": "마지막 한 발",
+        "status": "PLANNED",
+        "characterCount": "—",
+        "mainQuestion": "완료만 아는 사람은 무엇을 보지 못하는가?",
+        "mainEvent": "바르크는 최초 명령이 미완료라며 복귀를 거부하고 스카를 목표로 삼는다. 호크아이는 감시자를 찾아 바르크를 막는다.",
+        "pov": "바르크·호크아이·그라우스",
+        "edwardRole": "직접 등장 없음 · 에드와 대척되는 계산의 결말.",
+        "continuity": "PLANNED"
+      },
+      {
+        "chapter": 37,
+        "label": "제37화",
+        "title": "전쟁이 끝난 자리",
+        "status": "PLANNED",
+        "characterCount": "—",
+        "mainQuestion": "좋은 사람을 고르는 것으로 충분한가?",
+        "mainEvent": "브란트는 자신의 책임을 인정하고 젊은 병사를 보호하다 죽는다. 체제를 바꾸라는 말을 남긴다.",
+        "pov": "브란트·머스탱",
+        "edwardRole": "전후 질문의 출발점.",
+        "continuity": "PLANNED"
+      },
+      {
+        "chapter": 38,
+        "label": "제38화",
+        "title": "재판",
+        "status": "PLANNED",
+        "characterCount": "—",
+        "mainQuestion": "전장에서의 결정과 모든 결정권은 어떻게 다른가?",
+        "mainEvent": "머스탱과 그라우스가 위선자라는 말의 의미를 마주한다. 그라우스는 재판을 받고 머스탱은 마지막 총통을 결심한다.",
+        "pov": "머스탱·그라우스",
+        "edwardRole": "지식과 판단의 한계를 비춘다.",
+        "continuity": "PLANNED"
+      },
+      {
+        "chapter": 39,
+        "label": "제39화",
+        "title": "황제가 없는 나라",
+        "status": "PLANNED",
+        "characterCount": "—",
+        "mainQuestion": "부족이 왕좌를 차지하지 않아도 살아갈 수 있는가?",
+        "mainEvent": "린은 루한 사건 뒤 안족·바이족 대표와 만나 즉시 폐지가 아닌 권력 분산의 방향을 찾는다.",
+        "pov": "린·루한·천루오",
+        "edwardRole": "질문을 남기고 강요하지 않는다.",
+        "continuity": "PLANNED"
+      },
+      {
+        "chapter": 40,
+        "label": "제40화",
+        "title": "마지막 총통",
+        "status": "PLANNED",
+        "characterCount": "—",
+        "mainQuestion": "더 좋은 사람이 아니라 다른 구조가 가능한가?",
+        "mainEvent": "머스탱은 민간 통제와 사법·지방 권한을 포함한 제도 개혁을 시작한다.",
+        "pov": "머스탱·스카",
+        "edwardRole": "이슈발의 결정권을 존중한다.",
+        "continuity": "PLANNED"
+      },
+      {
+        "chapter": 41,
+        "label": "제41화",
+        "title": "누가 결정하는가",
+        "status": "PLANNED",
+        "characterCount": "—",
+        "mainQuestion": "답을 정할 사람은 하나여야 하는가?",
+        "mainEvent": "에드는 이슈발로 돌아와 적맥석을 둘러싼 당사자들의 긴 협의를 지켜본다. 답이 하나가 아닌 문제를 배운다.",
+        "pov": "에드·스카·이슈발 주민",
+        "edwardRole": "참여하고, 남고, 관찰한다.",
+        "continuity": "PLANNED"
+      },
+      {
+        "chapter": 42,
+        "label": "제42화",
+        "title": "다시 열린 길",
+        "status": "PLANNED",
+        "characterCount": "—",
+        "mainQuestion": "길은 누가 열어야 하는가?",
+        "mainEvent": "카르사의 거부를 존중해 우회로를 단계적으로 만든다. 길을 지운 과거와 함께 길을 정하는 현재가 대비된다.",
+        "pov": "에드·린·여러 당사자",
+        "edwardRole": "지식의 결과를 함께 결정하게 둔다.",
+        "continuity": "PLANNED"
+      },
+      {
+        "chapter": "E",
+        "label": "에필로그",
+        "title": "동쪽으로",
+        "status": "PLANNED",
+        "characterCount": "—",
+        "mainQuestion": "모름은 어떻게 다음 행동이 되는가?",
+        "mainEvent": "에드와 알이 재회하고 이슈발라의 질문을 다시 연다.",
+        "pov": "에드·알",
+        "edwardRole": "모르니까 알아보겠다고 선택한다.",
+        "continuity": "PLANNED"
+      }
+    ],
+    "characterArcs": [
+      {
+        "name": "에드워드",
+        "stage": "가설을 빠르게 세우는 조사자",
+        "current": "이슈발라=진리·바이 명령 가설을 수정하는 단계",
+        "goal": "정답과 행동의 관계",
+        "conflict": "증거는 맞아도 결론은 틀릴 수 있음",
+        "nextBeat": "Ch25~27: 가설 붕괴 / Ch35: 비살상 행동 / Ch41~E: 다원적 결정"
+      },
+      {
+        "name": "린",
+        "stage": "좋은 황제가 듣고 결정한다고 믿음",
+        "current": "결정권 자체를 조사하는 단계",
+        "goal": "싱 전체의 안정",
+        "conflict": "즉각 결정과 구조 변화의 균형",
+        "nextBeat": "Ch28: 즉각 명령 / Ch39: 분권 방향"
+      },
+      {
+        "name": "루한",
+        "stage": "패배를 받아들인 바이족 후계자",
+        "current": "Ch30 이전: 황제가 되었더라면이라는 첫 균열 전",
+        "goal": "바이족의 생존",
+        "conflict": "린에 대한 신뢰와 후계자 공포",
+        "nextBeat": "Ch30→33→35 심리 단계"
+      },
+      {
+        "name": "카이룬",
+        "stage": "황실 구조를 불신하는 안족 강경파",
+        "current": "Ch22 첫 단서 전",
+        "goal": "황실 권한의 거부",
+        "conflict": "개인 경험과 전달된 정보의 결합",
+        "nextBeat": "Ch22→25 암살 미수"
+      },
+      {
+        "name": "젠하",
+        "stage": "북부 교역망을 지키는 영향력자",
+        "current": "미등장",
+        "goal": "남부 노선 지연",
+        "conflict": "영향력은 통제와 같지 않음",
+        "nextBeat": "Ch23→27 공작과 한계"
+      },
+      {
+        "name": "웨이",
+        "stage": "바이족의 정치 원로",
+        "current": "미등장",
+        "goal": "바이족 영향력 보존",
+        "conflict": "루한에게 남긴 기대",
+        "nextBeat": "Ch21→33 압박"
+      },
+      {
+        "name": "그라우스",
+        "stage": "유능한 독립 조사관",
+        "current": "Ch18: 통제 가능한 위기를 계산하기 시작함",
+        "goal": "머스탱 축출",
+        "conflict": "사람을 전장 단위처럼 통제하려는 오판",
+        "nextBeat": "Ch29 계획 → Ch32 T0 → Ch38 재판"
+      },
+      {
+        "name": "바르크",
+        "stage": "정확하고 침착한 소위",
+        "current": "Ch18: 완료 기준을 묻는 첫 복선",
+        "goal": "명령의 완료",
+        "conflict": "조건 준수와 인간 판단의 부재",
+        "nextBeat": "Ch27→32→36"
+      },
+      {
+        "name": "머스탱",
+        "stage": "좋은 총통으로 개혁을 추진",
+        "current": "이슈발의 과거와 현재를 함께 짊어짐",
+        "goal": "재건과 국가 안정",
+        "conflict": "좋은 총통의 한계",
+        "nextBeat": "Ch34 전쟁 종결 → Ch38/40 제도 개혁"
+      },
+      {
+        "name": "호크아이",
+        "stage": "머스탱의 가장 가까운 군인",
+        "current": "미등장",
+        "goal": "전쟁 반복 방지",
+        "conflict": "바르크의 관점과 반대인 타인 관점",
+        "nextBeat": "Ch34~36 추적"
+      },
+      {
+        "name": "브란트",
+        "stage": "민간 통제를 요구하는 정치인",
+        "current": "독립 검증을 설계했으나 사람 선택의 함정을 모름",
+        "goal": "권력 견제",
+        "conflict": "올바른 감시자 선택의 한계",
+        "nextBeat": "Ch23 신뢰 → Ch37 마지막 말"
+      },
+      {
+        "name": "스카",
+        "stage": "형의 뜻을 이해한 이슈발인",
+        "current": "이슈발 주민의 현재 선택을 존중",
+        "goal": "이슈발의 결정권",
+        "conflict": "선택 존중과 방관의 경계",
+        "nextBeat": "Ch34 전쟁 제동 → Ch40/41"
+      },
+      {
+        "name": "마일즈",
+        "stage": "재건 현장의 실무 책임자",
+        "current": "현장 기록과 주민의 삶을 관리",
+        "goal": "사람들의 실제 생활",
+        "conflict": "현장/중앙 언어의 차이",
+        "nextBeat": "Ch18→34 증거 보존"
+      },
+      {
+        "name": "란팡",
+        "stage": "린의 호위무사",
+        "current": "미등장",
+        "goal": "린 보호",
+        "conflict": "비살상 명령과 즉각 위기",
+        "nextBeat": "Ch25→35"
+      },
+      {
+        "name": "알폰스",
+        "stage": "싱에서 간접적으로 움직이는 연구자",
+        "current": "편지와 조사 흔적만 존재",
+        "goal": "동쪽 지식 연구",
+        "conflict": "POV 비공개 원칙",
+        "nextBeat": "에필로그 재회"
+      }
+    ],
+    "foreshadowing": [
+      {
+        "id": "GRAUS-HYPOCRITE",
+        "plot": "그라우스의 위선자 인식",
+        "planted": "Ch18 · 머스탱 서명과 브래들리 회상",
+        "reinforcement": "Ch23·29 · 브란트의 신뢰와 전쟁 계획",
+        "payoff": "Ch38 · 감옥 대화",
+        "status": "PLANTED",
+        "risk": "동기를 너무 일찍 해설하지 않기"
+      },
+      {
+        "id": "BARK-COMPLETION",
+        "plot": "바르크의 완료 모델",
+        "planted": "Ch18 · 제압 기준 질문·철수 뒤 구역 완료",
+        "reinforcement": "Ch27 · 가장 확실한 관찰",
+        "payoff": "Ch36 · 최초 명령 미완료 거부와 호크아이",
+        "status": "PLANTED",
+        "risk": "T0 뒤 직접 민간인 살해 금지"
+      },
+      {
+        "id": "LUHAN-SUCCESSION",
+        "plot": "루한의 후계자 공포",
+        "planted": "Ch21 · 패배 수용·웨이 첫 씨앗",
+        "reinforcement": "Ch30·31·33 · 신뢰·죽음·보호·공포",
+        "payoff": "Ch35 · 그 수밖에 없다",
+        "status": "NOT_PLANTED",
+        "risk": "초반부터 권력욕으로 쓰지 않기"
+      },
+      {
+        "id": "BAI-ACCESSORY",
+        "plot": "낡은 바이 장신구",
+        "planted": "Ch24 · 중고 물품에 섞여 전달",
+        "reinforcement": "Ch25~26 · 카이룬 소지·표식 확인",
+        "payoff": "Ch27 · 실제 지원과 암살 명령의 분리",
+        "status": "NOT_PLANTED",
+        "risk": "의도적 식별표나 암살 지시로 만들지 않기"
+      },
+      {
+        "id": "EDWARD-REVISION",
+        "plot": "에드의 지식 아크",
+        "planted": "초반 · 이슈발라=진리 가설",
+        "reinforcement": "Ch21·26 · 호엔하임·바이 가설",
+        "payoff": "Ch27·35·41·E · 수정 후 행동",
+        "status": "REINFORCED",
+        "risk": "불확실성을 수동성으로 바꾸지 않기"
+      }
+    ],
+    "knowledgeStates": [
+      {
+        "name": "에드워드",
+        "knows": "이슈발라=진리 가설에는 균열이 있고, 적맥석과 길의 정보는 정치로 변한다.",
+        "unknown": "바이 정보망·카이룬·그라우스·바르크의 후반 진실.",
+        "next": "Ch19~27에서 증거와 결론을 분리한다."
+      },
+      {
+        "name": "린",
+        "knows": "남부 노선이 안족과 바이족에 서로 다른 영향을 준다.",
+        "unknown": "카이룬의 선택과 바이 정보망의 범위.",
+        "next": "Ch19~24에서 비밀 개혁 조사를 드러내지 않고 진행한다."
+      },
+      {
+        "name": "루한",
+        "knows": "북부 공동체의 손실 가능성과 린의 황제 권한.",
+        "unknown": "린의 개혁 방향과 자신의 후계자 공포.",
+        "next": "Ch21부터 심리 단계를 한 단계씩 밟는다."
+      },
+      {
+        "name": "젠하",
+        "knows": "북부 교역망과 안족 반대 네트워크에 영향을 줄 방법.",
+        "unknown": "카이룬 개인과 암살의 결과.",
+        "next": "Ch23~27에서 영향과 통제의 차이를 보인다."
+      },
+      {
+        "name": "카이룬",
+        "knows": "자신의 과거와 황실에 대한 불신, 간접 전달된 자원.",
+        "unknown": "장신구의 바이 표식과 젠하의 존재.",
+        "next": "Ch22~25에서 독자적 결론으로 향한다."
+      },
+      {
+        "name": "그라우스",
+        "knows": "이슈발의 균열과 머스탱의 약점.",
+        "unknown": "바르크의 최적화가 민간인 살해까지 갈 것.",
+        "next": "Ch18→29에서 통제 전쟁의 설계를 드러낸다."
+      },
+      {
+        "name": "바르크",
+        "knows": "그라우스의 명령과 완료 조건.",
+        "unknown": "그라우스가 허용할 인간적 한계.",
+        "next": "Ch27~36에서 문자적 준수와 해석의 차이를 보인다."
+      },
+      {
+        "name": "머스탱",
+        "knows": "이슈발 재건과 자원 갈등의 정치성.",
+        "unknown": "그라우스의 전쟁 계획과 바르크 셀.",
+        "next": "Ch34 이후 증거 보존과 전쟁 종결을 우선한다."
+      },
+      {
+        "name": "호크아이",
+        "knows": "전쟁의 반복이 남기는 위험.",
+        "unknown": "바르크가 실제 사수인지와 목표.",
+        "next": "Ch34~36에서 단서로 추론한다."
+      },
+      {
+        "name": "브란트",
+        "knows": "독립 검증이 필요하고 그라우스가 유능함.",
+        "unknown": "그라우스의 실제 목표.",
+        "next": "Ch23→37에서 선택의 책임을 마주한다."
+      }
+    ],
+    "causalChains": [
+      {
+        "title": "카이룬 체인",
+        "steps": [
+          "바이 정치 영향력",
+          "안족 반대 네트워크",
+          "카이룬에게 정보·자원 도달",
+          "개인 과거의 해석",
+          "린 암살",
+          "란팡의 제압",
+          "장신구 발견",
+          "에드의 바이 가설",
+          "조사와 가설 붕괴",
+          "사회 갈등은 계속"
+        ]
+      },
+      {
+        "title": "루한 체인",
+        "steps": [
+          "부족을 위한 황위 교육",
+          "패배 수용",
+          "웨이의 압박",
+          "린 신뢰와 무장 해제",
+          "사망과 죄책감",
+          "내가 황제였다면",
+          "린의 실제 보호",
+          "후계자 공포",
+          "개혁 문서",
+          "쿠데타"
+        ]
+      },
+      {
+        "title": "그라우스 체인",
+        "steps": [
+          "브래들리 경험",
+          "머스탱 원한",
+          "독립 조사",
+          "바르크 신뢰",
+          "통제 전쟁 계획",
+          "민간인 살해",
+          "T0 명령",
+          "유기적 확전",
+          "통제 상실",
+          "바르크 거부",
+          "재판"
+        ]
+      }
+    ],
+    "hardRules": [
+      {
+        "rule": "연금술 복원 금지",
+        "description": "에드의 연금술은 끝까지 돌아오지 않는다.",
+        "level": "RED",
+        "status": "PASS",
+        "note": "현재 승인 원고에는 위반 없음."
+      },
+      {
+        "rule": "이슈발라 확정 금지",
+        "description": "이슈발라=진리는 에드의 가설이며 정답으로 확정하지 않는다.",
+        "level": "RED",
+        "status": "PASS",
+        "note": "현재 승인 원고에는 위반 없음."
+      },
+      {
+        "rule": "적맥석 비마법성",
+        "description": "적맥석은 에너지원·현자의 돌 대체재·만능 광물이 아니다.",
+        "level": "RED",
+        "status": "PASS",
+        "note": "현재 승인 원고에는 위반 없음."
+      },
+      {
+        "rule": "카르사 자원 금지",
+        "description": "카르사에는 적맥석이 없다.",
+        "level": "RED",
+        "status": "PASS",
+        "note": "현재 승인 원고에는 위반 없음."
+      },
+      {
+        "rule": "알 POV 금지",
+        "description": "알의 직접 POV는 사용하지 않는다.",
+        "level": "RED",
+        "status": "PASS",
+        "note": "현재 승인 원고에는 위반 없음."
+      },
+      {
+        "rule": "명명 규칙",
+        "description": "린 야오·루한 바이·젠하 바이·웨이 바이·바르크만 사용한다.",
+        "level": "RED",
+        "status": "PASS",
+        "note": "현재 승인 원고에는 위반 없음."
+      },
+      {
+        "rule": "카이룬 독자성",
+        "description": "카이룬은 바이족 요원도, 암살 명령의 수령자도 아니다.",
+        "level": "RED",
+        "status": "PASS",
+        "note": "현재 승인 원고에는 위반 없음."
+      },
+      {
+        "rule": "젠하 한계",
+        "description": "젠하는 공작을 하지만 암살이나 전쟁을 명령하지 않는다.",
+        "level": "RED",
+        "status": "PASS",
+        "note": "현재 승인 원고에는 위반 없음."
+      },
+      {
+        "rule": "그라우스 계획",
+        "description": "그라우스는 처음부터 짧고 실제적인 전쟁을 계획한다.",
+        "level": "RED",
+        "status": "PASS",
+        "note": "현재 승인 원고에는 위반 없음."
+      },
+      {
+        "rule": "바르크 T0",
+        "description": "T0 이후 바르크 팀의 의도적 직접 민간인 사살은 0회다.",
+        "level": "RED",
+        "status": "PASS",
+        "note": "현재 승인 원고에는 위반 없음."
+      },
+      {
+        "rule": "정치 결말",
+        "description": "즉시 완벽한 민주주의나 한 지도자의 명령으로 끝내지 않는다.",
+        "level": "YELLOW",
+        "status": "PASS",
+        "note": "현재 승인 원고에는 위반 없음."
+      },
+      {
+        "rule": "주인공성",
+        "description": "에드는 조사·수정·행동 중 하나를 매 화 수행해야 한다.",
+        "level": "YELLOW",
+        "status": "PASS",
+        "note": "현재 승인 원고에는 위반 없음."
+      }
+    ],
+    "reviewProtocol": [
+      "인과관계",
+      "지식 상태",
+      "심리 단계",
+      "복선",
+      "하드 룰",
+      "에드 주인공성",
+      "주제 노출",
+      "화 구조"
+    ],
+    "sourcePolicy": [
+      "하드 룰",
+      "최신 Story Bible",
+      "최신 승인 원고",
+      "오래된 초안과 메모"
+    ],
+    "changeImpact": [
+      "영향 받는 화",
+      "인물 아크",
+      "복선과 회수",
+      "너무 이른 정보",
+      "인과 체인",
+      "승인 원고 수정 필요 여부"
     ]
   }
 }

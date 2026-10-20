@@ -22,11 +22,12 @@
 
 ## 기준 문서
 
-- `private/STORYLINE_MASTER_v4.0.md`: 1~18화 구성과 등장인물, 이후 전개 방향을 반영한 활성 스토리라인
-- `private/STORY_DASHBOARD_SPEC_v3.0.md`: 원작·캐릭터·인과·정보 흐름·복선·가설/실제 상태 분리를 검사하는 활성 규칙
-- `private/dashboard-config.json`: 두 화면에 필요한 최소 데이터
+- `story_bible/`: 18~42화·에필로그 기준의 활성 Story Bible. 핵심 규칙, 스토리라인, 인물, 세계관, 인과 체인, 복선, 지식 상태, 집필·검증 규칙으로 분리한다.
+- `private/dashboard-config.json`의 `storyBible`: 관리자 대시보드가 읽는 구조화된 기준 데이터
+- `private/STORY_DASHBOARD_SPEC_v3.0.md`: 기존 검증 규칙 보관본
+- `private/STORYLINE_MASTER_v5.0.md`: 이전 활성 스토리라인 보관본
 
-스토리라인 문서와 검증 규칙은 공개 정적 루트로 복사하지 않는다.
+Story Bible 문서와 검증 규칙은 공개 정적 루트로 복사하지 않는다.
 
 ## 빌드와 실행
 

@@ -47,6 +47,8 @@ def main() -> None:
     public.pop("analysis", None)
     public.pop("chapterReviews", None)
     public.pop("storyline", None)
+    public.pop("storyBible", None)
+    public.pop("sourceDocuments", None)
     write_json(SITE / "data" / "project.json", public)
 
     if AUTHOR_SITE.exists():
