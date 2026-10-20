@@ -104,3 +104,14 @@
 - 목표: 동쪽 지식 연구
 - 갈등: POV 비공개 원칙
 - 다음 비트: 에필로그 재회
+
+## Version 6.1 character priorities
+
+- **Edward:** quick, proud, active, and corrigible. His final humility never becomes passivity.
+- **Lin:** reduces the range of decisions that must depend on one emperor; he still gives immediate orders in a crisis.
+- **Luhan:** begins from genuine acceptance of defeat. His succession fear grows through trust, death, proof that Lin is good, and the fear of a successor.
+- **Kairun:** reaches assassination through his own interpretation of history, not a Bai order.
+- **Jenha:** is culpable for influence operations but not the assassination mastermind.
+- **Graus:** remains capable. His failure is the belief that he can start and end a war as if people were unit markers.
+- **Bark:** calm, literal, and efficient; never delighted by harm. He obeys T0 literally while treating the original objective as active.
+- **Hawkeye:** defeats Bark by modeling his target selection and looking for the watcher rather than watching Scar.

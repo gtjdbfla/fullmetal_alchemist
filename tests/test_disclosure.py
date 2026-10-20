@@ -77,6 +77,8 @@ class DashboardDisclosureTests(unittest.TestCase):
         self.assertEqual(len(bible["chapters"]), 44)
         self.assertTrue(any(item["name"] == "바르크" for item in bible["characterArcs"]))
         self.assertTrue(any(item["id"] == "BARK-COMPLETION" for item in bible["foreshadowing"]))
+        self.assertIn("hiddenArchitecture", bible)
+        self.assertTrue(any(item["id"] == "INFORMATION-INTERPRETATION" for item in bible["foreshadowing"]))
 
     def test_mystery_board_separates_ed_hypothesis_from_story_state(self):
         mysteries = self.author["analysis"]["causality"]["mysteries"]
@@ -91,7 +93,7 @@ class DashboardDisclosureTests(unittest.TestCase):
             path = ROOT / item["file"]
             self.assertTrue(path.exists(), item["file"])
             self.assertGreater(len(path.read_text(encoding="utf-8")), 200)
-        self.assertEqual({item["version"] for item in self.config["sourceDocuments"]}, {"6.0"})
+        self.assertEqual({item["version"] for item in self.config["sourceDocuments"]}, {"6.1"})
         self.assertIn("story_bible/01_STORYLINE_CH18_42.md", {item["file"] for item in self.config["sourceDocuments"]})
 
     def test_private_storyline_is_not_copied_to_public_site(self):

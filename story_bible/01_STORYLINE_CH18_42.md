@@ -343,3 +343,23 @@
 에드와 알이 재회하고 이슈발라의 질문을 다시 연다.
 
 **에드 역할:** 모르니까 알아보겠다고 선택한다.
+
+## Version 6.1 priority amendments
+
+This section wins if an older sentence in this file conflicts with it.
+
+### Hidden architecture
+The late arc is governed in the Bible by `정보/명령 → 해석 → 행동 → 예상하지 못한 결과`. It must never be explained as a diagram inside the manuscript. Kairun, Edward, Jenha, Graus, Bark, and Luhan each reveal a different human form of the same process.
+
+### Ch18 correction
+Ch18 opens the post-18 arc: Brandt demands a Central independent review team parallel to Miles, because Miles investigating and Mustang deciding is not independent verification. Graus first sees accurately that the report phrase “resident anxiety increased” collapses development supporters, opponents, distrustful residents, and indifferent residents into one group. The Mustang directive is reasonable; his “위선자” response remains unexplained until Ch38. Bark's withdrawal-after-completion behavior is its key first seed.
+
+### Exact hard boundaries
+- T0 is Graus’s Ch32 order, “앞으로 민간인은 죽이지 마.” After it, intentional direct civilian killings by Bark’s team are zero.
+- Graus plans a brief, real Second Ishval War from the outset; he does not escalate reluctantly after small incidents fail.
+- Kairun is never a Bai agent and never receives an assassination order. Jenha’s political support is real, but he does not know Kairun or order the assassination.
+- Luhan’s Ch35 choice must remain psychologically ambiguous: duty, inherited expectation, fear, and desire are not cleanly separable even to Luhan.
+- Edward does not resolve Lin and Luhan’s political dispute. He actively stops killing.
+
+### Ending direction
+Karsa refuses reopening the old road. That choice is respected; the final route bypasses Karsa and opens gradually through water, passage, land-right, consent, and transition arrangements. The Ishval agreement is revisable rather than perfect.

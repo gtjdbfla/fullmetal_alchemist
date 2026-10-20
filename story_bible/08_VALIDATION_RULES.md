@@ -5,3 +5,7 @@
 각 원고는 PASS / PASS_WITH_NOTES / REVISION_REQUIRED로 표시하고, 캐릭터·개연성·세계관/복선을 10점 만점으로 평가한다.
 
 8점 미만은 고쳐야 할 장면과 이유를 기록한다. 9점 이상도 다음 화에서 지켜야 할 경계를 남긴다. 검토는 Story Bible을 임의로 변경하지 않으며, 설정 변경이 승인되면 관련 스토리라인·인물·인과·복선·지식 상태를 함께 갱신한다.
+
+## Hidden architecture rule
+
+The shared late-arc structure is information or command, interpretation, action, and an unintended result. It is a Bible-level validation lens, not dialogue exposition. Flag any chapter that turns it into a direct lecture or repeated diagram.

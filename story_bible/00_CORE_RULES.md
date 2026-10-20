@@ -19,3 +19,7 @@ A conflict between an approved manuscript and Story Bible is flagged, never sile
 
 ## T0: Bark order boundary
 T0 is Graus's explicit Chapter 32 order: “앞으로 민간인은 죽이지 마.” Before T0, Bark's cell may commit intentional direct civilian shootings. After T0, intentional direct civilian killings by Bark or the cell are zero; later casualties arise only from the organically expanding conflict.
+
+## Hidden architecture
+
+The information/command → interpretation → action → unintended consequence pattern is for Bible-level continuity checking only. Do not let characters narrate it as a thesis, chart, or repeated lesson.
