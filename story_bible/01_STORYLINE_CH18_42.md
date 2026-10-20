@@ -366,15 +366,15 @@ Karsa refuses reopening the old road. That choice is respected; the final route 
 
 ## Ch17 approved-manuscript update
 
-The approved Chapter 17 now establishes the resident debate, Brandt’s parallel independent-review proposal, Graus’s selection, and Graus’s accurate first report. Its endpoint is the old prayer-ground survey at 7 a.m.; Ch18 must begin from that appointment without repeating the institutional setup. The approved body length is 7,490 characters including spaces, above the normal 4,800–5,000 target; retain this approved text until the user explicitly requests compression.
+The approved Chapter 17 establishes the resident debate, Brandt’s parallel independent-review proposal, Graus’s selection, and Graus’s accurate first report. Its endpoint is the old prayer-ground survey at 7 a.m.; Ch18 begins from that appointment without repeating the institutional setup. On the user's request, repeated explanation was compressed to 6,899 body characters including spaces.
 
 ## Ch18 approved-manuscript update
 
-Chapter 18 now directly opens at the 7 a.m. old prayer-ground appointment from Ch17. Graus is competent and initially faithful to agreements, accurate reporting, and non-escalation. He sees the pre-war transitions in old records but does not yet plan a war; his future design belongs to Ch29. The chapter plants Bradley’s decision doctrine, Mustang’s unexplained “위선자,” and Bark’s literal completion model. The approved body length is 7,642 characters including spaces, above the normal 4,800–5,000 target; retain this approved text until the user explicitly requests compression.
+Chapter 18 directly opens at the 7 a.m. old prayer-ground appointment from Ch17. Graus is competent and initially faithful to agreements, accurate reporting, and non-escalation. He sees the pre-war transitions in old records but does not yet plan a war; his future design belongs to Ch29. The chapter plants Bradley’s decision doctrine, Mustang’s unexplained “위선자,” and Bark’s literal completion model. On the user's request, repeated incident and record detail was compressed to 6,815 body characters including spaces.
 
 ## Ch19 approved-manuscript update
 
-Chapter 19 moves fully to Lansi and Xing. Edward’s route question becomes a public rumor, then an An internal disagreement, then a Bai concern represented by Luhan. Lin is already on a western tour and extends his stay because the rumor and red-mineral question have changed local behavior. Edward’s Hohenheim/Sage-of-the-West statement remains a hypothesis. The approved body length is 7,956 characters including spaces, above the normal 4,800–5,000 target; retain this approved text until the user explicitly requests compression.
+Chapter 19 moves fully to Lansi and Xing. Edward’s route question becomes a public rumor, then an An internal disagreement, then a Bai concern represented by Luhan. Lin is already on a western tour and extends his stay because the rumor and red-mineral question have changed local behavior. Edward’s Hohenheim/Sage-of-the-West statement remains a hypothesis. On the user's request, repeated map and decision-rights dialogue was compressed to 6,645 body characters including spaces.
 
 ## Ch20 approved-manuscript update
 
@@ -386,11 +386,11 @@ Chapter 21 tests the route question in northern relay communities. Luhan acknowl
 
 ## Ch22 approved-manuscript update
 
-Chapter 22 moves through Lansi, Haojin, and Muranheo to test route development in lived terms: bad roads, low herb prices, youth leaving, seasonal water rights, and early land inquiries prompted solely by rumor. Lin asks who currently uses water rather than counting wells. The unnamed Kairun appears as a person whose community saw imperial decree remove and later restore pasture and water rights; his distrust already exists before any Bai-linked information arrives. The approved body length is 7,633 characters including spaces, above the normal target; retain the approved text until explicitly requested to compress.
+Chapter 22 moves through Lansi, Haojin, and Muranheo to test route development in lived terms: bad roads, low herb prices, youth leaving, seasonal water rights, and early land inquiries prompted solely by rumor. Lin asks who currently uses water rather than counting wells. The unnamed Kairun appears as a person whose community saw imperial decree remove and later restore pasture and water rights; his distrust already exists before any Bai-linked information arrives. On the user's request, the departure scene was compressed to 6,991 body characters including spaces.
 
 ## Ch23 approved-manuscript update
 
-Chapter 23 confirms red mineral as a non-magical heat/pressure-resistant material with possible economic scale in Ishval and gemstone value in Xing. Graus reports the real plurality of Ishval views and stable security; Brandt’s trust is therefore reasonable. Jenha does not create a new spy network or treat An as an enemy: Bai traders have long tracked the potential southern competitor through normal trade. The new action is using that existing network to learn, support, and if possible delay anti-route political voices, while keeping Tianluo’s independent position independent. The approved body length is 8,292 characters including spaces, above the normal target; retain until explicitly requested to compress.
+Chapter 23 confirms red mineral as a non-magical heat/pressure-resistant material with possible economic scale in Ishval and gemstone value in Xing. Graus reports the real plurality of Ishval views and stable security; Brandt’s trust is therefore reasonable. Jenha does not create a new spy network or treat An as an enemy: Bai traders have long tracked the potential southern competitor through normal trade. The new action is using that existing network to learn, support, and if possible delay anti-route political voices, while keeping Tianluo’s independent position independent. On the user's request, repeated explanation was compressed to 6,986 body characters including spaces.
 
 ## Ch24 approved-manuscript update
 

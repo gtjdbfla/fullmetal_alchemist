@@ -12,6 +12,16 @@ class DashboardDisclosureTests(unittest.TestCase):
         cls.author = json.loads((ROOT / "author-site/data/project.json").read_text(encoding="utf-8"))
         cls.config = json.loads((ROOT / "private/dashboard-config.json").read_text(encoding="utf-8"))
 
+    def test_displayed_manuscripts_respect_7000_character_limit(self):
+        over_limit = [
+            (chapter["episode"], chapter["characters"])
+            for chapter in self.public["manuscripts"]
+            if chapter["characters"] > 7000
+        ]
+        self.assertEqual(over_limit, [])
+        for chapter in self.public["manuscripts"]:
+            self.assertEqual(chapter["characters"], len(chapter["text"]))
+
     def test_public_has_only_current_manuscripts_and_no_history(self):
         self.assertEqual(self.public["audience"], "reader")
         self.assertEqual(len(self.public["manuscripts"]), 25)
@@ -55,14 +65,14 @@ class DashboardDisclosureTests(unittest.TestCase):
         chapter_twenty_two = next(item for item in self.public["manuscripts"] if item["episode"] == "제22화")
         self.assertEqual(chapter_twenty_two["episode"], "제22화")
         self.assertEqual(chapter_twenty_two["title"], "길은 양쪽으로 열린다")
-        self.assertTrue(chapter_twenty_two["text"].startswith("다음 날 아침."))
+        self.assertTrue(chapter_twenty_two["text"].startswith("다음 날 아침"))
         self.assertIn("빼앗은 것도 황제였고.", chapter_twenty_two["text"])
         self.assertNotIn("22화 분석", chapter_twenty_two["text"])
         chapter_twenty_three = next(item for item in self.public["manuscripts"] if item["episode"] == "제23화")
         self.assertEqual(chapter_twenty_three["episode"], "제23화")
         self.assertEqual(chapter_twenty_three["title"], "좋은 재료")
         self.assertTrue(chapter_twenty_three["text"].startswith("적맥석은 불에 넣어도 쉽게 무너지지 않았다."))
-        self.assertIn("그날 처음 생긴 것은 연결이 아니었다.", chapter_twenty_three["text"])
+        self.assertIn("길도 거래망도 전부터 있었다.", chapter_twenty_three["text"])
         self.assertNotIn("23화 분석", chapter_twenty_three["text"])
         chapter_twenty_four = self.public["manuscripts"][-1]
         self.assertEqual(chapter_twenty_four["episode"], "제24화")
