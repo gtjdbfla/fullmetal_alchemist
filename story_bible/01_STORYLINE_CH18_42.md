@@ -363,3 +363,7 @@ Ch18 opens the post-18 arc: Brandt demands a Central independent review team par
 
 ### Ending direction
 Karsa refuses reopening the old road. That choice is respected; the final route bypasses Karsa and opens gradually through water, passage, land-right, consent, and transition arrangements. The Ishval agreement is revisable rather than perfect.
+
+## Ch17 approved-manuscript update
+
+The approved Chapter 17 now establishes the resident debate, Brandt’s parallel independent-review proposal, Graus’s selection, and Graus’s accurate first report. Its endpoint is the old prayer-ground survey at 7 a.m.; Ch18 must begin from that appointment without repeating the institutional setup. The approved body length is 7,490 characters including spaces, above the normal 5,000–6,000 target; retain this approved text until the user explicitly requests compression.

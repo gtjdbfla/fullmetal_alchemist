@@ -36,6 +36,10 @@ def hydrate_manuscripts(payload: dict) -> None:
                 text = "\n".join(lines[heading_index + 1:]).strip()
         item["text"] = text
         item["characters"] = len(text)
+        for chapter in payload.get("storyBible", {}).get("chapters", []):
+            if chapter.get("label") == item.get("episode"):
+                chapter["characterCount"] = len(text)
+                break
 
 def main() -> None:
     base = json.loads(CONFIG.read_text(encoding="utf-8"))

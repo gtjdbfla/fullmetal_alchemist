@@ -64,7 +64,9 @@ class DashboardDisclosureTests(unittest.TestCase):
         self.assertEqual(set(self.author["analysis"]), {"characters", "causality", "world"})
         reviews = self.author["chapterReviews"]
         self.assertEqual(len(reviews), 18)
-        self.assertTrue(all(len(item["categories"]) == 3 for item in reviews))
+        self.assertTrue(all(3 <= len(item["categories"]) <= 4 for item in reviews))
+        chapter_seventeen = next(item for item in reviews if item["episode"] == "제17화")
+        self.assertEqual(len(chapter_seventeen["categories"]), 4)
         self.assertTrue(all(0 <= item["score"] <= 10 for item in reviews))
 
     def test_storyline_map_is_only_available_to_author_data(self):
