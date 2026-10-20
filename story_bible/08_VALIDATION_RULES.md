@@ -9,3 +9,14 @@
 ## Hidden architecture rule
 
 The shared late-arc structure is information or command, interpretation, action, and an unintended result. It is a Bible-level validation lens, not dialogue exposition. Flag any chapter that turns it into a direct lecture or repeated diagram.
+
+## Approved chapter review format
+
+For each newly approved chapter, keep a short administrator review with four separate checks:
+
+1. 역할·인과관계
+2. 캐릭터 일관성
+3. 다음 화 연결과 복선 상태
+4. 공백 포함 본문 글자 수와 5,000–6,000자 목표 적합성
+
+The score is editorial evidence, not an automatic truth claim. A hard-rule failure is `REVISION_REQUIRED` regardless of the numeric average. A chapter may remain approved with a length warning when the user explicitly keeps the supplied manuscript unchanged.

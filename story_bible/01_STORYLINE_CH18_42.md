@@ -367,3 +367,7 @@ Karsa refuses reopening the old road. That choice is respected; the final route 
 ## Ch17 approved-manuscript update
 
 The approved Chapter 17 now establishes the resident debate, Brandt’s parallel independent-review proposal, Graus’s selection, and Graus’s accurate first report. Its endpoint is the old prayer-ground survey at 7 a.m.; Ch18 must begin from that appointment without repeating the institutional setup. The approved body length is 7,490 characters including spaces, above the normal 5,000–6,000 target; retain this approved text until the user explicitly requests compression.
+
+## Ch18 approved-manuscript update
+
+Chapter 18 now directly opens at the 7 a.m. old prayer-ground appointment from Ch17. Graus is competent and initially faithful to agreements, accurate reporting, and non-escalation. He sees the pre-war transitions in old records but does not yet plan a war; his future design belongs to Ch29. The chapter plants Bradley’s decision doctrine, Mustang’s unexplained “위선자,” and Bark’s literal completion model. The approved body length is 7,642 characters including spaces, above the normal 5,000–6,000 target; retain this approved text until the user explicitly requests compression.
