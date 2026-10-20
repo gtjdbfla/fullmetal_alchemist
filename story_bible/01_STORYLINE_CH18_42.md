@@ -371,3 +371,7 @@ The approved Chapter 17 now establishes the resident debate, Brandt’s parallel
 ## Ch18 approved-manuscript update
 
 Chapter 18 now directly opens at the 7 a.m. old prayer-ground appointment from Ch17. Graus is competent and initially faithful to agreements, accurate reporting, and non-escalation. He sees the pre-war transitions in old records but does not yet plan a war; his future design belongs to Ch29. The chapter plants Bradley’s decision doctrine, Mustang’s unexplained “위선자,” and Bark’s literal completion model. The approved body length is 7,642 characters including spaces, above the normal 5,000–6,000 target; retain this approved text until the user explicitly requests compression.
+
+## Ch19 approved-manuscript update
+
+Chapter 19 moves fully to Lansi and Xing. Edward’s route question becomes a public rumor, then an An internal disagreement, then a Bai concern represented by Luhan. Lin is already on a western tour and extends his stay because the rumor and red-mineral question have changed local behavior. Edward’s Hohenheim/Sage-of-the-West statement remains a hypothesis. The approved body length is 7,956 characters including spaces, above the normal 5,000–6,000 target; retain this approved text until the user explicitly requests compression.

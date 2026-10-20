@@ -14,7 +14,7 @@ class DashboardDisclosureTests(unittest.TestCase):
 
     def test_public_has_only_current_manuscripts_and_no_history(self):
         self.assertEqual(self.public["audience"], "reader")
-        self.assertEqual(len(self.public["manuscripts"]), 19)
+        self.assertEqual(len(self.public["manuscripts"]), 20)
         prologue, chapter_one, chapter_two = self.public["manuscripts"][:3]
         self.assertEqual(prologue["episode"], "프롤로그")
         self.assertTrue(prologue["text"].startswith("“거기 아니야.”"))
@@ -27,13 +27,19 @@ class DashboardDisclosureTests(unittest.TestCase):
         self.assertTrue(chapter_two["text"].startswith("이슈발은 에드가 기억하던 곳과 달랐다."))
         self.assertIn("이슈발라란 무엇인가.", chapter_two["text"])
         self.assertNotIn("# 제2화", chapter_two["text"])
-        chapter_eighteen = self.public["manuscripts"][-1]
+        chapter_eighteen = self.public["manuscripts"][-2]
         self.assertEqual(chapter_eighteen["episode"], "제18화")
         self.assertEqual(chapter_eighteen["title"], "소위 그라우스")
         self.assertTrue(chapter_eighteen["text"].startswith("아침 일곱 시."))
         self.assertNotIn("간략 분석", chapter_eighteen["text"])
         self.assertIn("바르크 소위", chapter_eighteen["text"])
         self.assertNotIn("바크 소위", chapter_eighteen["text"])
+        chapter_nineteen = self.public["manuscripts"][-1]
+        self.assertEqual(chapter_nineteen["episode"], "제19화")
+        self.assertEqual(chapter_nineteen["title"], "황제의 백성")
+        self.assertTrue(chapter_nineteen["text"].startswith("싱 서북부."))
+        self.assertIn("나는 졌지만 바이족은 사라지지 않았으니까.", chapter_nineteen["text"])
+        self.assertNotIn("간략 분석", chapter_nineteen["text"])
         self.assertNotIn("history", self.public)
 
     def test_public_character_cards_are_spoiler_limited(self):
@@ -63,7 +69,7 @@ class DashboardDisclosureTests(unittest.TestCase):
         self.assertNotIn("sourceDocuments", self.public)
         self.assertEqual(set(self.author["analysis"]), {"characters", "causality", "world"})
         reviews = self.author["chapterReviews"]
-        self.assertEqual(len(reviews), 18)
+        self.assertEqual(len(reviews), 19)
         self.assertTrue(all(3 <= len(item["categories"]) <= 4 for item in reviews))
         chapter_seventeen = next(item for item in reviews if item["episode"] == "제17화")
         self.assertEqual(len(chapter_seventeen["categories"]), 4)
@@ -71,7 +77,7 @@ class DashboardDisclosureTests(unittest.TestCase):
 
     def test_storyline_map_is_only_available_to_author_data(self):
         storyline = self.author["storyline"]
-        self.assertEqual(storyline["currentChapter"], 18)
+        self.assertEqual(storyline["currentChapter"], 19)
         self.assertEqual(storyline["totalChapters"], 42)
         self.assertEqual(len(storyline["parts"]), 9)
         self.assertGreaterEqual(len(storyline["threads"]), 5)
