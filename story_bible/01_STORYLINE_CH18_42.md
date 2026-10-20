@@ -375,3 +375,7 @@ Chapter 18 now directly opens at the 7 a.m. old prayer-ground appointment from C
 ## Ch19 approved-manuscript update
 
 Chapter 19 moves fully to Lansi and Xing. Edward’s route question becomes a public rumor, then an An internal disagreement, then a Bai concern represented by Luhan. Lin is already on a western tour and extends his stay because the rumor and red-mineral question have changed local behavior. Edward’s Hohenheim/Sage-of-the-West statement remains a hypothesis. The approved body length is 7,956 characters including spaces, above the normal 5,000–6,000 target; retain this approved text until the user explicitly requests compression.
+
+## Ch20 approved-manuscript update
+
+Chapter 20 confirms that Luhan is not a reflexive opponent of the southern route: he accepts An opportunity and An land/water rights, while asking who will carry the northern route’s losses. His current answer is still a sincerely held “a good emperor listens and decides.” Lin begins quietly reading imperial land, water, and route decisions, seeing that a later emperor can reverse a prior guarantee. The approved body length is 6,009 characters including spaces, nine characters over the normal 5,000–6,000 target; retain the approved text.
