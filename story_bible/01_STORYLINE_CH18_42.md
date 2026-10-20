@@ -379,3 +379,7 @@ Chapter 19 moves fully to Lansi and Xing. Edward’s route question becomes a pu
 ## Ch20 approved-manuscript update
 
 Chapter 20 confirms that Luhan is not a reflexive opponent of the southern route: he accepts An opportunity and An land/water rights, while asking who will carry the northern route’s losses. His current answer is still a sincerely held “a good emperor listens and decides.” Lin begins quietly reading imperial land, water, and route decisions, seeing that a later emperor can reverse a prior guarantee. The approved body length is 6,009 characters including spaces, nine characters over the normal 5,000–6,000 target; retain the approved text.
+
+## Ch21 approved-manuscript update
+
+Chapter 21 tests the route question in northern relay communities. Luhan acknowledges that a route worker can both fear lost traffic and want easier life for family in the south; he accepts the loss of his own throne as painful but finished, because protecting Bai continues without becoming emperor. Wei appears only as the elder who taught Luhan why an emperor was necessary. A new Sage-of-the-West record strengthens, but does not prove, Edward’s Hohenheim hypothesis and frames Hohenheim as a learner across knowledge traditions. The approved body length is 6,433 characters including spaces, 433 characters above the normal target; retain the approved text.
