@@ -383,3 +383,7 @@ Chapter 20 confirms that Luhan is not a reflexive opponent of the southern route
 ## Ch21 approved-manuscript update
 
 Chapter 21 tests the route question in northern relay communities. Luhan acknowledges that a route worker can both fear lost traffic and want easier life for family in the south; he accepts the loss of his own throne as painful but finished, because protecting Bai continues without becoming emperor. Wei appears only as the elder who taught Luhan why an emperor was necessary. A new Sage-of-the-West record strengthens, but does not prove, Edward’s Hohenheim hypothesis and frames Hohenheim as a learner across knowledge traditions. The approved body length is 6,433 characters including spaces, 433 characters above the normal target; retain the approved text.
+
+## Ch22 approved-manuscript update
+
+Chapter 22 moves through Lansi, Haojin, and Muranheo to test route development in lived terms: bad roads, low herb prices, youth leaving, seasonal water rights, and early land inquiries prompted solely by rumor. Lin asks who currently uses water rather than counting wells. The unnamed Kairun appears as a person whose community saw imperial decree remove and later restore pasture and water rights; his distrust already exists before any Bai-linked information arrives. The approved body length is 7,633 characters including spaces, above the normal target; retain the approved text until explicitly requested to compress.
