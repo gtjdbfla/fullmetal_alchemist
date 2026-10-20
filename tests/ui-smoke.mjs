@@ -24,10 +24,8 @@ async function render(search) {
 test('admin review shows all chapters, four status checks and exact length', async () => {
   const html = await render('?view=analysis&review=23');
   assert.match(html, /전체 화 결과/);
-  assert.match(html, /캐릭터/);
-  assert.match(html, /개연성/);
-  assert.match(html, /스토리라인/);
-  assert.match(html, /세계관·복선/);
+    assert.match(html, /<th>캐릭터<\/th><th>개연성<\/th><th>스토리라인<\/th><th>세계관·복선<\/th>/);
+    assert.doesNotMatch(html, /<th>분량<\/th>|<th>종합<\/th>/);
   assert.match(html, /5,052자/);
   assert.doesNotMatch(html, /\/ 10|\/10/);
 });

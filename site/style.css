@@ -48,8 +48,8 @@ footer{display:flex;justify-content:space-between;gap:15px;border-top:1px solid 
 .review-overview,.setting-card,.chapter-plan-card{background:var(--card);border:1px solid var(--line);border-radius:8px}
 .review-overview{padding:23px;margin:28px 0}
 .review-overview .section-title{margin-bottom:15px}
-.review-overview .chapter-timeline td:last-child{min-width:260px;max-width:480px;line-height:1.65}
-.review-hero>.state-badge{font-size:25px;min-width:54px;padding:10px 16px}
+.review-overview .chapter-timeline td:last-child{min-width:260px;max-width:480px;line-height:1.65;white-space:normal}
+.review-overview .chapter-timeline th:nth-child(n+4):nth-child(-n+7),.review-overview .chapter-timeline td:nth-child(n+4):nth-child(-n+7){text-align:center;min-width:75px}
 .review-hero .length-note{margin-top:12px;color:#e4cb97}
 .review-card header .state-badge{font-family:inherit;font-size:12px}
 .storyline-tabs{flex-wrap:wrap;margin-bottom:8px}

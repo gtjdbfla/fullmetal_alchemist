@@ -92,18 +92,21 @@ function reviewPage() {
   reviewIndex = normalizeChapterIndex(reviewIndex, reviews.length);
   const review = reviews[reviewIndex];
   const reviewByEpisode = new Map(reviews.map(item => [item.episode, item]));
-  const rows = (project.manuscripts || []).map(chapter => {
+    const reviewColumns = ['캐릭터', '개연성', '스토리라인', '세계관·복선'];
+    const rows = (project.manuscripts || []).map(chapter => {
     const item = reviewByEpisode.get(chapter.episode);
     const count = chapter.characters ?? chapter.text?.length ?? 0;
-    const lengthStatus = count >= 4800 && count <= 5000 ? 'O' : '△';
-    const status = item?.overallStatus || '△';
+      const categoryCells = reviewColumns.map(name => {
+        const category = item?.categories?.find(entry => entry.name === name);
+        return `<td>${category ? statusBadge(category.status) : '—'}</td>`;
+      }).join('');
     const reason = item ? item.summary : '회차별 검토 기록을 준비 중';
-    return `<tr><td>${esc(chapter.episode)}</td><td>${esc(chapter.title)}</td><td>${count.toLocaleString()}자</td><td>${statusBadge(lengthStatus)}</td><td>${statusBadge(status)}</td><td>${esc(reason)}</td></tr>`;
+      return `<tr><td>${esc(chapter.episode)}</td><td>${esc(chapter.title)}</td><td>${count.toLocaleString()}자</td>${categoryCells}<td>${esc(reason)}</td></tr>`;
   }).join('');
   return `<header class="analysis-head"><span>AUTHOR REVIEW</span><h1>원고 검토</h1><p>O는 현재 기준과 일치, △는 확인하거나 조정할 항목, X는 수정이 필요한 충돌을 뜻한다. 글자 수 기준은 공백 포함 4,800–5,000자다.</p></header>
-    <section class="review-overview"><div class="section-title"><div><span>ALL CHAPTERS</span><h2>전체 화 결과</h2></div><p>원고에 표시되는 본문을 기준으로 계수한다.</p></div><div class="timeline-scroll"><table class="chapter-timeline"><thead><tr><th>회차</th><th>제목</th><th>공백 포함</th><th>분량</th><th>종합</th><th>짧은 결과</th></tr></thead><tbody>${rows}</tbody></table></div></section>
+    <section class="review-overview"><div class="section-title"><div><span>ALL CHAPTERS</span><h2>전체 화 결과</h2></div><p>원고에 표시되는 본문을 기준으로 계수한다.</p></div><div class="timeline-scroll"><table class="chapter-timeline"><thead><tr><th>회차</th><th>제목</th><th>공백 포함</th>${reviewColumns.map(name => `<th>${esc(name)}</th>`).join('')}<th>짧은 결과</th></tr></thead><tbody>${rows}</tbody></table></div></section>
     <nav class="review-index" aria-label="원고 검토 선택">${reviews.map((item, index) => `<button data-review="${index}" class="${reviewIndex === index ? 'active' : ''}" ${reviewIndex === index ? 'aria-current="page"' : ''}>${esc(item.episode)}<small>${esc(item.title)}</small></button>`).join('')}</nav>
-    <section class="review-hero"><div><span>CHAPTER REVIEW</span><h2>${esc(review.episode)} · ${esc(review.title)}</h2><p>${esc(review.summary)}</p><p class="length-note">${esc(review.length?.reason || review.overallReason || '')}</p></div>${statusBadge(review.overallStatus)}</section>
+    <section class="review-hero"><div><span>CHAPTER REVIEW</span><h2>${esc(review.episode)} · ${esc(review.title)}</h2><p>${esc(review.summary)}</p><p class="length-note">${esc(review.length?.reason || review.overallReason || '')}</p></div></section>
     <section class="review-grid">${review.categories.map(item => `<article class="review-card"><header><span>${esc(item.name)}</span>${statusBadge(item.status)}</header><p>${esc(item.assessment)}</p></article>`).join('')}</section>
     <aside class="next-checks"><span>NEXT CHECK</span><h2>다음 원고에서 확인할 것</h2><ul>${review.nextChecks.map(item => `<li>${esc(item)}</li>`).join('')}</ul></aside>`;
 }
