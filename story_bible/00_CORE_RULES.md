@@ -2,7 +2,7 @@
 
 ## Priority
 1. Hard rules
-2. Latest integrated Story Bible (`09_LATEST_INTEGRATED_UPDATE.md`) and dashboard structured data
+2. Latest world hard update (`11_WORLD_HARD_UPDATE.md`), integrated Story Bible (`09_LATEST_INTEGRATED_UPDATE.md`), and dashboard structured data
 3. Latest approved manuscript
 4. Older notes and drafts
 
@@ -16,6 +16,9 @@ A conflict between an approved manuscript and Story Bible is flagged, never sile
 - Kairun is not a Bai agent; Jenha never orders assassination.
 - Kairun uses one transmutation circle and rides an existing natural/earth flow. He does not pre-install multiple circles or remotely activate them.
 - Kairun’s natural-flow reading is not Lin’s perception of people’s qi, and Karsa similarity never proves shared origin.
+- Karsa prepares paths for existing natural flows; common Xing alkahestry chiefly reads dragon's pulse; Kairun reads broader existing flows and carries one initial transmutation along them. None creates energy or violates equivalent exchange.
+- Kairun is neither the inventor nor the sole possible user of this application, and is not a confirmed student or successor of Karsa.
+- Hohenheim's route is Karsa → old An territory → Xing interior; Scar's brother used the later caravan route through Lansi. The final southern road bypasses Karsa with current residents' consent.
 - Graus plans a brief real war from the start; Bark does not directly kill civilians after T0.
 - The final political answer is not instant perfect democracy or benevolent unilateral rule.
 

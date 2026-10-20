@@ -1,5 +1,7 @@
 # 강철의 연금술사 동양편 — Ch.9~13 개정 반영 및 Story Bible/Dashboard 업데이트 계획
 
+> 이 문서의 9~13화 개정 원고 기준은 유지한다. 카르사·연단술·옛 안족·호엔하임·카이룬·스카 형의 세계관 세부 사항은 이후 확정된 `11_WORLD_HARD_UPDATE.md`를 우선 적용한다.
+
 ## 목표
 
 현재 프로젝트의 강철의 연금술사 동양편 Story Bible, Dashboard, Manuscript를 확인하고,

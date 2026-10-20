@@ -36,6 +36,8 @@ test('storyline tabs render chapter plans, setting canon notes, and green paid s
   assert.match(chapters, /서쪽에서 온 사람/);
   const settings = await render('?view=storyline&tab=settings');
   assert.match(settings, /본편 대비 개연성/);
+  assert.match(settings, /카이룬/);
+  assert.match(settings, /옛 안족 영역/);
   const foreshadowing = await render('?view=storyline&tab=foreshadowing');
   assert.match(foreshadowing, /회수 성공/);
   assert.match(foreshadowing, /paid-off/);

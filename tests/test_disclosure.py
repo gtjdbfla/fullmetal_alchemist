@@ -146,6 +146,23 @@ class DashboardDisclosureTests(unittest.TestCase):
         self.assertTrue(any(item["id"] == "INFORMATION-INTERPRETATION" for item in bible["foreshadowing"]))
         self.assertTrue(any(item["id"] == "KARSA-EXCHANGE" and item["status"] == "PAYOFF" for item in bible["foreshadowing"]))
 
+    def test_world_hard_update_is_explained_in_settings_and_rules(self):
+        bible = self.author["storyBible"]
+        self.assertEqual(bible["version"], "8.0")
+        groups = self.author["storyline"]["tabs"]["settings"]["groups"]
+        self.assertEqual([group["label"] for group in groups], ["캐릭터", "기술과 미스터리", "역사·정치·지리"])
+        cards = {item["title"]: item for group in groups for item in group["items"]}
+        self.assertGreaterEqual(len(cards), 18)
+        self.assertIn("용맥", cards["싱의 연단술과 용맥"]["description"])
+        self.assertIn("하나의 연성진", cards["카이룬의 넓은 흐름 독해"]["description"])
+        self.assertIn("옛 안족 영역", cards["세 시대의 동쪽 이동"]["description"])
+        self.assertIn("카르사를 우회", cards["남부 교역로의 최종 선택"]["description"])
+        self.assertTrue(all(len(item["canon"]) > 30 for item in cards.values()))
+        rules = {item["rule"] for item in bible["hardRules"]}
+        self.assertIn("흐름의 물리적 경계", rules)
+        self.assertIn("카이룬의 기원과 유일성 금지", rules)
+        self.assertIn("시대별 이동 경로와 길 선택", rules)
+
     def test_mystery_board_separates_ed_hypothesis_from_story_state(self):
         mysteries = self.author["analysis"]["causality"]["mysteries"]
         self.assertEqual(len(mysteries), 5)
@@ -159,8 +176,9 @@ class DashboardDisclosureTests(unittest.TestCase):
             path = ROOT / item["file"]
             self.assertTrue(path.exists(), item["file"])
             self.assertGreater(len(path.read_text(encoding="utf-8")), 200)
-        self.assertEqual({item["version"] for item in self.config["sourceDocuments"]}, {"7.0", "7.1"})
+        self.assertEqual({item["version"] for item in self.config["sourceDocuments"]}, {"7.0", "7.1", "8.0"})
         self.assertIn("story_bible/01_STORYLINE_CH18_42.md", {item["file"] for item in self.config["sourceDocuments"]})
+        self.assertIn("story_bible/11_WORLD_HARD_UPDATE.md", {item["file"] for item in self.config["sourceDocuments"]})
 
     def test_private_storyline_is_not_copied_to_public_site(self):
         self.assertFalse((ROOT / "site/STORYLINE_MASTER_v2.0.md").exists())

@@ -28,3 +28,9 @@ Also keep an all-chapter summary so length and unresolved cautions are visible t
 - Jenha does not know Kairun; Tianluo’s opposition stays independent; the An protest group is not an assassination unit.
 - The Bai accessory is accidental mixed support property and Kairun does not know its mark.
 - Preserve Lansi → Haojin → Muranheo time lag and formal protection arriving after rumor.
+
+## World hard update checks
+
+FAIL: 카르사를 연단술의 단일 기원으로 확정하거나, 호엔하임·카이룬을 창시자·카이룬을 유일한 사용자 또는 카르사의 비밀 제자로 확정한다. 카이룬에게 여러 연성진·새로 만들어낸 자연 흐름을 부여하거나, 준비되지 않은 공간에서 카르사를 카이룬처럼 즉시 전투시키거나, 카르사의 옛길을 강제로 연다.
+
+PASS 기준: 카르사는 길을 준비하고, 일반 연단술은 주로 용맥을 통로로 쓰며, 카이룬은 존재하는 더 넓은 자연 흐름을 읽어 한 연성진의 연성을 잇는다. 호엔하임은 가르치는 동시에 배웠고, 스카의 형은 상단을 따라 란시로 이동한다. 상세 출처는 `11_WORLD_HARD_UPDATE.md`다. 기존 승인 원고와 충돌하면 자동 수정하지 말고 위치와 영향을 보고한다.

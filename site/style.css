@@ -59,7 +59,8 @@ footer{display:flex;justify-content:space-between;gap:15px;border-top:1px solid 
 .chapter-plan-card header{border-bottom:1px solid var(--line);padding-bottom:12px;margin-bottom:14px}
 .chapter-plan-card header span{color:var(--gold);font-size:10px;letter-spacing:.5px}
 .chapter-plan-card h3,.setting-card h3{font-size:18px;margin:8px 0 0}
-.chapter-plan-card p,.setting-card p,.setting-card dd{font-size:12px;line-height:1.75;color:#526058}
+.chapter-plan-card p{font-size:12px;line-height:1.75;color:#526058}
+.setting-card p,.setting-card dd{font-size:14px;line-height:1.7;color:#526058}
 .chapter-plan-card p{margin:8px 0}
 .chapter-plan-card p b{color:#34493a;margin-right:5px}
 .setting-card dl{border-top:1px solid var(--line);padding-top:13px;margin:15px 0 0}
