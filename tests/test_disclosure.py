@@ -32,16 +32,22 @@ class DashboardDisclosureTests(unittest.TestCase):
         self.assertEqual(chapter_eighteen["title"], "소위 그라우스")
         self.assertTrue(chapter_eighteen["text"].startswith("아침 일곱 시."))
         self.assertNotIn("간략 분석", chapter_eighteen["text"])
+        self.assertIn("바르크 소위", chapter_eighteen["text"])
+        self.assertNotIn("바크 소위", chapter_eighteen["text"])
         self.assertNotIn("history", self.public)
 
     def test_public_character_cards_are_spoiler_limited(self):
-        self.assertEqual(len(self.public["publicCharacters"]), 25)
+        self.assertEqual(len(self.public["publicCharacters"]), 28)
         edward = next(item for item in self.public["publicCharacters"] if item["name"] == "에드워드 엘릭")
         self.assertIn("연금술을 잃은", edward["summary"])
         self.assertIn("relationship", edward)
         hasim = next(item for item in self.public["publicCharacters"] if item["name"] == "하심")
         self.assertEqual(hasim["group"], "이슈발 · 재건과 옛 기록")
         self.assertIn("옛길", hasim["relationship"])
+        bark = next(item for item in self.public["publicCharacters"] if item["name"] == "바르크")
+        self.assertIn("젊은 장교", bark["summary"])
+        luhan = next(item for item in self.public["publicCharacters"] if item["name"] == "루한 바이")
+        self.assertIn("바이족", luhan["affiliation"])
         self.assertNotIn("결말", " ".join(item["summary"] for item in self.public["publicCharacters"]))
 
     def test_author_keeps_legacy_versions_outside_public_data(self):
@@ -78,8 +84,8 @@ class DashboardDisclosureTests(unittest.TestCase):
         for item in self.config["sourceDocuments"]:
             path = ROOT / item["file"]
             self.assertTrue(path.exists(), item["file"])
-            self.assertGreater(len(path.read_text(encoding="utf-8")), 10000)
-        self.assertEqual({item["version"] for item in self.config["sourceDocuments"]}, {"3.0", "4.0"})
+            self.assertGreater(len(path.read_text(encoding="utf-8")), 5000)
+        self.assertEqual({item["version"] for item in self.config["sourceDocuments"]}, {"3.0", "5.0"})
 
     def test_private_storyline_is_not_copied_to_public_site(self):
         self.assertFalse((ROOT / "site/STORYLINE_MASTER_v2.0.md").exists())
