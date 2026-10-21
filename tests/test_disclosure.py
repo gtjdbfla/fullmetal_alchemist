@@ -71,7 +71,7 @@ class DashboardDisclosureTests(unittest.TestCase):
         chapter_twenty_three = next(item for item in self.public["manuscripts"] if item["episode"] == "제23화")
         self.assertEqual(chapter_twenty_three["episode"], "제23화")
         self.assertEqual(chapter_twenty_three["title"], "좋은 재료")
-        self.assertTrue(chapter_twenty_three["text"].startswith("적맥석은 불에 넣어도 쉽게 무너지지 않았다."))
+        self.assertTrue(chapter_twenty_three["text"].startswith("크림스톤은 불에 넣어도 쉽게 무너지지 않았다."))
         self.assertIn("길도 거래망도 전부터 있었다.", chapter_twenty_three["text"])
         self.assertNotIn("23화 분석", chapter_twenty_three["text"])
         chapter_twenty_four = next(item for item in self.public["manuscripts"] if item["episode"] == "제24화")
