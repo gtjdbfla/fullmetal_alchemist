@@ -179,3 +179,19 @@ Ch9 계산 불일치 → Ch10~11 자연 흐름·길 → Ch12 넓은 계와 단�
 ## SOUTH-ROUTE-DECISION · 강화 (Ch39)
 
 - 협의 구조로 이관. 최종 개통은 아직.
+
+## BRANDT-LAST-WORDS · 회수 (Ch40)
+
+- 머스탱이 '체제를 바꾸십시오'를 군 최고지휘권·국가 최고권력 분리 문서 작업으로 옮긴다.
+
+## MUSTANG-LAST-FUHRER · 부분 회수 (Ch40)
+
+- '내 다음에는 총통이 없어야 해' 확정. 실제 개편의 결과는 Ch41~42.
+
+## STATE-ALCHEMIST-REFORM · 심기 (Ch40)
+
+- 국가연금술사 제도 개혁 예고.
+
+## ISHVAL-DECISION-RIGHTS · 심기 (Ch40)
+
+- 이슈발 재건위원회 주민 대표 의결권.
