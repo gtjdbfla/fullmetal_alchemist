@@ -18,7 +18,7 @@ class DashboardDisclosureTests(unittest.TestCase):
             for chapter in self.public["manuscripts"]
             if chapter["characters"] > 7000
         ]
-        self.assertEqual(over_limit, [("제26화", 8036), ("제30화", 7131), ("제32화", 7087)])
+        self.assertEqual(over_limit, [("제26화", 8036), ("제30화", 7131), ("제32화", 7087), ("제36화", 7134)])
         for chapter in self.public["manuscripts"]:
             self.assertEqual(chapter["characters"], len(chapter["text"]))
 
