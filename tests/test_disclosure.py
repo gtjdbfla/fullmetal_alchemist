@@ -159,7 +159,7 @@ class DashboardDisclosureTests(unittest.TestCase):
         bible = self.author["storyBible"]
         self.assertEqual(bible["version"], "8.1")
         groups = self.author["storyline"]["tabs"]["settings"]["groups"]
-        self.assertEqual([group["label"] for group in groups], ["캐릭터", "기술과 미스터리", "역사·정치·지리"])
+        self.assertEqual([group["label"] for group in groups], ["캐릭터", "기술과 미스터리", "역사·정치·지리", "이슈발라·기록·흐름 문장"])
         cards = {item["title"]: item for group in groups for item in group["items"]}
         self.assertGreaterEqual(len(cards), 18)
         self.assertIn("용맥", cards["싱의 연단술과 용맥"]["description"])
