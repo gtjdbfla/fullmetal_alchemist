@@ -18,3 +18,8 @@
 - 새 원고가 설정을 바꾸면 스토리라인의 설정 카드(`storyline.tabs.settings.groups`), 하드 룰, 인물 아크, 지식 상태, 복선 추적, `continuityConflicts`를 원고 기준으로 더 구체적이고 정확하게 고친다. 원고를 고치기 전에 작가에게 확인한다.
 - 회차별 연재용 txt는 `python scripts/build_views.py`가 `publish/txt/`에 함께 만든다(제목 첫 줄, 장면 구분은 `* * *`). 이 폴더는 로컬·GitHub·홈서버에 보관한다.
 - 이슈발라의 정체는 미스터리로 남기고, 아메스트리스 연금술과 진리의 문 설정은 `story_bible/03_WORLD_MYSTERY.md` 마지막 절을 따른다.
+
+## 복선 장부 규칙
+
+- 복선을 심거나 회수할 때는 `private/dashboard-config.json`의 foreshadowing 항목에 `verify`(화 번호와 원고에 실제로 있는 낱말)를 함께 적는다. `python scripts/ledger_check.py` 가 통과해야 한다.
+- 회수하지 않기로 한 것은 상태 `UNRESOLVED_BY_DESIGN`, 본편에서 완성하지 않고 열어 두기로 한 것은 `OPEN_BY_DESIGN`으로 적고 payoff에 의도를 쓴다.

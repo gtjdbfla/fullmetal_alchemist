@@ -82,7 +82,7 @@ function charactersPage() {
 }
 
 function statusBadge(status, label = status) {
-  const key = status === 'X' ? 'fail' : status === 'O' || status === 'PAYOFF' ? 'pass' : 'warn';
+  const key = status === 'X' ? 'fail' : status === 'O' || status === 'PAYOFF' ? 'pass' : status === 'UNRESOLVED_BY_DESIGN' || status === 'OPEN_BY_DESIGN' ? 'info' : 'warn';
   return `<span class="state-badge ${key}">${esc(label)}</span>`;
 }
 
@@ -141,8 +141,8 @@ function settingsPanel() {
 
 function foreshadowPanel() {
   const items = project.storyBible?.foreshadowing || [];
-  const label = {NOT_PLANTED:'심기 전', PLANTED:'심음', REINFORCED:'강화', PARTIALLY_REVEALED:'부분 공개', PAYOFF:'회수 성공'};
-  return `<section class="section-title"><div><span>FORESHADOWING</span><h2>복선과 떡밥의 진행</h2></div><p>계획된 회수와 실제 원고에서 완료된 회수를 구분한다.</p></section><div class="foreshadow-grid">${items.map(item => `<article class="foreshadow-card ${item.status === 'PAYOFF' ? 'paid-off' : ''}"><header>${statusBadge(item.status === 'PAYOFF' ? 'PAYOFF' : '△', label[item.status] || item.status)}<h4>${esc(item.plot)}</h4></header><dl><dt>심기</dt><dd>${esc(item.planted)}</dd><dt>강화</dt><dd>${esc(item.reinforcement)}</dd><dt>회수 / 예정</dt><dd>${esc(item.payoff)}</dd><dt>현재 단계</dt><dd>${esc(label[item.status] || item.status)}</dd><dt>주의</dt><dd>${esc(item.risk)}</dd></dl></article>`).join('')}</div>`;
+  const label = {NOT_PLANTED:'심기 전', PLANTED:'심음', REINFORCED:'강화', PARTIALLY_REVEALED:'부분 공개', PAYOFF:'회수 성공', UNRESOLVED_BY_DESIGN:'의도적 미해결', OPEN_BY_DESIGN:'의도적으로 열어 둠'};
+  return `<section class="section-title"><div><span>FORESHADOWING</span><h2>복선과 떡밥의 진행</h2></div><p>계획된 회수와 실제 원고에서 완료된 회수를 구분한다.</p></section><div class="foreshadow-grid">${items.map(item => `<article class="foreshadow-card ${item.status === 'PAYOFF' ? 'paid-off' : ''}"><header>${statusBadge(item.status === 'PAYOFF' || item.status === 'UNRESOLVED_BY_DESIGN' || item.status === 'OPEN_BY_DESIGN' ? item.status : '△', label[item.status] || item.status)}<h4>${esc(item.plot)}</h4></header><dl><dt>심기</dt><dd>${esc(item.planted)}</dd><dt>강화</dt><dd>${esc(item.reinforcement)}</dd><dt>회수 / 예정</dt><dd>${esc(item.payoff)}</dd><dt>현재 단계</dt><dd>${esc(label[item.status] || item.status)}</dd><dt>주의</dt><dd>${esc(item.risk)}</dd></dl></article>`).join('')}</div>`;
 }
 
 function storylinePage() {

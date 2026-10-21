@@ -200,6 +200,13 @@ class DashboardDisclosureTests(unittest.TestCase):
                 self.assertTrue((ROOT / "site" / person["portrait"]).exists(), person["name"])
                 self.assertTrue((ROOT / "author-site" / person["portrait"]).exists(), person["name"])
 
+    def test_foreshadowing_ledger_matches_the_manuscripts(self):
+        import sys
+        sys.path.insert(0, str(ROOT / "scripts"))
+        import ledger_check
+        config = json.loads((ROOT / "private" / "dashboard-config.json").read_text(encoding="utf-8"))
+        self.assertEqual(ledger_check.check(config), [])
+
 
 if __name__ == "__main__":
     unittest.main()
