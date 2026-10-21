@@ -363,7 +363,9 @@
       "groupDescription": "서로 다른 길에서 같은 질문을 따라가는 두 형제.",
       "affiliation": "아메스트리스",
       "summary": "연금술을 잃은 뒤, 세계를 이해하는 새로운 길을 찾는 전직 국가연금술사.",
-      "relationship": "알폰스의 형 · 스카 형이 남긴 기록을 추적한다."
+      "relationship": "알폰스의 형 · 스카 형이 남긴 기록을 추적한다.",
+      "portrait": "portraits/edward.svg",
+      "appearance": "금빛 머리를 길게 땋아 내리고 이마에 짧은 머리카락이 솟은, 눈매가 날카로운 청년. 2년 사이 얼굴선이 조금 길어졌다."
     },
     {
       "name": "알폰스 엘릭",
@@ -371,7 +373,9 @@
       "groupDescription": "서로 다른 길에서 같은 질문을 따라가는 두 형제.",
       "affiliation": "아메스트리스 / 싱",
       "summary": "싱에서 연단술을 연구하며 형과 다른 방향에서 질문을 따라간다.",
-      "relationship": "에드의 동생 · 메이와 함께 동쪽의 지식을 조사한다."
+      "relationship": "에드의 동생 · 메이와 함께 동쪽의 지식을 조사한다.",
+      "portrait": "portraits/alphonse.svg",
+      "appearance": "부드러운 갈금빛 머리와 회갈색 눈의 온화한 청년. 머리가 조금 자랐고 어깨가 넓어졌다."
     },
     {
       "name": "스카",
@@ -379,7 +383,9 @@
       "groupDescription": "전쟁의 흔적과 고향의 미래를 각자 다른 방식으로 마주하는 사람들.",
       "affiliation": "이슈발",
       "summary": "고향의 재건과 형이 남긴 기록 사이에서 자신의 답을 찾는 이슈발인.",
-      "relationship": "에드와 함께 형의 연구를 따라간다."
+      "relationship": "에드와 함께 형의 연구를 따라간다.",
+      "portrait": "portraits/scar.svg",
+      "appearance": "검게 그은 피부와 붉은 눈, 이마에 X자 흉터가 있는 흰 머리의 장신. 표정이 단단하다."
     },
     {
       "name": "스카의 형",
@@ -387,7 +393,9 @@
       "groupDescription": "전쟁의 흔적과 고향의 미래를 각자 다른 방식으로 마주하는 사람들.",
       "affiliation": "이슈발",
       "summary": "생전 이슈발의 기록과 연단술을 함께 연구한 인물.",
-      "relationship": "스카의 형 · 에드가 추적하는 모든 질문의 출발점."
+      "relationship": "스카의 형 · 에드가 추적하는 모든 질문의 출발점.",
+      "portrait": "portraits/scar-brother.svg",
+      "appearance": "뒤로 묶은 긴 머리에 이마띠를 두른 학자풍의 이슈발인. 눈매가 부드럽고 말수가 적은 인상."
     },
     {
       "name": "마일즈",
@@ -395,7 +403,9 @@
       "groupDescription": "전쟁의 흔적과 고향의 미래를 각자 다른 방식으로 마주하는 사람들.",
       "affiliation": "아메스트리스 / 이슈발 재건",
       "summary": "재건 현장에서 군과 이슈발 주민 사이의 실무를 맡는다.",
-      "relationship": "머스탱의 부하이자 이슈발 현장의 연결자."
+      "relationship": "머스탱의 부하이자 이슈발 현장의 연결자.",
+      "portrait": "portraits/miles.svg",
+      "appearance": "짧게 다듬은 옅은 회색 머리와 갈색 피부, 침착한 눈의 군 장교. 군복 깃에 대령 계급장."
     },
     {
       "name": "아딘",
@@ -403,7 +413,9 @@
       "groupDescription": "전쟁의 흔적과 고향의 미래를 각자 다른 방식으로 마주하는 사람들.",
       "affiliation": "이슈발",
       "summary": "변화와 삶의 문제를 현실적으로 바라보는 젊은 이슈발 주민.",
-      "relationship": "재건과 개발을 둘러싼 이슈발 내부의 목소리."
+      "relationship": "재건과 개발을 둘러싼 이슈발 내부의 목소리.",
+      "portrait": "portraits/adin.svg",
+      "appearance": "헝클어진 검은 머리와 붉은 눈의 젊은 이슈발 주민. 작업복 차림에 표정이 솔직하다."
     },
     {
       "name": "자히르",
@@ -411,7 +423,9 @@
       "groupDescription": "전쟁의 흔적과 고향의 미래를 각자 다른 방식으로 마주하는 사람들.",
       "affiliation": "이슈발",
       "summary": "고향의 땅과 결정권을 지키려는 이슈발 주민.",
-      "relationship": "국가의 개입을 경계하는 이슈발 내부의 목소리."
+      "relationship": "국가의 개입을 경계하는 이슈발 내부의 목소리.",
+      "portrait": "portraits/zahir.svg",
+      "appearance": "흰 수염과 주름이 깊은 이슈발의 노인. 붉은 눈이 고요하고 흰 천을 둘렀다."
     },
     {
       "name": "하심",
@@ -419,7 +433,9 @@
       "groupDescription": "전쟁의 흔적과 고향의 미래를 각자 다른 방식으로 마주하는 사람들.",
       "affiliation": "이슈발 교역로",
       "summary": "이슈발과 북부 교역로를 오가며 사막 가장자리의 길을 아는 상인.",
-      "relationship": "에드와 스카를 사라진 옛길의 초입까지 안내한다."
+      "relationship": "에드와 스카를 사라진 옛길의 초입까지 안내한다.",
+      "portrait": "portraits/hashim.svg",
+      "appearance": "흰 터번과 콧수염의 사막 상인. 웃는 얼굴이 넉살 좋고 조끼를 걸쳤다."
     },
     {
       "name": "로이 머스탱",
@@ -427,7 +443,9 @@
       "groupDescription": "전쟁 이후의 나라와 권력을 둘러싼 사람들.",
       "affiliation": "아메스트리스",
       "summary": "전쟁 뒤의 나라를 바꾸려는 아메스트리스의 지도자.",
-      "relationship": "호크아이와 함께 개혁을 추진하며, 마일즈의 상관이다."
+      "relationship": "호크아이와 함께 개혁을 추진하며, 마일즈의 상관이다.",
+      "portrait": "portraits/mustang.svg",
+      "appearance": "비스듬히 넘긴 검은 머리와 검은 눈의 지도자. 여유 있는 미소 끝에 2년 사이 피로가 조금 내려앉았다."
     },
     {
       "name": "리자 호크아이",
@@ -435,7 +453,9 @@
       "groupDescription": "전쟁 이후의 나라와 권력을 둘러싼 사람들.",
       "affiliation": "아메스트리스 군",
       "summary": "머스탱과 함께 과거의 책임을 마주하는 군인.",
-      "relationship": "머스탱의 동료 · 그의 선택을 가장 가까이에서 지켜본다."
+      "relationship": "머스탱의 동료 · 그의 선택을 가장 가까이에서 지켜본다.",
+      "portrait": "portraits/hawkeye.svg",
+      "appearance": "금발을 틀어 올리고 갈색 눈이 곧은 군인. 앞머리 한 가닥이 옆으로 흐르고 계급은 대위."
     },
     {
       "name": "에리히 브란트",
@@ -443,7 +463,9 @@
       "groupDescription": "전쟁 이후의 나라와 권력을 둘러싼 사람들.",
       "affiliation": "아메스트리스",
       "summary": "전쟁 이후의 정치를 제도의 문제로 바라보는 민간 정치인.",
-      "relationship": "머스탱의 개혁과 맞닿아 있는 정치적 인물."
+      "relationship": "머스탱의 개혁과 맞닿아 있는 정치적 인물.",
+      "portrait": "portraits/brandt.svg",
+      "appearance": "이마가 넓어진 잿빛 머리에 각진 안경을 쓴 민간 정치인. 짙은 정장에 말씨가 차분해 보인다."
     },
     {
       "name": "그라우스",
@@ -451,7 +473,9 @@
       "groupDescription": "전쟁 이후의 나라와 권력을 둘러싼 사람들.",
       "affiliation": "아메스트리스 군",
       "summary": "이슈발에 파견돼 처음에는 정확한 현장 조사를 해낸 군 장교.",
-      "relationship": "머스탱의 개혁과 다른 방식으로 군과 질서를 바라본다."
+      "relationship": "머스탱의 개혁과 다른 방식으로 군과 질서를 바라본다.",
+      "portrait": "portraits/graus.svg",
+      "appearance": "가지런히 빗은 짙은 갈색 머리와 회청색 눈의 장교. 표정이 흐트러지지 않으며 계급은 준장."
     },
     {
       "name": "바르크",
@@ -459,7 +483,9 @@
       "groupDescription": "전쟁 이후의 나라와 권력을 둘러싼 사람들.",
       "affiliation": "아메스트리스 군",
       "summary": "그라우스 휘하에서 정확하고 조용하게 임무를 수행하는 젊은 장교.",
-      "relationship": "그라우스의 명령을 누구보다 빠르게 이해하는 군부 인물."
+      "relationship": "그라우스의 명령을 누구보다 빠르게 이해하는 군부 인물.",
+      "portrait": "portraits/bark.svg",
+      "appearance": "연한 갈색 머리와 회녹색 눈의 젊은 장교. 말수가 적고 시선이 곧게 앞을 향한다."
     },
     {
       "name": "린 야오",
@@ -467,7 +493,9 @@
       "groupDescription": "황실의 책임과 동쪽의 지식을 잇는 인물들.",
       "affiliation": "싱 황실",
       "summary": "황제가 된 뒤, 넓어진 책임의 범위를 배우는 싱의 통치자.",
-      "relationship": "란팡의 주군 · 에드와 알의 오래된 동료."
+      "relationship": "란팡의 주군 · 에드와 알의 오래된 동료.",
+      "portrait": "portraits/lin.svg",
+      "appearance": "가늘게 올라간 눈과 틀어 올린 검은 머리, 금관 장식을 단 황제. 2년 사이 웃음에 무게가 붙었다."
     },
     {
       "name": "메이 창",
@@ -475,7 +503,9 @@
       "groupDescription": "황실의 책임과 동쪽의 지식을 잇는 인물들.",
       "affiliation": "싱",
       "summary": "알과 함께 연단술을 연구하는 싱의 연단술사.",
-      "relationship": "알폰스와 동쪽의 기록을 조사한다."
+      "relationship": "알폰스와 동쪽의 기록을 조사한다.",
+      "portrait": "portraits/mei.svg",
+      "appearance": "양쪽으로 둥글게 묶은 검은 머리와 큰 갈색 눈의 연단술사. 2년 사이 키와 표정이 한 뼘 자랐다."
     },
     {
       "name": "란팡",
@@ -483,7 +513,9 @@
       "groupDescription": "황실의 책임과 동쪽의 지식을 잇는 인물들.",
       "affiliation": "싱 황실",
       "summary": "린을 곁에서 지키며 그의 선택을 함께하는 호위무사.",
-      "relationship": "린의 호위무사이자 가장 가까운 측근."
+      "relationship": "린의 호위무사이자 가장 가까운 측근.",
+      "portrait": "portraits/lanfan.svg",
+      "appearance": "곧게 자른 단발의 검은 머리와 날카로운 눈. 목에 검은 복면을 내려 두른 호위무사."
     },
     {
       "name": "리엔",
@@ -491,7 +523,9 @@
       "groupDescription": "옛 기록과 정보, 교역의 흐름을 읽는 도시의 인물들.",
       "affiliation": "란시",
       "summary": "오래된 기록과 서쪽의 흔적을 조사하는 고문서 연구자.",
-      "relationship": "기록을 통해 에드 일행의 추적을 돕는다."
+      "relationship": "기록을 통해 에드 일행의 추적을 돕는다.",
+      "portrait": "portraits/lien.svg",
+      "appearance": "회색 머리를 뒤로 넘기고 둥근 안경을 쓴 고문서 연구자. 갈색 학자복에 먹물 냄새가 날 듯한 인상."
     },
     {
       "name": "푸룽",
@@ -499,7 +533,9 @@
       "groupDescription": "옛 기록과 정보, 교역의 흐름을 읽는 도시의 인물들.",
       "affiliation": "란시",
       "summary": "지식과 물자의 흐름을 누구보다 빠르게 읽는 상업·정보 중개인.",
-      "relationship": "옛길과 교역의 의미를 연결하는 인물."
+      "relationship": "옛길과 교역의 의미를 연결하는 인물.",
+      "portrait": "portraits/purong.svg",
+      "appearance": "매끄럽게 넘긴 검은 머리에 금 귀걸이를 한 정보 중개인. 얇은 콧수염과 능글맞은 입꼬리가 인상적이다."
     },
     {
       "name": "샤오린",
@@ -507,7 +543,9 @@
       "groupDescription": "교역로가 바꿀 지역의 미래를 서로 다르게 바라보는 싱 서부의 사람들.",
       "affiliation": "안족",
       "summary": "옛길이 가져올 경제적 기회를 주목하는 안족 인물.",
-      "relationship": "천루오와 다른 입장에서 지역의 미래를 바라본다."
+      "relationship": "천루오와 다른 입장에서 지역의 미래를 바라본다.",
+      "portrait": "portraits/xiaolin.svg",
+      "appearance": "갈색 머리를 단정히 넘기고 여행용 외투를 걸친 안족 청년. 눈이 밝고 표정이 열려 있다."
     },
     {
       "name": "천루오",
@@ -515,7 +553,9 @@
       "groupDescription": "교역로가 바꿀 지역의 미래를 서로 다르게 바라보는 싱 서부의 사람들.",
       "affiliation": "안족",
       "summary": "외부 자본과 황실의 개입을 경계하는 안족 인물.",
-      "relationship": "샤오린과 다른 입장에서 지역의 미래를 바라본다."
+      "relationship": "샤오린과 다른 입장에서 지역의 미래를 바라본다.",
+      "portrait": "portraits/tianluo.svg",
+      "appearance": "짧게 깎은 머리에 눈썹이 짙고 턱이 단단한 안족 남자. 입을 꾹 다문 신중한 인상."
     },
     {
       "name": "루한 바이",
@@ -523,7 +563,9 @@
       "groupDescription": "교역로가 바꿀 지역의 미래를 서로 다르게 바라보는 싱 서부의 사람들.",
       "affiliation": "바이족",
       "summary": "자기 부족의 미래를 고민하는 바이족의 젊은 후계자.",
-      "relationship": "린과 같은 질문을 다른 자리에서 마주한다."
+      "relationship": "린과 같은 질문을 다른 자리에서 마주한다.",
+      "portrait": "portraits/luhan.svg",
+      "appearance": "뒤로 넘긴 검은 머리와 곧은 시선의 바이족 후계자. 흰 옷에 푸른 단을 둘렀고 표정이 굳었다."
     },
     {
       "name": "젠하 바이",
@@ -531,7 +573,9 @@
       "groupDescription": "교역로가 바꿀 지역의 미래를 서로 다르게 바라보는 싱 서부의 사람들.",
       "affiliation": "바이족",
       "summary": "북부 교역망과 바이족의 기반을 지키려는 유력 인물.",
-      "relationship": "루한 바이의 세대와 가까운 바이족 내부의 목소리."
+      "relationship": "루한 바이의 세대와 가까운 바이족 내부의 목소리.",
+      "portrait": "portraits/jenha.svg",
+      "appearance": "희끗한 머리와 정돈된 수염의 바이족 유력자. 부드러운 웃음 뒤에 계산이 보이고 흰 비단옷에 금단을 둘렀다."
     },
     {
       "name": "웨이 바이",
@@ -539,7 +583,9 @@
       "groupDescription": "교역로가 바꿀 지역의 미래를 서로 다르게 바라보는 싱 서부의 사람들.",
       "affiliation": "바이족",
       "summary": "바이족의 정치적 영향력과 전통을 중시하는 원로.",
-      "relationship": "루한 바이에게 부족의 책임을 끊임없이 상기시킨다."
+      "relationship": "루한 바이에게 부족의 책임을 끊임없이 상기시킨다.",
+      "portrait": "portraits/wei.svg",
+      "appearance": "흰 머리와 긴 수염이 정갈한 바이족 원로. 주름진 눈매가 엄하고 회색 예복을 입었다."
     },
     {
       "name": "카이룬",
@@ -547,7 +593,9 @@
       "groupDescription": "교역로가 바꿀 지역의 미래를 서로 다르게 바라보는 싱 서부의 사람들.",
       "affiliation": "안족",
       "summary": "황실의 토지·물 결정권을 불신하는 안족 인물.",
-      "relationship": "안족과 바이족 사이에 번진 불신의 흔적을 남긴다."
+      "relationship": "안족과 바이족 사이에 번진 불신의 흔적을 남긴다.",
+      "portrait": "portraits/kairun.svg",
+      "appearance": "거칠게 자란 검은 머리와 야윈 얼굴, 꺼진 눈의 안족 남자. 낡은 외투에 그늘이 짙다."
     },
     {
       "name": "나디르",
@@ -555,7 +603,9 @@
       "groupDescription": "사라진 길과 공동체의 삶을 지키며 외부의 변화를 마주하는 사람들.",
       "affiliation": "카르사",
       "summary": "사라진 길과 외부의 변화에 신중한 카르사의 지도자.",
-      "relationship": "사하라·다우드·마지드와 함께 카르사의 목소리를 이룬다."
+      "relationship": "사하라·다우드·마지드와 함께 카르사의 목소리를 이룬다.",
+      "portrait": "portraits/nadir.svg",
+      "appearance": "모래빛 두건을 두르고 짧은 회색 수염을 기른 카르사의 지도자. 눈이 차분하고 신중하다."
     },
     {
       "name": "사하라",
@@ -563,7 +613,9 @@
       "groupDescription": "사라진 길과 공동체의 삶을 지키며 외부의 변화를 마주하는 사람들.",
       "affiliation": "카르사",
       "summary": "카르사의 오래된 기록을 지키는 기록관리자.",
-      "relationship": "카르사의 과거와 현재를 잇는 인물."
+      "relationship": "카르사의 과거와 현재를 잇는 인물.",
+      "portrait": "portraits/sahara.svg",
+      "appearance": "밝은 두건을 쓰고 둥근 안경을 낀 기록관리자. 조용하고 꼼꼼해 보인다."
     },
     {
       "name": "다우드",
@@ -571,7 +623,9 @@
       "groupDescription": "사라진 길과 공동체의 삶을 지키며 외부의 변화를 마주하는 사람들.",
       "affiliation": "카르사",
       "summary": "외부인을 경계하며 카르사를 지키는 방어 담당.",
-      "relationship": "나디르와 함께 공동체의 안전을 고민한다."
+      "relationship": "나디르와 함께 공동체의 안전을 고민한다.",
+      "portrait": "portraits/daud.svg",
+      "appearance": "어두운 두건을 두르고 눈썹이 짙은 카르사의 방어 담당. 뺨에 오래된 흉터가 있고 경계하는 표정."
     },
     {
       "name": "마지드",
@@ -579,7 +633,9 @@
       "groupDescription": "사라진 길과 공동체의 삶을 지키며 외부의 변화를 마주하는 사람들.",
       "affiliation": "카르사",
       "summary": "카르사의 생활을 지탱하는 기술자.",
-      "relationship": "스카의 형과 가까웠던 과거가 남아 있다."
+      "relationship": "스카의 형과 가까웠던 과거가 남아 있다.",
+      "portrait": "portraits/majid.svg",
+      "appearance": "곱슬머리 위에 보안경을 얹은 카르사의 기술자. 손재주 좋은 사람다운 느긋한 웃음."
     }
   ],
   "audience": "reader"

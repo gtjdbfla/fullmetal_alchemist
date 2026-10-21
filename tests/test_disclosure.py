@@ -193,6 +193,13 @@ class DashboardDisclosureTests(unittest.TestCase):
         self.assertFalse((ROOT / "site/STORYLINE_MASTER_v2.0.md").exists())
         self.assertFalse((ROOT / "author-site/STORYLINE_MASTER_v2.0.md").exists())
 
+    def test_every_public_character_has_a_portrait_and_appearance(self):
+        for person in self.public["publicCharacters"]:
+            self.assertTrue(person.get("appearance"), person["name"])
+            self.assertTrue(person.get("portrait", "").startswith("portraits/"), person["name"])
+            self.assertTrue((ROOT / "site" / person["portrait"]).exists(), person["name"])
+            self.assertTrue((ROOT / "author-site" / person["portrait"]).exists(), person["name"])
+
 
 if __name__ == "__main__":
     unittest.main()
