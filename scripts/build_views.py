@@ -1,4 +1,5 @@
 import json
+import re
 import shutil
 from copy import deepcopy
 from pathlib import Path
@@ -37,7 +38,9 @@ def hydrate_manuscripts(payload: dict) -> None:
             while heading_index < len(lines) and not lines[heading_index].strip():
                 heading_index += 1
             if heading_index < len(lines) and lines[heading_index].startswith("## "):
-                text = "\n".join(lines[heading_index + 1:]).strip()
+                heading_index += 1
+            text = "\n".join(lines[heading_index:]).strip()
+        text = re.sub(r"(\n\s*(?:---|-|\*))+\s*$", "", text).strip()
         item["text"] = text
         item["characters"] = len(text)
         review = reviews.get(item.get("episode"))

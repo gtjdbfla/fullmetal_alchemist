@@ -24,14 +24,17 @@ def plain_body(lines: list[str]) -> str:
     out = []
     for line in lines:
         stripped = line.strip()
-        if stripped == "---":
+        if stripped in ("---", "-", "*"):
             out.append(SCENE_BREAK)
             continue
         stripped = re.sub(r"^>\s?", "", stripped)
         stripped = stripped.replace("**", "")
         out.append(stripped)
     text = "\n".join(out).strip()
-    return re.sub(r"\n{3,}", "\n\n", text)
+    text = re.sub(r"\n{3,}", "\n\n", text)
+    while text.endswith(SCENE_BREAK):
+        text = text[: -len(SCENE_BREAK)].rstrip()
+    return text
 
 
 def export() -> list[tuple[str, str, int]]:
