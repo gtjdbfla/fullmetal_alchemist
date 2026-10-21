@@ -366,7 +366,7 @@
       "relationship": "알폰스의 형 · 스카 형이 남긴 기록을 추적한다.",
       "appearance": "금빛 머리를 길게 땋아 내리고 이마에 짧은 머리카락이 솟은, 눈매가 날카로운 청년. 2년 사이 얼굴선이 조금 길어졌다.",
       "slug": "edward",
-      "portrait": "portraits/edward.png"
+      "portrait": "portraits/edward.jpg"
     },
     {
       "name": "알폰스 엘릭",
@@ -377,7 +377,7 @@
       "relationship": "에드의 동생 · 메이와 함께 동쪽의 지식을 조사한다.",
       "appearance": "부드러운 갈금빛 머리와 회갈색 눈의 온화한 청년. 머리가 조금 자랐고 어깨가 넓어졌다.",
       "slug": "alphonse",
-      "portrait": "portraits/alphonse.png"
+      "portrait": "portraits/alphonse.jpg"
     },
     {
       "name": "스카",
@@ -388,7 +388,7 @@
       "relationship": "에드와 함께 형의 연구를 따라간다.",
       "appearance": "검게 그은 피부와 붉은 눈, 이마에 X자 흉터가 있는 흰 머리의 장신. 표정이 단단하다.",
       "slug": "scar",
-      "portrait": "portraits/scar.png"
+      "portrait": "portraits/scar.jpg"
     },
     {
       "name": "스카의 형",
@@ -409,7 +409,7 @@
       "relationship": "머스탱의 부하이자 이슈발 현장의 연결자.",
       "appearance": "짧게 다듬은 옅은 회색 머리와 갈색 피부, 침착한 눈의 군 장교. 군복 깃에 대령 계급장.",
       "slug": "miles",
-      "portrait": "portraits/miles.png"
+      "portrait": "portraits/miles.jpg"
     },
     {
       "name": "아딘",
@@ -450,7 +450,7 @@
       "relationship": "호크아이와 함께 개혁을 추진하며, 마일즈의 상관이다.",
       "appearance": "비스듬히 넘긴 검은 머리와 검은 눈의 지도자. 여유 있는 미소 끝에 2년 사이 피로가 조금 내려앉았다.",
       "slug": "mustang",
-      "portrait": "portraits/mustang.png"
+      "portrait": "portraits/mustang.jpg"
     },
     {
       "name": "리자 호크아이",
@@ -461,7 +461,7 @@
       "relationship": "머스탱의 동료 · 그의 선택을 가장 가까이에서 지켜본다.",
       "appearance": "금발을 틀어 올리고 갈색 눈이 곧은 군인. 앞머리 한 가닥이 옆으로 흐르고 계급은 대위.",
       "slug": "hawkeye",
-      "portrait": "portraits/hawkeye.png"
+      "portrait": "portraits/hawkeye.jpg"
     },
     {
       "name": "에리히 브란트",
@@ -502,7 +502,7 @@
       "relationship": "란팡의 주군 · 에드와 알의 오래된 동료.",
       "appearance": "가늘게 올라간 눈과 틀어 올린 검은 머리, 금관 장식을 단 황제. 2년 사이 웃음에 무게가 붙었다.",
       "slug": "lin",
-      "portrait": "portraits/lin.png"
+      "portrait": "portraits/lin.jpg"
     },
     {
       "name": "메이 창",
@@ -513,7 +513,7 @@
       "relationship": "알폰스와 동쪽의 기록을 조사한다.",
       "appearance": "양쪽으로 둥글게 묶은 검은 머리와 큰 갈색 눈의 연단술사. 2년 사이 키와 표정이 한 뼘 자랐다.",
       "slug": "mei",
-      "portrait": "portraits/mei.png"
+      "portrait": "portraits/mei.jpg"
     },
     {
       "name": "란팡",
@@ -524,7 +524,7 @@
       "relationship": "린의 호위무사이자 가장 가까운 측근.",
       "appearance": "곧게 자른 단발의 검은 머리와 날카로운 눈. 목에 검은 복면을 내려 두른 호위무사.",
       "slug": "lanfan",
-      "portrait": "portraits/lanfan.png"
+      "portrait": "portraits/lanfan.jpg"
     },
     {
       "name": "리엔",
