@@ -42,22 +42,23 @@ def hydrate_manuscripts(payload: dict) -> None:
             text = "\n".join(lines[heading_index:]).strip()
         text = re.sub(r"(\n\s*(?:---|-|\*))+\s*$", "", text).strip()
         item["text"] = text
-        item["characters"] = len(text)
+        counted = text.replace("==", "").replace("~~", "")
+        item["characters"] = len(counted)
         review = reviews.get(item.get("episode"))
         if review is not None:
-            length_ok = CHAPTER_TARGET[0] <= len(text) <= CHAPTER_TARGET[1]
+            length_ok = CHAPTER_TARGET[0] <= len(counted) <= CHAPTER_TARGET[1]
             review["length"] = {
-                "characters": len(text),
+                "characters": len(counted),
                 "status": "O" if length_ok else "△",
                 "target": "5,000–7,000자",
-                "reason": f"공백 포함 {len(text):,}자 · 목표 {'충족' if length_ok else '범위 밖'}",
+                "reason": f"공백 포함 {len(counted):,}자 · 목표 {'충족' if length_ok else '범위 밖'}",
             }
             statuses = {category.get("status", "△") for category in review.get("categories", [])}
             review["overallStatus"] = "X" if "X" in statuses else "△" if not length_ok or "△" in statuses else "O"
             review["overallReason"] = review["length"]["reason"]
         for chapter in payload.get("storyBible", {}).get("chapters", []):
             if chapter.get("label") == item.get("episode"):
-                chapter["characterCount"] = len(text)
+                chapter["characterCount"] = len(counted)
                 break
 
 def attach_portraits(payload: dict) -> None:

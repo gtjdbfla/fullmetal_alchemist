@@ -18,9 +18,9 @@ class DashboardDisclosureTests(unittest.TestCase):
             for chapter in self.public["manuscripts"]
             if chapter["characters"] > 7000
         ]
-        self.assertEqual(over_limit, [("제26화", 8025), ("제30화", 7113), ("제32화", 7064), ("제36화", 7116), ("제42화", 8571), ("에필로그", 7278)])
+        self.assertEqual(over_limit, [("제26화", 8025), ("제30화", 7113), ("제32화", 7064), ("제36화", 7116), ("제42화", 8583), ("에필로그", 7278)])
         for chapter in self.public["manuscripts"]:
-            self.assertEqual(chapter["characters"], len(chapter["text"]))
+            self.assertEqual(chapter["characters"], len(chapter["text"].replace("==", "").replace("~~", "")))
 
     def test_public_has_only_current_manuscripts_and_no_history(self):
         self.assertEqual(self.public["audience"], "reader")
@@ -206,6 +206,16 @@ class DashboardDisclosureTests(unittest.TestCase):
         import ledger_check
         config = json.loads((ROOT / "private" / "dashboard-config.json").read_text(encoding="utf-8"))
         self.assertEqual(ledger_check.check(config), [])
+
+    def test_note_markers_are_balanced_and_absent_from_txt(self):
+        for item in self.public["manuscripts"]:
+            for paragraph in item["text"].split("\n\n"):
+                self.assertEqual(paragraph.count("==") % 2, 0, (item["episode"], paragraph[:30]))
+                self.assertEqual(paragraph.count("~~") % 2, 0, (item["episode"], paragraph[:30]))
+        for txt in (ROOT / "publish" / "txt").glob("*.txt"):
+            body = txt.read_text(encoding="utf-8")
+            self.assertNotIn("==", body, txt.name)
+            self.assertNotIn("~~", body, txt.name)
 
 
 if __name__ == "__main__":

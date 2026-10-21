@@ -40,6 +40,8 @@ function homeUrl() {
 function inline(text) {
   return esc(text)
     .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
+    .replace(/==(.+?)==/g, '<mark class="note">$1</mark>')
+    .replace(/~~(.+?)~~/g, '<del class="struck">$1</del>')
     .replace(/`(.+?)`/g, '<code>$1</code>');
 }
 

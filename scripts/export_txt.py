@@ -28,7 +28,7 @@ def plain_body(lines: list[str]) -> str:
             out.append(SCENE_BREAK)
             continue
         stripped = re.sub(r"^>\s?", "", stripped)
-        stripped = stripped.replace("**", "")
+        stripped = stripped.replace("**", "").replace("==", "").replace("~~", "")
         out.append(stripped)
     text = "\n".join(out).strip()
     text = re.sub(r"\n{3,}", "\n\n", text)

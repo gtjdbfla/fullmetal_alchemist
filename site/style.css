@@ -74,3 +74,5 @@ footer{display:flex;justify-content:space-between;gap:15px;border-top:1px solid 
 .character-head span{font-size:10px;color:var(--gold);letter-spacing:1px}
 .character-photo.blank{background:repeating-linear-gradient(135deg,#efeadc 0 8px,#f6f2e8 8px 16px);border:1px dashed var(--line);box-shadow:none}
 .state-badge.info{background:#e9eef6;border-color:#a9bad6;color:#2f4a78}
+mark.note{background:linear-gradient(transparent 46%,#ffe27a 46%);color:inherit;padding:0 .18em;border-radius:2px;-webkit-box-decoration-break:clone;box-decoration-break:clone}
+del.struck{color:#6f6a5c;text-decoration:line-through;text-decoration-thickness:2px;text-decoration-color:#8a7a45}
