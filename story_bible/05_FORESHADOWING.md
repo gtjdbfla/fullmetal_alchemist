@@ -203,3 +203,10 @@ Ch9 계산 불일치 → Ch10~11 자연 흐름·길 → Ch12 넓은 계와 단�
 ## RED-MINERAL-USE · 강화 (Ch41)
 
 - 보존 구역 유지, 즉시 채굴 보류, 정보 공개, 중앙정부·군 채굴권 배제. 최종 사용은 미정.
+
+## 회수·정리 (Ch42)
+
+- [회수 완료] EDWARD-REVISION, ED-NOTEBOOK-REVIEW, ED-ENJOYS-NOT-KNOWING
+- [부분 회수/의도적 미해결] AMESTRIS-TRUTH-QUESTION(에드의 가설), ISHVALA-MYSTERY
+- [부분 회수] SOUTH-ROUTE-DECISION(협의·조사 단계)
+- [심기] ED-AL-REUNION — 에필로그 회수 예정
