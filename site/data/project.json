@@ -365,7 +365,8 @@
       "summary": "연금술을 잃은 뒤, 세계를 이해하는 새로운 길을 찾는 전직 국가연금술사.",
       "relationship": "알폰스의 형 · 스카 형이 남긴 기록을 추적한다.",
       "appearance": "금빛 머리를 길게 땋아 내리고 이마에 짧은 머리카락이 솟은, 눈매가 날카로운 청년. 2년 사이 얼굴선이 조금 길어졌다.",
-      "slug": "edward"
+      "slug": "edward",
+      "portrait": "portraits/edward.png"
     },
     {
       "name": "알폰스 엘릭",
@@ -375,7 +376,8 @@
       "summary": "싱에서 연단술을 연구하며 형과 다른 방향에서 질문을 따라간다.",
       "relationship": "에드의 동생 · 메이와 함께 동쪽의 지식을 조사한다.",
       "appearance": "부드러운 갈금빛 머리와 회갈색 눈의 온화한 청년. 머리가 조금 자랐고 어깨가 넓어졌다.",
-      "slug": "alphonse"
+      "slug": "alphonse",
+      "portrait": "portraits/alphonse.png"
     },
     {
       "name": "스카",
@@ -385,7 +387,8 @@
       "summary": "고향의 재건과 형이 남긴 기록 사이에서 자신의 답을 찾는 이슈발인.",
       "relationship": "에드와 함께 형의 연구를 따라간다.",
       "appearance": "검게 그은 피부와 붉은 눈, 이마에 X자 흉터가 있는 흰 머리의 장신. 표정이 단단하다.",
-      "slug": "scar"
+      "slug": "scar",
+      "portrait": "portraits/scar.png"
     },
     {
       "name": "스카의 형",
@@ -405,7 +408,8 @@
       "summary": "재건 현장에서 군과 이슈발 주민 사이의 실무를 맡는다.",
       "relationship": "머스탱의 부하이자 이슈발 현장의 연결자.",
       "appearance": "짧게 다듬은 옅은 회색 머리와 갈색 피부, 침착한 눈의 군 장교. 군복 깃에 대령 계급장.",
-      "slug": "miles"
+      "slug": "miles",
+      "portrait": "portraits/miles.png"
     },
     {
       "name": "아딘",
@@ -445,7 +449,8 @@
       "summary": "전쟁 뒤의 나라를 바꾸려는 아메스트리스의 지도자.",
       "relationship": "호크아이와 함께 개혁을 추진하며, 마일즈의 상관이다.",
       "appearance": "비스듬히 넘긴 검은 머리와 검은 눈의 지도자. 여유 있는 미소 끝에 2년 사이 피로가 조금 내려앉았다.",
-      "slug": "mustang"
+      "slug": "mustang",
+      "portrait": "portraits/mustang.png"
     },
     {
       "name": "리자 호크아이",
@@ -455,7 +460,8 @@
       "summary": "머스탱과 함께 과거의 책임을 마주하는 군인.",
       "relationship": "머스탱의 동료 · 그의 선택을 가장 가까이에서 지켜본다.",
       "appearance": "금발을 틀어 올리고 갈색 눈이 곧은 군인. 앞머리 한 가닥이 옆으로 흐르고 계급은 대위.",
-      "slug": "hawkeye"
+      "slug": "hawkeye",
+      "portrait": "portraits/hawkeye.png"
     },
     {
       "name": "에리히 브란트",
@@ -495,7 +501,8 @@
       "summary": "황제가 된 뒤, 넓어진 책임의 범위를 배우는 싱의 통치자.",
       "relationship": "란팡의 주군 · 에드와 알의 오래된 동료.",
       "appearance": "가늘게 올라간 눈과 틀어 올린 검은 머리, 금관 장식을 단 황제. 2년 사이 웃음에 무게가 붙었다.",
-      "slug": "lin"
+      "slug": "lin",
+      "portrait": "portraits/lin.png"
     },
     {
       "name": "메이 창",
@@ -505,7 +512,8 @@
       "summary": "알과 함께 연단술을 연구하는 싱의 연단술사.",
       "relationship": "알폰스와 동쪽의 기록을 조사한다.",
       "appearance": "양쪽으로 둥글게 묶은 검은 머리와 큰 갈색 눈의 연단술사. 2년 사이 키와 표정이 한 뼘 자랐다.",
-      "slug": "mei"
+      "slug": "mei",
+      "portrait": "portraits/mei.png"
     },
     {
       "name": "란팡",
@@ -515,7 +523,8 @@
       "summary": "린을 곁에서 지키며 그의 선택을 함께하는 호위무사.",
       "relationship": "린의 호위무사이자 가장 가까운 측근.",
       "appearance": "곧게 자른 단발의 검은 머리와 날카로운 눈. 목에 검은 복면을 내려 두른 호위무사.",
-      "slug": "lanfan"
+      "slug": "lanfan",
+      "portrait": "portraits/lanfan.png"
     },
     {
       "name": "리엔",
