@@ -399,3 +399,13 @@ Chapter 24 establishes the timing explicitly: Lin returns to Lansi, spends six d
 
 ## v7.0 update
 The full latest outline is `09_LATEST_INTEGRATED_UPDATE.md`. For Ch24, preserve Lin’s six-day review; informal information travels Lansi → Haojin (about 3 days) → Muranheo (about 2 days); formal temporary protections arrive later. Kairun joins a protest group, does not reveal his ability, and only leaves the small “칼 안 가져가?” / “필요 없어.” seed. From Ch25, Kairun’s one-circle natural-flow alkahestry is revealed without confirming a Karsa lineage.
+
+## 2026-10-21 41~42화 에드의 회고 장면 (작가 확정)
+
+41화 또는 42화(42화 말미 권장) 안에 에드가 지금까지 배운 것, 느낀 것, 그럼에도 앞으로 궁금한 것을 고민하는 장면을 넣는다.
+
+- **방식:** 강의나 요약이 아니라 에드의 행동으로 보인다. 예: 이전 수첩의 질문들을 다시 펴서 지울 것과 남길 것을 정한다.
+- **배운 것(원고 근거):** 비슷하다고 같은 기원은 아니다(12화). 누가 처음 만들었는가보다 만나서 무엇이 바뀌었는가(12화). 알아낸 정보가 어디로 가는지는 생각해야 한다(16화). 좋은 명령도 명령이다(7화). 맞는 사실을 모아도 틀린 선이 그어질 수 있다(27화). 영향을 받는 사람과 함께 정해야 한다(28화).
+- **느낀 것:** 연금술을 되찾고 싶지는 않다(프롤로그). 모르는 것이 즐겁다. 질문이 늘어나도 좋다.
+- **남은 질문:** 이슈발라의 정체(미스터리로 남김). 왜 아메스트리스 연금술사들만 진리를 보았는가(에드의 가설로 정리하되 확정하지 않음). 호엔하임이 카르사·옛 안족·싱에서 본 것. 카이룬 기술의 스승과 최초 사용자(미확정).
+- **에필로그 연결:** 모르니까 알아보겠다는 선택(에필로그)으로 이어진다.
