@@ -6,7 +6,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 CONFIG = ROOT / "private" / "dashboard-config.json"
 OUTPUT = ROOT / "publish" / "txt"
-SCENE_BREAK = "* * *"
+SCENE_BREAK = "───"  # 장면 구분 기호(작가 지정, 업로드용과 같게)
 
 
 def strip_heading(lines: list[str]) -> list[str]:
