@@ -57,9 +57,19 @@ def hydrate_manuscripts(payload: dict) -> None:
                 chapter["characterCount"] = len(text)
                 break
 
+def attach_portraits(payload: dict) -> None:
+    for person in payload.get("publicCharacters", []):
+        person.pop("portrait", None)
+        for ext in ("jpg", "jpeg", "png", "webp"):
+            if (SITE / "portraits" / f"{person.get('slug', '')}.{ext}").exists():
+                person["portrait"] = f"portraits/{person['slug']}.{ext}"
+                break
+
+
 def main() -> None:
     base = json.loads(CONFIG.read_text(encoding="utf-8"))
     hydrate_manuscripts(base)
+    attach_portraits(base)
     public = deepcopy(base)
     public["audience"] = "reader"
     public.pop("admin", None)
