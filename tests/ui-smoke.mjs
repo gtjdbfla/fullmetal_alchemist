@@ -34,6 +34,9 @@ test('storyline tabs render chapter plans, setting canon notes, and green paid s
   const chapters = await render('?view=storyline&tab=chapters');
   assert.match(chapters, /제13화/);
   assert.match(chapters, /서쪽에서 온 사람/);
+  assert.match(chapters, /story-review/);
+  assert.match(chapters, /발자취/);
+  assert.match(chapters, /반영한 수정/);
   const settings = await render('?view=storyline&tab=settings');
   assert.match(settings, /본편 대비 개연성/);
   assert.match(settings, /카이룬/);

@@ -3,6 +3,8 @@ import shutil
 from copy import deepcopy
 from pathlib import Path
 
+from export_txt import export as export_txt
+
 ROOT = Path(__file__).resolve().parents[1]
 SITE = ROOT / "site"
 AUTHOR_SITE = ROOT / "author-site"
@@ -79,6 +81,7 @@ def main() -> None:
     author["audience"] = "author"
     author["history"] = legacy_history()
     write_json(AUTHOR_SITE / "data" / "project.json", author)
+    export_txt()
     print(f"reader manuscripts={len(public.get('manuscripts', []))} author history={len(author['history'])}")
 
 if __name__ == "__main__":

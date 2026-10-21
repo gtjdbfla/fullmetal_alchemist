@@ -18,7 +18,7 @@ class DashboardDisclosureTests(unittest.TestCase):
             for chapter in self.public["manuscripts"]
             if chapter["characters"] > 7000
         ]
-        self.assertEqual(over_limit, [("제26화", 7978), ("제30화", 7131), ("제32화", 7368)])
+        self.assertEqual(over_limit, [("제26화", 8036), ("제30화", 7131), ("제32화", 7087)])
         for chapter in self.public["manuscripts"]:
             self.assertEqual(chapter["characters"], len(chapter["text"]))
 
@@ -85,7 +85,7 @@ class DashboardDisclosureTests(unittest.TestCase):
         self.assertNotIn("history", self.public)
 
     def test_new_approved_chapters_and_corrected_titles(self):
-        expected = {25: "황제를 죽이는 사람", 26: "소문", 27: "선을 넘는 사람", 28: "불이 없는 전쟁", 29: "총통을 움직이는 법", 30: "바이족의 아들", 31: "세 번의 총성", 32: "다시 시작한 전쟁"}
+        expected = {25: "황제를 죽이는 사람", 26: "발자취", 27: "선을 넘는 사람", 28: "불이 없는 전쟁", 29: "총통을 움직이는 법", 30: "바이족의 아들", 31: "세 번의 총성", 32: "다시 시작한 전쟁"}
         for number, title in expected.items():
             chapter = next(item for item in self.public["manuscripts"] if item["episode"] == f"제{number}화")
             self.assertEqual(chapter["title"], title)

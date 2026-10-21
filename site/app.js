@@ -111,12 +111,18 @@ function reviewPage() {
     <aside class="next-checks"><span>NEXT CHECK</span><h2>다음 원고에서 확인할 것</h2><ul>${review.nextChecks.map(item => `<li>${esc(item)}</li>`).join('')}</ul></aside>`;
 }
 
+function storyReview(review) {
+  const rows = [['개연성', review.plausibility], ['스토리라인', review.storyline], ['세계관·설정', review.settings]];
+  const list = (title, items) => items?.length ? `<div class="review-note"><b>${esc(title)}</b><ul>${items.map(text => `<li>${esc(text)}</li>`).join('')}</ul></div>` : '';
+  return `<section class="story-review" aria-label="작가용 검토"><header><span>REVIEW · ${esc(review.reviewer)} · ${esc(review.reviewedAt)}</span></header>${rows.map(([name, item]) => `<div class="story-review-row">${statusBadge(item.status)}<div><b>${esc(name)}</b><p>${esc(item.note)}</p></div></div>`).join('')}${list('반영한 수정', review.fixes)}${list('다음 점검', review.watch)}</section>`;
+}
+
 function chapterStoryPanel() {
   const bible = project.storyBible;
   const chapters = bible?.chapters || [];
   const milestones = project.storyline?.settingsMilestones || [];
   return `<section class="section-title"><div><span>CHAPTER PLAN</span><h2>각 화의 역할</h2></div><p>승인 원고와 이후 계획의 중심 질문·사건·에드 역할을 확인한다.</p></section>
-    <div class="chapter-plan-grid">${chapters.map(item => `<article class="chapter-plan-card"><header><span>${esc(item.label)} · ${esc(item.status)}</span><h3>${esc(item.title)}</h3></header><p><b>중심 질문</b> ${esc(item.mainQuestion)}</p><p><b>핵심 사건</b> ${esc(item.mainEvent)}</p><p><b>에드 역할</b> ${esc(item.edwardRole)}</p></article>`).join('')}</div>
+    <div class="chapter-plan-grid">${chapters.map(item => `<article class="chapter-plan-card"><header><span>${esc(item.label)} · ${esc(item.status)}</span><h3>${esc(item.title)}</h3></header><p><b>중심 질문</b> ${esc(item.mainQuestion)}</p><p><b>핵심 사건</b> ${esc(item.mainEvent)}</p><p><b>에드 역할</b> ${esc(item.edwardRole)}</p>${item.review ? storyReview(item.review) : ''}</article>`).join('')}</div>
     <section class="bible-panel"><header><span>KNOWLEDGE MILESTONES</span><h3>에드의 가설과 지식 변화</h3></header><div class="timeline-scroll"><table class="chapter-timeline"><thead><tr><th>회차</th><th>에드의 가설</th><th>확신</th><th>아는 것</th><th>모르는 것</th><th>스카 목표</th><th>호엔하임</th><th>카르사·연단술</th><th>카이룬</th><th>결정권 주제</th><th>심은 복선</th><th>회수 상태</th><th>연속성 위험</th></tr></thead><tbody>${milestones.map(m => `<tr><td>${esc(m.chapter)}</td><td>${esc(m.edwardHypothesis)}</td><td>${esc(m.confidence)}</td><td>${esc(m.known)}</td><td>${esc(m.unknown)}</td><td>${esc(m.scarGoal)}</td><td>${esc(m.hohenheim)}</td><td>${esc(m.karsa)} / ${esc(m.alkahestry)}</td><td>${esc(m.kairun)}</td><td>${esc(m.decisionTheme)}</td><td>${esc(m.seed)}</td><td>${esc(m.payoff)}</td><td>${esc(m.continuityRisk)}</td></tr>`).join('')}</tbody></table></div></section>`;
 }
 

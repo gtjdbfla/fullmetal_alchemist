@@ -14,3 +14,7 @@
 - Story Bible과 검증 규칙 원문은 `story_bible/` 및 `private/`에 둔다. 공개 또는 관리자 정적 루트로 문서를 복사하지 않는다.
 - 최종 빌드는 `python scripts/build_views.py`로 만든다.
 - 배포 전 `node --test tests/core.test.mjs`, `node --check site/app.js`, `python -m unittest discover -s tests -p test_disclosure.py`를 실행한다.
+- 새 원고가 들어오면 `private/dashboard-config.json`의 `storyBible.chapters[].review`에 회차별 검토(개연성·스토리라인·세계관/설정의 O·△·X와 이유, 반영한 수정, 다음 점검)를 쓴다. 관리자 모드 스토리라인의 회차별 카드에 표시된다. 검토한 회차에만 쓰고 읽지 않은 회차는 비워 둔다.
+- 새 원고가 설정을 바꾸면 스토리라인의 설정 카드(`storyline.tabs.settings.groups`), 하드 룰, 인물 아크, 지식 상태, 복선 추적, `continuityConflicts`를 원고 기준으로 더 구체적이고 정확하게 고친다. 원고를 고치기 전에 작가에게 확인한다.
+- 회차별 연재용 txt는 `python scripts/build_views.py`가 `publish/txt/`에 함께 만든다(제목 첫 줄, 장면 구분은 `* * *`). 이 폴더는 로컬·GitHub·홈서버에 보관한다.
+
