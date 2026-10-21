@@ -18,13 +18,13 @@ class DashboardDisclosureTests(unittest.TestCase):
             for chapter in self.public["manuscripts"]
             if chapter["characters"] > 7000
         ]
-        self.assertEqual(over_limit, [("제22화", 7012), ("제23화", 7002), ("제26화", 8036), ("제30화", 7131), ("제32화", 7084), ("제36화", 7134), ("제42화", 7947)])
+        self.assertEqual(over_limit, [("제22화", 7012), ("제23화", 7002), ("제26화", 8036), ("제30화", 7131), ("제32화", 7084), ("제36화", 7134), ("제42화", 7947), ("에필로그", 7217)])
         for chapter in self.public["manuscripts"]:
             self.assertEqual(chapter["characters"], len(chapter["text"]))
 
     def test_public_has_only_current_manuscripts_and_no_history(self):
         self.assertEqual(self.public["audience"], "reader")
-        self.assertEqual(len(self.public["manuscripts"]), 43)
+        self.assertEqual(len(self.public["manuscripts"]), 44)
         prologue, chapter_one, chapter_two = self.public["manuscripts"][:3]
         self.assertEqual(prologue["episode"], "프롤로그")
         self.assertTrue(prologue["text"].startswith("“거기 아니야.”"))
@@ -91,7 +91,7 @@ class DashboardDisclosureTests(unittest.TestCase):
             self.assertEqual(chapter["title"], title)
             self.assertNotIn(f"{number}화 분석", chapter["text"])
         self.assertIn("반 호엔하임", next(item for item in self.public["manuscripts"] if item["episode"] == "제26화")["text"])
-        self.assertEqual(self.public["manuscripts"][-1]["episode"], "제42화")
+        self.assertEqual(self.public["manuscripts"][-1]["episode"], "에필로그")
 
     def test_revised_karsa_chapters_are_current_manuscripts(self):
         expected = {9: "사막으로", 10: "길을 지운 사람들", 11: "형이 걸었던 길", 12: "흐르는 땅", 13: "서쪽에서 온 사람"}
@@ -130,7 +130,7 @@ class DashboardDisclosureTests(unittest.TestCase):
         self.assertNotIn("sourceDocuments", self.public)
         self.assertEqual(set(self.author["analysis"]), {"characters", "causality", "world"})
         reviews = self.author["chapterReviews"]
-        self.assertEqual(len(reviews), 42)
+        self.assertEqual(len(reviews), 43)
         self.assertTrue(all(len(item["categories"]) == 4 for item in reviews))
         self.assertTrue(all({c["name"] for c in item["categories"]} == {"캐릭터", "개연성", "스토리라인", "세계관·복선"} for item in reviews))
         self.assertTrue(all(c["status"] in {"O", "△", "X"} for item in reviews for c in item["categories"]))
