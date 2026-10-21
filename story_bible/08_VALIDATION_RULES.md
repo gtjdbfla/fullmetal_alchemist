@@ -15,7 +15,7 @@ For every chapter record:
 2. Causality
 3. Storyline
 4. World / foreshadowing
-5. Character count against the 4,800–5,000 target
+5. Character count against the 5,000–7,000 target (changed 2026-10-21)
 
 Also keep an all-chapter summary so length and unresolved cautions are visible together.
 

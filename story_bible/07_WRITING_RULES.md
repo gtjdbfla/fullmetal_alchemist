@@ -1,6 +1,6 @@
 # Writing Rules v7.0
 
-- A normal chapter targets about **4,800–5,000 Korean characters including spaces**.
+- A normal chapter targets about **5,000–7,000 Korean characters including spaces** (author decision 2026-10-21; the earlier 4,800–5,000 target is replaced).
 - One central question and one or two core events per chapter.
 - Let action and dialogue carry exposition; philosophy follows events.
 - Edward moves through question → action → evidence → provisional conclusion → revision.

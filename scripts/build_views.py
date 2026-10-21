@@ -10,7 +10,7 @@ SITE = ROOT / "site"
 AUTHOR_SITE = ROOT / "author-site"
 CONFIG = ROOT / "private" / "dashboard-config.json"
 LEGACY = ROOT / "private" / "archive" / "project-before-dashboard-reset.json"
-CHAPTER_TARGET = (4800, 5000)
+CHAPTER_TARGET = (5000, 7000)
 
 def write_json(path: Path, payload: dict) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
@@ -46,7 +46,7 @@ def hydrate_manuscripts(payload: dict) -> None:
             review["length"] = {
                 "characters": len(text),
                 "status": "O" if length_ok else "△",
-                "target": "4,800–5,000자",
+                "target": "5,000–7,000자",
                 "reason": f"공백 포함 {len(text):,}자 · 목표 {'충족' if length_ok else '범위 밖'}",
             }
             statuses = {category.get("status", "△") for category in review.get("categories", [])}
