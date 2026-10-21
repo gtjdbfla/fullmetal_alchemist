@@ -30,7 +30,7 @@ class DashboardDisclosureTests(unittest.TestCase):
         self.assertTrue(prologue["text"].startswith("“거기 아니야.”"))
         self.assertNotIn("# 프롤로그", prologue["text"])
         self.assertEqual(chapter_one["episode"], "제1화")
-        self.assertTrue(chapter_one["text"].startswith("편지는 생각보다 길었다."))
+        self.assertTrue(chapter_one["text"].startswith("여관 주인이 두툼한 봉투를 내밀었다."))
         self.assertIn("스카 씨의 형 말이야.", chapter_one["text"])
         self.assertNotIn("# 제1화", chapter_one["text"])
         self.assertEqual(chapter_two["episode"], "제2화")
