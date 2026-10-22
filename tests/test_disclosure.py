@@ -196,6 +196,7 @@ class DashboardDisclosureTests(unittest.TestCase):
     def test_public_characters_have_appearance_and_optional_portrait(self):
         for person in self.public["publicCharacters"]:
             self.assertTrue(person.get("appearance"), person["name"])
+            self.assertTrue(person.get("age"), person["name"])
             if person.get("portrait"):
                 self.assertTrue((ROOT / "site" / person["portrait"]).exists(), person["name"])
                 self.assertTrue((ROOT / "author-site" / person["portrait"]).exists(), person["name"])
