@@ -400,9 +400,10 @@
       "affiliation": "이슈발",
       "summary": "생전 이슈발의 기록과 연단술을 함께 연구한 인물.",
       "relationship": "스카의 형 · 에드가 추적하는 모든 질문의 출발점.",
-      "appearance": "뒤로 묶은 긴 머리에 이마띠를 두른 학자풍의 이슈발인. 눈매가 부드럽고 말수가 적은 인상.",
+      "appearance": "짧은 흰 머리와 안경, 흰 민소매 옷을 입은 이슈발인. 스카의 형으로, 말수가 적고 진지한 인상.",
       "slug": "scar-brother",
-      "age": "사망 당시 30대 (추정)"
+      "age": "사망 당시 30대 (추정)",
+      "portrait": "portraits/scar-brother.jpg"
     },
     {
       "name": "마일즈",
@@ -437,7 +438,8 @@
       "relationship": "국가의 개입을 경계하는 이슈발 내부의 목소리.",
       "appearance": "삼십대 중반의 마른 체격에 붉은 눈을 한 이슈발 주민. 목소리는 크지 않은데 이상하게 잘 들린다.",
       "slug": "zahir",
-      "age": "30대 중반"
+      "age": "30대 중반",
+      "portrait": "portraits/zahir.jpg"
     },
     {
       "name": "하심",
@@ -556,7 +558,8 @@
       "relationship": "기록을 통해 에드 일행의 추적을 돕는다.",
       "appearance": "머리를 묶고 안경을 쓴 서른쯤의 여자 고문서 연구자.",
       "slug": "lien",
-      "age": "서른쯤"
+      "age": "서른쯤",
+      "portrait": "portraits/lien.jpg"
     },
     {
       "name": "푸룽",
@@ -567,7 +570,8 @@
       "relationship": "옛길과 교역의 의미를 연결하는 인물.",
       "appearance": "싱식 긴 겉옷에 반지를 두 개 낀 마흔쯤의 정보 중개인. 웃는 얼굴로 먼저 말을 거는 사람.",
       "slug": "purong",
-      "age": "마흔쯤"
+      "age": "마흔쯤",
+      "portrait": "portraits/purong.jpg"
     },
     {
       "name": "샤오린",
@@ -650,7 +654,8 @@
       "relationship": "사하라·다우드·마지드와 함께 카르사의 목소리를 이룬다.",
       "appearance": "예순쯤 되어 보이는 카르사의 지도자. 햇볕에 그을린 얼굴이고 판단이 빠르며 말수가 적다.",
       "slug": "nadir",
-      "age": "예순쯤"
+      "age": "예순쯤",
+      "portrait": "portraits/nadir.jpg"
     },
     {
       "name": "사하라",
