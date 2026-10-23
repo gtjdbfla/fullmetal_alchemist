@@ -91,6 +91,9 @@ def main() -> None:
     else:
         AUTHOR_SITE.mkdir(parents=True)
     shutil.copytree(SITE, AUTHOR_SITE, dirs_exist_ok=True)
+    private_maps = ROOT / "private" / "maps"
+    if private_maps.exists():
+        shutil.copytree(private_maps, AUTHOR_SITE / "maps", dirs_exist_ok=True)
     author = deepcopy(base)
     author["audience"] = "author"
     author["history"] = legacy_history()

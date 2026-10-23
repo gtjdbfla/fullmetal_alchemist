@@ -192,6 +192,11 @@ class DashboardDisclosureTests(unittest.TestCase):
     def test_private_storyline_is_not_copied_to_public_site(self):
         self.assertFalse((ROOT / "site/STORYLINE_MASTER_v2.0.md").exists())
         self.assertFalse((ROOT / "author-site/STORYLINE_MASTER_v2.0.md").exists())
+        geography = next(group for group in self.author["storyline"]["tabs"]["settings"]["groups"] if group["label"] == "역사·정치·지리")
+        for key in ("image", "download"):
+            path = geography["map"][key]
+            self.assertTrue((ROOT / "author-site" / path).exists())
+            self.assertFalse((ROOT / "site" / path).exists())
 
     def test_public_characters_have_appearance_and_optional_portrait(self):
         for person in self.public["publicCharacters"]:
