@@ -18,6 +18,7 @@ function updateUrl() {
   next.set('view', view);
   if (view === 'analysis') next.set('review', String(reviewIndex));
   if (view === 'storyline') next.set('tab', storyTab);
+  if (view === 'storyline' && storyTab === 'settings') next.set('group', String(settingGroup));
   if (view === 'read' && chapterIndex > 0) next.set('chapter', String(chapterIndex));
   history.replaceState(null, '', `${location.pathname}?${next}`);
 }
@@ -180,7 +181,7 @@ function render() {
     storyTab = button.dataset.storyTab; updateUrl(); render(); scrollTo({top: 0});
   });
   document.querySelectorAll('[data-setting-group]').forEach(button => button.onclick = () => {
-    settingGroup = Number(button.dataset.settingGroup); render();
+    settingGroup = Number(button.dataset.settingGroup); updateUrl(); render();
   });
   document.querySelectorAll('[data-review]').forEach(button => button.onclick = () => {
     reviewIndex = Number(button.dataset.review); view = 'analysis'; updateUrl(); render(); scrollTo({top: 0, behavior: 'smooth'});
@@ -193,6 +194,7 @@ try {
   project = await response.json();
   chapterIndex = normalizeChapterIndex(params.get('chapter'), project.manuscripts?.length ?? 0);
   reviewIndex = normalizeChapterIndex(params.get('review'), project.chapterReviews?.length ?? 0);
+  settingGroup = normalizeChapterIndex(params.get('group'), project.storyline?.tabs?.settings?.groups?.length ?? 0);
   if (!isAuthor() && ['analysis', 'storyline'].includes(view)) view = 'read';
   updateUrl();
   render();
