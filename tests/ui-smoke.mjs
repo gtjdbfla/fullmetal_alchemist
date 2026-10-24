@@ -4,6 +4,14 @@ import { readFile } from 'node:fs/promises';
 
 const author = JSON.parse(await readFile(new URL('../author-site/data/project.json', import.meta.url), 'utf8'));
 
+test('default URL uses the complete author workspace without a mode switch', async () => {
+  const primary = JSON.parse(await readFile(new URL('../site/data/project.json', import.meta.url), 'utf8'));
+  assert.deepEqual(primary, author);
+  assert.equal(primary.audience, 'author');
+  const index = await readFile(new URL('../site/index.html', import.meta.url), 'utf8');
+  assert.doesNotMatch(index, /id="mode-link"|>READER</);
+});
+
 async function render(search) {
   const elements = new Map();
   globalThis.document = {
@@ -44,4 +52,11 @@ test('storyline tabs render chapter plans, setting canon notes, and green paid s
   const foreshadowing = await render('?view=storyline&tab=foreshadowing');
   assert.match(foreshadowing, /회수 성공/);
   assert.match(foreshadowing, /paid-off/);
+});
+
+test('character directory includes established arcs and knowledge states', async () => {
+  const html = await render('?view=characters');
+  assert.match(html, /인물 설정과 변화/);
+  assert.match(html, /인물별 지식 상태/);
+  assert.match(html, /모르는 것/);
 });

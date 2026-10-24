@@ -74,32 +74,19 @@ def main() -> None:
     base = json.loads(CONFIG.read_text(encoding="utf-8"))
     hydrate_manuscripts(base)
     attach_portraits(base)
-    public = deepcopy(base)
-    public["audience"] = "reader"
-    public.pop("admin", None)
-    public.pop("history", None)
-    public.pop("analysis", None)
-    public.pop("chapterReviews", None)
-    public.pop("storyline", None)
-    public.pop("storyBible", None)
-    public.pop("sourceDocuments", None)
-    write_json(SITE / "data" / "project.json", public)
-
-    if AUTHOR_SITE.exists():
-        for child in AUTHOR_SITE.iterdir():
-            shutil.rmtree(child) if child.is_dir() else child.unlink()
-    else:
-        AUTHOR_SITE.mkdir(parents=True)
-    shutil.copytree(SITE, AUTHOR_SITE, dirs_exist_ok=True)
-    private_maps = ROOT / "private" / "maps"
-    if private_maps.exists():
-        shutil.copytree(private_maps, AUTHOR_SITE / "maps", dirs_exist_ok=True)
+    # User-requested unified author workspace at both existing URLs.
     author = deepcopy(base)
     author["audience"] = "author"
     author["history"] = legacy_history()
-    write_json(AUTHOR_SITE / "data" / "project.json", author)
+    write_json(SITE / "data" / "project.json", author)
+    private_maps = ROOT / "private" / "maps"
+    if private_maps.exists():
+        shutil.copytree(private_maps, SITE / "maps", dirs_exist_ok=True)
+    AUTHOR_SITE.mkdir(parents=True, exist_ok=True)
+    shutil.copytree(SITE, AUTHOR_SITE, dirs_exist_ok=True)
+    public = author
     export_txt()
-    print(f"reader manuscripts={len(public.get('manuscripts', []))} author history={len(author['history'])}")
+    print(f"workspace manuscripts={len(public.get('manuscripts', []))} author history={len(author['history'])}")
 
 if __name__ == "__main__":
     main()

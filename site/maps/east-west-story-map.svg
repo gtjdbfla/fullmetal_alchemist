@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1080" viewBox="0 0 1600 1080" role="img" aria-label="강철의 연금술사 동쪽으로: 센트럴 시티와 싱 수도의 방향, 아메스트리스 동부, 이슈발, 사막, 카르사, 싱 서부, 란시, 하오진, 무란허의 상대 위치 지도">
+  <defs>
+    <linearGradient id="paper" x2="0" y2="1">
+      <stop stop-color="#f7f3e9"/><stop offset="1" stop-color="#eae2d0"/>
+    </linearGradient>
+    <pattern id="grid" width="90" height="90" patternUnits="userSpaceOnUse">
+      <path d="M90 0H0V90" fill="none" stroke="#927f63" stroke-width="1" opacity=".12"/>
+    </pattern>
+    <pattern id="dunes" width="170" height="90" patternUnits="userSpaceOnUse">
+      <path d="M0 62 Q45 25 85 62 T170 62 M-25 79 Q20 42 60 79 T145 79" fill="none" stroke="#b28d57" stroke-width="2" opacity=".19"/>
+    </pattern>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="3" stdDeviation="5" flood-color="#392d21" flood-opacity=".16"/>
+    </filter>
+    <marker id="arrowBlue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#276b82"/></marker>
+    <marker id="arrowOrange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#c36c37"/></marker>
+    <style>
+      text{font-family:'Malgun Gothic','Noto Sans KR','Apple SD Gothic Neo',sans-serif;fill:#302c28}
+      .tiny{font-size:18px;letter-spacing:.01em}.small{font-size:21px}.medium{font-size:27px}.name{font-size:31px;font-weight:700}.region{font-size:35px;font-weight:700;letter-spacing:.06em;opacity:.74}.tag{font-size:17px;font-weight:700;letter-spacing:.13em;fill:#81745d}.legend{font-size:22px}
+      .minor{fill:#74695b}.white{fill:#fff}.routeLabel{font-size:21px;font-weight:700;paint-order:stroke fill;stroke:#f7f1e5;stroke-width:7px;stroke-linejoin:round}
+      .box{fill:#fffaf0;stroke:#b8a992;stroke-width:2;filter:url(#shadow)}
+    </style>
+  </defs>
+
+  <rect width="1600" height="1080" fill="url(#paper)"/>
+  <rect x="25" y="25" width="1550" height="1030" rx="19" fill="none" stroke="#665845" stroke-width="2"/>
+  <text x="62" y="80" style="font-size:40px;font-weight:800">동쪽으로 가는 길</text>
+  <text x="62" y="116" class="small minor">아메스트리스 동부 · 이슈발 · 사막 · 싱 서부  |  두 수도의 방향을 포함한 상대 위치도</text>
+  <text x="1480" y="77" text-anchor="end" class="tiny minor">N ↑   /   축척 없음</text>
+
+  <g id="map">
+    <rect x="48" y="146" width="1504" height="747" rx="15" fill="#e5d2a7" stroke="#b8a992" stroke-width="2"/>
+    <rect x="48" y="146" width="1504" height="747" rx="15" fill="url(#dunes)"/>
+    <rect x="48" y="146" width="1504" height="747" rx="15" fill="url(#grid)"/>
+
+    <!-- Canon region placements are broad, intentionally schematic. -->
+    <path d="M48 146 H468 L497 180 L486 224 L516 263 L505 319 L526 370 L499 418 L523 474 L494 531 L520 587 L485 635 L490 693 L463 744 L480 814 L448 893 H48Z" fill="#b8c9c0" stroke="#5b796e" stroke-width="3"/>
+    <path d="M953 146 H1552 V893 H914 L935 853 L916 798 L940 749 L920 692 L944 642 L922 592 L940 541 L923 484 L945 429 L931 370 L953 315 L934 261 L957 201Z" fill="#d3c2bd" stroke="#826969" stroke-width="3"/>
+    <path d="M48 146 H468 L497 180 L486 224 L516 263 L505 319 L526 370 L499 418 L523 474 L494 531 L520 587 L485 635 L490 693 L463 744 L480 814 L448 893 H48Z" fill="url(#grid)" opacity=".25"/>
+    <path d="M953 146 H1552 V893 H914 L935 853 L916 798 L940 749 L920 692 L944 642 L922 592 L940 541 L923 484 L945 429 L931 370 L953 315 L934 261 L957 201Z" fill="url(#grid)" opacity=".3"/>
+
+    <!-- Ishval sits in the southeast of the canon Amestris reference. -->
+    <path d="M293 626 Q339 591 388 611 Q448 618 473 674 L464 753 Q422 801 345 784 Q289 768 271 711Z" fill="#b99471" stroke="#806345" stroke-width="2.5" opacity=".91"/>
+    <!-- Bai commercial sphere and An people's southern territory are story regions, not strict borders. -->
+    <path d="M1006 226 Q1204 195 1395 251 L1430 371 Q1286 467 1050 407 Q991 348 1006 226Z" fill="#b49a9c" opacity=".23" stroke="#9e7e83" stroke-width="2" stroke-dasharray="8 9"/>
+    <path d="M928 479 Q1071 450 1204 501 Q1280 550 1263 652 Q1213 787 1007 806 Q938 786 929 713 Q880 598 928 479Z" fill="#a6bd93" opacity=".40" stroke="#6e875c" stroke-width="2" stroke-dasharray="8 9"/>
+    <text x="1291" y="384" class="tiny minor">바이족 상권 · 란시 중심</text>
+    <text x="1241" y="635" class="tiny minor">안족 생활권</text>
+
+    <!-- Roads: live northern trade road, closed historical road, and provisional southern corridor. -->
+    <path d="M447 289 C544 243 578 240 665 248 S837 245 911 268 S1030 307 1122 324" fill="none" stroke="#fcf7eb" stroke-width="21" stroke-linecap="round"/>
+    <path d="M447 289 C544 243 578 240 665 248 S837 245 911 268 S1030 307 1122 324" fill="none" stroke="#276b82" stroke-width="10" stroke-linecap="round" marker-end="url(#arrowBlue)"/>
+    <circle cx="633" cy="245" r="10" fill="#87b9bf" stroke="#276b82" stroke-width="3"/><circle cx="803" cy="250" r="10" fill="#87b9bf" stroke="#276b82" stroke-width="3"/>
+    <text x="665" y="205" class="routeLabel" fill="#276b82">현재 북부 교역로 · 오아시스 경유</text>
+
+    <path d="M387 693 C499 654 591 625 722 625 S888 641 980 659" fill="none" stroke="#f8f0e4" stroke-width="15" stroke-linecap="round"/>
+    <path d="M387 693 C499 654 591 625 722 625 S888 641 980 659" fill="none" stroke="#847967" stroke-width="7" stroke-dasharray="17 13" stroke-linecap="round"/>
+    <path d="M817 625 l24 25 M841 625 l-24 25" stroke="#9c4e43" stroke-width="7" stroke-linecap="round"/>
+    <text x="528" y="591" class="routeLabel" fill="#675b49">옛 카르사 길 · 폐쇄</text>
+
+    <path d="M392 698 C469 769 558 833 693 837 S877 828 957 777" fill="none" stroke="#fff7e9" stroke-width="18" stroke-linecap="round"/>
+    <path d="M392 698 C469 769 558 833 693 837 S877 828 957 777" fill="none" stroke="#c36c37" stroke-width="8" stroke-dasharray="3 18" stroke-linecap="round" marker-end="url(#arrowOrange)"/>
+    <text x="617" y="879" class="routeLabel" fill="#bd6434">새 남부 노선 검토 구간 · 카르사 남쪽 우회</text>
+
+    <path d="M1130 335 C1087 415 1085 475 1075 531 S1032 666 1044 728" fill="none" stroke="#647b5e" stroke-width="6" stroke-dasharray="10 10" stroke-linecap="round"/>
+    <text x="1150" y="462" class="tiny minor">현재 지역길</text>
+
+    <!-- Places. -->
+    <g filter="url(#shadow)">
+      <circle cx="302" cy="375" r="8" fill="#5b796e" stroke="#fffaf0" stroke-width="4"/>
+      <circle cx="444" cy="290" r="8" fill="#5b796e" stroke="#fffaf0" stroke-width="4"/>
+      <circle cx="377" cy="690" r="13" fill="#8a5137" stroke="#fffaf0" stroke-width="5"/>
+      <circle cx="734" cy="624" r="13" fill="#6f6250" stroke="#fffaf0" stroke-width="5"/>
+      <circle cx="1130" cy="325" r="13" fill="#276b82" stroke="#fffaf0" stroke-width="5"/>
+      <circle cx="1076" cy="538" r="13" fill="#5e7b57" stroke="#fffaf0" stroke-width="5"/>
+      <circle cx="1044" cy="725" r="13" fill="#5e7b57" stroke="#fffaf0" stroke-width="5"/>
+    </g>
+    <text x="181" y="358" class="small">이스트 시티</text>
+    <text x="353" y="263" class="tiny">동북부 출발지</text>
+    <text x="157" y="686" class="name">이슈발</text>
+    <text x="157" y="719" class="tiny minor">아메스트리스 남동부</text>
+
+    <!-- Capitals lie beyond this regional crop; the arrows show direction, not exact coordinates. -->
+    <g transform="translate(70 447)">
+      <rect class="box" width="361" height="92" rx="11"/>
+      <text x="17" y="39" class="medium" style="font-weight:700">← 센트럴 시티</text>
+      <text x="19" y="70" class="tiny minor">아메스트리스 중앙 · 지도 범위 밖</text>
+    </g>
+    <g transform="translate(1345 410)">
+      <rect class="box" width="186" height="105" rx="11"/>
+      <text x="15" y="37" class="medium" style="font-weight:700">싱 수도 →</text>
+      <text x="16" y="66" class="small">시안 <tspan class="tiny minor">(가칭)</tspan></text>
+      <text x="16" y="92" class="tiny minor">싱 내륙 방향</text>
+    </g>
+
+    <g transform="translate(636 657)"><rect class="box" width="199" height="75" rx="11"/><text x="19" y="33" class="name">카르사</text><text x="19" y="61" class="tiny minor">사막 암벽 지대</text></g>
+    <g transform="translate(1157 263)"><rect class="box" width="262" height="86" rx="11"/><text x="18" y="38" class="name">란시</text><text x="18" y="69" class="tiny minor">싱 서북부 교역 중심</text></g>
+    <g transform="translate(1103 515)"><rect class="box" width="239" height="76" rx="11"/><text x="16" y="34" class="name">하오진</text><text x="16" y="62" class="tiny minor">약재·가죽 집산지</text></g>
+    <g transform="translate(1080 701)"><rect class="box" width="247" height="76" rx="11"/><text x="16" y="34" class="name">무란허</text><text x="16" y="62" class="tiny minor">공동 우물·목초지</text></g>
+    <text x="940" y="613" class="tiny minor">옛 안족 접경</text>
+
+    <text x="95" y="206" class="region">아메스트리스 동부</text>
+    <text x="542" y="452" class="region" fill="#8d7047">사막 지대</text>
+    <text x="1125" y="204" class="region">싱 서부</text>
+  </g>
+
+  <g id="legend" transform="translate(60 930)">
+    <text x="0" y="9" class="tag">길의 상태</text>
+    <path d="M0 41H80" stroke="#276b82" stroke-width="9" stroke-linecap="round"/><text x="94" y="49" class="legend">현재 북부 교역로</text>
+    <path d="M383 41H463" stroke="#847967" stroke-width="7" stroke-dasharray="15 11" stroke-linecap="round"/><text x="478" y="49" class="legend">폐쇄된 옛길</text>
+    <path d="M735 41H815" stroke="#c36c37" stroke-width="8" stroke-dasharray="3 15" stroke-linecap="round"/><text x="830" y="49" class="legend">남부 노선 검토 구간</text>
+    <path d="M1160 41H1240" stroke="#647b5e" stroke-width="6" stroke-dasharray="10 10"/><text x="1250" y="49" class="legend">지역길</text>
+  </g>
+  <path d="M60 1000H1540" stroke="#b9aa91" stroke-width="2"/>
+  <text x="60" y="1031" class="tiny minor">배치 근거: 첨부 원작 지도 + 소설 9·16·19·22·42화와 세계관 설정. 수도는 지도 밖 방향 표시. ‘시안’은 39화 계획상의 가칭이며 창작 지명의 정확한 좌표는 미정.</text>
+</svg>

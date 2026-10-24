@@ -22,8 +22,8 @@ class DashboardDisclosureTests(unittest.TestCase):
         for chapter in self.public["manuscripts"]:
             self.assertEqual(chapter["characters"], len(chapter["text"].replace("==", "").replace("~~", "")))
 
-    def test_public_has_only_current_manuscripts_and_no_history(self):
-        self.assertEqual(self.public["audience"], "reader")
+    def test_default_workspace_keeps_current_manuscripts_and_author_history(self):
+        self.assertEqual(self.public["audience"], "author")
         self.assertEqual(len(self.public["manuscripts"]), 44)
         prologue, chapter_one, chapter_two = self.public["manuscripts"][:3]
         self.assertEqual(prologue["episode"], "프롤로그")
@@ -82,7 +82,7 @@ class DashboardDisclosureTests(unittest.TestCase):
         self.assertIn("너는 칼 안 가져가?", chapter_twenty_four["text"])
         self.assertNotIn("연성진", chapter_twenty_four["text"])
         self.assertNotIn("24화 분석", chapter_twenty_four["text"])
-        self.assertNotIn("history", self.public)
+        self.assertEqual(self.public["history"], self.author["history"])
 
     def test_new_approved_chapters_and_corrected_titles(self):
         expected = {25: "황제를 죽이는 사람", 26: "발자취", 27: "선을 넘는 사람", 28: "불이 없는 전쟁", 29: "총통을 움직이는 법", 30: "바이족의 아들", 31: "세 번의 총성", 32: "다시 시작한 전쟁", 33: "황제가 아닌 사람", 34: "한 사람", 35: "칼을 드는 이유", 36: "마지막 한 발", 37: "전쟁이 끝난 자리", 38: "재판", 39: "황제가 없는 나라", 40: "마지막 총통", 41: "누가 결정하는가", 42: "남은 질문"}
@@ -117,17 +117,17 @@ class DashboardDisclosureTests(unittest.TestCase):
         self.assertIn("바이족", luhan["affiliation"])
         self.assertNotIn("결말", " ".join(item["summary"] for item in self.public["publicCharacters"]))
 
-    def test_author_keeps_legacy_versions_outside_public_data(self):
+    def test_author_keeps_legacy_versions(self):
         self.assertEqual(self.author["audience"], "author")
         self.assertEqual(len(self.author["history"]), 3)
         self.assertTrue(all(item["text"].strip() for item in self.author["history"]))
 
-    def test_analysis_is_only_available_to_author_data(self):
-        self.assertNotIn("analysis", self.public)
-        self.assertNotIn("chapterReviews", self.public)
-        self.assertNotIn("storyline", self.public)
-        self.assertNotIn("storyBible", self.public)
-        self.assertNotIn("sourceDocuments", self.public)
+    def test_analysis_is_available_at_both_workspace_urls(self):
+        self.assertEqual(self.public.get("analysis"), self.author.get("analysis"))
+        self.assertEqual(self.public.get("chapterReviews"), self.author.get("chapterReviews"))
+        self.assertEqual(self.public.get("storyline"), self.author.get("storyline"))
+        self.assertEqual(self.public.get("storyBible"), self.author.get("storyBible"))
+        self.assertEqual(self.public.get("sourceDocuments"), self.author.get("sourceDocuments"))
         self.assertEqual(set(self.author["analysis"]), {"characters", "causality", "world"})
         reviews = self.author["chapterReviews"]
         self.assertEqual(len(reviews), 43)
@@ -139,7 +139,7 @@ class DashboardDisclosureTests(unittest.TestCase):
         self.assertEqual(len(chapter_seventeen["categories"]), 4)
         self.assertTrue(all(item["length"]["characters"] > 0 for item in reviews))
 
-    def test_storyline_map_is_only_available_to_author_data(self):
+    def test_storyline_map_is_available_at_both_workspace_urls(self):
         storyline = self.author["storyline"]
         self.assertEqual(storyline["currentChapter"], 42)
         self.assertEqual(storyline["totalChapters"], 42)
@@ -189,14 +189,14 @@ class DashboardDisclosureTests(unittest.TestCase):
         self.assertIn("story_bible/01_STORYLINE_CH18_42.md", {item["file"] for item in self.config["sourceDocuments"]})
         self.assertIn("story_bible/11_WORLD_HARD_UPDATE.md", {item["file"] for item in self.config["sourceDocuments"]})
 
-    def test_private_storyline_is_not_copied_to_public_site(self):
+    def test_workspace_has_map_assets_but_no_raw_story_documents(self):
         self.assertFalse((ROOT / "site/STORYLINE_MASTER_v2.0.md").exists())
         self.assertFalse((ROOT / "author-site/STORYLINE_MASTER_v2.0.md").exists())
         geography = next(group for group in self.author["storyline"]["tabs"]["settings"]["groups"] if group["label"] == "역사·정치·지리")
         for key in ("image", "download"):
             path = geography["map"][key]
             self.assertTrue((ROOT / "author-site" / path).exists())
-            self.assertFalse((ROOT / "site" / path).exists())
+            self.assertTrue((ROOT / "site" / path).exists())
 
     def test_public_characters_have_appearance_and_optional_portrait(self):
         for person in self.public["publicCharacters"]:

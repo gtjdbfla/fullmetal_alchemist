@@ -11,7 +11,7 @@ let reviewIndex = 0;
 let storyTab = ["chapters", "settings", "foreshadowing"].includes(params.get("tab")) ? params.get("tab") : "chapters";
 let settingGroup = 0;
 
-function isAuthor() { return project.audience === 'author'; }
+function isAuthor() { return true; }
 
 function updateUrl() {
   const next = new URLSearchParams();
@@ -21,16 +21,6 @@ function updateUrl() {
   if (view === 'storyline' && storyTab === 'settings') next.set('group', String(settingGroup));
   if (view === 'read' && chapterIndex > 0) next.set('chapter', String(chapterIndex));
   history.replaceState(null, '', `${location.pathname}?${next}`);
-}
-
-function adminUrl() {
-  if (['127.0.0.1', 'localhost'].includes(location.hostname)) return 'http://127.0.0.1:8092/?view=read';
-  return `${location.protocol}//${location.hostname}:10000/east/admin/?view=read`;
-}
-
-function publicUrl() {
-  if (['127.0.0.1', 'localhost'].includes(location.hostname)) return 'http://127.0.0.1:8091/?view=read';
-  return `${location.protocol}//${location.hostname}:10000/east/?view=read`;
 }
 
 function homeUrl() {
@@ -76,12 +66,14 @@ function readPage() {
 
 function charactersPage() {
   const characters = project.publicCharacters || [];
+  const arcs = project.storyBible?.characterArcs || [];
+  const knowledge = project.storyBible?.knowledgeStates || [];
   const groups = characters.reduce((all, item) => {
     const key = item.group || '기타';
     (all[key] ||= []).push(item);
     return all;
   }, {});
-  return `<header class="characters-head"><span>CHARACTERS</span><h1>이야기를 함께 걷는 사람들</h1><p>소속별로 나누고, 지금 이야기에서 어떤 인물과 연결되는지도 적었어.</p></header>${Object.entries(groups).map(([group, people]) => `<section class="character-group"><header><span>FACTION</span><h2>${esc(group)}</h2><p>${esc(people[0].groupDescription || '')}</p></header><div class="character-grid">${people.map(item => `<article class="character-card"><div class="character-head">${item.portrait ? `<img class="character-photo" src="${esc(item.portrait)}" alt="${esc(item.name)} 얼굴" width="96" height="120" loading="lazy">` : '<div class="character-photo blank" role="img" aria-label="사진 없음"></div>'}<div><span>${esc(item.affiliation || group)}</span><h2>${esc(item.name)}</h2></div></div><p>${esc(item.summary)}</p>${item.age ? `<p class="character-look"><b>나이대</b>${esc(item.age)}</p>` : ''}${item.appearance ? `<p class="character-look"><b>외형</b>${esc(item.appearance)}</p>` : ''}<dl><dt>연관성</dt><dd>${esc(item.relationship || '이야기의 흐름과 연결되는 인물.')}</dd></dl></article>`).join('')}</div></section>`).join('')}`;
+  return `<header class="characters-head"><span>CHARACTERS</span><h1>이야기를 함께 걷는 사람들</h1><p>소속별로 나누고, 지금 이야기에서 어떤 인물과 연결되는지도 적었어.</p></header>${Object.entries(groups).map(([group, people]) => `<section class="character-group"><header><span>FACTION</span><h2>${esc(group)}</h2><p>${esc(people[0].groupDescription || '')}</p></header><div class="character-grid">${people.map(item => `<article class="character-card"><div class="character-head">${item.portrait ? `<img class="character-photo" src="${esc(item.portrait)}" alt="${esc(item.name)} 얼굴" width="96" height="120" loading="lazy">` : '<div class="character-photo blank" role="img" aria-label="사진 없음"></div>'}<div><span>${esc(item.affiliation || group)}</span><h2>${esc(item.name)}</h2></div></div><p>${esc(item.summary)}</p>${item.age ? `<p class="character-look"><b>나이대</b>${esc(item.age)}</p>` : ''}${item.appearance ? `<p class="character-look"><b>외형</b>${esc(item.appearance)}</p>` : ''}<dl><dt>연관성</dt><dd>${esc(item.relationship || '이야기의 흐름과 연결되는 인물.')}</dd></dl></article>`).join('')}</div></section>`).join('')}<section class="bible-panel"><h2>인물 설정과 변화</h2><p>기존 Story Bible의 인물 아크와 지식 상태입니다.</p><div class="arc-grid">${arcs.map(item => `<article class="arc-card"><h3>${esc(item.name)}</h3><dl><dt>현재</dt><dd>${esc(item.current)}</dd><dt>목표</dt><dd>${esc(item.goal)}</dd><dt>갈등</dt><dd>${esc(item.conflict)}</dd><dt>다음 단계</dt><dd>${esc(item.nextBeat)}</dd></dl></article>`).join('')}</div><h3>인물별 지식 상태</h3><div class="knowledge-grid">${knowledge.map(item => `<article class="knowledge-card"><h4>${esc(item.name)}</h4><dl><dt>아는 것</dt><dd>${esc(item.knows)}</dd><dt>모르는 것</dt><dd>${esc(item.unknown)}</dd><dt>다음 확인</dt><dd>${esc(item.next)}</dd></dl></article>`).join('')}</div></section>`;
 }
 
 function statusBadge(status, label = status) {
@@ -161,11 +153,11 @@ function storylinePage() {
 
 function render() {
   $('#navigation').innerHTML = `<button data-view="read" class="${view === 'read' ? 'active' : ''}"><span>01</span>글 읽기</button><button data-view="characters" class="${view === 'characters' ? 'active' : ''}"><span>02</span>등장인물</button>${isAuthor() ? `<button data-view="analysis" class="${view === 'analysis' ? 'active' : ''}"><span>03</span>글 분석</button><button data-view="storyline" class="${view === 'storyline' ? 'active' : ''}"><span>04</span>스토리라인</button>` : ''}`;
-  $('#mode-link').href = isAuthor() ? publicUrl() : adminUrl();
+
   $('#home-brand').href = homeUrl();
   $('#home-link').href = homeUrl();
-  $('#mode-link').textContent = isAuthor() ? '공개 화면으로' : '관리자 모드';
-  $('#mode-badge').textContent = isAuthor() ? 'AUTHOR' : 'READER';
+
+  $('#mode-badge').textContent = 'AUTHOR';
   $('#breadcrumb').textContent = view === 'read' ? '글 읽기' : view === 'characters' ? '등장인물' : view === 'analysis' ? '글 분석 / 회차별 검토' : '스토리라인 / 전체 진행';
   $('#main').innerHTML = view === 'read' ? readPage() : view === 'characters' ? charactersPage() : view === 'analysis' ? reviewPage() : storylinePage();
   document.querySelectorAll('[data-view]').forEach(button => button.onclick = () => {
@@ -195,7 +187,7 @@ try {
   chapterIndex = normalizeChapterIndex(params.get('chapter'), project.manuscripts?.length ?? 0);
   reviewIndex = normalizeChapterIndex(params.get('review'), project.chapterReviews?.length ?? 0);
   settingGroup = normalizeChapterIndex(params.get('group'), project.storyline?.tabs?.settings?.groups?.length ?? 0);
-  if (!isAuthor() && ['analysis', 'storyline'].includes(view)) view = 'read';
+
   updateUrl();
   render();
 } catch (error) {
