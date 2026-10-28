@@ -5,3 +5,4 @@ __pycache__/
 author-site/
 .preview/
 logs/
+.claude/settings.local.json
