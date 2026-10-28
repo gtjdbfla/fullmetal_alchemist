@@ -5,6 +5,9 @@ from copy import deepcopy
 from pathlib import Path
 
 from export_txt import export as export_txt
+from export_joara_txt import export as export_joara_txt
+from export_novelpia_html import export as export_novelpia_html
+from export_platform_txt import export as export_platform_txt
 
 ROOT = Path(__file__).resolve().parents[1]
 SITE = ROOT / "site"
@@ -86,6 +89,10 @@ def main() -> None:
     shutil.copytree(SITE, AUTHOR_SITE, dirs_exist_ok=True)
     public = author
     export_txt()
+    # 노벨피아·조아라 업로드용 파일도 원고와 함께 다시 만든다.
+    export_platform_txt()
+    export_novelpia_html()
+    export_joara_txt()
     print(f"workspace manuscripts={len(public.get('manuscripts', []))} author history={len(author['history'])}")
 
 if __name__ == "__main__":
