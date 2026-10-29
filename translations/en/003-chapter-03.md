@@ -1,6 +1,6 @@
 # Chapter 3: The One Who Saw God
 
-The next morning, Ed was standing outside Scar's house before sunrise had finished.
+The next morning, Ed was at Scar's front door from first thing.
 
 More precisely, he'd already been there when Scar opened his eyes. When Scar opened the door, Ed was standing there. Bread in one hand. In the other, yesterday's notebook.
 

@@ -34,7 +34,7 @@ Miles went back to his papers. "Learning to wait might not be a bad thing for yo
 
 "What is it?"
 
-"The analysis is still in progress. The preliminary finding is that it doesn't appear to have any power related to alchemy."
+"The analysis is still in progress. The preliminary finding is that it does not appear to have any power related to alchemy."
 
 Ed's hand stopped. "...None?"
 

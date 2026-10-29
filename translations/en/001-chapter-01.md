@@ -202,7 +202,7 @@ Xing.
 
 Eastern medicine.
 
-The history of alchemical exchange.
+The history of alchemical exchange between regions.
 
 Two hours later.
 

@@ -348,7 +348,7 @@ Ed took a step forward. "How could this possibly happen without using anythingâ€
 
 "Not to me."
 
-The man looked from one to the other. Then he studied Scar's face for a long time. "You said you're a scholar from Ishval?"
+The man looked from one to the other. Then he studied Scar's face for a long time. "You said you are a scholar from Ishval?"
 
 "Yes."
 

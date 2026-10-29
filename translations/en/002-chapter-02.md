@@ -22,7 +22,7 @@ Miles walked over. He hadn't changed much. Only the insignia on his collar was d
 
 Ed raised a hand. "Been a while."
 
-"You said the far west. You got here fast."
+"I heard you were out in the far west. You got here fast."
 
 "I didn't sleep on the train."
 
@@ -80,7 +80,7 @@ Ed didn't answer.
 
 He stopped there. He didn't explain further, and Ed didn't ask.
 
-A little later, Ed spotted a familiar back. The large frame. Dark skin. The scar across the head. The corner of Ed's mouth lifted.
+A little later, Ed spotted a familiar back. The large frame. Dark skin. The scar across his forehead. The corner of Ed's mouth lifted.
 
 "Hey!"
 
@@ -104,7 +104,7 @@ Scar considered this. "Edward."
 
 "...Just call me Fullmetal."
 
-"You're particular."
+"You are particular."
 
 He could hear Miles trying to stifle a laugh.
 
@@ -158,7 +158,7 @@ Scar studied him for a moment. "I only know that he heard about it from someone 
 
 "Who?"
 
-"I don't know."
+"I do not know."
 
 "...What?"
 
@@ -220,13 +220,13 @@ In the end, Ed simply trailed after Scar as he hauled timber. Miles, unable to w
 
 "Let go!"
 
-"Stop bothering a man who's working."
+"Stop bothering a man who is working."
 
 "I just want that notebook—"
 
 "The notebook comes later."
 
-"You've heard about the underground structure from the Fuhrer, I assume."
+"You have heard about the underground structure from the Fuhrer, I assume."
 
 Ed went quiet. "...That."
 
@@ -266,7 +266,7 @@ Miles said, "We believe it is a place of prayer."
 
 "How old is it?"
 
-"We don't know exactly."
+"We do not know exactly."
 
 "Before the civil war?"
 

@@ -276,7 +276,7 @@ Ed took it. "Where from?"
 
 "This stone?"
 
-"If it's the same type."
+"If it is the same type."
 
 Ed read quickly. Output: negligible. Refinement difficulty: high. It wasn't a mineral you could use in bulk, like iron or copper. But there was a record that when mixed with certain metals, it had greatly improved resistance to heat and pressure.
 
@@ -286,7 +286,7 @@ Ed read quickly. Output: negligible. Refinement difficulty: high. It wasn't a mi
 
 "What did they use it for?"
 
-"There are records of experimental use in high-temperature equipment and pressure components. There may have been military research too, but the files here don't say in detail."
+"There are records of experimental use in high-temperature equipment and pressure components. There may have been military research too, but the files here do not say in detail."
 
 "Expensive?"
 
@@ -294,7 +294,7 @@ Ed read quickly. Output: negligible. Refinement difficulty: high. It wasn't a mi
 
 Ed looked up. "Why?"
 
-"Because it's rare."
+"Because it is rare."
 
 A simple answer. Ed looked at the stone in his hand. A little while ago, he'd thought it was the key to unlocking the secrets of ancient Ishval. But it might be something else entirely.
 

@@ -64,15 +64,15 @@ Next, an official from the resources ministry spoke. "What matters is the deposi
 
 "Yes."
 
-Then Brandt spoke. "I don't think this should be viewed in terms of military value alone."
+Then Brandt spoke. "I do not think this should be viewed in terms of military value alone."
 
 Mustang looked at him. "Then what?"
 
 "Ishval's reconstruction needs a sustained source of funds."
 
-Brandt was calm. "Right now it depends heavily on the central government's budget and military support. But we can't keep that up forever."
+Brandt was calm. "Right now it depends heavily on the central government's budget and military support. But we cannot keep that up forever."
 
-The reconstruction official nodded. Brandt continued. "If it is a commercially viable mineral, we aren't only talking about extraction."
+The reconstruction official nodded. Brandt continued. "If it is a commercially viable mineral, we are not only talking about extraction."
 
 He folded his fingers down one by one. "Roads."
 
@@ -184,7 +184,7 @@ Mustang's eyes narrowed. Brandt didn't look away.
 
 "But—"
 
-Brandt said, "The claim that a good dictator isn't a dictatorship does not hold."
+Brandt said, "The claim that a good dictator is not a dictatorship does not hold."
 
 The air in the room hardened. Someone stared at Brandt. It was a dangerous thing to say to a Fuhrer's face.
 
@@ -212,7 +212,7 @@ Mustang called out. "Brandt."
 
 "About that decision just now."
 
-Brandt turned. "I think it's a good decision."
+Brandt turned. "I think it is a good decision."
 
 Mustang laughed. "Looks like even a good Fuhrer comes along now and then."
 
