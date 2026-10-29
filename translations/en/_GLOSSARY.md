@@ -49,7 +49,8 @@
 | 다우드 | Daud | |
 | 사하라 | Sahara | 10화부터 |
 | 에리히 브란트 | Erich Brandt | |
-| 크림스톤 | Crimstone | [확인 필요] 원작 용어인지 작가 창작인지, 한국어 "크림스톤"의 영어 철자 |
+| 크림스톤 | Crimstone | 작가 창작 용어로 유지하기로 함(2026-10-29) |
+| 붉은 돌 | the stone / the dark red stone | "red stone"은 쓰지 않는다. 원작에서 Red Stone은 현자의 돌이라 오해를 부른다. 색은 "dark red"로 한 번만 묘사하고 이후는 "the stone". 5화 제목은 "The Stone at the Crossings" |
 
 ## 고대 이슈발 문장 (반복 인용되므로 고정)
 

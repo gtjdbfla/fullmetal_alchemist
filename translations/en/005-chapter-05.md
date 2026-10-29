@@ -1,4 +1,4 @@
-# Chapter 5: The Red Stone
+# Chapter 5: The Stone at the Crossings
 
 The next morning, Ed was about to leave Scar's house when a voice came from behind him.
 
@@ -94,7 +94,7 @@ Ed looked at the stones again. He remembered the line he'd read yesterday.
 
 > The flow may be borrowed.
 
-The lines of the prayer hall. The red stones set at their crossings. And an ancient record with no word for *price*. The hypothesis he'd voiced last night lifted its head again.
+The lines of the prayer hall. The dark stones set at their crossings. And an ancient record with no word for *price*. The hypothesis he'd voiced last night lifted its head again.
 
 "What I said yesterday," Scar said. "The price of the flow."
 
@@ -126,7 +126,7 @@ Ed stopped. "...One possibility."
 
 "That's how hypotheses start."
 
-First, though, they needed to examine the red stone more closely.
+First, though, they needed to examine the stone more closely.
 
 * * *
 
@@ -134,7 +134,7 @@ The lead came, unexpectedly, from Miles.
 
 After they came out of the prayer hall and returned to town, Miles called to Ed. "Is this what you were looking for?"
 
-On his desk lay a small scrap of cloth. And on it, a red stone.
+On his desk lay a small scrap of cloth. And on it, a dark red stone.
 
 Ed lunged at it. "Where'd you get it?"
 
@@ -182,7 +182,7 @@ Ed's face crumpled. "Former."
 
 "Just call me Ed."
 
-The man grew more flustered. Seeing the red stone on the table, he asked, "Should I analyze this?"
+The man grew more flustered. Seeing the stone on the table, he asked, "Should I analyze this?"
 
 "As far as you can."
 
@@ -296,7 +296,7 @@ Ed looked up. "Why?"
 
 "Because it's rare."
 
-A simple answer. Ed looked at the red stone in his hand. A little while ago, he'd thought it was the key to unlocking the secrets of ancient Ishval. But it might be something else entirely.
+A simple answer. Ed looked at the stone in his hand. A little while ago, he'd thought it was the key to unlocking the secrets of ancient Ishval. But it might be something else entirely.
 
 "Does it turn up anywhere besides Ishval?"
 
@@ -320,7 +320,7 @@ He admitted it surprisingly easily. Miles looked at him. "What?"
 
 * * *
 
-From that day on, Ed went around the reconstruction sites, looking for places where the red stone had turned up. The first was the water pipe site. The second, where an old well was being redug. The third, where a road was being widened. And the fourth, beneath a collapsed house.
+From that day on, Ed went around the reconstruction sites, looking for places where the stone had turned up. The first was the water pipe site. The second, where an old well was being redug. The third, where a road was being widened. And the fourth, beneath a collapsed house.
 
 He couldn't be certain they were all the same stone. But the color and the shape were similar. Ed marked the locations on a map.
 
@@ -336,7 +336,7 @@ Scar said, "Which part?"
 
 "The direction."
 
-The points where red stones had turned up didn't match exactly. But roughly, they seemed to run in the same direction as the lines in the old record. Ed's eyes lit up.
+The points where the stones had turned up didn't match exactly. But roughly, they seemed to run in the same direction as the lines in the old record. Ed's eyes lit up.
 
 "No way, it's actually—"
 
@@ -360,7 +360,7 @@ Ed looked at him. "What?"
 
 Scar didn't answer. Ed looked at the map again.
 
-There was a decisive counterexample. Xing. The alkahestrists read the Dragon's Pulse. But he'd never heard that they needed red stones like these. May didn't use one. In that case, it was hard to say this stone was a material that created the world's flow itself.
+There was a decisive counterexample. Xing. The alkahestrists read the Dragon's Pulse. But he'd never heard that they needed stones like these. May didn't use one. In that case, it was hard to say this stone was a material that created the world's flow itself.
 
 "No," Ed muttered.
 
@@ -374,7 +374,7 @@ Scar said nothing. One hypothesis was gone. Yet strangely, the problem was only 
 
 A few days later, a worker digging on the edge of town called people over. Ed and Scar went to the site too.
 
-Beneath the ground that had been cut away for a road foundation, a red layer had been exposed. It was unlike the small stones they'd seen at first. A long, dark red seam ran through the rock.
+Beneath the ground that had been cut away for a road foundation, a dark red layer had been exposed. It was unlike the small stones they'd seen at first. A long, dark red seam ran through the rock.
 
 Ed crouched. "Is this all...?"
 
@@ -404,7 +404,7 @@ The old man studied Ed for a moment, as if he didn't understand the question. Ed
 
 "Around places of prayer."
 
-Ed looked at the red layer again. "Then why isn't there a mine?"
+Ed looked at the layer again. "Then why isn't there a mine?"
 
 Scar said, "It was not a stone to be dug up."
 
@@ -422,7 +422,7 @@ Ed slowly stood. "Miles."
 
 "I know. If."
 
-Ed looked at the red layer. "And if there's a ton of it here?"
+Ed looked at the layer. "And if there's a ton of it here?"
 
 Miles didn't answer right away. He seemed to be thinking the same thing. A rare mineral. Expensive special alloys. Almost no output anywhere. And Ishval in the middle of its reconstruction.
 
@@ -432,7 +432,7 @@ Scar said, "You did not find it."
 
 "I know." Ed sighed. "But now I know about it."
 
-The red stone said nothing. In the prayer hall, it had been set at the crossings of the lines for hundreds of years. In the ground, it might have lain there even longer.
+The stone said nothing. In the prayer hall, it had been set at the crossings of the lines for hundreds of years. In the ground, it might have lain there even longer.
 
 Some people called it a sacred stone. Some called it a rare mineral. Soon, there would be some who called it money.
 

@@ -438,7 +438,7 @@ Dark red. Small stones set at regular intervals along the lines. Ed stood. "Why 
 
 Scar didn't answer. Thoughts raced through Ed's head.
 
-The old records said the flow could be borrowed. The lines in the prayer hall looked like they represented the flow. And at each crossing of those lines there was a red stone.
+The old records said the flow could be borrowed. The lines in the prayer hall looked like they represented the flow. And at each crossing of those lines there was a dark red stone.
 
 He had been leaning toward there being no price. But Ed still wasn't convinced. Things you borrow come with a price. He'd learned that all his life.
 

@@ -348,7 +348,7 @@ Ed quietly withdrew it. "I was just observing."
 
 "Fine."
 
-Ed looked over the whole pattern again. Prayer. A structure that looked like a transmutation circle. Red stones. And Scar's brother's research.
+Ed looked over the whole pattern again. Prayer. A structure that looked like a transmutation circle. The stones. And Scar's brother's research.
 
 Something seemed about to connect in his head, then slipped away. It wasn't enough yet.
 

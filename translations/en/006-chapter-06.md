@@ -54,7 +54,7 @@ Ed shut his mouth. Come to think of it, that wasn't wrong.
 
 * * *
 
-In Miles's office, a small box containing red stones sat on the desk. It was the sample to be sent to Central.
+In Miles's office, a small box containing the stones sat on the desk. It was the sample to be sent to Central.
 
 Ed asked, "Where did it leak from?"
 
@@ -82,7 +82,7 @@ Ed looked at the stone in the box. "You're saying it's the same thing?"
 
 "Can't you stop that?"
 
-Miles looked up from his papers. "Dozens of people saw the red layer while digging."
+Miles looked up from his papers. "Dozens of people saw the dark layer while digging."
 
 "..."
 
@@ -396,7 +396,7 @@ Ed walked past. It was the same stone. To some, a reason not to have to leave. T
 
 * * *
 
-The next day, Miles took Ed and Scar to the edge of town. It was an area a little way from where the red layer had first been exposed in a big way.
+The next day, Miles took Ed and Scar to the edge of town. It was an area a little way from where the dark layer had first been exposed in a big way.
 
 "We have received a request to exclude this area from the survey."
 
@@ -410,7 +410,7 @@ In the distance, low mounds of stone were visible.
 
 Miles said, "The survey itself has not been approved yet, but we are marking it in advance."
 
-Ed looked at the map. It wasn't far from the direction where the red stone had been found.
+Ed looked at the map. It wasn't far from the direction where the stone had been found.
 
 "What if there's some under here too?"
 
@@ -516,7 +516,7 @@ Jobs. Schools. Roads. Reconstruction. Economic self-sufficiency. Tradition. The 
 
 He turned a page.
 
-*Red stone = connected to alchemy?*
+*The stone = connected to alchemy?*
 
 At first, he'd believed that. It had been set in the prayer hall, at every point where the lines met. But now all he heard was talk of mines and money.
 

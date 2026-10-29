@@ -4,9 +4,9 @@ AO3 'Chapter Title' 칸에 넣을 제목 / 영어 단어 수
 001-chapter-01	The Road East	1958words
 002-chapter-02	His Brother's Notebook	2292words
 003-chapter-03	The One Who Saw God	1941words
-004-chapter-04	The God Beyond the Gate	2256words
-005-chapter-05	The Red Stone	2021words
-006-chapter-06	Good Intentions	2421words
+004-chapter-04	The God Beyond the Gate	2257words
+005-chapter-05	The Stone at the Crossings	2015words
+006-chapter-06	Good Intentions	2420words
 007-chapter-07	The Good Fuhrer	2059words
 008-chapter-08	Records from the East	1849words
-009-chapter-09	Into the Desert	2334words
+009-chapter-09	Into the Desert	2333words

@@ -42,7 +42,7 @@ Scar asked, "And you?"
 
 "What are you searching for?"
 
-Ed thought for a moment. At first it had been Ishvala. Then the red stone. Then Scar's brother's records. But the farther east he went, the more the questions multiplied. Amestrian alchemy. Xingese alkahestry. The records of ancient Ishval. People in different places who'd tried to understand the world in different ways.
+Ed thought for a moment. At first it had been Ishvala. Then the stone. Then Scar's brother's records. But the farther east he went, the more the questions multiplied. Amestrian alchemy. Xingese alkahestry. The records of ancient Ishval. People in different places who'd tried to understand the world in different ways.
 
 "I don't know."
 
