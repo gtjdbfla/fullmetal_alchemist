@@ -25,6 +25,7 @@
 - 새 원고가 설정을 바꾸면 스토리라인의 설정 카드(`storyline.tabs.settings.groups`), 하드 룰, 인물 아크, 지식 상태, 복선 추적, `continuityConflicts`를 원고 기준으로 더 구체적이고 정확하게 고친다. 원고를 고치기 전에 작가에게 확인한다.
 - 회차별 연재용 txt는 `python scripts/build_views.py`가 `publish/txt/`에 함께 만든다(제목 첫 줄, 장면 구분은 `* * *`). 이 폴더는 로컬·GitHub·홈서버에 보관한다.
 - 같은 빌드가 노벨피아·조아라 업로드용 파일(`publish/txt-platform/`, `publish/html-novelpia/`, `publish/txt-joara/`)도 다시 만든다. 원고 작업이 끝나면 빌드 후 이 파일들까지 함께 커밋·push한다(작가는 PC에서 `git pull`로 받아 업로드한다).
+- 영어판(AO3)은 `translations/en/`의 번역 원문(마크다운)에서 같은 빌드가 `publish/en-ao3/`의 HTML로 만든다. 한국어 원고를 고치면 해당 화의 번역도 같이 고치고, 용어는 `translations/en/_GLOSSARY.md`를 따른다. 등록 정보는 `_AO3_WORK_INFO.md`에 있다. 번역도 공개 정적 루트로 복사하지 않는다.
 - 작업은 홈서버의 `~/dev/fullmetal_alchemist`에서 한다. `~/fullmetal_alchemist`는 cron이 10분마다 `reset --hard`하는 배포 전용 폴더라 직접 고치지 않는다.
 - 이슈발라의 정체는 미스터리로 남기고, 아메스트리스 연금술과 진리의 문 설정은 `story_bible/03_WORLD_MYSTERY.md` 마지막 절을 따른다.
 

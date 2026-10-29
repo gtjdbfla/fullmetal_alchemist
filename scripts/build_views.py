@@ -5,6 +5,7 @@ from copy import deepcopy
 from pathlib import Path
 
 from export_txt import export as export_txt
+from export_ao3_html import export as export_ao3_html
 from export_joara_txt import export as export_joara_txt
 from export_novelpia_html import export as export_novelpia_html
 from export_platform_txt import export as export_platform_txt
@@ -93,6 +94,7 @@ def main() -> None:
     export_platform_txt()
     export_novelpia_html()
     export_joara_txt()
+    export_ao3_html()
     print(f"workspace manuscripts={len(public.get('manuscripts', []))} author history={len(author['history'])}")
 
 if __name__ == "__main__":
