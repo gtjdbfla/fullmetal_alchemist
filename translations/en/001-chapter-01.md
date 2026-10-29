@@ -78,7 +78,7 @@ Then, on the third page, the handwriting got a little more cramped.
 
 Ed sat up straighter.
 
-This was a little different from what he knew. Of course he knew alkahestry existed. He'd watched May use it. He'd known it worked differently from Amestrian alchemy. He'd even heard the old tale that a **Sage from the West** had brought knowledge to Xing, and that it had mingled with the local medicine and shaped how alkahestry developed.
+This was a little different from what he knew. Of course he knew alkahestry existed. He'd watched May use it. He'd known it worked differently from Amestrian alchemy. He'd even heard the old tale that the **Sage of the West** had brought knowledge to Xing, and that it had mingled with the local medicine and shaped how alkahestry developed.
 
 But that was a story about origins.
 
@@ -86,7 +86,7 @@ How they actually understood the world was another matter entirely.
 
 He read the next line.
 
-> People here call it the dragon's pulse.
+> People here call it the Dragon's Pulse.
 >
 > They believe there's a flow of power not just in mountains and rivers but through the whole earth, and that people live inside it too.
 >
@@ -96,11 +96,11 @@ Ed set the letter down.
 
 "The flow..."
 
-It wasn't an unfamiliar idea. Alchemy considered the movement of energy as well. Tectonic shifts. Heat. The composition of matter. Decomposition and reconstruction.
+It wasn't an unfamiliar idea. Alchemy considered the movement of energy as well. Tectonic shifts. Heat. The composition of matter. Deconstruction and reconstruction.
 
 But this wasn't a matter of wording. The starting point was different.
 
-An Amestrian alchemist asked first: *What will I make, and from what? What do I need? How do I decompose it, and how do I rebuild it?*
+An Amestrian alchemist asked first: *What will I make, and from what? What do I need? How do I deconstruct it, and how do I reconstruct it?*
 
 Al's letter made alkahestry sound like it started somewhere else entirely. It sounded like it started by looking at where something that already existed was flowing, and where it was going.
 
@@ -134,9 +134,9 @@ For a while, he only stared at the words.
 
 Scar's brother.
 
-The two arms Scar had carried through the Ishval civil war. Deconstruction in the right. Reconstruction in the left. Built from research that combined Amestrian alchemy and Xingese alkahestry.
+The two arms Scar had carried through the Ishvalan Civil War. Deconstruction in the right. Reconstruction in the left. Built from research that combined Amestrian alchemy and Xingese alkahestry.
 
-Back then there had been too much else going on. The Philosopher's Stone. The homunculi. The nationwide circle. Father. With the world about to be turned upside down, there'd been no room to calmly wonder how a dead scholar had reached that kind of knowledge.
+Back then there had been too much else going on. The Philosopher's Stone. The homunculi. The national transmutation circle. Father. With the world about to be turned upside down, there'd been no room to calmly wonder how a dead scholar had reached that kind of knowledge.
 
 Now it was different.
 
@@ -158,7 +158,7 @@ His research hadn't been two systems forced together. At the very least, there w
 
 Ed stood up from the bed.
 
-He'd known the story that alkahestry was influenced by a sage from the west. But that was a tale from hundreds of years ago. The sage wasn't what he was curious about right now.
+He'd known the story that alkahestry was influenced by the Sage of the West. But that was a tale from hundreds of years ago. The Sage wasn't what he was curious about right now.
 
 Scar's brother was.
 
@@ -412,7 +412,7 @@ The plains of a foreign country slid past outside. After a few days of travel, h
 
 He had looked at that direction on a map more than once. But he had never tied the whole stretch together with a single question.
 
-Xing had a tale of a sage from the west.
+Xing had a tale of the Sage of the West.
 
 Ishval had a scholar who'd forbidden alchemy yet studied alkahestry.
 

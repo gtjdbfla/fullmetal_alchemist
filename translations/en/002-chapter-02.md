@@ -26,7 +26,7 @@ Ed raised a hand. "Been a while."
 
 "I didn't sleep on the train."
 
-Miles looked Ed up and down. "Your height doesn't seem to have changed much."
+Miles looked Ed up and down. "Your height does not seem to have changed much."
 
 "That's the first thing you're gonna say?!"
 
@@ -60,7 +60,7 @@ There was just a bit of distance.
 
 Ed asked, "Is it always like that?"
 
-Miles looked away. "It's much better than it was."
+Miles looked away. "It is much better than it was."
 
 "Yeah?"
 
@@ -76,7 +76,7 @@ Miles spoke facing forward.
 
 Ed didn't answer.
 
-"The question," Miles said, "is what we're rebuilding."
+"The question," Miles said, "is what we are rebuilding."
 
 He stopped there. He didn't explain further, and Ed didn't ask.
 
@@ -262,7 +262,7 @@ Below, it was different. Stone walls. A low ceiling. Old air. Instead of torches
 
 Two elderly Ishvalans were already waiting inside. Ed lowered his voice without thinking.
 
-Miles said, "We believe it's a place of prayer."
+Miles said, "We believe it is a place of prayer."
 
 "How old is it?"
 

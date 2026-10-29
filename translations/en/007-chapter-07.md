@@ -4,11 +4,11 @@ Central. Mustang set aside the Ishval reconstruction report and the request for 
 
 "The analysis isn't even finished, and the mineral merchants are already moving in?"
 
-"Rumors don't wait for results," Hawkeye said.
+"Rumors do not wait for results," Hawkeye said.
 
 "We don't even know the deposit size, and they're this fast?"
 
-"There's money involved."
+"There is money involved."
 
 That afternoon, the military, the resources ministry, the reconstruction officials, and civilian politicians would meet.
 
@@ -48,7 +48,7 @@ Someone asked, "Does it have military value?"
 
 "How much?"
 
-"At this stage, it's difficult to say."
+"At this stage, it is difficult to say."
 
 Mustang looked in his direction. "We don't even know what the stone is yet. Don't start thinking about weapons."
 
@@ -174,7 +174,7 @@ The room fell still.
 
 Mustang's eyes narrowed. Brandt didn't look away.
 
-"I don't believe you are the same kind of man as Bradley."
+"I do not believe you are the same kind of man as Bradley."
 
 "I'll take that as a compliment."
 
@@ -234,11 +234,11 @@ Mustang fell silent. Hawkeye went on tidying the papers as if nothing were wrong
 
 "Then why did you answer that way?"
 
-"Because it's true."
+"Because it is true."
 
 Mustang gazed at the door Brandt had gone through. "Everyone's being a pain to me today."
 
-"Isn't that a good thing?"
+"Is that not a good thing?"
 
 "How so?"
 

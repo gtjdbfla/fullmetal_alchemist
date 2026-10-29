@@ -228,7 +228,7 @@ Ed's eyes moved fast. The wall. The floor. The water. The wind. The stone. And t
 
 "What is?"
 
-Ed looked at the stone pillar that had first shot up. There was something an alchemist always had to check first. What was decomposed. What was it reconstructed into. Where did the material come from. What changed. The pillar. The floor. The wall. The grin vanished from Ed's face.
+Ed looked at the stone pillar that had first shot up. There was something an alchemist always had to check first. What had been deconstructed. What it had been reconstructed into. Where did the material come from. What changed. The pillar. The floor. The wall. The grin vanished from Ed's face.
 
 "...The numbers don't add up."
 

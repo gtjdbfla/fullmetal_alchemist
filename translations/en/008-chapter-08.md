@@ -136,11 +136,11 @@ Ed's hand froze. He remembered the question written in his notebook. *What about
 
 > So I looked from the other direction. Not from Ishval, but from the alkahestry side. At how alkahestry came to be.
 >
-> First, the story of the Sage from the West, which you know.
+> First, the story of the Sage of the West, which you know.
 
 Ed paused.
 
-The Sage from the West. A tale handed down in Xing since long ago. Hundreds of years back, a sage from the west had brought new knowledge to Xing, and it had combined with the medicine that already existed there and influenced alkahestry's development. It was the same story he'd thought of when he first read Al's letter. But back then, Ed's interest had been elsewhere. Scar's brother. Ancient Ishval. How the two had come to be tied to alkahestry.
+The Sage of the West. A tale handed down in Xing since long ago. Hundreds of years back, the Sage had brought new knowledge to Xing, and it had combined with the medicine that already existed there and influenced alkahestry's development. It was the same story he'd thought of when he first read Al's letter. But back then, Ed's interest had been elsewhere. Scar's brother. Ancient Ishval. How the two had come to be tied to alkahestry.
 
 He kept reading.
 
@@ -148,7 +148,7 @@ He kept reading.
 
 "Vaguer?"
 
-> Some records say the Sage from the West created alkahestry, and others say he only brought new knowledge.
+> Some records say the Sage of the West created alkahestry, and others say he only brought new knowledge.
 >
 > But if you look at even older medical records, it seems similar ideas existed before he arrived.
 
@@ -172,7 +172,7 @@ Ed's hand stopped. Scar noticed the change. "What is it?"
 
 Ed didn't answer. He read on.
 
-> I don't know if it means exactly the same thing as what alkahestry calls the dragon's pulse today.
+> I don't know if it means exactly the same thing as what alkahestry calls the Dragon's Pulse today.
 >
 > Maybe it doesn't.
 >
@@ -200,7 +200,7 @@ He read the next line.
 
 > May says we shouldn't assume expressions like these all began in one place.
 >
-> Even before the Sage from the West arrived, Xing already had knowledge of medicine and nature.
+> Even before the Sage of the West arrived, Xing already had knowledge of medicine and nature.
 >
 > I think it's true the Sage brought something new, but we'll need to dig further to know exactly what he brought and what was already there.
 
@@ -212,13 +212,13 @@ Scar asked, "Make what?"
 
 Ed handed him the letter. "At least, that's what the records Al found seem to say."
 
-Scar read slowly. Ed looked out the window. The Sage from the West. Xing's old medicine. The flow of the earth. The records of ancient Ishval. Similar phrases existed in several places. The question was why they were so similar.
+Scar read slowly. Ed looked out the window. The Sage of the West. Xing's old medicine. The flow of the earth. The records of ancient Ishval. Similar phrases existed in several places. The question was why they were so similar.
 
 Ed recalled a line from the letter again.
 
 > The earth flows.
 
-The prayer: "The flow may be borrowed." Xing's dragon's pulse. Different names, different eras, but seeing the same thing. The flow. And the place where those who'd borrowed the flow were said to have gone.
+The prayer: "The flow may be borrowed." Xing's Dragon's Pulse. Different names, different eras, but seeing the same thing. The flow. And the place where those who'd borrowed the flow were said to have gone.
 
 "...Karsa."
 

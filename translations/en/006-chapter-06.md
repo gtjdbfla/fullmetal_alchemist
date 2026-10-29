@@ -408,7 +408,7 @@ In the distance, low mounds of stone were visible.
 
 "Oh." Ed understood at once.
 
-Miles said, "The survey itself hasn't been approved yet, but we are marking it in advance."
+Miles said, "The survey itself has not been approved yet, but we are marking it in advance."
 
 Ed looked at the map. It wasn't far from the direction where the red stone had been found.
 

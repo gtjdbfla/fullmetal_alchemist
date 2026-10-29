@@ -21,18 +21,20 @@
 | 센트럴 | Central |
 | 연금술 / 연성 / 연성진 | alchemy / transmutation / transmutation circle |
 | 연단술 | alkahestry |
-| 용맥 | the dragon's pulse |
+| 용맥 | the Dragon's Pulse (원작 위키 표기) |
 | 등가교환 | Equivalent Exchange |
 | 진리 / 문 | the Truth / the Gate (고대 이슈발 기록 안에서는 "the door") |
 | 인체연성 | human transmutation |
 | 국가연금술사 | State Alchemist |
 | 현자의 돌 | the Philosopher's Stone |
 | 호문쿨루스 | homunculi |
-| 서쪽의 현자 | the Sage from the West |
-| 분해 / 재구축 | deconstruction / reconstruction |
+| 서쪽의 현자 | the Sage of the West (원작 별칭: Philosopher of the West / Sage of the West) |
+| 이해 / 분해 / 재구축 | comprehension / deconstruction / reconstruction (연성의 3단계, 원작 표기) |
+| 이슈발 내전 | the Ishvalan Civil War (이후 "the civil war"로 줄여 쓸 수 있음) |
+| 별명 놀림 (꼬맹이) | pipsqueak [확인 필요: 원작 영어판/더빙에서 가장 자주 쓰는 표현으로 판단했으나 직접 대조하지 못함] |
 | 강철 (호칭) | Fullmetal |
 | 강철의 연금술사 | the Fullmetal Alchemist |
-| 국토연성진 | the nationwide circle |
+| 국토연성진 | the national transmutation circle |
 
 ## 창작 용어와 인물 (원작에 없음)
 
@@ -67,4 +69,6 @@
 - 한국어 원고의 한 줄 문단은 대사 리듬은 살리고, 서술은 영어 문단으로 합친다.
 - 편지·노트·기도문(원문 backtick)은 `<blockquote>`, 에드의 수첩(==…==)은 이탤릭.
 - 장면 구분 `-`/`*`은 `* * *`(출력 `<hr />`).
-- 에드의 거친 말투는 욕설 없이 직설적인 구어체로, 스카는 축약형 없이 건조한 문장으로, 머스탱은 비꼬는 어조로 옮긴다.
+- 에드는 축약형을 쓰는 직설적인 구어체, 머스탱은 축약형을 쓰되 비꼬는 어조로 옮긴다.
+- 스카·마일즈·호크아이·브란트는 원작처럼 축약형 없이 건조하고 격식 있는 문장으로 옮긴다(예: "I do not know", "It is").
+- 호칭은 원작대로 Fullmetal(스카·머스탱이 에드를 부를 때), Brother(알이 에드를 부를 때), sir(호크아이)를 쓴다.

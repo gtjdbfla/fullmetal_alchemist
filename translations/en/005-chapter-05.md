@@ -268,7 +268,7 @@ Scar said, "You are particular."
 
 In the afternoon, Miles brought an old military document.
 
-"There's a record of a similar mineral."
+"There is a record of a similar mineral."
 
 Ed took it. "Where from?"
 
@@ -360,7 +360,7 @@ Ed looked at him. "What?"
 
 Scar didn't answer. Ed looked at the map again.
 
-There was a decisive counterexample. Xing. The alkahestrists read the dragon's pulse. But he'd never heard that they needed red stones like these. May didn't use one. In that case, it was hard to say this stone was a material that created the world's flow itself.
+There was a decisive counterexample. Xing. The alkahestrists read the Dragon's Pulse. But he'd never heard that they needed red stones like these. May didn't use one. In that case, it was hard to say this stone was a material that created the world's flow itself.
 
 "No," Ed muttered.
 
@@ -382,7 +382,7 @@ Miles said, "We do not know yet."
 
 "I know." Ed answered at once. "You can't call it a vein when no one's even surveyed it." He brushed the dirt away with his hand. "And we don't know how far it runs."
 
-Miles nodded. "We'll need a geological survey team."
+Miles nodded. "We will need a geological survey team."
 
 A few of the old Ishvalans nearby didn't look surprised. Ed noticed.
 

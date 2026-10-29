@@ -62,7 +62,7 @@ Ed opened the notebook and pointed to *Ishvala = the Truth?*
 
 He set the bread down.
 
-"What's the Truth?" Scar asked.
+"What is the Truth?" Scar asked.
 
 Ed didn't answer. A white space. A place where there was nothing. And there—an enormous Gate. The pure-white being seated before it. The grinning face. A form identical to his own.
 
@@ -162,7 +162,7 @@ The records hall stood on the outskirts of the rebuilt town. It wasn't a new bui
 
 Not every record had survived. A good deal more had been lost. Hearing that, Ed went quiet for a moment.
 
-What the Ishval civil war had destroyed wasn't only people. It was what people remembered. What they had written down. What had been handed down. All of it had vanished with them.
+What the Ishvalan Civil War had destroyed wasn't only people. It was what people remembered. What they had written down. What had been handed down. All of it had vanished with them.
 
 The old man who kept the records looked at Ed. "You are Amestrian."
 
