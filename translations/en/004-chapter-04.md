@@ -420,7 +420,7 @@ Ed looked at the prayer again. "But who are 'those who borrowed the flow'? Ishva
 
 "...I do not know."
 
-"It says they 'went.' Whoever wrote that might not be one of them. Not confirmed, though."
+"It says they 'went,' like it's about somebody else. Maybe it isn't about Ishvalans at all. Not confirmed, though."
 
 The corner of Ed's mouth lifted. "I'll have to look for it."
 
