@@ -340,6 +340,18 @@ Ed didn't move. Wind passed through the broken wall.
 
 "One who sees Ishvala sees oneself."
 
+Ed looked up at the wall above the relief. "There's more up there."
+
+Scar brushed away more dust. The letters were cut deeper.
+
+"The one who stood before the door saw the world."
+
+He paused.
+
+"And the world saw him."
+
+Ed's hand stopped. It was the very sentence he had copied down that morning in the records hall. The same words were carved into the wall.
+
 Ed's heart beat a little faster. *I am you.* What the Truth had said.
 
 He looked at the relief again. The person. The door. The being beyond it. And—himself.

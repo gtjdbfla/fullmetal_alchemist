@@ -416,6 +416,18 @@ Ed pointed to the prayer. "It's where the people who borrowed the flow went. You
 
 "That, I don't know yet."
 
+Ed looked at the prayer again. "But who are 'those who borrowed the flow'? Ishvalans?"
+
+"I have never heard that any of our people did such a thing."
+
+"The prayer says it can be borrowed, but it never names anyone who did."
+
+Ed traced the sentence with his finger. "And it says they 'went.' Whoever wrote this doesn't sound like one of them. They sound like someone who watched."
+
+"That is one way to read it."
+
+"Not confirmed, though."
+
 The corner of Ed's mouth lifted. "I'll have to look for it."
 
 * * *

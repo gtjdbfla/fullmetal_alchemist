@@ -3,8 +3,8 @@ AO3 'Chapter Title' 칸에 넣을 제목 / 영어 단어 수
 000-prologue	Prologue: The Alchemist Who Can't Use Alchemy	949words
 001-chapter-01	The Road East	1960words
 002-chapter-02	His Brother's Notebook	2301words
-003-chapter-03	The One Who Saw God	1940words
-004-chapter-04	The God Beyond the Gate	2257words
+003-chapter-03	The One Who Saw God	2006words
+004-chapter-04	The God Beyond the Gate	2337words
 005-chapter-05	The Stone at the Crossings	2018words
 006-chapter-06	Good Intentions	2420words
 007-chapter-07	The Good Fuhrer	2063words
