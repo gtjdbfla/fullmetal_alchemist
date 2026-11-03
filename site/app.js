@@ -4,6 +4,8 @@ const $ = selector => document.querySelector(selector);
 const esc = value => String(value ?? '').replace(/[&<>'"]/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[char]));
 
 let project;
+let comics = [];
+let comicIndex = 0;
 const params = new URLSearchParams(location.search);
 let view = normalizeView(params.get('view'));
 let chapterIndex = 0;
@@ -16,6 +18,7 @@ function isAuthor() { return true; }
 function updateUrl() {
   const next = new URLSearchParams();
   next.set('view', view);
+  if (view === 'comic') next.set('comic', String(comicIndex));
   if (view === 'analysis') next.set('review', String(reviewIndex));
   if (view === 'storyline') next.set('tab', storyTab);
   if (view === 'storyline' && storyTab === 'settings') next.set('group', String(settingGroup));
@@ -62,6 +65,13 @@ function readPage() {
   const previous = chapterIndex - 1;
   const next = chapterIndex + 1;
   return `<section class="reader-intro"><span>MANUSCRIPT</span><h1>${esc(project.title)}</h1><p>목차에서 원하는 회차를 골라 읽어.</p><nav class="chapter-index" aria-label="회차 목차">${chapters.map((item, index) => `<button data-chapter="${index}" class="${chapterIndex === index ? 'active' : ''}" ${chapterIndex === index ? 'aria-current="page"' : ''}>${esc(chapterLabel(item, index))}</button>`).join('')}</nav></section><article class="chapter-reader"><section class="chapter" id="chapter-${chapterIndex}"><header><span>${esc(chapterLabel(chapter, chapterIndex))}</span><h2>${esc(chapter.title)}</h2></header><div class="reader-body">${prose(chapter.text)}</div></section><nav class="chapter-controls" aria-label="원고 이동"><button data-chapter="${previous}" ${previous < 0 ? 'disabled' : ''}>← 이전화</button><button data-scroll-top="true">맨 위로 · 목차</button><button data-chapter="${next}" ${next >= chapters.length ? 'disabled' : ''}>다음화 →</button></nav></article>${historyView()}`;
+}
+
+function comicPage() {
+  if (!comics.length) return '<section class="empty-state"><h1>완성된 만화를 준비 중입니다.</h1></section>';
+  comicIndex = normalizeChapterIndex(comicIndex, comics.length);
+  const comic = comics[comicIndex];
+  return `<section class="reader-intro"><span>COMIC</span><h1>만화 읽기</h1><p>완성된 회차를 프롤로그부터 순서대로 모았습니다. 페이지 안의 컷은 왼쪽에서 오른쪽으로 읽어 주세요.<br>미완성 회차는 완성 후 등록됩니다.</p><nav class="chapter-index" aria-label="만화 목차">${comics.map((item, index) => `<button data-comic="${index}" class="${comicIndex === index ? 'active' : ''}" ${comicIndex === index ? 'aria-current="page"' : ''}>${esc(item.episode)} · ${esc(item.title)}</button>`).join('')}</nav></section><article class="comic-reader"><header><span>${esc(comic.episode)}</span><h2>${esc(comic.title)}</h2><p>비공식 팬 만화 · 원고를 발췌한 각색본</p></header>${comic.pages.map((page, i) => `<figure><a href="${esc(page.src)}" target="_blank" rel="noopener" aria-label="${esc(page.label)} 크게 보기"><img src="${esc(page.src)}" alt="${esc(page.label)}" loading="${i === 0 ? 'eager' : 'lazy'}" decoding="async" width="1080" height="1350"></a><figcaption>${esc(page.label)}</figcaption></figure>`).join('')}<nav class="chapter-controls" aria-label="만화 이동"><button data-comic="${comicIndex - 1}" ${comicIndex === 0 ? 'disabled' : ''}>← 이전화</button><button data-scroll-top="true">맨 위로 · 목차</button><button data-comic="${comicIndex + 1}" ${comicIndex === comics.length - 1 ? 'disabled' : ''}>다음화 →</button></nav></article>`;
 }
 
 function charactersPage() {
@@ -152,16 +162,19 @@ function storylinePage() {
 }
 
 function render() {
-  $('#navigation').innerHTML = `<button data-view="read" class="${view === 'read' ? 'active' : ''}"><span>01</span>글 읽기</button><button data-view="characters" class="${view === 'characters' ? 'active' : ''}"><span>02</span>등장인물</button>${isAuthor() ? `<button data-view="analysis" class="${view === 'analysis' ? 'active' : ''}"><span>03</span>글 분석</button><button data-view="storyline" class="${view === 'storyline' ? 'active' : ''}"><span>04</span>스토리라인</button>` : ''}`;
+  $('#navigation').innerHTML = `<button data-view="comic" class="${view === 'comic' ? 'active' : ''}"><span>漫</span>만화 읽기</button><button data-view="read" class="${view === 'read' ? 'active' : ''}"><span>01</span>글 읽기</button><button data-view="characters" class="${view === 'characters' ? 'active' : ''}"><span>02</span>등장인물</button>${isAuthor() ? `<button data-view="analysis" class="${view === 'analysis' ? 'active' : ''}"><span>03</span>글 분석</button><button data-view="storyline" class="${view === 'storyline' ? 'active' : ''}"><span>04</span>스토리라인</button>` : ''}`;
 
   $('#home-brand').href = homeUrl();
   $('#home-link').href = homeUrl();
 
   $('#mode-badge').textContent = 'AUTHOR';
-  $('#breadcrumb').textContent = view === 'read' ? '글 읽기' : view === 'characters' ? '등장인물' : view === 'analysis' ? '글 분석 / 회차별 검토' : '스토리라인 / 전체 진행';
-  $('#main').innerHTML = view === 'read' ? readPage() : view === 'characters' ? charactersPage() : view === 'analysis' ? reviewPage() : storylinePage();
+  $('#breadcrumb').textContent = view === 'comic' ? '만화 읽기' : view === 'read' ? '글 읽기' : view === 'characters' ? '등장인물' : view === 'analysis' ? '글 분석 / 회차별 검토' : '스토리라인 / 전체 진행';
+  $('#main').innerHTML = view === 'comic' ? comicPage() : view === 'read' ? readPage() : view === 'characters' ? charactersPage() : view === 'analysis' ? reviewPage() : storylinePage();
   document.querySelectorAll('[data-view]').forEach(button => button.onclick = () => {
     view = button.dataset.view; updateUrl(); render(); scrollTo({top: 0});
+  });
+  document.querySelectorAll('[data-comic]').forEach(button => button.onclick = () => {
+    comicIndex = normalizeChapterIndex(button.dataset.comic, comics.length); view = 'comic'; updateUrl(); render(); scrollTo({top: 0, behavior: 'smooth'});
   });
   document.querySelectorAll('[data-chapter]').forEach(button => button.onclick = () => {
     chapterIndex = Number(button.dataset.chapter); view = 'read'; updateUrl(); render(); scrollTo({top: 0, behavior: 'smooth'});
@@ -184,6 +197,10 @@ try {
   const response = await fetch('./data/project.json');
   if (!response.ok) throw new Error('프로젝트 자료를 불러오지 못했습니다.');
   project = await response.json();
+  const comicResponse = await fetch('./data/comics.json');
+  if (!comicResponse.ok) throw new Error('만화 자료를 불러오지 못했습니다.');
+  comics = await comicResponse.json();
+  comicIndex = normalizeChapterIndex(params.get('comic'), comics.length);
   chapterIndex = normalizeChapterIndex(params.get('chapter'), project.manuscripts?.length ?? 0);
   reviewIndex = normalizeChapterIndex(params.get('review'), project.chapterReviews?.length ?? 0);
   settingGroup = normalizeChapterIndex(params.get('group'), project.storyline?.tabs?.settings?.groups?.length ?? 0);

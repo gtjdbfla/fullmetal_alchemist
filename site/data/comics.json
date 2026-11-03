@@ -1,0 +1,1015 @@
+[
+  {
+    "number": 0,
+    "episode": "프롤로그",
+    "title": "프롤로그",
+    "pages": [
+      {
+        "src": "comics/00/00-cover.jpg",
+        "label": "표지"
+      },
+      {
+        "src": "comics/00/01.jpg",
+        "label": "본문 1쪽"
+      },
+      {
+        "src": "comics/00/02.jpg",
+        "label": "본문 2쪽"
+      },
+      {
+        "src": "comics/00/03.jpg",
+        "label": "본문 3쪽"
+      },
+      {
+        "src": "comics/00/04.jpg",
+        "label": "본문 4쪽"
+      },
+      {
+        "src": "comics/00/05.jpg",
+        "label": "본문 5쪽"
+      },
+      {
+        "src": "comics/00/06.jpg",
+        "label": "본문 6쪽"
+      },
+      {
+        "src": "comics/00/07.jpg",
+        "label": "본문 7쪽"
+      },
+      {
+        "src": "comics/00/08.jpg",
+        "label": "본문 8쪽"
+      }
+    ]
+  },
+  {
+    "number": 1,
+    "episode": "제1화",
+    "title": "동쪽으로 가는 길",
+    "pages": [
+      {
+        "src": "comics/01/01-cover.jpg",
+        "label": "표지"
+      },
+      {
+        "src": "comics/01/02-page-01.jpg",
+        "label": "제1화 · 본문 1쪽"
+      },
+      {
+        "src": "comics/01/03-page-02.jpg",
+        "label": "제1화 · 본문 2쪽"
+      },
+      {
+        "src": "comics/01/04-page-03.jpg",
+        "label": "제1화 · 본문 3쪽"
+      },
+      {
+        "src": "comics/01/05-page-04.jpg",
+        "label": "제1화 · 본문 4쪽"
+      },
+      {
+        "src": "comics/01/06-page-05.jpg",
+        "label": "제1화 · 본문 5쪽"
+      },
+      {
+        "src": "comics/01/07-page-06.jpg",
+        "label": "제1화 · 본문 6쪽"
+      },
+      {
+        "src": "comics/01/08-page-07-1.jpg",
+        "label": "제1화 · 본문 7쪽 · 1/2"
+      },
+      {
+        "src": "comics/01/09-page-07-2.jpg",
+        "label": "제1화 · 본문 7쪽 · 2/2"
+      },
+      {
+        "src": "comics/01/10-page-08-1.jpg",
+        "label": "제1화 · 본문 8쪽 · 1/2"
+      },
+      {
+        "src": "comics/01/11-page-08-2.jpg",
+        "label": "제1화 · 본문 8쪽 · 2/2"
+      },
+      {
+        "src": "comics/01/12-page-09.jpg",
+        "label": "제1화 · 본문 9쪽"
+      },
+      {
+        "src": "comics/01/13-page-10.jpg",
+        "label": "제1화 · 본문 10쪽"
+      },
+      {
+        "src": "comics/01/14-page-11.jpg",
+        "label": "제1화 · 본문 11쪽"
+      },
+      {
+        "src": "comics/01/15-page-12.jpg",
+        "label": "제1화 · 본문 12쪽"
+      }
+    ]
+  },
+  {
+    "number": 2,
+    "episode": "제2화",
+    "title": "형의 노트",
+    "pages": [
+      {
+        "src": "comics/02/01-cover.jpg",
+        "label": "표지"
+      },
+      {
+        "src": "comics/02/02-page-01.jpg",
+        "label": "제2화 · 본문 1쪽"
+      },
+      {
+        "src": "comics/02/03-page-02.jpg",
+        "label": "제2화 · 본문 2쪽"
+      },
+      {
+        "src": "comics/02/04-page-03.jpg",
+        "label": "제2화 · 본문 3쪽"
+      },
+      {
+        "src": "comics/02/05-page-04.jpg",
+        "label": "제2화 · 본문 4쪽"
+      },
+      {
+        "src": "comics/02/06-page-05.jpg",
+        "label": "제2화 · 본문 5쪽"
+      },
+      {
+        "src": "comics/02/07-page-06.jpg",
+        "label": "제2화 · 본문 6쪽"
+      },
+      {
+        "src": "comics/02/08-page-07.jpg",
+        "label": "제2화 · 본문 7쪽"
+      },
+      {
+        "src": "comics/02/09-page-08.jpg",
+        "label": "제2화 · 본문 8쪽"
+      }
+    ]
+  },
+  {
+    "number": 3,
+    "episode": "제3화",
+    "title": "신을 본 자",
+    "pages": [
+      {
+        "src": "comics/03/01-cover.jpg",
+        "label": "표지"
+      },
+      {
+        "src": "comics/03/02-page-01.jpg",
+        "label": "제3화 · 본문 1쪽"
+      },
+      {
+        "src": "comics/03/03-page-02.jpg",
+        "label": "제3화 · 본문 2쪽"
+      },
+      {
+        "src": "comics/03/04-page-03.jpg",
+        "label": "제3화 · 본문 3쪽"
+      },
+      {
+        "src": "comics/03/05-page-04.jpg",
+        "label": "제3화 · 본문 4쪽"
+      },
+      {
+        "src": "comics/03/06-page-05.jpg",
+        "label": "제3화 · 본문 5쪽"
+      },
+      {
+        "src": "comics/03/07-page-06.jpg",
+        "label": "제3화 · 본문 6쪽"
+      },
+      {
+        "src": "comics/03/08-page-07.jpg",
+        "label": "제3화 · 본문 7쪽"
+      },
+      {
+        "src": "comics/03/09-page-08.jpg",
+        "label": "제3화 · 본문 8쪽"
+      }
+    ]
+  },
+  {
+    "number": 4,
+    "episode": "제4화",
+    "title": "문 너머의 신",
+    "pages": [
+      {
+        "src": "comics/04/01-cover.jpg",
+        "label": "표지"
+      },
+      {
+        "src": "comics/04/02-page-01.jpg",
+        "label": "제4화 · 본문 1쪽"
+      },
+      {
+        "src": "comics/04/03-page-02.jpg",
+        "label": "제4화 · 본문 2쪽"
+      },
+      {
+        "src": "comics/04/04-page-03.jpg",
+        "label": "제4화 · 본문 3쪽"
+      },
+      {
+        "src": "comics/04/05-page-04.jpg",
+        "label": "제4화 · 본문 4쪽"
+      },
+      {
+        "src": "comics/04/06-page-05.jpg",
+        "label": "제4화 · 본문 5쪽"
+      },
+      {
+        "src": "comics/04/07-page-06.jpg",
+        "label": "제4화 · 본문 6쪽"
+      },
+      {
+        "src": "comics/04/08-page-07.jpg",
+        "label": "제4화 · 본문 7쪽"
+      },
+      {
+        "src": "comics/04/09-page-08.jpg",
+        "label": "제4화 · 본문 8쪽"
+      }
+    ]
+  },
+  {
+    "number": 5,
+    "episode": "제5화",
+    "title": "붉은 돌",
+    "pages": [
+      {
+        "src": "comics/05/01-cover.jpg",
+        "label": "표지"
+      },
+      {
+        "src": "comics/05/02-page-01.jpg",
+        "label": "제5화 · 본문 1쪽"
+      },
+      {
+        "src": "comics/05/03-page-02.jpg",
+        "label": "제5화 · 본문 2쪽"
+      },
+      {
+        "src": "comics/05/04-page-03.jpg",
+        "label": "제5화 · 본문 3쪽"
+      },
+      {
+        "src": "comics/05/05-page-04.jpg",
+        "label": "제5화 · 본문 4쪽"
+      },
+      {
+        "src": "comics/05/06-page-05.jpg",
+        "label": "제5화 · 본문 5쪽"
+      },
+      {
+        "src": "comics/05/07-page-06.jpg",
+        "label": "제5화 · 본문 6쪽"
+      },
+      {
+        "src": "comics/05/08-page-07.jpg",
+        "label": "제5화 · 본문 7쪽"
+      },
+      {
+        "src": "comics/05/09-page-08.jpg",
+        "label": "제5화 · 본문 8쪽"
+      }
+    ]
+  },
+  {
+    "number": 6,
+    "episode": "제6화",
+    "title": "선의",
+    "pages": [
+      {
+        "src": "comics/06/01-cover.jpg",
+        "label": "표지"
+      },
+      {
+        "src": "comics/06/02-page-01.jpg",
+        "label": "제6화 · 본문 1쪽"
+      },
+      {
+        "src": "comics/06/03-page-02.jpg",
+        "label": "제6화 · 본문 2쪽"
+      },
+      {
+        "src": "comics/06/04-page-03.jpg",
+        "label": "제6화 · 본문 3쪽"
+      },
+      {
+        "src": "comics/06/05-page-04.jpg",
+        "label": "제6화 · 본문 4쪽"
+      },
+      {
+        "src": "comics/06/06-page-05.jpg",
+        "label": "제6화 · 본문 5쪽"
+      },
+      {
+        "src": "comics/06/07-page-06.jpg",
+        "label": "제6화 · 본문 6쪽"
+      },
+      {
+        "src": "comics/06/08-page-07.jpg",
+        "label": "제6화 · 본문 7쪽"
+      },
+      {
+        "src": "comics/06/09-page-08.jpg",
+        "label": "제6화 · 본문 8쪽"
+      }
+    ]
+  },
+  {
+    "number": 7,
+    "episode": "제7화",
+    "title": "좋은 총통",
+    "pages": [
+      {
+        "src": "comics/07/01-cover.jpg",
+        "label": "표지"
+      },
+      {
+        "src": "comics/07/02-page-01.jpg",
+        "label": "제7화 · 본문 1쪽"
+      },
+      {
+        "src": "comics/07/03-page-02.jpg",
+        "label": "제7화 · 본문 2쪽"
+      },
+      {
+        "src": "comics/07/04-page-03.jpg",
+        "label": "제7화 · 본문 3쪽"
+      },
+      {
+        "src": "comics/07/05-page-04.jpg",
+        "label": "제7화 · 본문 4쪽"
+      },
+      {
+        "src": "comics/07/06-page-05.jpg",
+        "label": "제7화 · 본문 5쪽"
+      },
+      {
+        "src": "comics/07/07-page-06.jpg",
+        "label": "제7화 · 본문 6쪽"
+      },
+      {
+        "src": "comics/07/08-page-07.jpg",
+        "label": "제7화 · 본문 7쪽"
+      },
+      {
+        "src": "comics/07/09-page-08.jpg",
+        "label": "제7화 · 본문 8쪽"
+      }
+    ]
+  },
+  {
+    "number": 8,
+    "episode": "제8화",
+    "title": "동쪽에서 온 기록",
+    "pages": [
+      {
+        "src": "comics/08/01-cover.jpg",
+        "label": "표지"
+      },
+      {
+        "src": "comics/08/02-page-01.jpg",
+        "label": "제8화 · 본문 1쪽"
+      },
+      {
+        "src": "comics/08/03-page-02.jpg",
+        "label": "제8화 · 본문 2쪽"
+      },
+      {
+        "src": "comics/08/04-page-03.jpg",
+        "label": "제8화 · 본문 3쪽"
+      },
+      {
+        "src": "comics/08/05-page-04.jpg",
+        "label": "제8화 · 본문 4쪽"
+      },
+      {
+        "src": "comics/08/06-page-05.jpg",
+        "label": "제8화 · 본문 5쪽"
+      },
+      {
+        "src": "comics/08/07-page-06.jpg",
+        "label": "제8화 · 본문 6쪽"
+      },
+      {
+        "src": "comics/08/08-page-07.jpg",
+        "label": "제8화 · 본문 7쪽"
+      },
+      {
+        "src": "comics/08/09-page-08.jpg",
+        "label": "제8화 · 본문 8쪽"
+      }
+    ]
+  },
+  {
+    "number": 9,
+    "episode": "제9화",
+    "title": "사막으로",
+    "pages": [
+      {
+        "src": "comics/09/01-cover.jpg",
+        "label": "표지"
+      },
+      {
+        "src": "comics/09/02-page-01.jpg",
+        "label": "제9화 · 본문 1쪽"
+      },
+      {
+        "src": "comics/09/03-page-02.jpg",
+        "label": "제9화 · 본문 2쪽"
+      },
+      {
+        "src": "comics/09/04-page-03.jpg",
+        "label": "제9화 · 본문 3쪽"
+      },
+      {
+        "src": "comics/09/05-page-04.jpg",
+        "label": "제9화 · 본문 4쪽"
+      },
+      {
+        "src": "comics/09/06-page-05.jpg",
+        "label": "제9화 · 본문 5쪽"
+      },
+      {
+        "src": "comics/09/07-page-06.jpg",
+        "label": "제9화 · 본문 6쪽"
+      },
+      {
+        "src": "comics/09/08-page-07.jpg",
+        "label": "제9화 · 본문 7쪽"
+      },
+      {
+        "src": "comics/09/09-page-08.jpg",
+        "label": "제9화 · 본문 8쪽"
+      }
+    ]
+  },
+  {
+    "number": 10,
+    "episode": "제10화",
+    "title": "길을 지운 사람들",
+    "pages": [
+      {
+        "src": "comics/10/01-cover.jpg",
+        "label": "표지"
+      },
+      {
+        "src": "comics/10/02-page-01.jpg",
+        "label": "제10화 · 본문 1쪽"
+      },
+      {
+        "src": "comics/10/03-page-02.jpg",
+        "label": "제10화 · 본문 2쪽"
+      },
+      {
+        "src": "comics/10/04-page-03.jpg",
+        "label": "제10화 · 본문 3쪽"
+      },
+      {
+        "src": "comics/10/05-page-04.jpg",
+        "label": "제10화 · 본문 4쪽"
+      },
+      {
+        "src": "comics/10/06-page-05.jpg",
+        "label": "제10화 · 본문 5쪽"
+      },
+      {
+        "src": "comics/10/07-page-06.jpg",
+        "label": "제10화 · 본문 6쪽"
+      },
+      {
+        "src": "comics/10/08-page-07.jpg",
+        "label": "제10화 · 본문 7쪽"
+      },
+      {
+        "src": "comics/10/09-page-08.jpg",
+        "label": "제10화 · 본문 8쪽"
+      }
+    ]
+  },
+  {
+    "number": 11,
+    "episode": "제11화",
+    "title": "형이 걸었던 길",
+    "pages": [
+      {
+        "src": "comics/11/01-cover.jpg",
+        "label": "표지"
+      },
+      {
+        "src": "comics/11/02-page-01.jpg",
+        "label": "제11화 · 본문 1쪽"
+      },
+      {
+        "src": "comics/11/03-page-02.jpg",
+        "label": "제11화 · 본문 2쪽"
+      },
+      {
+        "src": "comics/11/04-page-03.jpg",
+        "label": "제11화 · 본문 3쪽"
+      },
+      {
+        "src": "comics/11/05-page-04.jpg",
+        "label": "제11화 · 본문 4쪽"
+      },
+      {
+        "src": "comics/11/06-page-05.jpg",
+        "label": "제11화 · 본문 5쪽"
+      },
+      {
+        "src": "comics/11/07-page-06.jpg",
+        "label": "제11화 · 본문 6쪽"
+      },
+      {
+        "src": "comics/11/08-page-07.jpg",
+        "label": "제11화 · 본문 7쪽"
+      },
+      {
+        "src": "comics/11/09-page-08.jpg",
+        "label": "제11화 · 본문 8쪽"
+      }
+    ]
+  },
+  {
+    "number": 12,
+    "episode": "제12화",
+    "title": "흐르는 땅",
+    "pages": [
+      {
+        "src": "comics/12/01-cover.jpg",
+        "label": "표지"
+      },
+      {
+        "src": "comics/12/02-page-01.jpg",
+        "label": "제12화 · 본문 1쪽"
+      },
+      {
+        "src": "comics/12/03-page-02.jpg",
+        "label": "제12화 · 본문 2쪽"
+      },
+      {
+        "src": "comics/12/04-page-03.jpg",
+        "label": "제12화 · 본문 3쪽"
+      },
+      {
+        "src": "comics/12/05-page-04.jpg",
+        "label": "제12화 · 본문 4쪽"
+      },
+      {
+        "src": "comics/12/06-page-05.jpg",
+        "label": "제12화 · 본문 5쪽"
+      },
+      {
+        "src": "comics/12/07-page-06.jpg",
+        "label": "제12화 · 본문 6쪽"
+      },
+      {
+        "src": "comics/12/08-page-07.jpg",
+        "label": "제12화 · 본문 7쪽"
+      },
+      {
+        "src": "comics/12/09-page-08.jpg",
+        "label": "제12화 · 본문 8쪽"
+      }
+    ]
+  },
+  {
+    "number": 13,
+    "episode": "제13화",
+    "title": "서쪽에서 온 사람",
+    "pages": [
+      {
+        "src": "comics/13/01-cover.jpg",
+        "label": "표지"
+      },
+      {
+        "src": "comics/13/02-page-01.jpg",
+        "label": "제13화 · 본문 1쪽"
+      },
+      {
+        "src": "comics/13/03-page-02.jpg",
+        "label": "제13화 · 본문 2쪽"
+      },
+      {
+        "src": "comics/13/04-page-03.jpg",
+        "label": "제13화 · 본문 3쪽"
+      },
+      {
+        "src": "comics/13/05-page-04.jpg",
+        "label": "제13화 · 본문 4쪽"
+      },
+      {
+        "src": "comics/13/06-page-05.jpg",
+        "label": "제13화 · 본문 5쪽"
+      },
+      {
+        "src": "comics/13/07-page-06.jpg",
+        "label": "제13화 · 본문 6쪽"
+      },
+      {
+        "src": "comics/13/08-page-07.jpg",
+        "label": "제13화 · 본문 7쪽"
+      },
+      {
+        "src": "comics/13/09-page-08.jpg",
+        "label": "제13화 · 본문 8쪽"
+      }
+    ]
+  },
+  {
+    "number": 14,
+    "episode": "제14화",
+    "title": "형이 원했던 것",
+    "pages": [
+      {
+        "src": "comics/14/01-cover.jpg",
+        "label": "표지"
+      },
+      {
+        "src": "comics/14/02-page-01.jpg",
+        "label": "제14화 · 본문 1쪽"
+      },
+      {
+        "src": "comics/14/03-page-02.jpg",
+        "label": "제14화 · 본문 2쪽"
+      },
+      {
+        "src": "comics/14/04-page-03.jpg",
+        "label": "제14화 · 본문 3쪽"
+      },
+      {
+        "src": "comics/14/05-page-04.jpg",
+        "label": "제14화 · 본문 4쪽"
+      },
+      {
+        "src": "comics/14/06-page-05.jpg",
+        "label": "제14화 · 본문 5쪽"
+      },
+      {
+        "src": "comics/14/07-page-06.jpg",
+        "label": "제14화 · 본문 6쪽"
+      },
+      {
+        "src": "comics/14/08-page-07.jpg",
+        "label": "제14화 · 본문 7쪽"
+      },
+      {
+        "src": "comics/14/09-page-08.jpg",
+        "label": "제14화 · 본문 8쪽"
+      }
+    ]
+  },
+  {
+    "number": 15,
+    "episode": "제15화",
+    "title": "서쪽 끝의 도시",
+    "pages": [
+      {
+        "src": "comics/15/01-cover.jpg",
+        "label": "표지"
+      },
+      {
+        "src": "comics/15/02-page-01.jpg",
+        "label": "제15화 · 본문 1쪽"
+      },
+      {
+        "src": "comics/15/03-page-02.jpg",
+        "label": "제15화 · 본문 2쪽"
+      },
+      {
+        "src": "comics/15/04-page-03.jpg",
+        "label": "제15화 · 본문 3쪽"
+      },
+      {
+        "src": "comics/15/05-page-04.jpg",
+        "label": "제15화 · 본문 4쪽"
+      },
+      {
+        "src": "comics/15/06-page-05.jpg",
+        "label": "제15화 · 본문 5쪽"
+      },
+      {
+        "src": "comics/15/07-page-06.jpg",
+        "label": "제15화 · 본문 6쪽"
+      },
+      {
+        "src": "comics/15/08-page-07.jpg",
+        "label": "제15화 · 본문 7쪽"
+      },
+      {
+        "src": "comics/15/09-page-08.jpg",
+        "label": "제15화 · 본문 8쪽"
+      }
+    ]
+  },
+  {
+    "number": 16,
+    "episode": "제16화",
+    "title": "정보의 가격",
+    "pages": [
+      {
+        "src": "comics/16/01-cover.jpg",
+        "label": "표지"
+      },
+      {
+        "src": "comics/16/02-page-01.jpg",
+        "label": "제16화 · 본문 1쪽"
+      },
+      {
+        "src": "comics/16/03-page-02.jpg",
+        "label": "제16화 · 본문 2쪽"
+      },
+      {
+        "src": "comics/16/04-page-03.jpg",
+        "label": "제16화 · 본문 3쪽"
+      },
+      {
+        "src": "comics/16/05-page-04.jpg",
+        "label": "제16화 · 본문 4쪽"
+      },
+      {
+        "src": "comics/16/06-page-05.jpg",
+        "label": "제16화 · 본문 5쪽"
+      },
+      {
+        "src": "comics/16/07-page-06.jpg",
+        "label": "제16화 · 본문 6쪽"
+      },
+      {
+        "src": "comics/16/08-page-07.jpg",
+        "label": "제16화 · 본문 7쪽"
+      },
+      {
+        "src": "comics/16/09-page-08.jpg",
+        "label": "제16화 · 본문 8쪽"
+      }
+    ]
+  },
+  {
+    "number": 17,
+    "episode": "제17화",
+    "title": "불안정성을 보여주시오",
+    "pages": [
+      {
+        "src": "comics/17/01-cover.jpg",
+        "label": "표지"
+      },
+      {
+        "src": "comics/17/02-page-01.jpg",
+        "label": "제17화 · 본문 1쪽"
+      },
+      {
+        "src": "comics/17/03-page-02.jpg",
+        "label": "제17화 · 본문 2쪽"
+      },
+      {
+        "src": "comics/17/04-page-03.jpg",
+        "label": "제17화 · 본문 3쪽"
+      },
+      {
+        "src": "comics/17/05-page-04.jpg",
+        "label": "제17화 · 본문 4쪽"
+      },
+      {
+        "src": "comics/17/06-page-05.jpg",
+        "label": "제17화 · 본문 5쪽"
+      },
+      {
+        "src": "comics/17/07-page-06.jpg",
+        "label": "제17화 · 본문 6쪽"
+      },
+      {
+        "src": "comics/17/08-page-07.jpg",
+        "label": "제17화 · 본문 7쪽"
+      },
+      {
+        "src": "comics/17/09-page-08.jpg",
+        "label": "제17화 · 본문 8쪽"
+      }
+    ]
+  },
+  {
+    "number": 18,
+    "episode": "제18화",
+    "title": "중위 그라우스",
+    "pages": [
+      {
+        "src": "comics/18/01-cover.jpg",
+        "label": "표지"
+      },
+      {
+        "src": "comics/18/02-page-01.jpg",
+        "label": "제18화 · 본문 1쪽"
+      },
+      {
+        "src": "comics/18/03-page-02.jpg",
+        "label": "제18화 · 본문 2쪽"
+      },
+      {
+        "src": "comics/18/04-page-03.jpg",
+        "label": "제18화 · 본문 3쪽"
+      },
+      {
+        "src": "comics/18/05-page-04.jpg",
+        "label": "제18화 · 본문 4쪽"
+      },
+      {
+        "src": "comics/18/06-page-05.jpg",
+        "label": "제18화 · 본문 5쪽"
+      },
+      {
+        "src": "comics/18/07-page-06.jpg",
+        "label": "제18화 · 본문 6쪽"
+      },
+      {
+        "src": "comics/18/08-page-07.jpg",
+        "label": "제18화 · 본문 7쪽"
+      },
+      {
+        "src": "comics/18/09-page-08.jpg",
+        "label": "제18화 · 본문 8쪽"
+      }
+    ]
+  },
+  {
+    "number": 19,
+    "episode": "제19화",
+    "title": "황제의 백성",
+    "pages": [
+      {
+        "src": "comics/19/01-cover.jpg",
+        "label": "표지"
+      },
+      {
+        "src": "comics/19/02-page-01.jpg",
+        "label": "제19화 · 본문 1쪽"
+      },
+      {
+        "src": "comics/19/03-page-02.jpg",
+        "label": "제19화 · 본문 2쪽"
+      },
+      {
+        "src": "comics/19/04-page-03.jpg",
+        "label": "제19화 · 본문 3쪽"
+      },
+      {
+        "src": "comics/19/05-page-04.jpg",
+        "label": "제19화 · 본문 4쪽"
+      },
+      {
+        "src": "comics/19/06-page-05.jpg",
+        "label": "제19화 · 본문 5쪽"
+      },
+      {
+        "src": "comics/19/07-page-06.jpg",
+        "label": "제19화 · 본문 6쪽"
+      },
+      {
+        "src": "comics/19/08-page-07.jpg",
+        "label": "제19화 · 본문 7쪽"
+      },
+      {
+        "src": "comics/19/09-page-08.jpg",
+        "label": "제19화 · 본문 8쪽"
+      }
+    ]
+  },
+  {
+    "number": 20,
+    "episode": "제20화",
+    "title": "황제가 되는 법",
+    "pages": [
+      {
+        "src": "comics/20/01-cover.jpg",
+        "label": "표지"
+      },
+      {
+        "src": "comics/20/02-page-01.jpg",
+        "label": "제20화 · 본문 1쪽"
+      },
+      {
+        "src": "comics/20/03-page-02.jpg",
+        "label": "제20화 · 본문 2쪽"
+      },
+      {
+        "src": "comics/20/04-page-03.jpg",
+        "label": "제20화 · 본문 3쪽"
+      },
+      {
+        "src": "comics/20/05-page-04.jpg",
+        "label": "제20화 · 본문 4쪽"
+      },
+      {
+        "src": "comics/20/06-page-05.jpg",
+        "label": "제20화 · 본문 5쪽"
+      },
+      {
+        "src": "comics/20/07-page-06.jpg",
+        "label": "제20화 · 본문 6쪽"
+      },
+      {
+        "src": "comics/20/08-page-07.jpg",
+        "label": "제20화 · 본문 7쪽"
+      },
+      {
+        "src": "comics/20/09-page-08.jpg",
+        "label": "제20화 · 본문 8쪽"
+      }
+    ]
+  },
+  {
+    "number": 21,
+    "episode": "제21화",
+    "title": "두 번째 린",
+    "pages": [
+      {
+        "src": "comics/21/01-cover.jpg",
+        "label": "표지"
+      },
+      {
+        "src": "comics/21/02-page-01.jpg",
+        "label": "제21화 · 본문 1쪽"
+      },
+      {
+        "src": "comics/21/03-page-02.jpg",
+        "label": "제21화 · 본문 2쪽"
+      },
+      {
+        "src": "comics/21/04-page-03.jpg",
+        "label": "제21화 · 본문 3쪽"
+      },
+      {
+        "src": "comics/21/05-page-04.jpg",
+        "label": "제21화 · 본문 4쪽"
+      },
+      {
+        "src": "comics/21/06-page-05.jpg",
+        "label": "제21화 · 본문 5쪽"
+      },
+      {
+        "src": "comics/21/07-page-06.jpg",
+        "label": "제21화 · 본문 6쪽"
+      },
+      {
+        "src": "comics/21/08-page-07.jpg",
+        "label": "제21화 · 본문 7쪽"
+      },
+      {
+        "src": "comics/21/09-page-08.jpg",
+        "label": "제21화 · 본문 8쪽"
+      }
+    ]
+  },
+  {
+    "number": 25,
+    "episode": "제25화",
+    "title": "황제를 죽이는 사람",
+    "pages": [
+      {
+        "src": "comics/25/01-cover.jpg",
+        "label": "표지"
+      },
+      {
+        "src": "comics/25/02-page-01.jpg",
+        "label": "제25화 · 본문 1쪽"
+      },
+      {
+        "src": "comics/25/03-page-02.jpg",
+        "label": "제25화 · 본문 2쪽"
+      },
+      {
+        "src": "comics/25/04-page-03.jpg",
+        "label": "제25화 · 본문 3쪽"
+      },
+      {
+        "src": "comics/25/05-page-04.jpg",
+        "label": "제25화 · 본문 4쪽"
+      },
+      {
+        "src": "comics/25/06-page-05.jpg",
+        "label": "제25화 · 본문 5쪽"
+      },
+      {
+        "src": "comics/25/07-page-06.jpg",
+        "label": "제25화 · 본문 6쪽"
+      },
+      {
+        "src": "comics/25/08-page-07.jpg",
+        "label": "제25화 · 본문 7쪽"
+      },
+      {
+        "src": "comics/25/09-page-08.jpg",
+        "label": "제25화 · 본문 8쪽"
+      }
+    ]
+  }
+]

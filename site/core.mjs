@@ -1,4 +1,4 @@
-export const VIEWS = ['read', 'characters', 'analysis', 'storyline'];
+export const VIEWS = ['read', 'comic', 'characters', 'analysis', 'storyline'];
 
 export const ANALYSIS_SECTIONS = ['characters', 'causality', 'world'];
 

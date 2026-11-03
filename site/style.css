@@ -78,3 +78,5 @@ footer{display:flex;justify-content:space-between;gap:15px;border-top:1px solid 
 .state-badge.info{background:#e9eef6;border-color:#a9bad6;color:#2f4a78}
 mark.note{background:linear-gradient(transparent 46%,#ffe27a 46%);color:inherit;padding:0 .18em;border-radius:2px;-webkit-box-decoration-break:clone;box-decoration-break:clone}
 del.struck{color:#6f6a5c;text-decoration:line-through;text-decoration-thickness:2px;text-decoration-color:#8a7a45}
+
+.comic-reader{max-width:900px;margin:0 auto}.comic-reader>header{text-align:center;padding:24px}.comic-reader figure{margin:0 0 24px;background:#fff}.comic-reader img{display:block;width:100%;height:auto}.comic-reader figcaption{text-align:center;color:#555;padding:10px;font-size:13px}.comic-reader .chapter-controls{margin:24px 0}

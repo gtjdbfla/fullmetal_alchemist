@@ -4,6 +4,7 @@ import { chapterLabel, normalizeAnalysisSection, normalizeChapterIndex, normaliz
 
 test('navigation accepts reader, character, and administrator workspace views', () => {
   assert.equal(normalizeView('read'), 'read');
+  assert.equal(normalizeView('comic'), 'comic');
   assert.equal(normalizeView('characters'), 'characters');
   assert.equal(normalizeView('analysis'), 'analysis');
   assert.equal(normalizeView('storyline'), 'storyline');
