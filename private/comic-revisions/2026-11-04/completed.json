@@ -1,0 +1,48 @@
+[
+  {
+    "id": "ch05-p04",
+    "chapter": 5,
+    "old": "05-page-04.jpg",
+    "target": "C:/Users/yulmo/.codex/visualizations/2026/11/01/01a19711-b2c6-7a72-a90b-95e894ea0303/comics-02-10/chapter-05/cards/05-page-04.jpg",
+    "prompt": "Use case: illustration-story precise comic edit. Edit this Korean black-and-white comic page, keeping ALL existing Korean text exact, all events, manga style, and characters. Correct speaker identity throughout: blond braided Edward, never Scar, must be the person replying to the young uniformed alchemist '가능한 범위에서. 구조부터 봐.' in the TOP RIGHT panel. Replace the tall white-haired scarred man in THAT panel with Edward (human hands). Scar remains an observer elsewhere, with X scar, white short hair and dark skin. In top left the young alchemist says '아, 죄송합니다.' not Edward: route tail clearly to young man's mouth. Edward says '전직.' and '그냥 에드라고 해.' Reflow crowded panels into a TALL portrait page around 1080x1900, generously spaced large Korean text, clear left-to-right reading. Keep the alchemist performing all glowing experiments; Edward cannot do alchemy. Preserve lower dialogue including Scar's '사과도 하지 마.' Do not change story or invent extra text. Maintain existing page label 4.",
+    "resultPath": "C:\\Users\\yulmo\\.codex\\generated_images\\01a1a1d6-ef60-7310-b4ea-2b9419f23a03\\exec-340390fb-855b-47f1-83a5-abf7ded85e96.png",
+    "status": "verified-and-published"
+  },
+  {
+    "id": "ch08-p08",
+    "chapter": 8,
+    "old": "09-page-08.jpg",
+    "target": "C:/Users/yulmo/.codex/visualizations/2026/11/01/01a19711-b2c6-7a72-a90b-95e894ea0303/comics-02-10/chapter-08/cards/09-page-08.jpg",
+    "prompt": "Use case: precise-object-edit / Korean comic speech balloon correction. Edit only the SECOND ROW RIGHT panel in this manga page. The sentence '네 형이 저 이름을 적어놨고, 옛길도 있어. 확인해야지.' MUST be spoken by EDWARD, the blond braided young man on the RIGHT. Move this balloon nearer Edward and make its tail point clearly to Edward's mouth. The reply '알고 있다.' MUST be spoken by SCAR, dark-skinned large white-haired man on LEFT. Move reply balloon next to Scar with tail clearly pointing to Scar. Preserve ALL other artwork and ALL Korean wording and all panel ordering exactly. No added text, no new story, no extra people. Keep Korean legible and the page format.",
+    "resultPath": "C:\\Users\\yulmo\\.codex\\generated_images\\01a1a1d6-ef60-7310-b4ea-2b9419f23a03\\exec-0b7fe986-3082-4ab0-8c49-aaae5f74e7c9.png",
+    "status": "verified-and-published"
+  },
+  {
+    "id": "ch09-p07",
+    "chapter": 9,
+    "old": "08-page-07.jpg",
+    "target": "C:/Users/yulmo/.codex/visualizations/2026/11/01/01a19711-b2c6-7a72-a90b-95e894ea0303/comics-02-10/chapter-09/cards/08-page-07.jpg",
+    "prompt": "Use case: illustration-story precise identity correction. Edit this comic preserving exact Korean text and all panel layout. The man who operates the Karsa gate in MIDDLE ROW RIGHT and the LOWER LEFT hand close-up must be NADIR, the Karsa elder: around sixty, short white hair, full short WHITE BEARD, no X scar, light shawl over a plain robe, no arm tattoos, no turban (consistent with chapter10 elder). Replace the erroneously white-haired muscular black-shirt Scar in middle right reaching toward wall with Nadir in robe/shawl. Gate-opening hand belongs to Nadir. Scar must stay behind with Edward as a first-time observer; he never operates Karsa technology. Also make the turbaned dark-bearded elder in top row and middle-left into this SAME Nadir: white short hair, white beard, robe/shawl, no turban. Preserve Edward and Scar in other panels. Scar has X scar/dark skin/muscular black shirt/tattoo arms; never confuse him with Nadir. ALL text exact including '따라와라.', '잠깐.', '다시 선이었다.' Page 7, crisp monochrome manga, no added facts.",
+    "resultPath": "C:\\Users\\yulmo\\.codex\\generated_images\\01a1a1d6-ef60-7310-b4ea-2b9419f23a03\\exec-8f93f798-ea16-47b5-8a64-5c7645f84eaf.png",
+    "status": "verified-and-published"
+  },
+  {
+    "id": "ch02-p05",
+    "chapter": 2,
+    "old": "06-page-05.jpg",
+    "target": "C:/Users/yulmo/.codex/visualizations/2026/11/01/01a19711-b2c6-7a72-a90b-95e894ea0303/comics-02-10/chapter-02/cards/06-page-05.jpg",
+    "prompt": "Precise comic edit. Preserve this entire black-and-white Korean comic artwork, panel borders, ALL exact Korean text. ONLY correct SPEECH TAILS in the THIRD horizontal panel (elder on right, Edward on left). Reading order: Edward '빼본 적은?' -> ELDER '없다.' -> EDWARD '왜?' -> ELDER '빼는 것이 아니니까.' The balloon '없다.' must clearly have a tail toward the old man's mouth on RIGHT, not Edward. The small '왜?' must clearly point LEFT to Edward's mouth, NOT elder. Reposition these two balloons if needed to ensure this order. Change NOTHING else. Do not alter faces, scenery or text.",
+    "resultPath": "C:\\Users\\yulmo\\.codex\\generated_images\\01a1a1d6-ef60-7310-b4ea-2b9419f23a03\\exec-8eca9fb8-9c0d-41a4-b994-cf0f695639ef.png",
+    "status": "pending-text-fix",
+    "qaNote": "말풍선 꼬리는 수정되었으나 안 댔어가 안 됐어로 바뀌어 배포 제외. 기존 게시본 유지."
+  },
+  {
+    "id": "ch03-p02",
+    "chapter": 3,
+    "old": "03-page-02.jpg",
+    "target": "C:/Users/yulmo/.codex/visualizations/2026/11/01/01a19711-b2c6-7a72-a90b-95e894ea0303/comics-02-10/chapter-03/cards/03-page-02.jpg",
+    "prompt": "Precise Korean comic edit: keep all art/text/style and white Truth flashback intact. Correct the row IMMEDIATELY BELOW the large white flashback. This gag currently reads backwards. In left-to-right order, SCAR must first say '강철.' then '얼굴이 이상하다.' Only AFTER that, EDWARD responds '원래 이렇게 생겼거든.' Finally SCAR says '그 뜻이 아니다.' Swap positions of the two small portraits/balloons as necessary. Edward has blond braid and black collar; Scar has white hair, X scar, dark skin. ALL quoted text verbatim. All remaining panels and text unchanged. No new facts, no new dialogue. Preserve the full page including bottom religious hypothesis conversation.",
+    "resultPath": "C:\\Users\\yulmo\\.codex\\generated_images\\01a1a1d6-ef60-7310-b4ea-2b9419f23a03\\exec-6167f929-56ea-4b0f-9670-a0113ddff61c.png",
+    "status": "verified-and-published"
+  }
+]
