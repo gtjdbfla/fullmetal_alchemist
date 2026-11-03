@@ -4,6 +4,7 @@ import shutil
 from copy import deepcopy
 from pathlib import Path
 
+from export_comic_reader import export as export_comic_reader
 from export_txt import export as export_txt
 from export_ao3_html import export as export_ao3_html
 from export_joara_txt import export as export_joara_txt
@@ -86,6 +87,7 @@ def main() -> None:
     private_maps = ROOT / "private" / "maps"
     if private_maps.exists():
         shutil.copytree(private_maps, SITE / "maps", dirs_exist_ok=True)
+    export_comic_reader()
     AUTHOR_SITE.mkdir(parents=True, exist_ok=True)
     shutil.copytree(SITE, AUTHOR_SITE, dirs_exist_ok=True)
     public = author

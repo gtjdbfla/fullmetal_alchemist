@@ -164,7 +164,7 @@ function storylinePage() {
 }
 
 function render() {
-  $('#navigation').innerHTML = `<button data-view="comic" class="${view === 'comic' ? 'active' : ''}"><span>漫</span>만화 읽기</button><button data-view="read" class="${view === 'read' ? 'active' : ''}"><span>01</span>글 읽기</button><button data-view="characters" class="${view === 'characters' ? 'active' : ''}"><span>02</span>등장인물</button>${isAuthor() ? `<button data-view="analysis" class="${view === 'analysis' ? 'active' : ''}"><span>03</span>글 분석</button><button data-view="storyline" class="${view === 'storyline' ? 'active' : ''}"><span>04</span>스토리라인</button>` : ''}`;
+  $('#navigation').innerHTML = `<a class="comic-move" href="/east/comics/read/0.html"><span>漫</span>만화 읽기</a><button data-view="read" class="${view === 'read' ? 'active' : ''}"><span>01</span>글 읽기</button><button data-view="characters" class="${view === 'characters' ? 'active' : ''}"><span>02</span>등장인물</button>${isAuthor() ? `<button data-view="analysis" class="${view === 'analysis' ? 'active' : ''}"><span>03</span>글 분석</button><button data-view="storyline" class="${view === 'storyline' ? 'active' : ''}"><span>04</span>스토리라인</button>` : ''}`;
 
   $('#home-brand').href = homeUrl();
   $('#home-link').href = homeUrl();
