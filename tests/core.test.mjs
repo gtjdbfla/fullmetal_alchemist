@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { chapterLabel, normalizeAnalysisSection, normalizeChapterIndex, normalizeView } from '../site/core.mjs';
+import { chapterLabel, normalizeAnalysisSection, normalizeChapterIndex, normalizeView, NAVIGATION, renderNavigation } from '../site/core.mjs';
 
 test('navigation accepts reader, character, and administrator workspace views', () => {
   assert.equal(normalizeView('read'), 'read');
@@ -32,3 +32,13 @@ test('reader falls back to the prologue for invalid chapter choices', () => {
   assert.equal(normalizeChapterIndex('not-a-number', 3), 0);
 });
 
+
+test('all dashboard tabs share one link style and exactly one current state', () => {
+  assert.deepEqual(NAVIGATION.map(item => item.view), ['comic', 'read', 'characters', 'analysis', 'storyline']);
+  for (const item of NAVIGATION) {
+    const html = renderNavigation(item.view);
+    assert.equal((html.match(/class="nav-item/g) || []).length, 5);
+    assert.equal((html.match(/aria-current="page"/g) || []).length, 1);
+    assert.match(html, new RegExp(`href="${item.href.replace(/[?]/g, '\\?')}" class="nav-item active"`));
+  }
+});

@@ -1,0 +1,32 @@
+[
+  {
+    "view": "comic",
+    "label": "만화 읽기",
+    "href": "/east/comics/read/0.html",
+    "number": "01"
+  },
+  {
+    "view": "read",
+    "label": "글 읽기",
+    "href": "/east/?view=read",
+    "number": "02"
+  },
+  {
+    "view": "characters",
+    "label": "등장인물",
+    "href": "/east/?view=characters",
+    "number": "03"
+  },
+  {
+    "view": "analysis",
+    "label": "글 분석",
+    "href": "/east/?view=analysis",
+    "number": "04"
+  },
+  {
+    "view": "storyline",
+    "label": "스토리라인",
+    "href": "/east/?view=storyline",
+    "number": "05"
+  }
+]

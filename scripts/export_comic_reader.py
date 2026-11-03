@@ -3,6 +3,8 @@ from pathlib import Path
 import base64
 import html
 import json
+import re
+from navigation import render_navigation
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -13,8 +15,7 @@ def export():
     css = (site / 'style.css').read_text(encoding='utf-8')
     template = template.replace('<link rel="stylesheet" href="./style.css">', '<style>' + css + '.comic-toc{margin-bottom:24px}.comic-toc summary{cursor:pointer;padding:16px}.comic-reader{max-width:900px}.comic-reader img{height:auto}a.comic-move{padding:12px;border:1px solid #65776b;border-radius:6px;color:inherit;text-decoration:none}</style>')
     template = template.replace('href="./mark.svg"', 'href="/east/mark.svg"').replace('src="./mark.svg"', 'src="/east/mark.svg"')
-    menu = '<a class="comic-move" href="/east/?view=read">글 읽기</a> <a class="comic-move" href="/east/?view=characters">등장인물</a> <a class="comic-move" href="/east/?view=analysis">글 분석</a> <a class="comic-move" href="/east/?view=storyline">스토리라인</a>'
-    template = template.replace('<nav id="navigation" aria-label="대시보드 메뉴"></nav>', '<nav id="navigation" aria-label="대시보드 메뉴"><a class="comic-move" href="/east/comics/read/0.html">만화 읽기</a>' + menu + '</nav>')
+    template = re.sub(r'(<nav id="navigation"[^>]*>).*?(</nav>)', lambda match: match[1] + render_navigation('comic') + match[2], template, flags=re.S)
     template = template.replace('<b id="breadcrumb">글 읽기</b>', '<b id="breadcrumb">만화 읽기</b>')
     template = template.replace('<script type="module" src="./app.js"></script>', '')
     dest = site / 'comics/read'

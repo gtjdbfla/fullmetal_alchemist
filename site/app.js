@@ -1,4 +1,4 @@
-import { chapterLabel, normalizeChapterIndex, normalizeView } from './core.mjs';
+import { chapterLabel, normalizeChapterIndex, normalizeView, renderNavigation } from './core.mjs';
 
 const $ = selector => document.querySelector(selector);
 const esc = value => String(value ?? '').replace(/[&<>'"]/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[char]));
@@ -164,7 +164,7 @@ function storylinePage() {
 }
 
 function render() {
-  $('#navigation').innerHTML = `<a class="comic-move" href="/east/comics/read/0.html"><span>漫</span>만화 읽기</a><button data-view="read" class="${view === 'read' ? 'active' : ''}"><span>01</span>글 읽기</button><button data-view="characters" class="${view === 'characters' ? 'active' : ''}"><span>02</span>등장인물</button>${isAuthor() ? `<button data-view="analysis" class="${view === 'analysis' ? 'active' : ''}"><span>03</span>글 분석</button><button data-view="storyline" class="${view === 'storyline' ? 'active' : ''}"><span>04</span>스토리라인</button>` : ''}`;
+  $('#navigation').innerHTML = renderNavigation(view);
 
   $('#home-brand').href = homeUrl();
   $('#home-link').href = homeUrl();
@@ -172,7 +172,8 @@ function render() {
   $('#mode-badge').textContent = 'AUTHOR';
   $('#breadcrumb').textContent = view === 'comic' ? '만화 읽기' : view === 'read' ? '글 읽기' : view === 'characters' ? '등장인물' : view === 'analysis' ? '글 분석 / 회차별 검토' : '스토리라인 / 전체 진행';
   $('#main').innerHTML = view === 'comic' ? comicPage() : view === 'read' ? readPage() : view === 'characters' ? charactersPage() : view === 'analysis' ? reviewPage() : storylinePage();
-  document.querySelectorAll('[data-view]').forEach(button => button.onclick = () => {
+  document.querySelectorAll('[data-view]').forEach(button => button.onclick = event => {
+    event?.preventDefault();
     void selectView(button.dataset.view);
   });
   document.querySelectorAll('[data-comic]').forEach(button => button.onclick = () => {
