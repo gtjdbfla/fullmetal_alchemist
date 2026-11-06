@@ -2336,5 +2336,558 @@
         "small": "comics/28/09-page-08-5164d5e3ab02-720.webp"
       }
     ]
+  },
+  {
+    "number": 29,
+    "episode": "29화",
+    "title": "총통을 움직이는 법",
+    "pages": [
+      {
+        "src": "comics/29/01-cover-e090e058750e-1080.webp",
+        "label": "표지",
+        "original": "comics/29/01-cover.jpg",
+        "width": 1080,
+        "height": 1350,
+        "small": "comics/29/01-cover-e090e058750e-720.webp"
+      },
+      {
+        "src": "comics/29/02-page-01-271538fd8e17-1080.webp",
+        "label": "제29화 · 본문 1쪽",
+        "original": "comics/29/02-page-01.jpg",
+        "width": 1080,
+        "height": 1350,
+        "small": "comics/29/02-page-01-271538fd8e17-720.webp"
+      },
+      {
+        "src": "comics/29/03-page-02-1148a569218f-1080.webp",
+        "label": "제29화 · 본문 2쪽",
+        "original": "comics/29/03-page-02.jpg",
+        "width": 1080,
+        "height": 1350,
+        "small": "comics/29/03-page-02-1148a569218f-720.webp"
+      },
+      {
+        "src": "comics/29/04-page-03-62c8f68579fc-1080.webp",
+        "label": "제29화 · 본문 3쪽",
+        "original": "comics/29/04-page-03.jpg",
+        "width": 1080,
+        "height": 1350,
+        "small": "comics/29/04-page-03-62c8f68579fc-720.webp"
+      },
+      {
+        "src": "comics/29/05-page-04-948b13b81819-1080.webp",
+        "label": "제29화 · 본문 4쪽",
+        "original": "comics/29/05-page-04.jpg",
+        "width": 1080,
+        "height": 1350,
+        "small": "comics/29/05-page-04-948b13b81819-720.webp"
+      },
+      {
+        "src": "comics/29/06-page-05-645c5d831f57-1080.webp",
+        "label": "제29화 · 본문 5쪽",
+        "original": "comics/29/06-page-05.jpg",
+        "width": 1080,
+        "height": 1350,
+        "small": "comics/29/06-page-05-645c5d831f57-720.webp"
+      },
+      {
+        "src": "comics/29/07-page-06-b596e5c4df0c-1080.webp",
+        "label": "제29화 · 본문 6쪽",
+        "original": "comics/29/07-page-06.jpg",
+        "width": 1080,
+        "height": 1350,
+        "small": "comics/29/07-page-06-b596e5c4df0c-720.webp"
+      },
+      {
+        "src": "comics/29/08-page-07-a786e46e2c82-1080.webp",
+        "label": "제29화 · 본문 7쪽",
+        "original": "comics/29/08-page-07.jpg",
+        "width": 1080,
+        "height": 1350,
+        "small": "comics/29/08-page-07-a786e46e2c82-720.webp"
+      },
+      {
+        "src": "comics/29/09-page-08-a97a46f5dae0-1080.webp",
+        "label": "제29화 · 본문 8쪽",
+        "original": "comics/29/09-page-08.jpg",
+        "width": 1080,
+        "height": 1350,
+        "small": "comics/29/09-page-08-a97a46f5dae0-720.webp"
+      }
+    ]
+  },
+  {
+    "number": 30,
+    "episode": "30화",
+    "title": "바이족의 아들",
+    "pages": [
+      {
+        "src": "comics/30/01-cover-8fd96b3ebc80-1080.webp",
+        "label": "표지",
+        "original": "comics/30/01-cover.jpg",
+        "width": 1080,
+        "height": 1350,
+        "small": "comics/30/01-cover-8fd96b3ebc80-720.webp"
+      },
+      {
+        "src": "comics/30/02-page-01-f504b0c464ad-1080.webp",
+        "label": "제30화 · 본문 1쪽",
+        "original": "comics/30/02-page-01.jpg",
+        "width": 1080,
+        "height": 1350,
+        "small": "comics/30/02-page-01-f504b0c464ad-720.webp"
+      },
+      {
+        "src": "comics/30/03-page-02-c5d779077817-1080.webp",
+        "label": "제30화 · 본문 2쪽",
+        "original": "comics/30/03-page-02.jpg",
+        "width": 1080,
+        "height": 1350,
+        "small": "comics/30/03-page-02-c5d779077817-720.webp"
+      },
+      {
+        "src": "comics/30/04-page-03-7d123483eb57-1080.webp",
+        "label": "제30화 · 본문 3쪽",
+        "original": "comics/30/04-page-03.jpg",
+        "width": 1080,
+        "height": 1350,
+        "small": "comics/30/04-page-03-7d123483eb57-720.webp"
+      },
+      {
+        "src": "comics/30/05-page-04-190937f56a55-1080.webp",
+        "label": "제30화 · 본문 4쪽",
+        "original": "comics/30/05-page-04.jpg",
+        "width": 1080,
+        "height": 1350,
+        "small": "comics/30/05-page-04-190937f56a55-720.webp"
+      },
+      {
+        "src": "comics/30/06-page-05-819ad75754fe-1080.webp",
+        "label": "제30화 · 본문 5쪽",
+        "original": "comics/30/06-page-05.jpg",
+        "width": 1080,
+        "height": 1350,
+        "small": "comics/30/06-page-05-819ad75754fe-720.webp"
+      },
+      {
+        "src": "comics/30/07-page-06-ee4ecb8935c4-1080.webp",
+        "label": "제30화 · 본문 6쪽",
+        "original": "comics/30/07-page-06.jpg",
+        "width": 1080,
+        "height": 1350,
+        "small": "comics/30/07-page-06-ee4ecb8935c4-720.webp"
+      },
+      {
+        "src": "comics/30/08-page-07-25a0800bb4bf-1080.webp",
+        "label": "제30화 · 본문 7쪽",
+        "original": "comics/30/08-page-07.jpg",
+        "width": 1080,
+        "height": 1350,
+        "small": "comics/30/08-page-07-25a0800bb4bf-720.webp"
+      },
+      {
+        "src": "comics/30/09-page-08-a96afe72b17b-1080.webp",
+        "label": "제30화 · 본문 8쪽",
+        "original": "comics/30/09-page-08.jpg",
+        "width": 1080,
+        "height": 1350,
+        "small": "comics/30/09-page-08-a96afe72b17b-720.webp"
+      }
+    ]
+  },
+  {
+    "number": 31,
+    "episode": "31화",
+    "title": "세 번의 총성",
+    "pages": [
+      {
+        "src": "comics/31/01-cover-7bc0049dcb8e-1080.webp",
+        "label": "표지",
+        "original": "comics/31/01-cover.jpg",
+        "width": 1080,
+        "height": 1350,
+        "small": "comics/31/01-cover-7bc0049dcb8e-720.webp"
+      },
+      {
+        "src": "comics/31/02-page-01-93bb73b1892a-1080.webp",
+        "label": "제31화 · 본문 1쪽",
+        "original": "comics/31/02-page-01.jpg",
+        "width": 1080,
+        "height": 1350,
+        "small": "comics/31/02-page-01-93bb73b1892a-720.webp"
+      },
+      {
+        "src": "comics/31/03-page-02-8a4c49e82a7e-1080.webp",
+        "label": "제31화 · 본문 2쪽",
+        "original": "comics/31/03-page-02.jpg",
+        "width": 1080,
+        "height": 1350,
+        "small": "comics/31/03-page-02-8a4c49e82a7e-720.webp"
+      },
+      {
+        "src": "comics/31/04-page-03-0fbda9edc162-1080.webp",
+        "label": "제31화 · 본문 3쪽",
+        "original": "comics/31/04-page-03.jpg",
+        "width": 1080,
+        "height": 1350,
+        "small": "comics/31/04-page-03-0fbda9edc162-720.webp"
+      },
+      {
+        "src": "comics/31/05-page-04-a8ec44b8aab3-1080.webp",
+        "label": "제31화 · 본문 4쪽",
+        "original": "comics/31/05-page-04.jpg",
+        "width": 1080,
+        "height": 1350,
+        "small": "comics/31/05-page-04-a8ec44b8aab3-720.webp"
+      },
+      {
+        "src": "comics/31/06-page-05-e1cbab411c1f-1080.webp",
+        "label": "제31화 · 본문 5쪽",
+        "original": "comics/31/06-page-05.jpg",
+        "width": 1080,
+        "height": 1350,
+        "small": "comics/31/06-page-05-e1cbab411c1f-720.webp"
+      },
+      {
+        "src": "comics/31/07-page-06-04f2311fd610-1080.webp",
+        "label": "제31화 · 본문 6쪽",
+        "original": "comics/31/07-page-06.jpg",
+        "width": 1080,
+        "height": 1350,
+        "small": "comics/31/07-page-06-04f2311fd610-720.webp"
+      },
+      {
+        "src": "comics/31/08-page-07-ca75f319d903-1080.webp",
+        "label": "제31화 · 본문 7쪽",
+        "original": "comics/31/08-page-07.jpg",
+        "width": 1080,
+        "height": 1350,
+        "small": "comics/31/08-page-07-ca75f319d903-720.webp"
+      },
+      {
+        "src": "comics/31/09-page-08-478fda47fb86-1080.webp",
+        "label": "제31화 · 본문 8쪽",
+        "original": "comics/31/09-page-08.jpg",
+        "width": 1080,
+        "height": 1350,
+        "small": "comics/31/09-page-08-478fda47fb86-720.webp"
+      }
+    ]
+  },
+  {
+    "number": 32,
+    "episode": "32화",
+    "title": "다시 시작한 전쟁",
+    "pages": [
+      {
+        "src": "comics/32/01-cover-9a5970a20479-1080.webp",
+        "label": "표지",
+        "original": "comics/32/01-cover.jpg",
+        "width": 1080,
+        "height": 1350,
+        "small": "comics/32/01-cover-9a5970a20479-720.webp"
+      },
+      {
+        "src": "comics/32/02-page-01-a4bb73ce9fac-1080.webp",
+        "label": "제32화 · 본문 1쪽",
+        "original": "comics/32/02-page-01.jpg",
+        "width": 1080,
+        "height": 1350,
+        "small": "comics/32/02-page-01-a4bb73ce9fac-720.webp"
+      },
+      {
+        "src": "comics/32/03-page-02-a941bf7aaef0-1080.webp",
+        "label": "제32화 · 본문 2쪽",
+        "original": "comics/32/03-page-02.jpg",
+        "width": 1080,
+        "height": 1350,
+        "small": "comics/32/03-page-02-a941bf7aaef0-720.webp"
+      },
+      {
+        "src": "comics/32/04-page-03-1ccaf1f2625d-1080.webp",
+        "label": "제32화 · 본문 3쪽",
+        "original": "comics/32/04-page-03.jpg",
+        "width": 1080,
+        "height": 1350,
+        "small": "comics/32/04-page-03-1ccaf1f2625d-720.webp"
+      },
+      {
+        "src": "comics/32/05-page-04-c4d9535c995c-1080.webp",
+        "label": "제32화 · 본문 4쪽",
+        "original": "comics/32/05-page-04.jpg",
+        "width": 1080,
+        "height": 1350,
+        "small": "comics/32/05-page-04-c4d9535c995c-720.webp"
+      },
+      {
+        "src": "comics/32/06-page-05-c049bca69f57-1080.webp",
+        "label": "제32화 · 본문 5쪽",
+        "original": "comics/32/06-page-05.jpg",
+        "width": 1080,
+        "height": 1350,
+        "small": "comics/32/06-page-05-c049bca69f57-720.webp"
+      },
+      {
+        "src": "comics/32/07-page-06-7d079d670ad9-1080.webp",
+        "label": "제32화 · 본문 6쪽",
+        "original": "comics/32/07-page-06.jpg",
+        "width": 1080,
+        "height": 1350,
+        "small": "comics/32/07-page-06-7d079d670ad9-720.webp"
+      },
+      {
+        "src": "comics/32/08-page-07-ecae902332f8-1080.webp",
+        "label": "제32화 · 본문 7쪽",
+        "original": "comics/32/08-page-07.jpg",
+        "width": 1080,
+        "height": 1350,
+        "small": "comics/32/08-page-07-ecae902332f8-720.webp"
+      },
+      {
+        "src": "comics/32/09-page-08-c4dc4ea77b14-1080.webp",
+        "label": "제32화 · 본문 8쪽",
+        "original": "comics/32/09-page-08.jpg",
+        "width": 1080,
+        "height": 1350,
+        "small": "comics/32/09-page-08-c4dc4ea77b14-720.webp"
+      }
+    ]
+  },
+  {
+    "number": 33,
+    "episode": "33화",
+    "title": "황제가 아닌 사람",
+    "pages": [
+      {
+        "src": "comics/33/01-cover-6ebeb6697ccd-1080.webp",
+        "label": "표지",
+        "original": "comics/33/01-cover.jpg",
+        "width": 1080,
+        "height": 1350,
+        "small": "comics/33/01-cover-6ebeb6697ccd-720.webp"
+      },
+      {
+        "src": "comics/33/02-page-01-923059538e52-1080.webp",
+        "label": "제33화 · 본문 1쪽",
+        "original": "comics/33/02-page-01.jpg",
+        "width": 1080,
+        "height": 1350,
+        "small": "comics/33/02-page-01-923059538e52-720.webp"
+      },
+      {
+        "src": "comics/33/03-page-02-e74d0d6d8ebf-1080.webp",
+        "label": "제33화 · 본문 2쪽",
+        "original": "comics/33/03-page-02.jpg",
+        "width": 1080,
+        "height": 1350,
+        "small": "comics/33/03-page-02-e74d0d6d8ebf-720.webp"
+      },
+      {
+        "src": "comics/33/04-page-03-4317b21f3f55-1080.webp",
+        "label": "제33화 · 본문 3쪽",
+        "original": "comics/33/04-page-03.jpg",
+        "width": 1080,
+        "height": 1350,
+        "small": "comics/33/04-page-03-4317b21f3f55-720.webp"
+      },
+      {
+        "src": "comics/33/05-page-04-e25247f9e10c-1080.webp",
+        "label": "제33화 · 본문 4쪽",
+        "original": "comics/33/05-page-04.jpg",
+        "width": 1080,
+        "height": 1350,
+        "small": "comics/33/05-page-04-e25247f9e10c-720.webp"
+      },
+      {
+        "src": "comics/33/06-page-05-fd8f6df93781-1080.webp",
+        "label": "제33화 · 본문 5쪽",
+        "original": "comics/33/06-page-05.jpg",
+        "width": 1080,
+        "height": 1350,
+        "small": "comics/33/06-page-05-fd8f6df93781-720.webp"
+      },
+      {
+        "src": "comics/33/07-page-06-c050e498f06b-1080.webp",
+        "label": "제33화 · 본문 6쪽",
+        "original": "comics/33/07-page-06.jpg",
+        "width": 1080,
+        "height": 1350,
+        "small": "comics/33/07-page-06-c050e498f06b-720.webp"
+      },
+      {
+        "src": "comics/33/08-page-07-af2d89eb5e1c-1080.webp",
+        "label": "제33화 · 본문 7쪽",
+        "original": "comics/33/08-page-07.jpg",
+        "width": 1080,
+        "height": 1350,
+        "small": "comics/33/08-page-07-af2d89eb5e1c-720.webp"
+      },
+      {
+        "src": "comics/33/09-page-08-de0d9876b344-1080.webp",
+        "label": "제33화 · 본문 8쪽",
+        "original": "comics/33/09-page-08.jpg",
+        "width": 1080,
+        "height": 1350,
+        "small": "comics/33/09-page-08-de0d9876b344-720.webp"
+      }
+    ]
+  },
+  {
+    "number": 34,
+    "episode": "34화",
+    "title": "한 사람",
+    "pages": [
+      {
+        "src": "comics/34/01-cover-87a2543f4dd9-1080.webp",
+        "label": "표지",
+        "original": "comics/34/01-cover.jpg",
+        "width": 1080,
+        "height": 1350,
+        "small": "comics/34/01-cover-87a2543f4dd9-720.webp"
+      },
+      {
+        "src": "comics/34/02-page-01-3d3bb47cf2c3-1080.webp",
+        "label": "제34화 · 본문 1쪽",
+        "original": "comics/34/02-page-01.jpg",
+        "width": 1080,
+        "height": 1350,
+        "small": "comics/34/02-page-01-3d3bb47cf2c3-720.webp"
+      },
+      {
+        "src": "comics/34/03-page-02-fc2b87624dcd-1080.webp",
+        "label": "제34화 · 본문 2쪽",
+        "original": "comics/34/03-page-02.jpg",
+        "width": 1080,
+        "height": 1350,
+        "small": "comics/34/03-page-02-fc2b87624dcd-720.webp"
+      },
+      {
+        "src": "comics/34/04-page-03-c506b7728aad-1080.webp",
+        "label": "제34화 · 본문 3쪽",
+        "original": "comics/34/04-page-03.jpg",
+        "width": 1080,
+        "height": 1350,
+        "small": "comics/34/04-page-03-c506b7728aad-720.webp"
+      },
+      {
+        "src": "comics/34/05-page-04-377594baeae4-1080.webp",
+        "label": "제34화 · 본문 4쪽",
+        "original": "comics/34/05-page-04.jpg",
+        "width": 1080,
+        "height": 1350,
+        "small": "comics/34/05-page-04-377594baeae4-720.webp"
+      },
+      {
+        "src": "comics/34/06-page-05-27fae94d1af7-1080.webp",
+        "label": "제34화 · 본문 5쪽",
+        "original": "comics/34/06-page-05.jpg",
+        "width": 1080,
+        "height": 1350,
+        "small": "comics/34/06-page-05-27fae94d1af7-720.webp"
+      },
+      {
+        "src": "comics/34/07-page-06-11851c4e89b2-1080.webp",
+        "label": "제34화 · 본문 6쪽",
+        "original": "comics/34/07-page-06.jpg",
+        "width": 1080,
+        "height": 1350,
+        "small": "comics/34/07-page-06-11851c4e89b2-720.webp"
+      },
+      {
+        "src": "comics/34/08-page-07-7685f0c2e92a-1080.webp",
+        "label": "제34화 · 본문 7쪽",
+        "original": "comics/34/08-page-07.jpg",
+        "width": 1080,
+        "height": 1350,
+        "small": "comics/34/08-page-07-7685f0c2e92a-720.webp"
+      },
+      {
+        "src": "comics/34/09-page-08-4b4e46e8744b-1080.webp",
+        "label": "제34화 · 본문 8쪽",
+        "original": "comics/34/09-page-08.jpg",
+        "width": 1080,
+        "height": 1350,
+        "small": "comics/34/09-page-08-4b4e46e8744b-720.webp"
+      }
+    ]
+  },
+  {
+    "number": 35,
+    "episode": "35화",
+    "title": "칼을 드는 이유",
+    "pages": [
+      {
+        "src": "comics/35/01-cover-5f78d5ef0e1b-1080.webp",
+        "label": "표지",
+        "original": "comics/35/01-cover.jpg",
+        "width": 1080,
+        "height": 1350,
+        "small": "comics/35/01-cover-5f78d5ef0e1b-720.webp"
+      },
+      {
+        "src": "comics/35/02-page-01-b4864b8c757e-1080.webp",
+        "label": "제35화 · 본문 1쪽",
+        "original": "comics/35/02-page-01.jpg",
+        "width": 1080,
+        "height": 1350,
+        "small": "comics/35/02-page-01-b4864b8c757e-720.webp"
+      },
+      {
+        "src": "comics/35/03-page-02-34fecb997faf-1080.webp",
+        "label": "제35화 · 본문 2쪽",
+        "original": "comics/35/03-page-02.jpg",
+        "width": 1080,
+        "height": 1350,
+        "small": "comics/35/03-page-02-34fecb997faf-720.webp"
+      },
+      {
+        "src": "comics/35/04-page-03-758e666a15aa-1080.webp",
+        "label": "제35화 · 본문 3쪽",
+        "original": "comics/35/04-page-03.jpg",
+        "width": 1080,
+        "height": 1350,
+        "small": "comics/35/04-page-03-758e666a15aa-720.webp"
+      },
+      {
+        "src": "comics/35/05-page-04-33df49269657-1080.webp",
+        "label": "제35화 · 본문 4쪽",
+        "original": "comics/35/05-page-04.jpg",
+        "width": 1080,
+        "height": 1350,
+        "small": "comics/35/05-page-04-33df49269657-720.webp"
+      },
+      {
+        "src": "comics/35/06-page-05-b5c868efb07e-1080.webp",
+        "label": "제35화 · 본문 5쪽",
+        "original": "comics/35/06-page-05.jpg",
+        "width": 1080,
+        "height": 1350,
+        "small": "comics/35/06-page-05-b5c868efb07e-720.webp"
+      },
+      {
+        "src": "comics/35/07-page-06-8fa8b4d2ca3f-1080.webp",
+        "label": "제35화 · 본문 6쪽",
+        "original": "comics/35/07-page-06.jpg",
+        "width": 1080,
+        "height": 1350,
+        "small": "comics/35/07-page-06-8fa8b4d2ca3f-720.webp"
+      },
+      {
+        "src": "comics/35/08-page-07-cd3fcc4ec4f6-1080.webp",
+        "label": "제35화 · 본문 7쪽",
+        "original": "comics/35/08-page-07.jpg",
+        "width": 1080,
+        "height": 1350,
+        "small": "comics/35/08-page-07-cd3fcc4ec4f6-720.webp"
+      },
+      {
+        "src": "comics/35/09-page-08-b76d52dc62b2-1080.webp",
+        "label": "제35화 · 본문 8쪽",
+        "original": "comics/35/09-page-08.jpg",
+        "width": 1080,
+        "height": 1350,
+        "small": "comics/35/09-page-08-b76d52dc62b2-720.webp"
+      }
+    ]
   }
 ]
