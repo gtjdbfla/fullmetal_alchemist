@@ -1,0 +1,222 @@
+[
+  {
+    "chapter": 29,
+    "index": 0,
+    "label": "표지",
+    "previous": "comics/29/01-cover.jpg",
+    "original": "comics/29/01-cover-cast-20261106.jpg",
+    "png": "29-00.png",
+    "prompt": "Edit image 1, a published black-and-white manga cover. Images 2,3,4 are authoritative character-tab portraits for Miles, Graus, Bark respectively. Miles is the standing officer at left with dark glasses, Graus is seated in the foreground, Bark stands at right holding a folder. Correct only those three heads and visible exposed skin tones to match the portraits rendered in grayscale. Miles: very pale gray swept short hair, dark tan skin (clear medium-dark gray in monochrome), angular clean-shaven face, visible eyes with no glasses. Graus: short medium brown hair rendered medium-dark, mid-thirties, recognizable long scar on his own left cheek, not an elderly silver-haired man. Bark: young, short light blond hair and fair skin. Keep their positions, proportions, poses, expressions and uniforms. Preserve other characters, architecture and all print EXACTLY: '연금술을 못 쓰는 연금술사', '제29화', '총통을 움직이는 법', and footer '제29화 · 총통을 움직이는 법'. Keep full portrait framing with whitespace, no new lettering or extra characters. Match the original monochrome inking.",
+    "qa": "원본과 대조해 인물 외형, 글자와 장면 구성 확인",
+    "tool": "built-in image_gen"
+  },
+  {
+    "chapter": 31,
+    "index": 0,
+    "label": "표지",
+    "previous": "comics/31/01-cover.jpg",
+    "original": "comics/31/01-cover-cast-20261106.jpg",
+    "png": "31-00.png",
+    "prompt": "Edit image 1, a published black-and-white manga cover. Images 2,3,4 are authoritative character-tab portraits for Miles, Graus, Bark respectively. Miles is the foreground officer holding a report and touching his hair, Graus is the large officer in the upper left, Bark is the middle officer facing right and downward. Correct only those three heads and visible exposed skin tones to match the portraits rendered in grayscale. Miles: very pale gray swept short hair, dark tan skin (clear medium-dark gray in monochrome), angular clean-shaven face, visible eyes with no glasses. Graus: short medium brown hair rendered medium-dark, mid-thirties, recognizable long scar on his own left cheek, not an elderly silver-haired man. Bark: young, short light blond hair and fair skin. Keep their positions, proportions, poses, expressions and uniforms. Preserve other characters, architecture and all print EXACTLY: '연금술을 못 쓰는 연금술사', '제31화', '세 번의 총성', and footer '제31화 · 세 번의 총성'. Keep full portrait framing with whitespace, no new lettering or extra characters. Match the original monochrome inking.",
+    "qa": "원본과 대조해 인물 외형, 글자와 장면 구성 확인",
+    "tool": "built-in image_gen"
+  },
+  {
+    "chapter": 32,
+    "index": 0,
+    "label": "표지",
+    "previous": "comics/32/01-cover.jpg",
+    "original": "comics/32/01-cover-cast-20261106.jpg",
+    "png": "32-00.png",
+    "prompt": "Edit image 1, a published black-and-white manga cover. Images 2,3,4 are authoritative character-tab portraits for Miles, Graus, Bark respectively. Miles is the dark glasses officer at middle left, Graus is the high central officer, Bark is the young officer at middle right. Keep the foreground black-haired Mustang and lower-left blonde Hawkeye unchanged. Correct only those three heads and visible exposed skin tones to match the portraits rendered in grayscale. Miles: very pale gray swept short hair, dark tan skin (clear medium-dark gray in monochrome), angular clean-shaven face, visible eyes with no glasses. Graus: short medium brown hair rendered medium-dark, mid-thirties, recognizable long scar on his own left cheek, not an elderly silver-haired man. Bark: young, short light blond hair and fair skin. Keep their positions, proportions, poses, expressions and uniforms. Preserve other characters, architecture and all print EXACTLY: '연금술을 못 쓰는 연금술사', '제32화', '다시 시작한 전쟁', and footer '제32화 · 다시 시작한 전쟁'. Keep full portrait framing with whitespace, no new lettering or extra characters. Match the original monochrome inking.",
+    "qa": "원본과 대조해 인물 외형, 글자와 장면 구성 확인",
+    "tool": "built-in image_gen"
+  },
+  {
+    "chapter": 34,
+    "index": 0,
+    "label": "표지",
+    "previous": "comics/34/01-cover.jpg",
+    "original": "comics/34/01-cover-cast-20261106.jpg",
+    "png": "34-00.png",
+    "prompt": "Edit image 1, a published black-and-white manga cover. Images 2,3,4 are authoritative character-tab portraits for Miles, Graus, Bark respectively. Miles is the left-middle officer with dark glasses, Graus is top-left, Bark is upper-middle behind Mustang. Keep foreground Mustang, lower-left Hawkeye and right-side Scar with X forehead scar unchanged. Correct only those three heads and visible exposed skin tones to match the portraits rendered in grayscale. Miles: very pale gray swept short hair, dark tan skin (clear medium-dark gray in monochrome), angular clean-shaven face, visible eyes with no glasses. Graus: short medium brown hair rendered medium-dark, mid-thirties, recognizable long scar on his own left cheek, not an elderly silver-haired man. Bark: young, short light blond hair and fair skin. Keep their positions, proportions, poses, expressions and uniforms. Preserve other characters, architecture and all print EXACTLY: '연금술을 못 쓰는 연금술사', '제34화', '한 사람', and footer '제34화 · 한 사람'. Keep full portrait framing with whitespace, no new lettering or extra characters. Match the original monochrome inking.",
+    "qa": "원본과 대조해 인물 외형, 글자와 장면 구성 확인",
+    "tool": "built-in image_gen"
+  },
+  {
+    "chapter": 10,
+    "index": 0,
+    "label": "표지",
+    "previous": "comics/10/01-cover.jpg",
+    "original": "comics/10/01-cover-cast-20261106.jpg",
+    "png": "10-00.png",
+    "prompt": "Edit image 1, the published Korean manga cover. Images after it are character-tab references in order sahara, nadir. Center woman Sahara: match reference 2's long loosely gathered straight black hair, dark tan face, hoop earrings and stacked collar jewelry, with subtle age-50 features. Older man at rear right is Nadir: shoulder-length wavy gray hair, short beard, tanned skin, weathered 60-year-old face like reference 3. Keep Scar and Edward exactly. Preserve grayscale, original illustration style, all Korean print including bottom caption verbatim, layout, background and margins. Keep the full cover intact with no cropping.",
+    "qa": "원본과 대조해 인물 외형, 글자와 장면 구성 확인",
+    "tool": "built-in image_gen"
+  },
+  {
+    "chapter": 11,
+    "index": 0,
+    "label": "표지",
+    "previous": "comics/11/01-cover.jpg",
+    "original": "comics/11/01-cover-cast-20261106.jpg",
+    "png": "11-00.png",
+    "prompt": "Edit image 1, the published Korean manga cover. Images after it are character-tab references in order sahara. Only the woman in center right is Sahara. Match reference 2: long loosely gathered black hair falling behind shoulders, dark tan skin, almond-shaped eyes, hoop earrings and stacked neck rings, age about fifty. Preserve her gentle smile, outfit pose and angle; keep Scar and Edward. Preserve grayscale, original illustration style, all Korean print including bottom caption verbatim, layout, background and margins. Keep the full cover intact with no cropping.",
+    "qa": "원본과 대조해 인물 외형, 글자와 장면 구성 확인",
+    "tool": "built-in image_gen"
+  },
+  {
+    "chapter": 12,
+    "index": 0,
+    "label": "표지",
+    "previous": "comics/12/01-cover.jpg",
+    "original": "comics/12/01-cover-cast-20261106.jpg",
+    "png": "12-00.png",
+    "prompt": "Edit image 1, the published Korean manga cover. Images after it are character-tab references in order sahara. Only the woman seated at right is Sahara. Match reference 2: long loosely gathered black hair falling behind shoulders, dark tan skin, almond-shaped eyes, hoop earrings and stacked neck rings, age about fifty. Preserve her gentle smile and pose; keep Scar and Edward. Preserve grayscale, original illustration style, all Korean print including bottom caption verbatim, layout, background and margins. Keep the full cover intact with no cropping.",
+    "qa": "원본과 대조해 인물 외형, 글자와 장면 구성 확인",
+    "tool": "built-in image_gen"
+  },
+  {
+    "chapter": 16,
+    "index": 0,
+    "label": "표지",
+    "previous": "comics/16/01-cover.jpg",
+    "original": "comics/16/01-cover-cast-20261106.jpg",
+    "png": "16-00.png",
+    "prompt": "Edit image 1, the published Korean manga cover. Images after it are character-tab references in order purong. Only the curly-haired man at right is Purong. Match reference 2: rounder approachable forty-year-old clean-shaven face, black cloth cap, and warm amused smile, keep two rings and his long patterned robe. Preserve Edward exactly. Preserve grayscale, original illustration style, all Korean print including bottom caption verbatim, layout, background and margins. Keep the full cover intact with no cropping.",
+    "qa": "원본과 대조해 인물 외형, 글자와 장면 구성 확인",
+    "tool": "built-in image_gen"
+  },
+  {
+    "chapter": 17,
+    "index": 0,
+    "label": "표지",
+    "previous": "comics/17/01-cover.jpg",
+    "original": "comics/17/01-cover-cast-20261106.jpg",
+    "png": "17-00.png",
+    "prompt": "Edit image 1, the published Korean manga cover. Images after it are character-tab references in order miles. Only foreground officer with dark glasses is Miles. Match reference 2: short swept pale silver hair, dark tan skin (clear medium-dark gray in grayscale) on face and hands, angular clean-shaven face, visible eyes without glasses. Keep all others exactly. Preserve grayscale, original illustration style, all Korean print including bottom caption verbatim, layout, background and margins. Keep the full cover intact with no cropping.",
+    "qa": "원본과 대조해 인물 외형, 글자와 장면 구성 확인",
+    "tool": "built-in image_gen"
+  },
+  {
+    "chapter": 18,
+    "index": 0,
+    "label": "표지",
+    "previous": "comics/18/01-cover.jpg",
+    "original": "comics/18/01-cover-cast-20261106.jpg",
+    "png": "18-00.png",
+    "prompt": "Edit image 1, the published Korean manga cover. Images after it are character-tab references in order miles, graus. Foreground bespectacled officer is Miles: match reference 2's light swept gray hair, dark tan skin on face and hands, angular clean-shaven face without glasses. Giant profile at upper left is Graus: short brown hair rendered medium dark, age mid-thirties, recognizable long scar on his own left cheek. Keep others, maps, uniforms and insignia exactly. Preserve grayscale, original illustration style, all Korean print including bottom caption verbatim, layout, background and margins. Keep the full cover intact with no cropping.",
+    "qa": "원본과 대조해 인물 외형, 글자와 장면 구성 확인",
+    "tool": "built-in image_gen"
+  },
+  {
+    "chapter": 25,
+    "index": 0,
+    "label": "표지",
+    "previous": "comics/25/01-cover.jpg",
+    "original": "comics/25/01-cover-cast-20261106.jpg",
+    "png": "25-00.png",
+    "prompt": "Edit image 1, the published Korean manga cover. Images after it are character-tab references in order kairun, lanfan. Only change the fallen person lower right (Kairun) to short tousled light silver-gray hair as in reference 2; keep his face concealed, body position and ankle mark EXACT. The guard standing behind Edward at middle-right (Lan Fan) gets a straight short black bob with no ponytail and black face mask lowered around her neck as in reference 3. Keep others including upper-left observers. Preserve grayscale, original illustration style, all Korean print including bottom caption verbatim, layout, background and margins. Keep the full cover intact with no cropping.",
+    "qa": "원본과 대조해 인물 외형, 글자와 장면 구성 확인",
+    "tool": "built-in image_gen"
+  },
+  {
+    "chapter": 27,
+    "index": 0,
+    "label": "표지",
+    "previous": "comics/27/01-cover.jpg",
+    "original": "comics/27/01-cover-cast-20261106.jpg",
+    "png": "27-00.png",
+    "prompt": "Edit image 1, the published Korean manga cover. Images after it are character-tab references in order purong, luhan. The lower-right curly-haired goateed man is Purong: match reference 2 clean-shaven rounded face, dark cloth cap, two rings, long patterned robe. The young topknotted man behind Edward is Luhan: match reference 3's hanging straight black fringe and tailored dark gold-trim robe. Preserve other people exactly. Preserve grayscale, original illustration style, all Korean print including bottom caption verbatim, layout, background and margins. Keep the full cover intact with no cropping.",
+    "qa": "원본과 대조해 인물 외형, 글자와 장면 구성 확인",
+    "tool": "built-in image_gen"
+  },
+  {
+    "chapter": 30,
+    "index": 0,
+    "label": "표지",
+    "previous": "comics/30/01-cover.jpg",
+    "original": "comics/30/01-cover-cast-20261106.jpg",
+    "png": "30-00.png",
+    "prompt": "Edit image 1, the published Korean manga cover. Images after it are character-tab references in order luhan, lanfan. The kneeling young man in foreground is Luhan: match reference 2, straight hanging black fringe, dark embroidered gold-trim robe in gray, no high topknot. The guard on right is Lan Fan: short straight black bob without ponytail, black mask around neck, match reference 3. Retain all others. Preserve grayscale, original illustration style, all Korean print including bottom caption verbatim, layout, background and margins. Keep the full cover intact with no cropping.",
+    "qa": "원본과 대조해 인물 외형, 글자와 장면 구성 확인",
+    "tool": "built-in image_gen"
+  },
+  {
+    "chapter": 33,
+    "index": 0,
+    "label": "표지",
+    "previous": "comics/33/01-cover.jpg",
+    "original": "comics/33/01-cover-cast-20261106.jpg",
+    "png": "33-00.png",
+    "prompt": "Edit image 1, the published Korean manga cover. Images after it are character-tab references in order purong, lanfan. The curly bearded man at upper left is Purong: clean-shaven rounded middle-aged face, dark cloth cap, match reference 2. The female guard with metal arm at center right is Lan Fan: straight short black bob without ponytail, black mask around neck, match reference 3; preserve the existing metal prosthesis on exactly its existing arm. Keep others and their poses. Preserve grayscale, original illustration style, all Korean print including bottom caption verbatim, layout, background and margins. Keep the full cover intact with no cropping.",
+    "qa": "원본과 대조해 인물 외형, 글자와 장면 구성 확인",
+    "tool": "built-in image_gen"
+  },
+  {
+    "chapter": 35,
+    "index": 0,
+    "label": "표지",
+    "previous": "comics/35/01-cover.jpg",
+    "original": "comics/35/01-cover-cast-20261106.jpg",
+    "png": "35-00.png",
+    "prompt": "Edit image 1, the published Korean manga cover. Images after it are character-tab references in order luhan, lanfan. The tied kneeling man lower right is Luhan: match reference 2 straight black fringe on forehead, dark gold-trim robe, no topknot. Keep scratches, rope and pose. The guard with metal arm behind him is Lan Fan: straight short black bob, black mask around neck, preserve existing metal arm. Keep others unchanged. Preserve grayscale, original illustration style, all Korean print including bottom caption verbatim, layout, background and margins. Keep the full cover intact with no cropping.",
+    "qa": "원본과 대조해 인물 외형, 글자와 장면 구성 확인",
+    "tool": "built-in image_gen"
+  },
+  {
+    "chapter": 16,
+    "index": 1,
+    "label": "제16화 · 본문 1쪽",
+    "previous": "comics/16/02-page-01.jpg",
+    "original": "comics/16/02-page-01-cast-20261106.jpg",
+    "png": "16-01.png",
+    "prompt": "Precise local edits to published Korean monochrome manga. Image 1 is the page to edit; subsequent images are character-tab appearance references in this order: purong. The curly-haired goateed man who introduces himself as 푸룽 must match portrait 2 in all four appearances: black cloth cap, clean-shaven approachable middle-aged rounded face, faint smile, patterned dark Xing robe, two rings on visible hand. Keep the separate turbaned background merchant unchanged. Preserve every panel, every Korean glyph, all caption and speech balloon texts verbatim, action, scene, borders, full page margins and page number. Retain grayscale and existing artwork style. Never add text, duplicate people or clip page edges.",
+    "qa": "원본과 대조해 인물 외형, 글자와 장면 구성 확인",
+    "tool": "built-in image_gen"
+  },
+  {
+    "chapter": 19,
+    "index": 5,
+    "label": "제19화 · 본문 5쪽",
+    "previous": "comics/19/06-page-05.jpg",
+    "original": "comics/19/06-page-05-cast-20261106.jpg",
+    "png": "19-05.png",
+    "prompt": "Precise local edits to published Korean monochrome manga. Image 1 is the page to edit; subsequent images are character-tab appearance references in this order: xiaolin, tianluo. In penultimate and last rows only: left of the two visitors (curly-haired man currently) is actually Xiao Lin An, a 28-year-old adult woman. Match portrait 2: high tied-up pink hair rendered light in monochrome, bright eyes, confident smile, clean-shaven feminine face, travel clothes. Right of them (short dark hair and goatee currently) is Tianluo An. Match portrait 3: dark tan skin, long reddish-brown hair tied low, sand-gray shawl, clean-shaven angular face. Apply to their backs/profile in final row, too. Keep their positions and exact captions, and keep Ling and Edward. Preserve every panel, every Korean glyph, all caption and speech balloon texts verbatim, action, scene, borders, full page margins and page number. Retain grayscale and existing artwork style. Never add text, duplicate people or clip page edges.",
+    "qa": "원본과 대조해 인물 외형, 글자와 장면 구성 확인",
+    "tool": "built-in image_gen"
+  },
+  {
+    "chapter": 31,
+    "index": 1,
+    "label": "제31화 · 본문 1쪽",
+    "previous": "comics/31/02-page-01.jpg",
+    "original": "comics/31/02-page-01-cast-20261106.jpg",
+    "png": "31-01.png",
+    "prompt": "Precise local edits to published Korean monochrome manga. Image 1 is the page to edit; subsequent images are character-tab appearance references in this order: miles. Match Miles to portrait in EVERY panel: short swept silver-gray hair, tan skin clearly medium-dark in grayscale, clean-shaven angular face, no glasses. He is the officer originally with black hair and dark glasses. Preserve other soldiers and uniforms. Preserve every panel, every Korean glyph, all caption and speech balloon texts verbatim, action, scene, borders, full page margins and page number. Retain grayscale and existing artwork style. Never add text, duplicate people or clip page edges.",
+    "qa": "원본과 대조해 인물 외형, 글자와 장면 구성 확인",
+    "tool": "built-in image_gen"
+  },
+  {
+    "chapter": 2,
+    "index": 1,
+    "label": "제2화 · 본문 1쪽",
+    "previous": "comics/02/02-page-01.jpg",
+    "original": "comics/02/02-page-01-cast-20261106.jpg",
+    "png": "02-01.png",
+    "prompt": "Precise local edits to published Korean monochrome manga. Image 1 is the page to edit; subsequent images are character-tab appearance references in this order: miles. Change Miles, the black-haired uniformed officer in rows 2,3,4. Match his portrait: pale gray swept hair, dark tan skin, angular clean-shaven face, no glasses. In row 4, the last '알아, 알아!' is Edward's; anchor its tail to the blond braided Edward on the left, not to Miles. Preserve every panel, every Korean glyph, all caption and speech balloon texts verbatim, action, scene, borders, full page margins and page number. Retain grayscale and existing artwork style. Never add text, duplicate people or clip page edges.",
+    "qa": "마일즈 외형 수정. 원본의 ‘알아, 알아!’ 화자 표시는 별도 수정 필요.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "chapter": 10,
+    "index": 1,
+    "label": "제10화 · 본문 1쪽",
+    "previous": "comics/10/02-page-01.jpg",
+    "original": "comics/10/02-page-01-cast-20261106.jpg",
+    "png": "10-01.png",
+    "prompt": "Edit the supplied Korean grayscale manga page only as follows. Fix bottom panel's turn-taking. Keep landscape. Ensure '저 물은 어디서 와?' and '어떻게?' both point clearly to blond Edward on left; '북쪽 산에서 끌어와.' and '나중에. 네 친구가 찾는 사람이 먼저라니까.' point clearly to dark-skinned Daud with twisted black hair and bead necklace on right. Arrange in this exact chronological order. Use distinct side-by-side speaker panels if required. In second row left the exact text is '다우드. 이 둘을 사하라에게 데려가라.' and '그쪽에서 볼 일이다.' Keep corrected character designs. Preserve every other word, action, panel and all margins and footer exactly. Maintain grayscale.",
+    "qa": "나디르·다우드 외형과 에드의 ‘어떻게?’ 말풍선 확인",
+    "tool": "built-in image_gen"
+  }
+]

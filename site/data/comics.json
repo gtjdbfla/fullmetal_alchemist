@@ -223,12 +223,13 @@
         "small": "comics/02/01-cover-d6de59dddb9f-720.webp"
       },
       {
-        "src": "comics/02/02-page-01-e1b2b79e9ee0-1080.webp",
+        "src": "comics/02/02-page-01-cast-20261106-5232eb13150a-1080.webp",
         "label": "제2화 · 본문 1쪽",
-        "original": "comics/02/02-page-01.jpg",
-        "width": 1080,
-        "height": 1350,
-        "small": "comics/02/02-page-01-e1b2b79e9ee0-720.webp"
+        "original": "comics/02/02-page-01-cast-20261106.jpg",
+        "width": 1122,
+        "height": 1402,
+        "small": "comics/02/02-page-01-cast-20261106-5232eb13150a-720.webp",
+        "revisedAt": "2026-11-06"
       },
       {
         "src": "comics/02/03-page-02-rev2-23fec2c795c4-1080.webp",
@@ -918,20 +919,22 @@
     "title": "길을 지운 사람들",
     "pages": [
       {
-        "src": "comics/10/01-cover-2b5715fe8275-1080.webp",
+        "src": "comics/10/01-cover-cast-20261106-7d82cb152d41-1080.webp",
         "label": "표지",
-        "original": "comics/10/01-cover.jpg",
-        "width": 1080,
-        "height": 1350,
-        "small": "comics/10/01-cover-2b5715fe8275-720.webp"
+        "original": "comics/10/01-cover-cast-20261106.jpg",
+        "width": 1122,
+        "height": 1402,
+        "small": "comics/10/01-cover-cast-20261106-7d82cb152d41-720.webp",
+        "revisedAt": "2026-11-06"
       },
       {
-        "src": "comics/10/02-page-01-1b8acb8ad9b3-1080.webp",
+        "src": "comics/10/02-page-01-cast-20261106-10368166a2f9-1080.webp",
         "label": "제10화 · 본문 1쪽",
-        "original": "comics/10/02-page-01.jpg",
-        "width": 1080,
-        "height": 1350,
-        "small": "comics/10/02-page-01-1b8acb8ad9b3-720.webp"
+        "original": "comics/10/02-page-01-cast-20261106.jpg",
+        "width": 1122,
+        "height": 1402,
+        "small": "comics/10/02-page-01-cast-20261106-10368166a2f9-720.webp",
+        "revisedAt": "2026-11-06"
       },
       {
         "src": "comics/10/03-page-02-2b401f1ff579-1080.webp",
@@ -1000,12 +1003,13 @@
     "title": "형이 걸었던 길",
     "pages": [
       {
-        "src": "comics/11/01-cover-44d71c133953-1080.webp",
+        "src": "comics/11/01-cover-cast-20261106-d697789dedf7-1080.webp",
         "label": "표지",
-        "original": "comics/11/01-cover.jpg",
-        "width": 1080,
-        "height": 1350,
-        "small": "comics/11/01-cover-44d71c133953-720.webp"
+        "original": "comics/11/01-cover-cast-20261106.jpg",
+        "width": 1122,
+        "height": 1402,
+        "small": "comics/11/01-cover-cast-20261106-d697789dedf7-720.webp",
+        "revisedAt": "2026-11-06"
       },
       {
         "src": "comics/11/02-page-01-5b9e67004b64-1080.webp",
@@ -1079,12 +1083,13 @@
     "title": "흐르는 땅",
     "pages": [
       {
-        "src": "comics/12/01-cover-1c38a7b86a1e-1080.webp",
+        "src": "comics/12/01-cover-cast-20261106-8e3b3e6dc931-1080.webp",
         "label": "표지",
-        "original": "comics/12/01-cover.jpg",
-        "width": 1080,
-        "height": 1350,
-        "small": "comics/12/01-cover-1c38a7b86a1e-720.webp"
+        "original": "comics/12/01-cover-cast-20261106.jpg",
+        "width": 1122,
+        "height": 1402,
+        "small": "comics/12/01-cover-cast-20261106-8e3b3e6dc931-720.webp",
+        "revisedAt": "2026-11-06"
       },
       {
         "src": "comics/12/02-page-01-4dca608ed0a9-1080.webp",
@@ -1395,20 +1400,22 @@
     "title": "정보의 가격",
     "pages": [
       {
-        "src": "comics/16/01-cover-ff3b00347208-1080.webp",
+        "src": "comics/16/01-cover-cast-20261106-4e351fef198b-1080.webp",
         "label": "표지",
-        "original": "comics/16/01-cover.jpg",
-        "width": 1080,
-        "height": 1350,
-        "small": "comics/16/01-cover-ff3b00347208-720.webp"
+        "original": "comics/16/01-cover-cast-20261106.jpg",
+        "width": 1122,
+        "height": 1402,
+        "small": "comics/16/01-cover-cast-20261106-4e351fef198b-720.webp",
+        "revisedAt": "2026-11-06"
       },
       {
-        "src": "comics/16/02-page-01-6adc215cc623-1080.webp",
+        "src": "comics/16/02-page-01-cast-20261106-d4daf9095b90-1080.webp",
         "label": "제16화 · 본문 1쪽",
-        "original": "comics/16/02-page-01.jpg",
-        "width": 1080,
-        "height": 1350,
-        "small": "comics/16/02-page-01-6adc215cc623-720.webp"
+        "original": "comics/16/02-page-01-cast-20261106.jpg",
+        "width": 1122,
+        "height": 1402,
+        "small": "comics/16/02-page-01-cast-20261106-d4daf9095b90-720.webp",
+        "revisedAt": "2026-11-06"
       },
       {
         "src": "comics/16/03-page-02-17428d6897b1-1080.webp",
@@ -1474,12 +1481,13 @@
     "title": "불안정성을 보여주시오",
     "pages": [
       {
-        "src": "comics/17/01-cover-310e24abb541-1080.webp",
+        "src": "comics/17/01-cover-cast-20261106-43c33395978c-1080.webp",
         "label": "표지",
-        "original": "comics/17/01-cover.jpg",
-        "width": 1080,
-        "height": 1350,
-        "small": "comics/17/01-cover-310e24abb541-720.webp"
+        "original": "comics/17/01-cover-cast-20261106.jpg",
+        "width": 1122,
+        "height": 1402,
+        "small": "comics/17/01-cover-cast-20261106-43c33395978c-720.webp",
+        "revisedAt": "2026-11-06"
       },
       {
         "src": "comics/17/02-page-01-8f894b498f1f-1080.webp",
@@ -1553,12 +1561,13 @@
     "title": "중위 그라우스",
     "pages": [
       {
-        "src": "comics/18/01-cover-02a325efcb4a-1080.webp",
+        "src": "comics/18/01-cover-cast-20261106-b8c06c09b64e-1080.webp",
         "label": "표지",
-        "original": "comics/18/01-cover.jpg",
-        "width": 1080,
-        "height": 1350,
-        "small": "comics/18/01-cover-02a325efcb4a-720.webp"
+        "original": "comics/18/01-cover-cast-20261106.jpg",
+        "width": 1122,
+        "height": 1402,
+        "small": "comics/18/01-cover-cast-20261106-b8c06c09b64e-720.webp",
+        "revisedAt": "2026-11-06"
       },
       {
         "src": "comics/18/02-page-01-e701a092fc22-1080.webp",
@@ -1672,12 +1681,13 @@
         "small": "comics/19/05-page-04-12a84bd91d9c-720.webp"
       },
       {
-        "src": "comics/19/06-page-05-6f0c9d460f81-1080.webp",
+        "src": "comics/19/06-page-05-cast-20261106-fab9423ec5f0-1080.webp",
         "label": "제19화 · 본문 5쪽",
-        "original": "comics/19/06-page-05.jpg",
-        "width": 1080,
-        "height": 1350,
-        "small": "comics/19/06-page-05-6f0c9d460f81-720.webp"
+        "original": "comics/19/06-page-05-cast-20261106.jpg",
+        "width": 1122,
+        "height": 1402,
+        "small": "comics/19/06-page-05-cast-20261106-fab9423ec5f0-720.webp",
+        "revisedAt": "2026-11-06"
       },
       {
         "src": "comics/19/07-page-06-2745f77c9d93-1080.webp",
@@ -2027,12 +2037,13 @@
     "title": "황제를 죽이는 사람",
     "pages": [
       {
-        "src": "comics/25/01-cover-0ba464a1dd2e-1080.webp",
+        "src": "comics/25/01-cover-cast-20261106-43a89d617ca7-1080.webp",
         "label": "표지",
-        "original": "comics/25/01-cover.jpg",
-        "width": 1080,
-        "height": 1350,
-        "small": "comics/25/01-cover-0ba464a1dd2e-720.webp"
+        "original": "comics/25/01-cover-cast-20261106.jpg",
+        "width": 1122,
+        "height": 1402,
+        "small": "comics/25/01-cover-cast-20261106-43a89d617ca7-720.webp",
+        "revisedAt": "2026-11-06"
       },
       {
         "src": "comics/25/02-page-01-ceaab4f27347-1080.webp",
@@ -2185,12 +2196,13 @@
     "title": "선을 넘는 사람",
     "pages": [
       {
-        "src": "comics/27/01-cover-cffa3574fee6-1080.webp",
+        "src": "comics/27/01-cover-cast-20261106-408f7e526306-1080.webp",
         "label": "표지",
-        "original": "comics/27/01-cover.jpg",
-        "width": 1080,
-        "height": 1350,
-        "small": "comics/27/01-cover-cffa3574fee6-720.webp"
+        "original": "comics/27/01-cover-cast-20261106.jpg",
+        "width": 1122,
+        "height": 1402,
+        "small": "comics/27/01-cover-cast-20261106-408f7e526306-720.webp",
+        "revisedAt": "2026-11-06"
       },
       {
         "src": "comics/27/02-page-01-0696cc3276b4-1080.webp",
@@ -2343,12 +2355,13 @@
     "title": "총통을 움직이는 법",
     "pages": [
       {
-        "src": "comics/29/01-cover-e090e058750e-1080.webp",
+        "src": "comics/29/01-cover-cast-20261106-7cf6f1548fe2-1080.webp",
         "label": "표지",
-        "original": "comics/29/01-cover.jpg",
-        "width": 1080,
-        "height": 1350,
-        "small": "comics/29/01-cover-e090e058750e-720.webp"
+        "original": "comics/29/01-cover-cast-20261106.jpg",
+        "width": 1122,
+        "height": 1402,
+        "small": "comics/29/01-cover-cast-20261106-7cf6f1548fe2-720.webp",
+        "revisedAt": "2026-11-06"
       },
       {
         "src": "comics/29/02-page-01-271538fd8e17-1080.webp",
@@ -2422,12 +2435,13 @@
     "title": "바이족의 아들",
     "pages": [
       {
-        "src": "comics/30/01-cover-8fd96b3ebc80-1080.webp",
+        "src": "comics/30/01-cover-cast-20261106-38b6432e2b17-1080.webp",
         "label": "표지",
-        "original": "comics/30/01-cover.jpg",
-        "width": 1080,
-        "height": 1350,
-        "small": "comics/30/01-cover-8fd96b3ebc80-720.webp"
+        "original": "comics/30/01-cover-cast-20261106.jpg",
+        "width": 1122,
+        "height": 1402,
+        "small": "comics/30/01-cover-cast-20261106-38b6432e2b17-720.webp",
+        "revisedAt": "2026-11-06"
       },
       {
         "src": "comics/30/02-page-01-f504b0c464ad-1080.webp",
@@ -2501,20 +2515,22 @@
     "title": "세 번의 총성",
     "pages": [
       {
-        "src": "comics/31/01-cover-7bc0049dcb8e-1080.webp",
+        "src": "comics/31/01-cover-cast-20261106-15588a8e8cb4-1080.webp",
         "label": "표지",
-        "original": "comics/31/01-cover.jpg",
-        "width": 1080,
-        "height": 1350,
-        "small": "comics/31/01-cover-7bc0049dcb8e-720.webp"
+        "original": "comics/31/01-cover-cast-20261106.jpg",
+        "width": 1122,
+        "height": 1402,
+        "small": "comics/31/01-cover-cast-20261106-15588a8e8cb4-720.webp",
+        "revisedAt": "2026-11-06"
       },
       {
-        "src": "comics/31/02-page-01-93bb73b1892a-1080.webp",
+        "src": "comics/31/02-page-01-cast-20261106-109d28690c3e-1080.webp",
         "label": "제31화 · 본문 1쪽",
-        "original": "comics/31/02-page-01.jpg",
-        "width": 1080,
-        "height": 1350,
-        "small": "comics/31/02-page-01-93bb73b1892a-720.webp"
+        "original": "comics/31/02-page-01-cast-20261106.jpg",
+        "width": 1122,
+        "height": 1402,
+        "small": "comics/31/02-page-01-cast-20261106-109d28690c3e-720.webp",
+        "revisedAt": "2026-11-06"
       },
       {
         "src": "comics/31/03-page-02-8a4c49e82a7e-1080.webp",
@@ -2580,12 +2596,13 @@
     "title": "다시 시작한 전쟁",
     "pages": [
       {
-        "src": "comics/32/01-cover-9a5970a20479-1080.webp",
+        "src": "comics/32/01-cover-cast-20261106-eb17eb840230-1080.webp",
         "label": "표지",
-        "original": "comics/32/01-cover.jpg",
-        "width": 1080,
-        "height": 1350,
-        "small": "comics/32/01-cover-9a5970a20479-720.webp"
+        "original": "comics/32/01-cover-cast-20261106.jpg",
+        "width": 1122,
+        "height": 1402,
+        "small": "comics/32/01-cover-cast-20261106-eb17eb840230-720.webp",
+        "revisedAt": "2026-11-06"
       },
       {
         "src": "comics/32/02-page-01-a4bb73ce9fac-1080.webp",
@@ -2659,12 +2676,13 @@
     "title": "황제가 아닌 사람",
     "pages": [
       {
-        "src": "comics/33/01-cover-6ebeb6697ccd-1080.webp",
+        "src": "comics/33/01-cover-cast-20261106-d3f74764eee4-1080.webp",
         "label": "표지",
-        "original": "comics/33/01-cover.jpg",
-        "width": 1080,
-        "height": 1350,
-        "small": "comics/33/01-cover-6ebeb6697ccd-720.webp"
+        "original": "comics/33/01-cover-cast-20261106.jpg",
+        "width": 1122,
+        "height": 1402,
+        "small": "comics/33/01-cover-cast-20261106-d3f74764eee4-720.webp",
+        "revisedAt": "2026-11-06"
       },
       {
         "src": "comics/33/02-page-01-923059538e52-1080.webp",
@@ -2738,12 +2756,13 @@
     "title": "한 사람",
     "pages": [
       {
-        "src": "comics/34/01-cover-87a2543f4dd9-1080.webp",
+        "src": "comics/34/01-cover-cast-20261106-e354a2ac0fc8-1080.webp",
         "label": "표지",
-        "original": "comics/34/01-cover.jpg",
-        "width": 1080,
-        "height": 1350,
-        "small": "comics/34/01-cover-87a2543f4dd9-720.webp"
+        "original": "comics/34/01-cover-cast-20261106.jpg",
+        "width": 1122,
+        "height": 1402,
+        "small": "comics/34/01-cover-cast-20261106-e354a2ac0fc8-720.webp",
+        "revisedAt": "2026-11-06"
       },
       {
         "src": "comics/34/02-page-01-3d3bb47cf2c3-1080.webp",
@@ -2817,12 +2836,13 @@
     "title": "칼을 드는 이유",
     "pages": [
       {
-        "src": "comics/35/01-cover-5f78d5ef0e1b-1080.webp",
+        "src": "comics/35/01-cover-cast-20261106-29d55d41bb17-1080.webp",
         "label": "표지",
-        "original": "comics/35/01-cover.jpg",
-        "width": 1080,
-        "height": 1350,
-        "small": "comics/35/01-cover-5f78d5ef0e1b-720.webp"
+        "original": "comics/35/01-cover-cast-20261106.jpg",
+        "width": 1122,
+        "height": 1402,
+        "small": "comics/35/01-cover-cast-20261106-29d55d41bb17-720.webp",
+        "revisedAt": "2026-11-06"
       },
       {
         "src": "comics/35/02-page-01-b4864b8c757e-1080.webp",
