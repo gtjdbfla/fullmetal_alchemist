@@ -1698,12 +1698,13 @@
         "small": "comics/19/07-page-06-2745f77c9d93-720.webp"
       },
       {
-        "src": "comics/19/08-page-07-5f530bd12d0c-1080.webp",
+        "src": "comics/19/08-page-07-cast-20261106-7e4f7e597e23-1080.webp",
         "label": "제19화 · 본문 7쪽",
-        "original": "comics/19/08-page-07.jpg",
-        "width": 1080,
-        "height": 1350,
-        "small": "comics/19/08-page-07-5f530bd12d0c-720.webp"
+        "original": "comics/19/08-page-07-cast-20261106.jpg",
+        "width": 1122,
+        "height": 1402,
+        "small": "comics/19/08-page-07-cast-20261106-7e4f7e597e23-720.webp",
+        "revisedAt": "2026-11-06"
       },
       {
         "src": "comics/19/09-page-08-b642600d531c-1080.webp",
@@ -2420,12 +2421,13 @@
         "small": "comics/29/08-page-07-a786e46e2c82-720.webp"
       },
       {
-        "src": "comics/29/09-page-08-a97a46f5dae0-1080.webp",
+        "src": "comics/29/09-page-08-cast-20261106-180f47de948b-1080.webp",
         "label": "제29화 · 본문 8쪽",
-        "original": "comics/29/09-page-08.jpg",
-        "width": 1080,
-        "height": 1350,
-        "small": "comics/29/09-page-08-a97a46f5dae0-720.webp"
+        "original": "comics/29/09-page-08-cast-20261106.jpg",
+        "width": 1122,
+        "height": 1402,
+        "small": "comics/29/09-page-08-cast-20261106-180f47de948b-720.webp",
+        "revisedAt": "2026-11-06"
       }
     ]
   },
@@ -2549,12 +2551,13 @@
         "small": "comics/31/04-page-03-0fbda9edc162-720.webp"
       },
       {
-        "src": "comics/31/05-page-04-a8ec44b8aab3-1080.webp",
+        "src": "comics/31/05-page-04-cast-20261106-54bda0052371-1080.webp",
         "label": "제31화 · 본문 4쪽",
-        "original": "comics/31/05-page-04.jpg",
-        "width": 1080,
-        "height": 1350,
-        "small": "comics/31/05-page-04-a8ec44b8aab3-720.webp"
+        "original": "comics/31/05-page-04-cast-20261106.jpg",
+        "width": 1122,
+        "height": 1402,
+        "small": "comics/31/05-page-04-cast-20261106-54bda0052371-720.webp",
+        "revisedAt": "2026-11-06"
       },
       {
         "src": "comics/31/06-page-05-e1cbab411c1f-1080.webp",
@@ -2621,12 +2624,13 @@
         "small": "comics/32/03-page-02-a941bf7aaef0-720.webp"
       },
       {
-        "src": "comics/32/04-page-03-1ccaf1f2625d-1080.webp",
+        "src": "comics/32/04-page-03-cast-20261106-44ed86ec616d-1080.webp",
         "label": "제32화 · 본문 3쪽",
-        "original": "comics/32/04-page-03.jpg",
-        "width": 1080,
-        "height": 1350,
-        "small": "comics/32/04-page-03-1ccaf1f2625d-720.webp"
+        "original": "comics/32/04-page-03-cast-20261106.jpg",
+        "width": 1122,
+        "height": 1402,
+        "small": "comics/32/04-page-03-cast-20261106-44ed86ec616d-720.webp",
+        "revisedAt": "2026-11-06"
       },
       {
         "src": "comics/32/05-page-04-c4d9535c995c-1080.webp",
@@ -2765,12 +2769,13 @@
         "revisedAt": "2026-11-06"
       },
       {
-        "src": "comics/34/02-page-01-3d3bb47cf2c3-1080.webp",
+        "src": "comics/34/02-page-01-cast-20261106-6ddcd3830255-1080.webp",
         "label": "제34화 · 본문 1쪽",
-        "original": "comics/34/02-page-01.jpg",
-        "width": 1080,
-        "height": 1350,
-        "small": "comics/34/02-page-01-3d3bb47cf2c3-720.webp"
+        "original": "comics/34/02-page-01-cast-20261106.jpg",
+        "width": 1122,
+        "height": 1402,
+        "small": "comics/34/02-page-01-cast-20261106-6ddcd3830255-720.webp",
+        "revisedAt": "2026-11-06"
       },
       {
         "src": "comics/34/03-page-02-fc2b87624dcd-1080.webp",
@@ -2781,12 +2786,13 @@
         "small": "comics/34/03-page-02-fc2b87624dcd-720.webp"
       },
       {
-        "src": "comics/34/04-page-03-c506b7728aad-1080.webp",
+        "src": "comics/34/04-page-03-cast-20261106-eab36bac5a26-1080.webp",
         "label": "제34화 · 본문 3쪽",
-        "original": "comics/34/04-page-03.jpg",
-        "width": 1080,
-        "height": 1350,
-        "small": "comics/34/04-page-03-c506b7728aad-720.webp"
+        "original": "comics/34/04-page-03-cast-20261106.jpg",
+        "width": 1122,
+        "height": 1402,
+        "small": "comics/34/04-page-03-cast-20261106-eab36bac5a26-720.webp",
+        "revisedAt": "2026-11-06"
       },
       {
         "src": "comics/34/05-page-04-377594baeae4-1080.webp",

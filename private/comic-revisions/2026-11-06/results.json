@@ -218,5 +218,71 @@
     "prompt": "Edit the supplied Korean grayscale manga page only as follows. Fix bottom panel's turn-taking. Keep landscape. Ensure '저 물은 어디서 와?' and '어떻게?' both point clearly to blond Edward on left; '북쪽 산에서 끌어와.' and '나중에. 네 친구가 찾는 사람이 먼저라니까.' point clearly to dark-skinned Daud with twisted black hair and bead necklace on right. Arrange in this exact chronological order. Use distinct side-by-side speaker panels if required. In second row left the exact text is '다우드. 이 둘을 사하라에게 데려가라.' and '그쪽에서 볼 일이다.' Keep corrected character designs. Preserve every other word, action, panel and all margins and footer exactly. Maintain grayscale.",
     "qa": "나디르·다우드 외형과 에드의 ‘어떻게?’ 말풍선 확인",
     "tool": "built-in image_gen"
+  },
+  {
+    "chapter": 19,
+    "index": 7,
+    "label": "제19화 · 본문 7쪽",
+    "previous": "comics/19/08-page-07.jpg",
+    "original": "comics/19/08-page-07-cast-20261106.jpg",
+    "png": "19-07.png",
+    "prompt": "Precise local edit of an approved Korean monochrome comic page. Image 1 is the published page and later images are its character-tab portrait references (xiaolin tianluo). Xiao Lin An is the traveler repeatedly drawn as a curly-haired man with stubble, or as a woman with dark curls. Correct her to the adult woman in the character tab portrait with a high pale ponytail (pink in color), clean-shaven feminine features and travel clothes. Keep her exact stance, clothing layers and expressions. Tianluo An is the other visitor beside Xiao; give him a low reddish-brown long ponytail rendered medium-dark gray, a dark tan clean-shaven angular face, and a sand-gray shawl. Edit the top table row only and keep Edward and Ling unchanged. Keep other characters, scene, panel borders, exact Korean glyphs and their ordering, all balloons and tails, title, page number and original composition. Keep full margins and grayscale. Do not write new words or crop. Correct only the described faces and hair.",
+    "qa": "원본과 대조해 인물 외형, 글자와 장면 구성 확인",
+    "tool": "built-in image_gen"
+  },
+  {
+    "chapter": 29,
+    "index": 8,
+    "label": "제29화 · 본문 8쪽",
+    "previous": "comics/29/09-page-08.jpg",
+    "original": "comics/29/09-page-08-cast-20261106.jpg",
+    "png": "29-08.png",
+    "prompt": "Image 1 is a published grayscale Korean manga page to edit. Following images are character-tab portraits in order: graus, bark. Graus is pale slicked-back-haired commander; Bark is black-haired young uniformed subordinate standing and speaking to Graus. Graus must have medium-dark short brown hair in grayscale, a mature mid-thirties face and a long recognizable left cheek scar when visible from the camera angle. Bark must have short light blond hair and a fair, young face. Apply identity correction only to these identified officers throughout. Preserve ALL Korean print, captions, speech tails, layout, page border, scene order, poses, uniforms and rank markings. Preserve every word exactly. Maintain full uncropped page, do not redraw unrelated faces or change events.",
+    "qa": "원본과 대조해 인물 외형, 글자와 장면 구성 확인",
+    "tool": "built-in image_gen"
+  },
+  {
+    "chapter": 31,
+    "index": 4,
+    "label": "제31화 · 본문 4쪽",
+    "previous": "comics/31/05-page-04.jpg",
+    "original": "comics/31/05-page-04-cast-20261106.jpg",
+    "png": "31-04.png",
+    "prompt": "Image 1 is a published grayscale Korean manga page to edit. Following images are character-tab portraits in order: graus, bark. Graus is pale slicked-back-haired seated commander; Bark is black-haired young uniformed subordinate standing and conversing with him. Graus must have medium-dark short brown hair in grayscale, a mature mid-thirties face and a long recognizable left cheek scar when visible from the camera angle. Bark must have short light blond hair and a fair, young face. Apply identity correction only to these identified officers throughout. Preserve ALL Korean print, captions, speech tails, layout, page border, scene order, poses, uniforms and rank markings. Preserve every word exactly. Maintain full uncropped page, do not redraw unrelated faces or change events.",
+    "qa": "원본과 대조해 인물 외형, 글자와 장면 구성 확인",
+    "tool": "built-in image_gen"
+  },
+  {
+    "chapter": 32,
+    "index": 3,
+    "label": "제32화 · 본문 3쪽",
+    "previous": "comics/32/04-page-03.jpg",
+    "original": "comics/32/04-page-03-cast-20261106.jpg",
+    "png": "32-03.png",
+    "prompt": "Image 1 is a published grayscale Korean manga page to edit. Following images are character-tab portraits in order: miles. Miles is dark-glasses officer including standing in plaza. Preserve everyone else. Miles must have pale swept gray hair, visibly dark tan skin in grayscale and a clean-shaven angular face with visible eyes, no glasses. Apply identity correction only to these identified officers throughout. Preserve ALL Korean print, captions, speech tails, layout, page border, scene order, poses, uniforms and rank markings. Preserve every word exactly. Maintain full uncropped page, do not redraw unrelated faces or change events.",
+    "qa": "원본과 대조해 인물 외형, 글자와 장면 구성 확인",
+    "tool": "built-in image_gen"
+  },
+  {
+    "chapter": 34,
+    "index": 1,
+    "label": "제34화 · 본문 1쪽",
+    "previous": "comics/34/02-page-01.jpg",
+    "original": "comics/34/02-page-01-cast-20261106.jpg",
+    "png": "34-01.png",
+    "prompt": "Image 1 is a published grayscale Korean manga page to edit. Following images are character-tab portraits in order: miles. Miles is the officer in dark glasses. Do not change black-haired Mustang or blonde Hawkeye. Miles must have pale swept gray hair, visibly dark tan skin in grayscale and a clean-shaven angular face with visible eyes, no glasses. Apply identity correction only to these identified officers throughout. Preserve ALL Korean print, captions, speech tails, layout, page border, scene order, poses, uniforms and rank markings. Preserve every word exactly. Maintain full uncropped page, do not redraw unrelated faces or change events.",
+    "qa": "원본과 대조해 인물 외형, 글자와 장면 구성 확인",
+    "tool": "built-in image_gen"
+  },
+  {
+    "chapter": 34,
+    "index": 3,
+    "label": "제34화 · 본문 3쪽",
+    "previous": "comics/34/04-page-03.jpg",
+    "original": "comics/34/04-page-03-cast-20261106.jpg",
+    "png": "34-03.png",
+    "prompt": "Image 1 is a published grayscale Korean manga page to edit. Following images are character-tab portraits in order: miles, graus. Miles is the officer with dark glasses directing soldiers in crowd. Graus is pale slicked-back-haired commander in bottom-left portrait. Preserve Scar's white hair, dark skin, X scar, and other soldiers. Miles must have pale swept gray hair, visibly dark tan skin in grayscale and a clean-shaven angular face with visible eyes, no glasses. Graus must have medium-dark short brown hair in grayscale, a mature mid-thirties face and a long recognizable left cheek scar when visible from the camera angle. Apply identity correction only to these identified officers throughout. Preserve ALL Korean print, captions, speech tails, layout, page border, scene order, poses, uniforms and rank markings. Preserve every word exactly. Maintain full uncropped page, do not redraw unrelated faces or change events.",
+    "qa": "원본과 대조해 인물 외형, 글자와 장면 구성 확인",
+    "tool": "built-in image_gen"
   }
 ]
