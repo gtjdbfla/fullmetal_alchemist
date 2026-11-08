@@ -47,7 +47,7 @@ class DashboardDisclosureTests(unittest.TestCase):
         chapter_nineteen = next(item for item in self.public["manuscripts"] if item["episode"] == "제19화")
         self.assertEqual(chapter_nineteen["episode"], "제19화")
         self.assertEqual(chapter_nineteen["title"], "황제의 백성")
-        self.assertTrue(chapter_nineteen["text"].startswith("싱 서북부."))
+        self.assertTrue(chapter_nineteen["text"].startswith("며칠 뒤."))
         self.assertIn("나는 졌지만 바이족은 사라지지 않았으니까.", chapter_nineteen["text"])
         self.assertNotIn("간략 분석", chapter_nineteen["text"])
         chapter_twenty = next(item for item in self.public["manuscripts"] if item["episode"] == "제20화")
