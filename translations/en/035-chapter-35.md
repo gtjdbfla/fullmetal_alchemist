@@ -124,27 +124,11 @@ The clashes weren't confined to one place. A report came in: An people had been 
 
 Luhan turned. He stood in front of the Bai people. There was no blood on his scabbard. On the ground, people he had felled with the back of his blade and its hilt were groaning.
 
-"Your Majesty."
+"Your Majesty. There are many wounded here too. If you withdraw the troops, the Bai will be in danger."
 
-"What?"
+"An civilians are trapped in the north. We have to protect both."
 
-"There are many wounded here too."
-
-"I know."
-
-"If you withdraw the troops, the Bai will be in danger."
-
-"An civilians are trapped in the north."
-
-"But taking troops from here—"
-
-"We have to protect both."
-
-Ling cut him off. Luhan stopped.
-
-"The An," Ling said. "And the Bai."
-
-A beat.
+Ling cut him off.
 
 "They're both my people."
 
@@ -192,6 +176,8 @@ Xiaolin was gripping Ed's sleeve.
 
 "...Where?"
 
+The main road to the administrative hall ran past the entrance to the Bai quarter. If they met there, it was over.
+
 Ed ran, teeth clenched.
 
 An people were packing the street. Some held swords. Some held nothing. Chenluo was at the front.
@@ -220,7 +206,13 @@ Ed turned and sprinted for the administrative hall.
 
 * * *
 
-By sunset, the fighting had spread to three districts. Ling pushed the imperial troops between the two sides.
+By sunset, the fighting had spread to three districts.
+
+Ed came running up to Ling, out of breath.
+
+"Chenluo's bringing people! The main road!"
+
+Ling sent half the troops toward the main road. Ling pushed the imperial troops between the two sides.
 
 "Don't cut first!"
 
@@ -230,7 +222,7 @@ By sunset, the fighting had spread to three districts. Ling pushed the imperial 
 
 The soldiers locked shields, forcing the An and Bai apart.
 
-Then the An column appeared at the end of the alley. Chenluo was at its head.
+Then the An column appeared at the end of the main road. Chenluo was at its head.
 
 At the entrance to the Bai quarter, merchant guards stood in a single line, a wall against the column. Behind that line stood Zhenha.
 
