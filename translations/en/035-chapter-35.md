@@ -426,6 +426,12 @@ Chenluo turned to the people. "Is that what we wanted?"
 
 He looked at the people he had led here. After a moment, he added quietly, "...I did it too."
 
+From the back, someone muttered, "Kairun was right. Even without an emperor..."
+
+Chenluo didn't turn around. "Kairun drew his sword alone. He said if we all came, we'd all die."
+
+At the rear of the column, Xiaolin stood with a hand over her mouth, tears smeared across her face.
+
 No one answered.
 
 He pointed at Luhan. "To become emperor?"
@@ -439,6 +445,8 @@ One by one, the An lowered their weapons too.
 * * *
 
 Night fell. The clinic was still overflowing.
+
+Chenluo sat beside one of the cots. On it lay an An child who had been knocked down and had hurt a leg when the column he had led surged forward. He said nothing.
 
 The dead did not come back. They still didn't know who had killed the Bai merchant. They still didn't know who had set fire to the shop.
 
