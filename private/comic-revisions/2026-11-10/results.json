@@ -1,0 +1,57 @@
+[
+  {
+    "chapter": 42,
+    "index": 3,
+    "label": "제42화 · 본문 3쪽",
+    "previous": "comics/42/04-page-03.jpg",
+    "original": "comics/42/04-page-03-final-20261110.jpg",
+    "png": "42-03.png",
+    "prompt": "Image 1 is the original Korean black-and-white manga page to edit. Other images are portrait references (edward). Keep the upper three rows including Kairun's notebook with its uncertainty. Replace only the bottom two rows, which use superseded narration, with Edward thinking at his desk and his right hand visible. Use three clean rectangular thought captions, in this order, verbatim: ‘카르사는 자신을 중심에 놓고 자연을 계산하지 않았다. 이미 움직이는 것 안에서 길을 찾았다.’ ‘아메스트리스의 연금술은 언제나 같은 말을 했다. 이해, 분해, 재구축. 무언가를 얻으려면 무언가를 내놓는다.’ ‘더 큰 것을 얻으려 할수록 내놓는 것이 커지고, 그 끝에서 사람은 자기 자신을 건다.’ Remove the superseded circle diagram and text in the two changed rows. Keep page number and full margins. Preserve the full page, grayscale, original style, no other text or pose changes, never drop or duplicate dialogue. Render Korean words exactly.",
+    "qa": "원본과 최신 승인 원고 대조. 주요 인물, 새 장면, 자막 확인.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "chapter": 42,
+    "index": 4,
+    "label": "제42화 · 본문 4쪽",
+    "previous": "comics/42/05-page-04.jpg",
+    "original": "comics/42/05-page-04-final-20261110.jpg",
+    "png": "42-04.png",
+    "prompt": "Only repair one word in the bottom-right balloon, second line of the lower paragraph: ‘상단을 따라 란시로 들어가고.’. The city is 란시로: 란 + 시 + 로 (the middle syllable 시 starts ㅅ, not ㅈ). Copy the rest of the image verbatim and do not change any other letter. Preserve the correct phrases ‘밤을 샜나.’ and ‘싱 안쪽으로 가서’.",
+    "qa": "원본과 최신 승인 원고 대조. 주요 인물, 새 장면, 자막 확인.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "chapter": 43,
+    "index": 1,
+    "label": "에필로그 · 본문 1쪽",
+    "previous": "comics/43/02-page-01.jpg",
+    "original": "comics/43/02-page-01-final-20261110.jpg",
+    "png": "43-01.png",
+    "prompt": "Fix only three short text spans. In map row left replace ‘물출기와 겹치면’ with ‘목초지와 겹치면’. In the next-to-last row replace ‘덕분에 비용은 더 줌 겁니다.’ with ‘덕분에 비용은 더 들 겁니다.’. Replace ‘성에서도’ with ‘싱에서도’ (싱). Keep the postcard and its exact words, all other Korean and art intact.",
+    "qa": "원본과 최신 승인 원고 대조. 주요 인물, 새 장면, 자막 확인.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "chapter": 43,
+    "index": 7,
+    "label": "에필로그 · 본문 7쪽",
+    "previous": "comics/43/08-page-07.jpg",
+    "original": "comics/43/08-page-07-final-20261110.jpg",
+    "png": "43-07.png",
+    "prompt": "Localized correction to grayscale Korean manga image 1. Keep the added rafter named 유누스. Correct one line only in the upper-right narration box: ‘하지만 칼은 나오지 않았다.’ (칼은 = 칼 + 은). Retain the later line ‘길은 아직 완성되지 않았다.’. Copy the full page, all other words and portraits unchanged. Preserve original grayscale, page numbering, all other Korean letters, balloons, layouts and margins exactly.",
+    "qa": "원본과 최신 승인 원고 대조. 주요 인물, 새 장면, 자막 확인.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "chapter": 43,
+    "index": 8,
+    "label": "에필로그 · 본문 8쪽",
+    "previous": "comics/43/09-page-08.jpg",
+    "original": "comics/43/09-page-08-final-20261110.jpg",
+    "png": "43-08.png",
+    "prompt": "Proofread only the center rectangular narrator box in the second horizontal strip of the attached Korean manga. On the fifth sentence in this box replace the incorrect spelling ‘카르시의’ with ‘카르사의’. The exact whole sentence is ‘카르사의 길도 하나가 아니었다.’ (카 + 르 + 사 + 의). Copy all art and all remaining text exactly, including ‘사람들이 스스로 지워버린 길도 있었다.’ and ‘편지에는 좀 많다고만 했잖아!’. Keep full margins and every frame.",
+    "qa": "원본과 최신 승인 원고 대조. 주요 인물, 새 장면, 자막 확인.",
+    "tool": "built-in image_gen"
+  }
+]

@@ -3428,20 +3428,22 @@
         "height": 1350
       },
       {
-        "src": "comics/42/04-page-03-5f255bb87906-1080.webp",
-        "small": "comics/42/04-page-03-5f255bb87906-720.webp",
-        "original": "comics/42/04-page-03.jpg",
+        "src": "comics/42/04-page-03-final-20261110-e95bc55e569e-1080.webp",
+        "small": "comics/42/04-page-03-final-20261110-e95bc55e569e-720.webp",
+        "original": "comics/42/04-page-03-final-20261110.jpg",
         "label": "제42화 · 본문 3쪽",
-        "width": 1080,
-        "height": 1350
+        "width": 1122,
+        "height": 1402,
+        "revisedAt": "2026-11-10"
       },
       {
-        "src": "comics/42/05-page-04-148f2c0805d8-1080.webp",
-        "small": "comics/42/05-page-04-148f2c0805d8-720.webp",
-        "original": "comics/42/05-page-04.jpg",
+        "src": "comics/42/05-page-04-final-20261110-6c455e261e6e-1080.webp",
+        "small": "comics/42/05-page-04-final-20261110-6c455e261e6e-720.webp",
+        "original": "comics/42/05-page-04-final-20261110.jpg",
         "label": "제42화 · 본문 4쪽",
-        "width": 1080,
-        "height": 1350
+        "width": 1122,
+        "height": 1402,
+        "revisedAt": "2026-11-10"
       },
       {
         "src": "comics/42/06-page-05-5fab9933c390-1080.webp",
@@ -3491,12 +3493,13 @@
         "height": 1350
       },
       {
-        "src": "comics/43/02-page-01-8198d23ae7af-1080.webp",
-        "small": "comics/43/02-page-01-8198d23ae7af-720.webp",
-        "original": "comics/43/02-page-01.jpg",
+        "src": "comics/43/02-page-01-final-20261110-142688d1da25-1080.webp",
+        "small": "comics/43/02-page-01-final-20261110-142688d1da25-720.webp",
+        "original": "comics/43/02-page-01-final-20261110.jpg",
         "label": "에필로그 · 본문 1쪽",
-        "width": 1080,
-        "height": 1350
+        "width": 1055,
+        "height": 1491,
+        "revisedAt": "2026-11-10"
       },
       {
         "src": "comics/43/03-page-02-3c4eda8856a7-1080.webp",
@@ -3539,20 +3542,22 @@
         "height": 1350
       },
       {
-        "src": "comics/43/08-page-07-1da8c0f64389-1080.webp",
-        "small": "comics/43/08-page-07-1da8c0f64389-720.webp",
-        "original": "comics/43/08-page-07.jpg",
+        "src": "comics/43/08-page-07-final-20261110-924bf8737ad3-1080.webp",
+        "small": "comics/43/08-page-07-final-20261110-924bf8737ad3-720.webp",
+        "original": "comics/43/08-page-07-final-20261110.jpg",
         "label": "에필로그 · 본문 7쪽",
-        "width": 1080,
-        "height": 1350
+        "width": 1122,
+        "height": 1402,
+        "revisedAt": "2026-11-10"
       },
       {
-        "src": "comics/43/09-page-08-87b36cb228de-1080.webp",
-        "small": "comics/43/09-page-08-87b36cb228de-720.webp",
-        "original": "comics/43/09-page-08.jpg",
+        "src": "comics/43/09-page-08-final-20261110-876bd9be7da2-1080.webp",
+        "small": "comics/43/09-page-08-final-20261110-876bd9be7da2-720.webp",
+        "original": "comics/43/09-page-08-final-20261110.jpg",
         "label": "에필로그 · 본문 8쪽",
-        "width": 1080,
-        "height": 1350
+        "width": 1122,
+        "height": 1402,
+        "revisedAt": "2026-11-10"
       }
     ]
   }
