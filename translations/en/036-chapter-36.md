@@ -494,6 +494,24 @@ Hawkeye turned her eyes away from the spire.
 
 * * *
 
+Before evening, Miles handed Mustang a sheet from the rail records.
+
+"The train at the southern terminus turned back last night."
+
+"On its own?"
+
+"It moved after receiving a single telegram. The signature came from the side of Brigadier General Graus's old unit."
+
+Mustang looked down at the record for a long time.
+
+"...That it went back is what matters."
+
+"You mean it never came in?"
+
+"I mean it could have."
+
+* * *
+
 Graus received the report of Bark's death that evening.
 
 "What was he doing?"
