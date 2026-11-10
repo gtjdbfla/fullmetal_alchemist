@@ -398,7 +398,7 @@ Brandt caught Mustang's arm. There was hardly any strength in his grip.
 
 "That soldier..."
 
-Mustang looked back. The soldier who had fired stood white-faced.
+Mustang looked back. The soldier who had fired stood white-faced. He was the soldier who had put a hand on his rifle during the stake incident and been told by Graus, "Don't reach for your gun first." Miles remembered that face.
 
 "He'll be investigated."
 
