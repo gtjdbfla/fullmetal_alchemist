@@ -2817,6 +2817,13 @@
               },
               {
                 "title": "카르사의 이름 없는 방식",
+                "overviewFigure": {
+                  "src": "illustrations/karsa-village-flow.webp",
+                  "alt": "카르사 마을 전경. 위쪽 저수조에서 내려오는 수로 옆의 홈이 마른 비탈길로 갈라져 아래 광장의 돌기둥까지 이어진다.",
+                  "caption": "카르사 마을 전경 연출도 · 수로 가장자리에서 갈라진 홈이 여러 층을 지나 아래 광장의 기둥까지 이어진다.",
+                  "width": 1536,
+                  "height": 1024
+                },
                 "figure": {
                   "src": "illustrations/karsa-flow.webp",
                   "alt": "돌판을 밀어 물길을 돌리자 마른 홈 위의 모래가 떨리고, 홈 끝의 돌기둥이 기운다.",

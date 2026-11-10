@@ -134,9 +134,9 @@ function chapterStoryPanel() {
 }
 
 function settingCard(item) {
-  const figure = item.figure;
-  return `<article class="setting-card${figure ? ' geography-map' : ''}"><h3>${esc(item.title)}</h3>
-    ${figure ? `<figure><a href="${esc(figure.src)}" target="_blank" rel="noopener"><img src="${esc(figure.src)}" alt="${esc(figure.alt)}" width="${esc(figure.width)}" height="${esc(figure.height)}" decoding="async"></a><figcaption>${esc(figure.caption)}</figcaption></figure>` : ''}
+  const figures = [item.overviewFigure, item.figure].filter(Boolean);
+  return `<article class="setting-card${figures.length ? ' geography-map' : ''}"><h3>${esc(item.title)}</h3>
+    ${figures.map(figure => `<figure><a href="${esc(figure.src)}" target="_blank" rel="noopener"><img src="${esc(figure.src)}" alt="${esc(figure.alt)}" width="${esc(figure.width)}" height="${esc(figure.height)}" decoding="async"></a><figcaption>${esc(figure.caption)}</figcaption></figure>`).join('')}
     <p>${esc(item.description)}</p><dl><dt>${esc(item.canonLabel || '본편 대비 개연성')}</dt><dd>${esc(item.canon)}</dd></dl></article>`;
 }
 
