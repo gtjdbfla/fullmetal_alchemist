@@ -34,9 +34,25 @@ That was the problem.
 
 * * *
 
+As Ed entered the administrative offices, the plate in front of Ling sat cold, barely touched.
+
+"Not eating?"
+
+"No appetite."
+
+"The emperor?"
+
+"Emperors have appetites too."
+
+Ed looked at the plate in silence for a moment.
+
+"Eat. Who's going to investigate if you collapse?"
+
+Ling picked up a piece of bread. He couldn't get a single bite down and set it back.
+
 "We found it."
 
-As Ed entered the administrative offices, Ling held out a sheet of paper. Ed took it.
+He held out a sheet of paper. Ed took it.
 
 "Found what?"
 
@@ -166,21 +182,9 @@ Xiaolin looked at it. "Yes."
 
 "Here."
 
-"Now?"
-
-"Yeah."
-
 "I'm busy."
 
-"Tomorrow?"
-
-"Busy tomorrow too."
-
-"Then let's go today."
-
-Xiaolin looked up. "What kind of logic is that?"
-
-"You're busy both days anyway."
+"You're busy tomorrow too anyway."
 
 "That's your problem."
 

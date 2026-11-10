@@ -40,6 +40,8 @@ Ling looked at Ed for a moment, then picked up his brush. Beside both incidents,
 
 Under investigation.
 
+An hour later Lien pinned that sheet to the market wall. What was confirmed and what was not were split into two columns. People spent the whole morning arguing in front of it.
+
 * * *
 
 Before noon, a bell rang in the Bai residential district.
@@ -158,7 +160,25 @@ I must become emperor.
 
 * * *
 
-At that same moment, in the An quarter, Xiaolin came running to find Ed.
+At that same moment, on the main road of the An quarter.
+
+Xiaolin stood in front of the column.
+
+"Chenluo. Stop."
+
+"Move."
+
+"You said you object because of your land. Whose land is it for now?"
+
+Chenluo did not slow down.
+
+"Your road talk is your business. This is ours."
+
+Xiaolin's face hardened.
+
+The people pushed her aside. By the time she got up, the column was already passing.
+
+She didn't even brush the dust from her sleeve. She ran to find Ed.
 
 "Ed! Chenluo's—"
 
@@ -447,6 +467,8 @@ One by one, the An lowered their weapons too.
 Night fell. The clinic was still overflowing.
 
 Chenluo sat beside one of the cots. On it lay an An child who had been knocked down and had hurt a leg when the column he had led surged forward. He said nothing.
+
+On the next cot, the old man from the relay village was wrapping cloth around his grandson's knee. It was the child Ed had saved.
 
 The dead did not come back. They still didn't know who had killed the Bai merchant. They still didn't know who had set fire to the shop.
 
