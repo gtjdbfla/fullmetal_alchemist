@@ -3132,12 +3132,13 @@
         "height": 1350
       },
       {
-        "src": "comics/38/07-page-06-b7c90c30796f-1080.webp",
-        "small": "comics/38/07-page-06-b7c90c30796f-720.webp",
-        "original": "comics/38/07-page-06.jpg",
+        "src": "comics/38/07-page-06-ending-20261108-98b9f2782f31-1080.webp",
+        "small": "comics/38/07-page-06-ending-20261108-98b9f2782f31-720.webp",
+        "original": "comics/38/07-page-06-ending-20261108.jpg",
         "label": "제38화 · 본문 6쪽",
-        "width": 1080,
-        "height": 1350
+        "width": 1122,
+        "height": 1402,
+        "revisedAt": "2026-11-08"
       },
       {
         "src": "comics/38/08-page-07-4b2fa7c9d522-1080.webp",
@@ -3220,12 +3221,13 @@
         "height": 1350
       },
       {
-        "src": "comics/39/08-page-07-def652ba0e1b-1080.webp",
-        "small": "comics/39/08-page-07-def652ba0e1b-720.webp",
-        "original": "comics/39/08-page-07.jpg",
+        "src": "comics/39/08-page-07-ending-20261108-d8ded0f2260c-1080.webp",
+        "small": "comics/39/08-page-07-ending-20261108-d8ded0f2260c-720.webp",
+        "original": "comics/39/08-page-07-ending-20261108.jpg",
         "label": "제39화 · 본문 7쪽",
-        "width": 1080,
-        "height": 1350
+        "width": 1122,
+        "height": 1402,
+        "revisedAt": "2026-11-08"
       },
       {
         "src": "comics/39/09-page-08-8df0144849d0-1080.webp",
