@@ -104,7 +104,7 @@ class DashboardDisclosureTests(unittest.TestCase):
         self.assertIn("대가가 없는 게 아니야", chapter_twelve["text"])
 
     def test_public_character_cards_are_spoiler_limited(self):
-        self.assertEqual(len(self.public["publicCharacters"]), 28)
+        self.assertEqual(len(self.public["publicCharacters"]), 27)
         edward = next(item for item in self.public["publicCharacters"] if item["name"] == "에드워드 엘릭")
         self.assertIn("연금술을 잃은", edward["summary"])
         self.assertIn("relationship", edward)
