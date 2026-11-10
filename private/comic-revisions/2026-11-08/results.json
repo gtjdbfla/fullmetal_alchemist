@@ -84,7 +84,18 @@
     "original": "comics/39/08-page-07-ending-20261108.jpg",
     "png": "39-07.png",
     "prompt": "Exact local edit to grayscale Korean manga image 1. The small upper-right bubble in row two must read exactly ‘무엇을 말입니까.’ (말 + 입 + 니 + 까 + period), not 칼입니까. The upper-left second bubble must read exactly ‘근데 왜 틀렸는지는 이제 알 것 같아.’ Keep all other text and the corrected speaker layout. Never change any other panels, wording, borders, ordering or page number.",
-    "qa": "첫 줄 린의 말풍선 통합 및 원문 대조. 둘째 줄의 기존 화자 배치 모호함은 별도 수정 대상.",
+    "qa": "첫 줄 린의 말풍선 통합. 둘째 줄의 기존 화자 배치 모호함은 남음.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "chapter": 36,
+    "index": 7,
+    "label": "제36화 · 본문 7쪽",
+    "previous": "comics/36/08-page-07.jpg",
+    "original": "comics/36/08-page-07-ending-20261108.jpg",
+    "png": "36-07.png",
+    "prompt": "Edit only one line in the bottom-right rectangular Korean caption. The exact four lines are ‘책상 위에는 자신이 만든 지도가 있었다.’, ‘사람들이 부딪힐 곳.’, ‘군이 움직일 곳.’, ‘총통이 움직일 곳.’, followed by ‘전부 계산할 수 있다고 생각했다.’. In particular the fourth line must read 총통이 움직일 곳. Keep the entire existing illustration and every other line and word intact. Retain all panels, page number and margins.",
+    "qa": "게시 원본 및 원고 해당 장면과 대조",
     "tool": "built-in image_gen"
   }
 ]

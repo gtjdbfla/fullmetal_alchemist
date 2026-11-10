@@ -2981,12 +2981,13 @@
         "height": 1350
       },
       {
-        "src": "comics/36/08-page-07-98a5464f1182-1080.webp",
-        "small": "comics/36/08-page-07-98a5464f1182-720.webp",
-        "original": "comics/36/08-page-07.jpg",
+        "src": "comics/36/08-page-07-ending-20261108-da0ab95fdfb5-1080.webp",
+        "small": "comics/36/08-page-07-ending-20261108-da0ab95fdfb5-720.webp",
+        "original": "comics/36/08-page-07-ending-20261108.jpg",
         "label": "제36화 · 본문 7쪽",
-        "width": 1080,
-        "height": 1350
+        "width": 1122,
+        "height": 1402,
+        "revisedAt": "2026-11-08"
       },
       {
         "src": "comics/36/09-page-08-31def25b9bbe-1080.webp",
