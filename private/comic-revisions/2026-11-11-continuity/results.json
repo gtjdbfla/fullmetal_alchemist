@@ -1,0 +1,79 @@
+[
+  {
+    "chapter": 4,
+    "index": 7,
+    "label": "제4화 · 본문 7쪽",
+    "previous": "comics/04/08-page-07.jpg",
+    "original": "comics/04/08-page-07-continuity-20261111.jpg",
+    "png": "04-07.png",
+    "prompt": "Localized revision to this exact grayscale Korean comic chapter 4 page 7. Keep the original drawing, characters, notebook, printed Korean, and all panels except the middle-right panel beside the panel starting “스카.”. Redraw only that middle-right panel as a horizontal two-shot of Edward and Scar with enough room for five balloons. Scar at left is tall dark-skinned with short white hair, X-shaped forehead scar and black shirt, his expression progressively impatient; Edward at right is the younger light-haired man with long braid, intently asking follow-ups. Read balloons strictly top to bottom in this exact order: Scar “메이에게 그런 얘기를 들은 적은 없다.”; Edward “몸을 잃었다거나.”; Scar “모른다.”; Edward “연단술 쓰다가 문을 봤다거나.”; Scar “모른다고 했다.”. Every balloon has a clearly visible tail pointing back toward its speaker, alternate left and right. No crossing tails, no new wording. Preserve all other text and composition.",
+    "qa": "Restored clearly alternating tails for Edward's follow-up questions and Scar's replies. Verified dialogue and surrounding panels.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "chapter": 25,
+    "index": 3,
+    "label": "제25화 · 본문 3쪽",
+    "previous": "comics/25/04-page-03.jpg",
+    "original": "comics/25/04-page-03-continuity-20261111.jpg",
+    "png": "25-03.png",
+    "prompt": "Make an extremely localized proofreading edit to the top panel of this monochrome Korean manga page. Both “우리 땅이 우리 건지.” and “그것도 황제가 정해?” are spoken by the curly-haired seated young man at the right. Keep the first balloon high and left of the second so the reader reads left to right, but both tails must point to the young man on the far right; don't point toward Edward or Lin. Leave artwork and every letter of all panels unchanged, especially “우물 사용권을 이야기했고,” in third strip. No new words. Do not change the characters or the rest of the page.",
+    "qa": "Both opening questions point to Kairun. Verified the rest of the page, including 우물 사용권을 이야기했고.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "chapter": 32,
+    "index": 7,
+    "label": "제32화 · 본문 7쪽",
+    "previous": "comics/32/08-page-07.jpg",
+    "original": "comics/32/08-page-07-continuity-20261111.jpg",
+    "png": "32-07.png",
+    "prompt": "Edit this exact grayscale Korean manga page 7 of chapter 32, left-to-right. Keep the existing panels and exact Korean text. Insert a single atmospheric horizontal panel immediately before the existing panel labeled 다음 날 새벽. Show a 1910s military steam train pulling out of a southwestern garrison in darkness, unlit troop coaches. Two clean rectangular narration boxes exactly: “그날 밤 남서쪽 주둔지에서 군용 열차 한 편성이 출발했다.” and “객차마다 불이 꺼져 있었다. 병사들은 합동 기동훈련이라고 들었다.” Preserve existing faces, uniform and scene sequence. No invented text. Allow a tall vertical page with clear mobile lettering.\nSecond edit: Preserve exact existing grayscale Korean manga and all lettering. Change ONLY the face and hair of Miles in the last two strips so he matches the Miles on the second reference portrait sheet exactly: dark complexion, white side-swept hair, clean-shaven, no sunglasses. He is the black-haired man with tinted glasses in the lower part of the first reference. Keep his serious, thoughtful expression and uniform. Don't change any other person, line or train panel. No text edits.",
+    "qa": "Verified train departure after Grouse's scene and before dawn, exact captions, and Miles's portrait.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "chapter": 32,
+    "index": 8,
+    "label": "제32화 · 본문 8쪽",
+    "previous": "comics/32/09-page-08.jpg",
+    "original": "comics/32/09-page-08-continuity-20261111.jpg",
+    "png": "32-08.png",
+    "prompt": "Edit exact existing Korean manga chapter 32 page 8. In top two panels only, the dark-haired man with glasses is Miles. Give him his reference portrait appearance: white swept hair, dark skin, clean shaven, no glasses, no scar. Leave the aide and uniform unchanged. In the top right only expand his exact dialogue to “이제 센트럴도 직접 보게 되겠지. 그 열차도.”. Maintain all remaining panels and captions unchanged; do not change Grouse in the lower part.",
+    "qa": "Verified Miles's last line about the train and consistent portrait.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "chapter": 32,
+    "index": 8,
+    "label": "제32화 · 보완 1쪽",
+    "previous": null,
+    "original": "comics/32/supplement-continuity-20261111.jpg",
+    "png": "32-08-supplement.png",
+    "prompt": "Draw one new grayscale Korean manga page continuing directly after reference image 1, before its next scene. Use its monochrome inks, military office, uniforms and minor aide design. Use canonical Miles face from labeled Miles portrait in image 2: medium dark skin, white swept hair, clean shaven, no forehead scar or dark sunglasses. Not Scar. Only two speaking people. Upper row, aide at left reports to Miles at right: “남서쪽 주둔지에서 군용 열차 한 편성이 어젯밤 출발했습니다.” Middle row, Miles asks “어디로?” and aide answers “이슈발 쪽으로 올라오고 있습니다. 종착역까지 이틀이면 닿습니다.” with clear opposite tails. Bottom wide panel, Miles examines the southern rail terminus on a map and writes the exact label “남쪽 철도 · 미확인 열차.”. Read left to right. Clearly legible Korean. No other text. Let the office reaction be measured and tense. Classic hand-drawn 1910s military setting.",
+    "qa": "Verified the aide reports, Miles asks, and the map label matches the approved manuscript.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "chapter": 36,
+    "index": 8,
+    "label": "제36화 · 보완 1쪽",
+    "previous": null,
+    "original": "comics/36/supplement-continuity-20261111.jpg",
+    "png": "36-08-supplement.png",
+    "prompt": "Draw a new grayscale manga page for chapter 36 matching reference 1. Match only Miles and Mustang to their labeled canonical faces in reference 2. Miles has dark skin and silver swept-back hair, clean shaven without forehead scar; Mustang has a pale complexion and straight black fringe. Both wear dark Amestrian military uniforms. Only these two people in a modest Ishval military office at late afternoon. Left-to-right flow. Panel 1 Miles hands Mustang a railway record and says “남부 종착역의 열차가 어젯밤 되돌아갔습니다.” Panel 2 Mustang asks “스스로?” Panel 3 Miles says “전신 한 통을 받고 움직였답니다. 발신 서명은 그라우스 준장의 옛 부대 쪽이었습니다.” Panel 4 Mustang looks down, seriously considering, and says “……돌아갔다는 게 중요하군.” Panel 5 Miles says “들어오지 않았다는 뜻입니까.” Panel 6 Mustang answers “들어올 수 있었다는 뜻이지.”. Each bubble tail points only to that speaker. No added lettering or invented action. Render spacious clean Korean lettering.",
+    "qa": "Verified all six lines, alternating speakers, and Miles and Mustang's portrait identity. Intercut the report before the closing conversation.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "chapter": 34,
+    "index": 1,
+    "label": "제34화 · 본문 1쪽",
+    "previous": "comics/34/02-page-01-cast-20261106.jpg",
+    "original": "comics/34/02-page-01-cast-20261106-continuity-20261111.jpg",
+    "png": "34-01.png",
+    "prompt": "Edit exact monochrome Korean manga chapter 34 page 1. Preserve characters, drawing style, grayscale and existing wording. Correct the first car panel tails only: “환영이 요란하군.” is Mustang (black-haired man at right), “환영은 아닌 것 같습니다.” is Hawkeye (blond woman at left), “알고 있어.” is Mustang. Make reading order clear. Restore one full-width panel just before “그라우스 준장은?” after “모르는 사이에도 사람이 죽습니다.”. Panel shows Miles (dark-haired man, dark rectangular glasses, subtle short chin beard) addressing Mustang in same Ishval setting. First line upper left from Miles “그리고 남쪽 철도로 군용 열차 한 편성이 올라오고 있습니다.” Next from Mustang “누구 병력이지?” Last from Miles “합동 기동훈련이랍니다. 승인자는 확인 중입니다.” Maintain everything else and footer. Every new bubble has a short clear tail to the corresponding speaker, and no crossing tails. Use larger canvas to fit, no new text.\n\nProofread this exact Korean grayscale manga page. Fix the face of Miles everywhere on the page: he is the officer currently drawn with black hair and dark glasses. Match Miles on reference 2, white swept hair, medium-dark skin, clean shaven, eyes visible, no forehead scar. Leave black-haired Mustang and blond Hawkeye untouched. The car scene first line “환영이 요란하군.” belongs to Mustang, followed by Hawkeye “환영은 아닌 것 같습니다.” and Mustang “알고 있어.”. Replace that strip with three adjacent small panels in that order with one character per panel. Near bottom, the rail report scene must precede the Hawkeye question “그라우스 준장은?”. Place question and answer “본부에 있습니다.” after the rail report in a separate panel. In the train report, both the first and last balloons are spoken by Miles, middle by Mustang. Fix their tails and keep Korean exactly. Preserve all other Korean wording, panel sequence and style.\n\nLocal lettering and panel order correction only, preserve exact manga art and all other lettering. Near the bottom, the row with “그리고 남쪽 철도로…” currently has three balloons and two faces. Replace ONLY that row with THREE small closeup panels side by side. First closeup, white-haired dark-skinned Miles says “그리고 남쪽 철도로 군용 열차 한 편성이 올라오고 있습니다.”. Second closeup, black-haired Mustang says “누구 병력이지?”. Third closeup, show Miles again, white-haired dark-skinned, saying “합동 기동훈련이랍니다. 승인자는 확인 중입니다.”. The third panel MUST show Miles's own face. Put the “그라우스 준장은?” / “본부에 있습니다.” exchange in a small separate strip AFTER these three panels, BEFORE the “가 보지.” final panel. Maintain everything else, including portraits and Korean wording.\n\nProofread this exact Korean comic page. The question “그라우스 준장은?” and answer “본부에 있습니다.” appear twice. Delete ONLY the FIRST pair of those two speech balloons, in the panel to the immediate right of “모르는 사이에도 사람이 죽습니다.” (immediately above the three rail-report panels). Leave that first Hawkeye panel as silent reaction art, filling the space behind the deleted balloons with matching sky. KEEP the second occurrence immediately below the rail-report panels. Preserve every other panel, letter, character face, and placement exactly. No other change.",
+    "qa": "Verified car dialogue by separating speakers; checked all three train-report lines, Miles identity, and single subsequent headquarters exchange.",
+    "tool": "built-in image_gen"
+  }
+]

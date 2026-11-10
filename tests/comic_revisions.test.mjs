@@ -24,3 +24,12 @@ test('verified first corrections remain and debate supplements appear before mee
  const four=chapter(4).pages.map(p=>p.original.split('/').pop());
  assert.deepEqual(four.slice(-3),['09-page-08-rev2.jpg','r2-ch04-insert-1.jpg','r2-ch04-insert-2.jpg']);
 });
+
+test('railway supplements appear before the final scenes in their chapters', () => {
+  for (const number of [32, 36]) {
+    const pages = chapter(number).pages;
+    const supplement = pages.findIndex(page => page.original.endsWith('/supplement-continuity-20261111.jpg'));
+    assert.equal(supplement, pages.length - 2);
+    assert.match(pages[supplement + 1].original, /\/09-page-08/);
+  }
+});
