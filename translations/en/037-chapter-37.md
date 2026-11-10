@@ -24,11 +24,11 @@ Graus's eyes moved.
 
 "It was a joint exercise."
 
-"It withdrew yesterday. You sent it back."
+"The approval line for the exercise was blank, and the telegram that turned it back carried your name."
 
 "..."
 
-"Miles brought me the rail records."
+"I've never seen an exercise stop on a single sheet of paper."
 
 Mustang pulled up a chair and sat. "That's why I'm asking."
 
