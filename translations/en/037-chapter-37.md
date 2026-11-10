@@ -76,6 +76,22 @@ Bark's body and gun were handed over to the military investigators.
 
 Hawkeye repeated the same statements. She had confirmed that Bark was targeting Scar. She had confirmed that he was Graus's subordinate. Beyond that, she didn't know.
 
+A notebook turned up in Bark's quarters. The military investigators showed it to Hawkeye first.
+
+It was only a few tables. Target. Effect. Alertness inside the army. Distrust among residents. Response time of the local command.
+
+At the top of the first page, in dry handwriting: *Civilians — avoid if possible. Interpretation: mission effect takes priority.*
+
+On the last page there was one name.
+
+*Scar. High influence. Maximum effect if removed.*
+
+Hawkeye looked at that line for a long time.
+
+I would have written it this way too.
+
+That thought stayed with her the longest.
+
 Miles brought back the reports of the first three incidents.
 
 "Comparing the gun and the bullets may tell us something."
@@ -282,7 +298,7 @@ Scar said, "If an angry man decides guilt, it is no different from my past."
 
 The man's grip weakened.
 
-At the back of the crowd, Adin stood with his teeth clenched. His fists were tight, but he didn't move forward.
+At the back of the crowd, Adin stood with his teeth clenched. His fists were tight, but he didn't move forward. In his pocket was a worn ball he had picked up at the school lot.
 
 Then the door opened. Brandt emerged. The murmuring swelled. Someone recognized him.
 
