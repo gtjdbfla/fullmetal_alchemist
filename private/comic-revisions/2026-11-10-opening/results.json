@@ -1,0 +1,46 @@
+[
+  {
+    "chapter": 0,
+    "index": 1,
+    "label": "본문 1쪽",
+    "previous": "comics/00/01.jpg",
+    "original": "comics/00/01-dialogue-20261110.jpg",
+    "png": "00-01.png",
+    "prompt": "Edit this exact grayscale Korean manga page, prologue page 1. Retain the exact faces and wardrobe (Edward on left/top opening, pale long braid, clean shaven, young adult; stocky dark-haired mine alchemist), hand positions, left-to-right reading direction, and current dialogue. Maintain page art and furniture. Restore a missing brief causal beat before the bottom challenge: add one narrow intermediate panel between the narration panel and the existing last panel, showing Edward indicating the timber support with a concerned, focused expression. His single connected bubble reads exactly “여기 암반에 철이 많아. 거기에 저 방향으로 압력을 걸면 지지대가 버티는 게 아니라 옆으로 밀려.” Its tail points only at Edward. Space the rows so it can be read on mobile. Keep the last line “그렇게 잘 알면 직접 하지 그래?” tail toward the dark-haired man. Keep all other text exactly as in reference. No added dialogue, no lettering errors.",
+    "qa": "Verified exact restored approved bedrock/support line, Edward's tail and existing panel order.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "chapter": 0,
+    "index": 5,
+    "label": "본문 5쪽",
+    "previous": "comics/00/05.jpg",
+    "original": "comics/00/05-dialogue-20261110.jpg",
+    "png": "00-05.png",
+    "prompt": "Local proofreading edit of a published black-and-white Korean comic, exact original in image 1. In the bottom right panel only, move the small ‘왜?’ balloon to the upper-left of Edward's face with a tail that points to the blond Edward on the right. Move the bigger ‘혹시…… 강철의 연금술사?’ to the lower-right, tail pointing across toward the dark-haired alchemist at left. Reading order is ‘엘릭?’ (previous panel), ‘왜?’, then ‘혹시…… 강철의 연금술사?’. Keep the dark-haired man's startled look and Edward’s guarded expression. Do not reprint any other text. Copy the full page including margins, artwork, faces, non-target speech balloons and lettering. Preserve panel composition and left-to-right reading order. No duplicates, no omissions, no new words.",
+    "qa": "Checked original Korean and all speaker turns. Last panel reads from high left to low right.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "chapter": 0,
+    "index": 6,
+    "label": "본문 6쪽",
+    "previous": "comics/00/06.jpg",
+    "original": "comics/00/06-dialogue-20261110.jpg",
+    "png": "00-06.png",
+    "prompt": "Local proofreading edit of a published black-and-white Korean comic, exact original in image 1. Third horizontal strip, left panel only: the dark-haired man on the left is the speaker of ‘아니.’ AND ‘안 했소!’. Turn the ‘안 했소!’ balloon tail left toward his face; Edward on the right only says ‘했잖아!’. Second strip left panel: the man's eyes glance downward awkwardly before ‘……젊군.’ in the next panel; Edward's brows tighten. Make the expression change subtle. Preserve every exact Korean syllable and punctuation mark. Copy the full page including margins, artwork, faces, non-target speech balloons and lettering. Preserve panel composition and left-to-right reading order. No duplicates, no omissions, no new words.",
+    "qa": "Verified denial tail goes to the miner, miner glances down, Edward's irritated expression and text carry through.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "chapter": 2,
+    "index": 1,
+    "label": "제2화 · 본문 1쪽",
+    "previous": "comics/02/02-page-01-cast-20261106.jpg",
+    "original": "comics/02/02-page-01-cast-20261106-dialogue-20261110.jpg",
+    "png": "02-01.png",
+    "prompt": "Local proofreading edit of a published black-and-white Korean comic, exact original in image 1. Penultimate panel only: move the ‘알아, 알아!’ balloon beside blond Edward so its single tail unequivocally points to him, not the silver-haired officer. ‘이제 총통이시다.’ is only Miles with a tail to Miles. ‘너 점점 그 대령 닮아가네!’ is Edward. Read top left first, top right next, then the new low left balloon. Preserve every other letter, face and panel exactly; do not add a panel. Copy the full page including margins, artwork, faces, non-target speech balloons and lettering. Preserve panel composition and left-to-right reading order. No duplicates, no omissions, no new words.",
+    "qa": "Checked existing lines against chapter 2 and confirmed that Miles's correction and Edward's reply have distinct tails.",
+    "tool": "built-in image_gen"
+  }
+]

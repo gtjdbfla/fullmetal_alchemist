@@ -13,12 +13,13 @@
         "small": "comics/00/00-cover-ec880d4bbb56-720.webp"
       },
       {
-        "src": "comics/00/01-03b90ed85d45-1080.webp",
+        "src": "comics/00/01-dialogue-20261110-2b671c6e59a2-1080.webp",
         "label": "본문 1쪽",
-        "original": "comics/00/01.jpg",
-        "width": 1080,
-        "height": 1350,
-        "small": "comics/00/01-03b90ed85d45-720.webp"
+        "original": "comics/00/01-dialogue-20261110.jpg",
+        "width": 1122,
+        "height": 1402,
+        "small": "comics/00/01-dialogue-20261110-2b671c6e59a2-720.webp",
+        "revisedAt": "2026-11-10"
       },
       {
         "src": "comics/00/02-d3b1fb1f7caa-1080.webp",
@@ -45,20 +46,22 @@
         "small": "comics/00/04-d4e0dbad45a5-720.webp"
       },
       {
-        "src": "comics/00/05-6e9c4e0bb79e-1080.webp",
+        "src": "comics/00/05-dialogue-20261110-915ef4422d95-1080.webp",
         "label": "본문 5쪽",
-        "original": "comics/00/05.jpg",
-        "width": 1080,
-        "height": 1350,
-        "small": "comics/00/05-6e9c4e0bb79e-720.webp"
+        "original": "comics/00/05-dialogue-20261110.jpg",
+        "width": 1122,
+        "height": 1402,
+        "small": "comics/00/05-dialogue-20261110-915ef4422d95-720.webp",
+        "revisedAt": "2026-11-10"
       },
       {
-        "src": "comics/00/06-6eb00610c968-1080.webp",
+        "src": "comics/00/06-dialogue-20261110-12b5ed9d534e-1080.webp",
         "label": "본문 6쪽",
-        "original": "comics/00/06.jpg",
-        "width": 1080,
-        "height": 1350,
-        "small": "comics/00/06-6eb00610c968-720.webp"
+        "original": "comics/00/06-dialogue-20261110.jpg",
+        "width": 1122,
+        "height": 1402,
+        "small": "comics/00/06-dialogue-20261110-12b5ed9d534e-720.webp",
+        "revisedAt": "2026-11-10"
       },
       {
         "src": "comics/00/07-77ad5a79facf-1080.webp",
@@ -223,13 +226,13 @@
         "small": "comics/02/01-cover-d6de59dddb9f-720.webp"
       },
       {
-        "src": "comics/02/02-page-01-cast-20261106-5232eb13150a-1080.webp",
+        "src": "comics/02/02-page-01-cast-20261106-dialogue-20261110-ad6259d34a0e-1080.webp",
         "label": "제2화 · 본문 1쪽",
-        "original": "comics/02/02-page-01-cast-20261106.jpg",
+        "original": "comics/02/02-page-01-cast-20261106-dialogue-20261110.jpg",
         "width": 1122,
         "height": 1402,
-        "small": "comics/02/02-page-01-cast-20261106-5232eb13150a-720.webp",
-        "revisedAt": "2026-11-06"
+        "small": "comics/02/02-page-01-cast-20261106-dialogue-20261110-ad6259d34a0e-720.webp",
+        "revisedAt": "2026-11-10"
       },
       {
         "src": "comics/02/03-page-02-rev2-23fec2c795c4-1080.webp",
