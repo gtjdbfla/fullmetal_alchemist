@@ -1,0 +1,68 @@
+[
+  {
+    "chapter": 35,
+    "index": 0,
+    "label": "표지",
+    "previous": "comics/35/01-cover-cast-20261106.jpg",
+    "original": "comics/35/01-cover-cast-20261106-ending-20261108.jpg",
+    "png": "35-00.png",
+    "prompt": "Edit the original published Korean grayscale manga page, input 1. Later inputs are portrait references (lanfan tianluo). Change Lan Fan at center right from a bob to the distinctive short front fringe and high black ponytail seen in her character portrait and this chapter’s body. Keep her automail arm and black gear. Also correct Tianluo, the bearded man in a scarf at far left, to his portrait. Tianluo An should match his reference: angular clean-shaven tan face, long hair drawn into a low ponytail, and sand-gray scarf. Keep medium-dark hair in grayscale. Keep Luhan kneeling, already drawn with the right fringe; retain rope, sword, poses and titles. Preserve the full page and existing grayscale style, every other pose, costume, panel, background, page number, Korean text and exact lettering. No duplicated or dropped dialogue, no new lettering. Render clean Korean at original readability.",
+    "qa": "승인 원고 해당 장면과 게시 원본 대조, 대사 및 외형 확인",
+    "tool": "built-in image_gen"
+  },
+  {
+    "chapter": 35,
+    "index": 4,
+    "label": "제35화 · 본문 4쪽",
+    "previous": "comics/35/05-page-04.jpg",
+    "original": "comics/35/05-page-04-ending-20261108.jpg",
+    "png": "35-04.png",
+    "prompt": "Edit the original published Korean grayscale manga page, input 1. Later inputs are portrait references (luhan). Luhan is the bruised young noble in plain gray robe, distinct from Ling in dragon-embroidered black robe. On every occurrence of Luhan, match his reference with straight black hanging fringe, shorter loose black hair and youthful narrow face. Remove Luhan's topknot. Keep bruises and outfit. Never alter Ling’s long ponytail. Preserve the full page and existing grayscale style, every other pose, costume, panel, background, page number, Korean text and exact lettering. No duplicated or dropped dialogue, no new lettering. Render clean Korean at original readability.",
+    "qa": "승인 원고 해당 장면과 게시 원본 대조, 대사 및 외형 확인",
+    "tool": "built-in image_gen"
+  },
+  {
+    "chapter": 35,
+    "index": 7,
+    "label": "제35화 · 본문 7쪽",
+    "previous": "comics/35/08-page-07.jpg",
+    "original": "comics/35/08-page-07-ending-20261108.jpg",
+    "png": "35-07.png",
+    "prompt": "Precise correction to image 1, a Korean monochrome manga page. Correct only two details in this finished Korean manga page. Bottom left, change ‘무한.’ to ‘루한.’ (루 + 한 + period). In the long panel immediately above, the text ‘내가 죽으면 바이족을 지킬 수 있어?’ is already correct but its tail points right. Move this tail from the lower right edge of the balloon to the left edge and point left toward the black-ponytailed prince who also says ‘그래도 내가 죽어야 해?’. Make a short tail that does not touch the first balloon. The short-haired man on the right has only the ellipsis. Keep all remaining Korean exactly, panel order, full margins and every other detail. Reference 2 is Luhan. No duplication or omitted panels.",
+    "qa": "승인 원고 해당 장면과 게시 원본 대조, 대사 및 외형 확인",
+    "tool": "built-in image_gen"
+  },
+  {
+    "chapter": 37,
+    "index": 2,
+    "label": "제37화 · 본문 2쪽",
+    "previous": "comics/37/03-page-02.jpg",
+    "original": "comics/37/03-page-02-ending-20261108.jpg",
+    "png": "37-02.png",
+    "prompt": "Precisely retouch only one head inside the original Korean manga page, image 1. Locate the FOURTH horizontal row (the row starting with 세 건 모두 사수를 못 찾았습니다.), first panel on the left. The tiny face with black sunglasses is Miles. Change ONLY those sunglasses, face skin tone, and hair inside that one panel, matching the silver-haired dark-skinned military man already visible in the right side of the same row and in character portrait input 2. No glasses, light swept hair. Do not redraw any lettering or other panel. Keep the lower-left panel exactly as the original: a fair-skinned blonde woman Hawkeye says '좋은 일일지도 모르죠.' Never darken her skin. Keep the original location caption with exact words '철거가 중단됐던 검문소에서는' and '다시 장벽을 치우기 시작했다.' Preserve every speech bubble, tail and page layout.",
+    "qa": "승인 원고 해당 장면과 게시 원본 대조, 대사 및 외형 확인",
+    "tool": "built-in image_gen"
+  },
+  {
+    "chapter": 35,
+    "index": 5,
+    "label": "제35화 · 본문 5쪽",
+    "previous": "comics/35/06-page-05.jpg",
+    "original": "comics/35/06-page-05-ending-20261108.jpg",
+    "png": "35-05.png",
+    "prompt": "Precise edit on this grayscale Korean manga page. Only edit the top panel's two bubbles reading ‘아닙니다.’. Move both rightward: the right edge of each bubble should be immediately in front of the short-haired bruised man at right, between his face and Edward. Both tails extend right past Edward toward the short-haired man. The two bubbles and their tails must not overlap the blond Edward or point to him. Retain both exact words and all other text. Keep the current short black hair of Luhan in all panels. Copy every other Korean letter, composition and margin exactly. No new words, removed words or duplicated dialogue.",
+    "qa": "승인 원고 해당 장면과 게시 원본 대조, 대사 및 외형 확인",
+    "tool": "built-in image_gen"
+  },
+  {
+    "chapter": 39,
+    "index": 3,
+    "label": "제39화 · 본문 3쪽",
+    "previous": "comics/39/04-page-03.jpg",
+    "original": "comics/39/04-page-03-ending-20261108.jpg",
+    "png": "39-03.png",
+    "prompt": "Localized proofreading pass on this completed grayscale Korean manga page. Only fix one bubble in the bottom-left area: ‘란시 상인들에게 어떤 보상을 할지.’. City name 란시 (란 + 시). Keep all other letters and all artwork verbatim, including the older plain-robed man in the top left. Do not change any other panels. Preserve all remaining artwork, page edges and exact Hangul. Do not duplicate words or panels.",
+    "qa": "승인 원고 해당 장면과 게시 원본 대조, 대사 및 외형 확인",
+    "tool": "built-in image_gen"
+  }
+]
