@@ -2005,12 +2005,13 @@
         "small": "comics/23/05-page-04-9f9e583ead20-720.webp"
       },
       {
-        "src": "comics/23/06-page-05-e738b41ab0bd-1080.webp",
+        "src": "comics/23/06-page-05-manuscript-20261111-af6bcc0943f0-1080.webp",
         "label": "제23화 · 본문 5쪽",
-        "original": "comics/23/06-page-05.jpg",
-        "width": 1080,
-        "height": 1350,
-        "small": "comics/23/06-page-05-e738b41ab0bd-720.webp"
+        "original": "comics/23/06-page-05-manuscript-20261111.jpg",
+        "width": 1122,
+        "height": 1402,
+        "small": "comics/23/06-page-05-manuscript-20261111-af6bcc0943f0-720.webp",
+        "revisedAt": "2026-11-11"
       },
       {
         "src": "comics/23/07-page-06-58aa65aca7e2-1080.webp",
@@ -2035,6 +2036,95 @@
         "width": 1080,
         "height": 1350,
         "small": "comics/23/09-page-08-7db37a9cf143-720.webp"
+      }
+    ]
+  },
+  {
+    "number": 24,
+    "episode": "제24화",
+    "title": "두 개의 미래",
+    "readerId": "chapter-24",
+    "pages": [
+      {
+        "label": "표지",
+        "original": "comics/24/01-cover.jpg",
+        "width": 1122,
+        "height": 1402,
+        "revisedAt": "2026-11-11",
+        "small": "comics/24/01-cover-efc67cdf9a11-720.webp",
+        "src": "comics/24/01-cover-efc67cdf9a11-1080.webp"
+      },
+      {
+        "label": "제24화 · 본문 1쪽",
+        "original": "comics/24/02-page-01.jpg",
+        "width": 1024,
+        "height": 1536,
+        "revisedAt": "2026-11-11",
+        "small": "comics/24/02-page-01-355d42a2acc1-720.webp",
+        "src": "comics/24/02-page-01-355d42a2acc1-1080.webp"
+      },
+      {
+        "label": "제24화 · 본문 2쪽",
+        "original": "comics/24/03-page-02.jpg",
+        "width": 1024,
+        "height": 1536,
+        "revisedAt": "2026-11-11",
+        "small": "comics/24/03-page-02-0914ed7c2430-720.webp",
+        "src": "comics/24/03-page-02-0914ed7c2430-1080.webp"
+      },
+      {
+        "label": "제24화 · 본문 3쪽",
+        "original": "comics/24/04-page-03.jpg",
+        "width": 1024,
+        "height": 1536,
+        "revisedAt": "2026-11-11",
+        "small": "comics/24/04-page-03-6d9131d64c3f-720.webp",
+        "src": "comics/24/04-page-03-6d9131d64c3f-1080.webp"
+      },
+      {
+        "label": "제24화 · 본문 4쪽",
+        "original": "comics/24/05-page-04.jpg",
+        "width": 984,
+        "height": 1599,
+        "revisedAt": "2026-11-11",
+        "small": "comics/24/05-page-04-ffa912f3bbdc-720.webp",
+        "src": "comics/24/05-page-04-ffa912f3bbdc-1080.webp"
+      },
+      {
+        "label": "제24화 · 본문 5쪽",
+        "original": "comics/24/06-page-05.jpg",
+        "width": 1024,
+        "height": 1536,
+        "revisedAt": "2026-11-11",
+        "small": "comics/24/06-page-05-7ce5545974a6-720.webp",
+        "src": "comics/24/06-page-05-7ce5545974a6-1080.webp"
+      },
+      {
+        "label": "제24화 · 본문 6쪽",
+        "original": "comics/24/07-page-06.jpg",
+        "width": 1024,
+        "height": 1536,
+        "revisedAt": "2026-11-11",
+        "small": "comics/24/07-page-06-62242180f513-720.webp",
+        "src": "comics/24/07-page-06-62242180f513-1080.webp"
+      },
+      {
+        "label": "제24화 · 본문 7쪽",
+        "original": "comics/24/08-page-07.jpg",
+        "width": 1122,
+        "height": 1402,
+        "revisedAt": "2026-11-11",
+        "small": "comics/24/08-page-07-2c96164c7af4-720.webp",
+        "src": "comics/24/08-page-07-2c96164c7af4-1080.webp"
+      },
+      {
+        "label": "제24화 · 본문 8쪽",
+        "original": "comics/24/09-page-08.jpg",
+        "width": 1024,
+        "height": 1536,
+        "revisedAt": "2026-11-11",
+        "small": "comics/24/09-page-08-ddf3dd09c062-720.webp",
+        "src": "comics/24/09-page-08-ddf3dd09c062-1080.webp"
       }
     ]
   },

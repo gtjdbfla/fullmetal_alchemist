@@ -1,0 +1,72 @@
+[
+  {
+    "i": 0,
+    "prompt": "Previously corrected cover from the comic production archive.",
+    "n": 24,
+    "original": "comics/24/01-cover.jpg",
+    "archive": "24-00.png"
+  },
+  {
+    "i": 1,
+    "prompt": "Localized edit to this exact Korean grayscale comic page. In rows two and three only, replace the mustachioed turbaned man with the same unnamed clean-shaven Ranxi court clerk in both panels, in a simple dark cloth court cap and undecorated robe. Preserve all Korean lettering exactly. No extra text.",
+    "n": 24,
+    "original": "comics/24/02-page-01.jpg",
+    "archive": "24-01.png"
+  },
+  {
+    "i": 2,
+    "prompt": "Localized edit to this exact Korean grayscale comic page. Replace the dark-haired woman beside Tianluo in the meeting wide shot with Xiaolin from portrait reference, light high ponytail and civilian outfit. In final balloon add the exact first clause “폐하가 좋은 결정을 하는 것과.” above the existing “우리가 그 권리를 가지는 건 다르다는 겁니다.” Keep every other letter and panel unchanged. No extra text.",
+    "n": 24,
+    "original": "comics/24/03-page-02.jpg",
+    "archive": "24-02.png"
+  },
+  {
+    "i": 3,
+    "prompt": "Localized edit to this exact Korean grayscale comic page. Change only the market reader in third row to an unnamed younger clean-shaven merchant in a low woven cap, distinct from the current mustachioed turbaned man. Preserve every letter and the unsealed paper. No extra text.",
+    "n": 24,
+    "original": "comics/24/04-page-03.jpg",
+    "archive": "24-03.png"
+  },
+  {
+    "i": 4,
+    "prompt": "Edit grayscale Korean manga page 4. Add to the upper market panel a separate short earlier balloon from the round-glasses woman Lien saying exactly “그 말은 너무 길잖아요. 사람들은 줄여서 말해요.” Keep her existing ‘정리’ to ‘통제’ line and direct both tails to Lien. In warehouse panels, change the mustachioed merchant handling the ornament to an anonymous older man in an unadorned wool cap and plain rough work clothes, with a round face and no beard or mustache, including his same clothing in the close-ups. Keep silver-haired Kairun looking only at the paper and preserve every other panel and letter.\nKeep all panels and exact existing Korean lettering. Insert a short new panel ABOVE the current page with only blond braided Edward in Ranxi market, saying exactly “보호한다고 했잖아! 규정 이름부터 보호—”. Next panel begins with Lien's existing reply “그 말은 너무 길잖아요.”. Keep all other panels entirely, no new words, maintain the warehouse and ornament scenes.",
+    "n": 24,
+    "original": "comics/24/05-page-04.jpg",
+    "archive": "24-04.png"
+  },
+  {
+    "n": 24,
+    "i": 5,
+    "prompt": "Make one finished page, page 5 of chapter 24. Reference image 1 is chapter cover for setting and art only, not for page layout. Reference 2 gives canon portraits. Use grayscale hand-drawn historical manga, widescreen strips in portrait page, Korean left-to-right reading. Each quote below is EXACT text, keep tails clear, use ample margin and restrained serious expressions. Only characters named in the scene and unnamed locals. No additional lettering. Return to the Ranxi meeting. Caption “며칠 동안 수정된 보호안이 마침내 탁자 위에 놓였다.” Emperor Lin tells Tianluo and Xiaolin “길을 만든다는 뜻은 아니야.” and “조사를 시작할 수 있다는 거야.” Tianluo asks “그 사람들이 반대하면?” Lin says “다시 봐야겠지.” Lin says in two connected bubbles “그래도 내가 길을 갖고 싶은 거랑.” “거기 사는 사람들이 길을 가져야 하는 건 다른 얘기니까.” Last panel thoughtful Xiaolin holding the paper, quiet hope. No other text.",
+    "original": "comics/24/06-page-05.jpg",
+    "archive": "24-05.png"
+  },
+  {
+    "i": 6,
+    "prompt": "Localized edit to this exact Korean grayscale comic page. Change the unnamed local in all three shots to the same older broad-faced clean-shaven man with plain headband, distinct from the mustachioed turbaned person. Preserve Kairun and all exact text, especially “안족 서부지역 토지·수자원 보호를 위한 임시 규정.” No extra text.",
+    "n": 24,
+    "original": "comics/24/07-page-06.jpg",
+    "archive": "24-06.png"
+  },
+  {
+    "i": 7,
+    "prompt": "Make page 7 of grayscale Korean manga chapter 24 using chapter cover as style and portrait sheet as identity reference. Large readable Korean lettering. Night in Mulanhe. Opening caption “무란허의 작은 집에 사람들이 모였다.” Show Kairun, short silver hair and dark shawl, silently washing his HANDS in a basin by the door, boots on, while neighbors pack. Neighbor: “황제한테 직접 말해야지.” Tianluo enters, long tied hair and scarf, says “칼은 두고 가.” Then Kairun asks Tianluo “너도 갈 거야?” Tianluo replies “가.” Tianluo asks Kairun “황제한테 직접 말하려고?” Kairun replies “그래.” Give each turn its own clearly attributed closeup, reading left to right. No ankle washing or added dialogue.\nEdit ONLY opening exterior panel. Replace the grand walled city and large arched bridge behind the little house with the modest rural pastoral settlement of Mulanhe, low stone cottages and open grazing land. It must look distinct from Ranxi. Retain exact caption, moon, and all other panels and words.",
+    "n": 24,
+    "original": "comics/24/08-page-07.jpg",
+    "archive": "24-07.png"
+  },
+  {
+    "i": 8,
+    "prompt": "Make page 8 of grayscale Korean manga chapter 24 using chapter cover as style and portrait sheet as identity reference. Large readable Korean lettering. Night in Ranxi. Caption “같은 밤. 란시.” Edward alone with his notebook, blond braid, studying his notes. Clearly legible exact notebook lines “황실이 토지와 우물을 조사한다.”, “외지인의 토지 매입을 제한할 수 있다.”, “황제가 안족의 땅에 다시 손을 대려 한다.” Edward hesitates and writes “그럼 어디서 달라진 거지?” then closes his notebook. Last large panel distant lanterns move north on a dark road toward Ranxi. Caption “목적지는—란시였다.” No added text.\nKorean manga lettering correction only. Correct the third notebook line to exact “황제가 안족의 땅에 다시 손을 대려 한다.” Keep the other notes exact. Add one small rectangular narration or speech balloon in the next row's left panel with Edward's exact line “……이것도 완전히 틀렸다고 하긴 어렵잖아.” Tail to Edward if speech bubble. Keep the question and every other panel and letter unchanged.",
+    "n": 24,
+    "original": "comics/24/09-page-08.jpg",
+    "archive": "24-08.png"
+  },
+  {
+    "n": 23,
+    "i": 5,
+    "prompt": "Edit this exact Korean manga chapter 23 page 5 to match the newly approved manuscript. Preserve all panel art and untouched lettering. Second row, Brandt's last balloon is exactly “듣고 싶은 결론을 가져오지 않는 것.”, remove initial 내가. Fifth row right: keep only “지금처럼 해주십시오.” spoken by Brandt (civilian in suit at right, tail pointing right), remove old “사실대로 말입니까?” and “예.”. Sixth row: first two balloons from Brandt combine into the single line “총통이 듣고 싶은 말도, 제가 듣고 싶은 말도 아니게.” in the panel showing his hand on the report. Remove the obsolete balloon in next panel. Third panel shows Graus (military high collar with insignia, not suit) replying “알겠습니다.”. Keep all other captions, dialogue and page layout exact.\nOne-balloon Korean lettering correction only. In row three, second speech balloon must read exactly “하지만 현장 지휘와 중앙의 검토가 같은 선 안에만 있으면, 결국 판단의 구조가 하나뿐입니다.” Preserve every other panel and word of this page exactly.\nFix the document in bottom-left panel only. Its bold Korean line must read exactly “현 단계에서 이슈발의 치안 상황은 안정적인 것으로 판단함.” Use clean lettering with enough space. 이슈발 is the place name. Keep the drawing and all other exact Korean text unchanged.\nFix only the two bubbles containing the military title on this existing Korean manga page: use “그래도 준장은 총통의 사람은 아니죠.” and “준장.” exactly. The middle syllable 준 has ㅜ, not ㅗ. Preserve all other lettering and panels precisely.",
+    "original": "comics/23/06-page-05-manuscript-20261111.jpg",
+    "archive": "23-05.png"
+  }
+]
