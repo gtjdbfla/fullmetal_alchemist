@@ -1494,20 +1494,22 @@
         "revisedAt": "2026-11-06"
       },
       {
-        "src": "comics/17/02-page-01-8f894b498f1f-1080.webp",
+        "src": "comics/17/02-page-01-speakers-20261111-6eeba8736677-1080.webp",
         "label": "제17화 · 본문 1쪽",
-        "original": "comics/17/02-page-01.jpg",
-        "width": 1080,
-        "height": 1350,
-        "small": "comics/17/02-page-01-8f894b498f1f-720.webp"
+        "original": "comics/17/02-page-01-speakers-20261111.jpg",
+        "width": 1122,
+        "height": 1402,
+        "small": "comics/17/02-page-01-speakers-20261111-6eeba8736677-720.webp",
+        "revisedAt": "2026-11-11"
       },
       {
-        "src": "comics/17/03-page-02-66ca9c242223-1080.webp",
+        "src": "comics/17/03-page-02-speakers-20261111-65f41e002215-1080.webp",
         "label": "제17화 · 본문 2쪽",
-        "original": "comics/17/03-page-02.jpg",
-        "width": 1080,
-        "height": 1350,
-        "small": "comics/17/03-page-02-66ca9c242223-720.webp"
+        "original": "comics/17/03-page-02-speakers-20261111.jpg",
+        "width": 1122,
+        "height": 1402,
+        "small": "comics/17/03-page-02-speakers-20261111-65f41e002215-720.webp",
+        "revisedAt": "2026-11-11"
       },
       {
         "src": "comics/17/04-page-03-badd9d91f1ce-1080.webp",
@@ -3126,12 +3128,13 @@
         "height": 1350
       },
       {
-        "src": "comics/38/03-page-02-f7c189b45b68-1080.webp",
-        "small": "comics/38/03-page-02-f7c189b45b68-720.webp",
-        "original": "comics/38/03-page-02.jpg",
+        "src": "comics/38/03-page-02-speakers-20261111-fa0bfce8e9ef-1080.webp",
+        "small": "comics/38/03-page-02-speakers-20261111-fa0bfce8e9ef-720.webp",
+        "original": "comics/38/03-page-02-speakers-20261111.jpg",
         "label": "제38화 · 본문 2쪽",
-        "width": 1080,
-        "height": 1350
+        "width": 1122,
+        "height": 1402,
+        "revisedAt": "2026-11-11"
       },
       {
         "src": "comics/38/04-page-03-741a96448226-1080.webp",
@@ -3559,12 +3562,13 @@
         "height": 1350
       },
       {
-        "src": "comics/43/07-page-06-fddf93dd7df6-1080.webp",
-        "small": "comics/43/07-page-06-fddf93dd7df6-720.webp",
-        "original": "comics/43/07-page-06.jpg",
+        "src": "comics/43/07-page-06-speakers-20261111-5379cfd755ff-1080.webp",
+        "small": "comics/43/07-page-06-speakers-20261111-5379cfd755ff-720.webp",
+        "original": "comics/43/07-page-06-speakers-20261111.jpg",
         "label": "에필로그 · 본문 6쪽",
-        "width": 1080,
-        "height": 1350
+        "width": 1068,
+        "height": 1472,
+        "revisedAt": "2026-11-11"
       },
       {
         "src": "comics/43/08-page-07-final-20261110-924bf8737ad3-1080.webp",

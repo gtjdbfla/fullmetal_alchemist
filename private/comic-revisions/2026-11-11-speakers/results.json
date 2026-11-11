@@ -1,0 +1,46 @@
+[
+  {
+    "chapter": 17,
+    "index": 1,
+    "label": "제17화 · 본문 1쪽",
+    "previous": "comics/17/02-page-01.jpg",
+    "original": "comics/17/02-page-01-speakers-20261111.jpg",
+    "png": "17-01.png",
+    "prompt": "Edit this Korean grayscale manga page, preserving art and every character of text. Bottom-left panel only: upper “돌아오자마자 좋은 때를 골랐군.” belongs to the swept-back white-haired man in uniform on the RIGHT. Move only the triangle tail to the right edge pointing down toward the man in uniform. Lower “매일 이렇나.” belongs to the X-scarred man on the LEFT, leave its tail to him. Bottom-right panel only: bottom “건물만 다시 세우는 거라면 쉬웠겠지. 사람이 살 곳을 다시 만드는 건 다른 모양이야.” is the uniformed man on the right, its tail points UP toward him; upper “재건이란 원래 이런 건가.” remains the man with the X scar. No other changes. Exact letters.",
+    "qa": "Verified Miles and Scar's facial distinctions and the two corrected Miles balloon tails.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "chapter": 17,
+    "index": 2,
+    "label": "제17화 · 본문 2쪽",
+    "previous": "comics/17/03-page-02.jpg",
+    "original": "comics/17/03-page-02-speakers-20261111.jpg",
+    "png": "17-02.png",
+    "prompt": "Localized character continuity edit on reference 1, chapter 17 page 2. Match reference 2 for Miles and Scar. Top left uniformed Miles has silver swept hair, medium dark skin, clean-shaven, no dark glasses. The man with the X-shaped forehead scar and scarf in all other outdoor frames is Scar; remove his sunglasses, retain X scar, short white spiky hair and guarded expression. In the bottom scene add thin clear rectangular eyeglasses to gray-haired civilian Brandt according to the labeled portrait in reference 3. Leave all artwork elsewhere and every Korean letter unchanged. Preserve the long captions exactly, and don't reword any speech.\nProofreading pass: Proofread one line of Korean manga lettering in the rectangular narration box at the bottom-right. Second printed line must read exactly “크림스톤과 상당 부분 일치했다.” (the mineral name is 크림스톤). Preserve the entire rest of this comic image, including all other letters and the three updated portraits. Do not redraw or crop anything.",
+    "qa": "Verified Miles, Scar and Brandt against the adjacent scene and portrait references, with 크림스톤 restored.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "chapter": 38,
+    "index": 2,
+    "label": "제38화 · 본문 2쪽",
+    "previous": "comics/38/03-page-02.jpg",
+    "original": "comics/38/03-page-02-speakers-20261111.jpg",
+    "png": "38-02.png",
+    "prompt": "Careful proofreading edit to existing Korean manga page. Use identical art and lettering except the malformed bubbles right of Mustang in strip seven. Make those separate neatly legible and write the EXACT text “그럼 지금까지 하신 말은 뭐가 됩니까?” above “이슈발 사람들은 총통을 다시 믿겠습니까?”; both tails point right toward off-panel Graus, neither to Mustang. Keep Mustang's separate ellipsis. Preserve all other text exactly including “당신이 브래들리와 다르다고 믿었던 사람들은?” in next row. No other changes.\n\nKorean manga typography proofreading only, preserve all artwork, all bubble positions and tails. Correct ONLY these two misprinted bubbles: the upper middle-left balloon in row four must say exactly “협상하고, 구분하고, 기다리다가.” (구분 not 고발). The bottom-right balloon must say exactly “잘 짰네.” (짰 not 잤). Keep the two separated question balloons on the right of row seven as-is. Do not redraw or typeset any other panel or balloon.\n\nEdit only the bottom-right balloon of this Korean comic page. The 3 syllables must read “잘 짰네.” exactly, with double initial consonant ㅉ in the middle syllable 짰 (ㅉ + ㅏ + ㅆ). Use slightly larger Korean type in that one bubble if needed. Preserve exact appearance and all letters elsewhere.",
+    "qa": "Both Grouse questions are clearly typeset and separately point right. Confirmed the spellings 구분하고, 브래들리, and 짰네.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "chapter": 43,
+    "index": 6,
+    "label": "에필로그 · 본문 6쪽",
+    "previous": "comics/43/07-page-06.jpg",
+    "original": "comics/43/07-page-06-speakers-20261111.jpg",
+    "png": "43-06.png",
+    "prompt": "Edit this exact Korean grayscale epilogue page. Retain all dialogue and existing visual style. Restore one wide row just AFTER the existing Xiaolin greeting row and BEFORE the existing group argument row. Move the existing narration box “란시에서 약재 자루를 끌어안고 떨던 사람과 같은 사람이라고는 믿기 어려웠다.” down to the new row so it clearly describes Purong. Show Purong from labeled portrait in reference 2, adult merchant with cloth cap, opening a crate of dried herbs and warehouse location plans beside a caravan wagon. Purong says exactly “이번엔 새 길 위의 돈입니다.”, then Edward says “……이번엔 안 막아도 되겠네.”, then Purong replies “막으셔도 됩니다. 어차피 계약은 사람이 하는 거니까요.”. Make each tail clear and keep original cast and all other balloons exact. Lengthen page instead of shrinking font. No extra captions or invented lines.\n\nLocalized Korean lettering repair to first image; second image is original spelling reference. Preserve all art and all other panels. Fourth row first balloon, print this exact text: “에드! 봤어요? 하오진 사람들이 처음으로 남쪽 길 얘기에 줄을 섰어요!” The right balloon in that row is also the same smiling woman, and tail must point LEFT across frame toward her; wording exactly “값을 물어보려고요! 길이 되면 약재도 나가고, 사람도 들어오고—”. Fifth row: first bubble is “이번엔 새 길 위의 돈입니다.” from the capped man, middle is “……이번엔 안 막아도 되겠네.” from the blond braided man, last bubble is “막으셔도 됩니다. 어차피 계약은 사람이 하는 거니까요.” from the capped man; add tiny portrait inset of capped man under that last balloon to clearly attach it to him. Preserve the landscape and text elsewhere exactly.\n\nLocalized Korean manga typography proofreading only. Change two balloons in the second-to-last row, the row of village representatives arguing. Penultimate balloon exact: “그 전에 길부터 확정하면 우리가 무슨 말을 합니까!” Last balloon exact: “안족 마을 몫. 목초지. 기존 우물. 이게 먼저입니다.”, spoken by the long-haired man at left in scarf; make the tail unambiguous by adding a tiny circular portrait of that same speaker at the balloon edge, in the style of the preceding merchant row. Keep all other letters and drawings exactly, especially correct “이번엔 새 길 위의 돈입니다.” and the merchant row. No other changes.\n\nOne-bubble Korean proofreading. Replace all lettering inside the far-right balloon of the second-to-last row with these exact four lines in clear print, preserving illustration and everything outside this single balloon:\n안족 마을 몫.\n목초지.\n기존 우물.\n이게 먼저입니다.\nSpecifically 안족 has single ㅈ, and 몫 has final ㄳ. No other changes, keep the tiny inset speaker portrait attached.",
+    "qa": "Verified the distinct speaker inset portraits, restored Purong scene and exact lines including 안족 마을 몫.",
+    "tool": "built-in image_gen"
+  }
+]
