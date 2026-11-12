@@ -1,0 +1,24 @@
+[
+  {
+    "chapter": 23,
+    "index": 3,
+    "label": "제23화 · 본문 3쪽",
+    "previous": "comics/23/04-page-03.jpg",
+    "original": "comics/23/04-page-03-continuity-20261112.jpg",
+    "png": "23-03.png",
+    "prompt": "Edit this exact Korean black and white manga page 3 of chapter 23. Keep the TOP TWO ROWS exactly including all Korean and characters. Replace everything below them with a single large atmospheric nighttime panel: Graus from portrait reference, short swept hair, cheek scar, uniform, writing his report alone at a desk overlooking the moonlit Ishval town. The original afternoon patrol was removed from the approved novel. In this panel typeset three rectangular narration boxes left to right and top to bottom exactly “주민 의견은 갈렸다.” “조사에는 찬성해도 채굴은 싫다는 사람이 있었고, 성지만 빼면 괜찮다는 사람도 있었다.” “한쪽이 주민 전체를 대표한다고 볼 근거는 없다고 적었다.” Keep page number and footer. No speech balloons in new panel.\nPreserve this exact comic page, all lettering and both upper rows. In bottom night scene only, change the camera to a close-up of the report, lamp and Graus's uniformed right arm holding the pen, seen from behind over his shoulder with head outside frame. Keep the three Korean captions exactly as printed and the Ishval skyline. This is a visual transition into the next page's portrait of him at the desk.",
+    "qa": "최신 승인 원고의 야간 보고 장면으로 전환. 주민 의견 세 상자와 위쪽 대사를 시각 검수.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "chapter": 35,
+    "index": 6,
+    "label": "제35화 · 본문 6쪽",
+    "previous": "comics/35/07-page-06.jpg",
+    "original": "comics/35/07-page-06-continuity-20261112.jpg",
+    "png": "35-06.png",
+    "prompt": "Localized edit to the exact existing grayscale Korean comic page. Only change the middle “안 됩니다.” speech balloon in right panel of row 2. Remove its tail pointing left entirely. Add tiny clear circular inset of Lan Fan's dark-haired face attached to the balloon on right to identify the speaker. The two “비켜.” and “비켜!” remain Luhan with tails toward his face. Preserve every other letter, especially “손잡이가 병사의 턱을 밀었다.” and “바이족 전사 하나가”.\nProofread this exact Korean manga page. One caption only. Above the sword clash in second row left, write exactly “란팡이 길을 막았다. 칼과 칼이 부딪쳤다.”. Preserve the portrait inset on “안 됩니다.” and everything else exactly.",
+    "qa": "란팡의 안 됩니다를 인물 삽화로 지정하고 루한의 대사를 구분. 주요 캡션 시각 검수.",
+    "tool": "built-in image_gen"
+  }
+]

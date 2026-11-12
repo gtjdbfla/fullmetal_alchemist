@@ -1989,12 +1989,13 @@
         "small": "comics/23/03-page-02-7f7f31b85d29-720.webp"
       },
       {
-        "src": "comics/23/04-page-03-b1021ad79ccb-1080.webp",
+        "src": "comics/23/04-page-03-continuity-20261112-ae8bfcd42156-1080.webp",
         "label": "제23화 · 본문 3쪽",
-        "original": "comics/23/04-page-03.jpg",
-        "width": 1080,
-        "height": 1350,
-        "small": "comics/23/04-page-03-b1021ad79ccb-720.webp"
+        "original": "comics/23/04-page-03-continuity-20261112.jpg",
+        "width": 1122,
+        "height": 1402,
+        "small": "comics/23/04-page-03-continuity-20261112-ae8bfcd42156-720.webp",
+        "revisedAt": "2026-11-12"
       },
       {
         "src": "comics/23/05-page-04-9f9e583ead20-1080.webp",
@@ -3001,12 +3002,13 @@
         "revisedAt": "2026-11-08"
       },
       {
-        "src": "comics/35/07-page-06-8fa8b4d2ca3f-1080.webp",
+        "src": "comics/35/07-page-06-continuity-20261112-e451b4789fab-1080.webp",
         "label": "제35화 · 본문 6쪽",
-        "original": "comics/35/07-page-06.jpg",
-        "width": 1080,
-        "height": 1350,
-        "small": "comics/35/07-page-06-8fa8b4d2ca3f-720.webp"
+        "original": "comics/35/07-page-06-continuity-20261112.jpg",
+        "width": 1122,
+        "height": 1402,
+        "small": "comics/35/07-page-06-continuity-20261112-e451b4789fab-720.webp",
+        "revisedAt": "2026-11-12"
       },
       {
         "src": "comics/35/08-page-07-ending-20261108-b8a10ea76afe-1080.webp",
