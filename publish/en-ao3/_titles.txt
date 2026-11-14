@@ -12,8 +12,8 @@ AO3 'Chapter Title' 칸에 넣을 제목 / 영어 단어 수
 009-chapter-09	Into the Desert	2334words
 016-chapter-16	The Price of Information	2095words
 017-chapter-17	Show Me the Instability	2194words
-025-chapter-25	The Man Who Would Kill the Emperor	2498words
-026-chapter-26	Footsteps	2857words
+025-chapter-25	The Man Who Would Kill the Emperor	2511words
+026-chapter-26	Footsteps	2752words
 035-chapter-35	A Reason to Draw a Sword	2342words
 036-chapter-36	The Last Shot	2283words
 037-chapter-37	What the War Left Behind	1980words

@@ -478,7 +478,9 @@ When he returned several years later, he was an accomplished alkahestrist.
 
 "But he couldn't bring people back up. Even with the water back, there was no way to make a living, and the children kept leaving. Even he couldn't beat poverty."
 
-"He did say some strange things," an older man said.
+The man looked at the well for a while, then added.
+
+"He did say some strange things."
 
 Ed leaned forward. "Like what?"
 
@@ -518,49 +520,23 @@ One circle. Yet the transmutation had continued.
 
 Ed stood.
 
-"Karsa made paths."
+"Karsa made paths. In advance. Paths for the force to travel along."
 
 "Karsa again?"
 
-"In advance."
-
-Ed pointed at the ground.
-
-"Water, wind, force. They made paths for nature's movement, then directed it along them."
-
-Karsa's channels and walls came to mind.
-
 "Alkahestry reads the paths in the earth."
 
-The Dragon's Pulse. Transmutation reaching distant places through the ground.
-
-And Kairun.
+The Dragon's Pulse.
 
 "But Kairun wasn't just looking at the earth."
 
-Xiaolin listened quietly.
+Ed held up his fingers one by one.
 
-"Water."
+"Water. Wind. The direction a building carries its loads. Everything that's already moving."
 
-Ed held up one finger.
+The attack in Lansi's conference room played out again. Transmutation beginning in the floor and spreading to the pillars, the walls, the ceiling.
 
-"Wind."
-
-Two.
-
-"Pressure. Vibration. The direction a building carries its loads."
-
-Three.
-
-"And the earth too."
-
-Ed lowered his hand.
-
-"Things that are already moving."
-
-The attack in Lansi's conference room played out again. Transmutation beginning in the floor. Pillars. Walls. Ceiling.
-
-"There weren't multiple circles," Ed said. "A transmutation started once and didn't stop there."
+"There weren't multiple circles. A transmutation started once and didn't stop there."
 
 "How?"
 
@@ -574,41 +550,21 @@ Xiaolin sighed. "So you don't know after all."
 
 "I said I don't know exactly how he did it!"
 
-Ed pointed around them.
-
-"Karsa made paths."
-
-Then at the ground.
-
-"Alkahestry read the earth's paths."
-
-He paused.
-
-"Kairun saw more of the paths already there."
-
 Having said it, Ed fell quiet himself.
 
-It wasn't a new force. He hadn't created something from nothing. It was the same world. The scope of what he saw was different.
-
-That was why Ed had thought the numbers in Karsa didn't add up. He had been looking at too small an area.
+It wasn't a new force. It was the same world. The scope of what he saw was different.
 
 "The laws weren't different," he murmured. "The scope was."
 
 "Then did Kairun invent it?" Xiaolin asked.
 
-Ed immediately shook his head.
+"I don't know that. Where's the proof he was the first?"
 
-"I don't know that."
+Hohenheim had seen the ideas of this region and learned from them. Countless others must have passed through afterward.
 
-"Again?"
+"He might have been exceptionally good at it."
 
-"Where's the proof he was the first?"
-
-Similar ideas had existed here for hundreds of years. Hohenheim had seen them and learned. Countless others must have passed through afterward.
-
-"Kairun," Ed said, "might have been someone who was exceptionally good at it."
-
-Beyond that, he didn't know yet. That was all he could know now.
+Beyond that, he didn't know yet.
 
 * * *
 

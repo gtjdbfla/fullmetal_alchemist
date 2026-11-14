@@ -68,7 +68,7 @@ Ten minutes later, Ed was on his way to the administrative offices.
 
 Ling had deliberately chosen not to use the large conference room. There was no throne or raised dais. The two sides sat facing one another across a long table.
 
-Lan Fan stood to Ling's right. Luhan and Zhenha were a little farther away. Ed stood with his back against the wall.
+Lan Fan stood to Ling's right. Luhan was a little farther away. Ed stood with his back against the wall.
 
 The An delegation sat on the other side of the table. The men people called hardliners settled in around Kairun. Taking a seat toward the back, Kairun adjusted the hem of his trousers. It looked like nothing more than someone settling into his chosen seat.
 
@@ -202,7 +202,7 @@ The guards drew their swords. Kairun struck the nearest soldier's wrist. The swo
 
 "Don't kill him!" Ling shouted. "Take him alive!"
 
-Lan Fan moved and met Kairun head-on. Fists. Arms. Feet. In an instant, their positions changed several times.
+Lan Fan moved and met Kairun head-on. Fists, arms and feet tangled, and in an instant their positions changed several times.
 
 Ed wasn't watching them. He was looking at the floor. The stone that had risen first. The broken table. The pillar.
 
@@ -230,7 +230,7 @@ Ed looked at Kairun's foot. At the beginning—on Kairun's ankle—there had bee
 
 "Then what am I supposed to read?!"
 
-Ed's eyes swept the floor. Floor. Pillar. Wall.
+Ed's eyes climbed from the floor to the pillar, and from the pillar to the wall.
 
 "The path the transmutation took!"
 
@@ -294,7 +294,7 @@ Kairun stepped on the floor. There was no new transmutation circle. Yet stone at
 
 Ed's eyes widened. *Again.*
 
-Floor. Pillar. Wall. Ceiling. And then—back to the floor.
+From the floor to the pillar, the wall, the ceiling. And then back to the floor.
 
 "One," Ed murmured.
 
@@ -354,7 +354,7 @@ She dodged. Kairun's fist was waiting. She blocked it and retreated. This time, 
 
 "That bastard..."
 
-Ed watched Kairun. He wasn't only watching his opponent. The floor. The walls. The space around them. He was watching all of it.
+Ed watched Kairun. He wasn't only watching his opponent. He was watching the floor, the walls, the whole space around them.
 
 Lan Fan closed in again. Kairun evaded her.
 
