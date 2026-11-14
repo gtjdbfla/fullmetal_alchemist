@@ -24,6 +24,22 @@ Kairun's turn came. A guard looked over his waist and sleeves.
 
 The guard asked no more and let him through.
 
+Chenluo was waiting just inside the gate.
+
+"You're really only going to talk?"
+
+"Yes."
+
+Kairun took a smooth white stone from his pocket and held it out to Chenluo. He had picked it up beside the well back home.
+
+"Hold this for me."
+
+"Why?"
+
+"It's heavy."
+
+Chenluo took the stone with a puzzled look.
+
 Passing through the gate, Kairun looked around Lansi. Goods brought in from the west were piled high. Wagons passed, and people haggled over prices. Far away, an imperial flag flew above a tall building.
 
 * * *
