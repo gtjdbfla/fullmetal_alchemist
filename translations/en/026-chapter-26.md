@@ -294,65 +294,79 @@ What remained was less a building than a few walls. The roof had collapsed long 
 
 "I'm a guide, not a historian."
 
-Ed approached the wall. Faint pictures remained. A well. People. Channels. Figures digging into the earth. Some had nearly vanished.
+Ed approached the wall.
 
-He stopped at one section of wall.
+Faint pictures remained. A well. People. Channels. Figures digging into the earth. Some had nearly vanished.
 
-"..."
+Through a gap in the collapsed roof, the low sun lit one section of the wall.
+
+Ed stopped there.
 
 "What?"
 
-A man stood slightly apart from the others. His clothes were different. Long hair, still picked out in a light color. Traces of the same pigment remained around his eyes.
+A man stood slightly apart from the others.
+
+His clothes were different. His long hair came alive in a lighter color where the light touched it. Traces of the same pigment remained around his eyes.
 
 No beard. Young.
-
-And—
 
 Xiaolin spoke first. "He looks like you."
 
 "Shut up."
 
-The answer came quickly, but Ed didn't move. He leaned closer to the wall. The jawline was a little different. The frame was bigger too. Yet the face was strangely familiar.
+The answer came quickly, but Ed didn't move.
 
-The clues he had considered before passed through his mind again. A man from the west. Hundreds of years ago. Golden hair and eyes. Xerxes. Someone who had stayed in Karsa, then gone east.
+He leaned closer to the wall. The jawline was a little different. The frame was bigger too. Yet the face was strangely familiar.
+
+The clues he had considered before passed through his mind. A man from the west. Hundreds of years ago. Golden hair and eyes. Xerxes. Someone who had stayed in Karsa, then gone east.
 
 "...No way."
 
-Ed crouched. Below the mural, a stone tablet lay half buried in earth. He brushed the dirt away with his hands.
+Ed crouched.
 
-Letters emerged. Old writing, some of it worn away. Several names followed one another. Each figure in the mural seemed to have a name.
-
-Ed ran a finger over the surface. He had never seen these characters before. The lines resembled no script he knew.
+Below the mural, a stone tablet lay half buried in earth. When he brushed the dirt away, old writing emerged, some of it worn. Each figure in the mural seemed to have a name.
 
 "It looks like ancient An writing."
 
 Xiaolin looked over his shoulder.
 
-"I can't read all of it either. Just a few characters."
+"I can't read all of it either. This one's a well-digger. This one...a water-reader."
 
-Ed moved his finger from line to line. Unreadable characters continued. Then he stopped.
+Ed moved his finger down line by line.
 
-"..."
+The first name.
 
-That name alone was written in a different hand. Not in the lines of the ancient An script, but in letters Ed recognized.
+The second.
 
-He read it once. Then again. The letters didn't change.
+The third.
+
+Unreadable characters continued. Xiaolin read out only the ones he could make out. Ed's finger slid slowly downward.
+
+Then it stopped.
+
+"...?"
+
+"What is it?"
+
+Ed couldn't answer.
+
+That line alone was written in a different hand. Not the ancient An script.
+
+The habit of dragging out the end of a stroke.
+
+Ed knew that handwriting. He had stared at it again and again as a child, in notes scribbled in the margins of the books left at home, when no one was watching.
+
+Only then did he read the name.
 
 **Van Hohenheim.**
 
 His hand went rigid.
-
-"What does it say?"
-
-No answer.
 
 He remembered the record in Karsa.
 
 **He did not claim to know everything in this place.**
 
 **He took what he had learned and headed east.**
-
-Ed looked up at the man in the mural again. This time, it was no longer a hypothesis.
 
 "...It really was him."
 
@@ -366,51 +380,37 @@ Ed kept his mouth closed for a moment.
 
 "Yeah."
 
-Xiaolin looked back and forth between Ed and the mural.
+Xiaolin looked back and forth between Ed and the mural. He started to make a joke, then shut his mouth.
 
-"You really do look alike."
+Ed looked up again at the man in the mural.
 
-"Enough about that."
+The man was crouching. Before a local pointing at a channel, he tilted his head and listened.
 
-"The hair too."
+Ed had never seen his father in that posture. All he remembered was a back turning away from a doorway.
 
-"I said enough."
+"...You ask other people so well."
 
-"As for the height—"
+It was a small voice. Xiaolin pretended not to hear.
 
-"Got a death wish?"
-
-Xiaolin shut up. Then looked up at the mural.
-
-"But why is your father in a mural this old?"
+After a moment, Xiaolin asked carefully, "But why is your father in a mural this old?"
 
 "It's complicated."
 
-Ed returned to the tablet. Below the name was another short record in An writing. Xiaolin slowly read out the characters that were recognizable. Not all of it could be read. But the surviving portions were enough.
+Ed returned to the tablet. Below the name was another short record in An writing. Xiaolin read out the characters he recognized.
 
 A man from the west. He spoke of what he knew. And asked about this place's water, wind, and earth.
 
-Ed's gaze rose to the mural. Before, it had looked like a simple gathering of people. Looking again, he saw something different.
+"The Sage of the West, they said. A sage who asks a lot of questions."
 
-In one scene, Hohenheim was explaining something. In another, a local was pointing at a channel. Hohenheim crouched in front of it. In a picture a little farther along, someone pointed at a wall and a windbreak.
+"...Yeah."
 
-Hohenheim was listening.
+Ed's gaze traveled along the wall. In one scene, Hohenheim was explaining something; in another, a local pointed at a channel. In a picture a little farther along, someone pointed at a wall and a windbreak, and Hohenheim was listening there too.
 
-"...The Sage of the West."
+It fit oddly well with the Hohenheim he had known.
 
-"What?" Xiaolin asked.
+A man who rarely spoke about himself.
 
-"That's what Xing called him."
-
-Ed's gaze traveled along the wall.
-
-"But he was asking an awful lot of questions."
-
-"Are sages not allowed to ask questions?"
-
-"That's not what I mean."
-
-Ed looked down at the tablet. It fit oddly well with the Hohenheim he had known. A man who rarely spoke about himself, but listened to others for a long time.
+A man who listened to others for a long time.
 
 "He wasn't just teaching."
 
@@ -460,11 +460,15 @@ Ed turned. "...I was confirming it."
 
 "Really."
 
-"Right, right."
+"Right, right. But your father really does look like that. The hair, too."
 
-"Why aren't you listening?"
+"Enough."
 
-"Because I'm hungry."
+"The height—"
+
+"Got a death wish?"
+
+"Let's stop. I'm hungry."
 
 * * *
 
