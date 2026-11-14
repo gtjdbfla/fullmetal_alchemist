@@ -530,11 +530,15 @@ The Dragon's Pulse.
 
 "But Kairun wasn't just looking at the earth."
 
-Ed held up his fingers one by one.
+"If not just the earth, then what?"
 
-"Water. Wind. The direction a building carries its loads. Everything that's already moving."
+"At least the direction a building carries its loads. He saw that."
 
 The attack in Lansi's conference room played out again. Transmutation beginning in the floor and spreading to the pillars, the walls, the ceiling.
+
+The man from the village had said it: talk of water and wind was something anyone here might say.
+
+"I don't know if he saw as far as the water or the wind. But he was someone who read the things that were already moving. That much, I'd bet."
 
 "There weren't multiple circles. A transmutation started once and didn't stop there."
 

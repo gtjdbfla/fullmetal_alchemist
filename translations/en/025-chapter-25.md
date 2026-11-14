@@ -114,6 +114,8 @@ The room went quiet. Arms folded, Ed watched them. It wasn't very different from
 
 But this time it wasn't Chenluo who spoke. Kairun, seated behind him, opened his mouth.
 
+Ed remembered that face. It was the man who had asked Ling at the Mulanhe market, "Doesn't protecting us mean someone could take it away?"
+
 "Why do we need your permission to protect our own land?"
 
 A guard shifted. Lan Fan's gaze turned toward Kairun as well. Ling raised a hand to stop them.
