@@ -500,7 +500,7 @@ Before evening, Miles handed Mustang a sheet from the rail records.
 
 "On its own?"
 
-"It moved after receiving a single telegram. The signature came from the side of Brigadier General Graus's old unit."
+"It moved after receiving a single telegram. The signature was Brigadier General Graus's."
 
 Mustang looked down at the record for a long time.
 

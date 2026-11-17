@@ -232,7 +232,7 @@ Ed came running up to Ling, out of breath.
 
 "Chenluo's bringing people! The main road!"
 
-Ling sent half the troops toward the main road. Ling pushed the imperial troops between the two sides.
+Ling sent half the troops toward the main road and pushed them between the two sides.
 
 "Don't cut first!"
 
