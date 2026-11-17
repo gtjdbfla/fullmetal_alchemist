@@ -218,29 +218,11 @@ Bark turned away.
 
 That night, Hawkeye didn't sleep. The reports of the first three incidents lay open on the table.
 
-An adult man. An adult woman. A child.
+What she had said to Miles a few days earlier was still with her. What if it hadn't disappeared? What if it had stopped?
 
-They hadn't known one another. They had lived in different places. There was no obvious common thread. And in all three cases, no one had found the killer.
+The shootings that followed had been noisy and chaotic, and people had been visible.
 
-Hawkeye read the first report again. No witnesses.
-
-The second. Shooter could not be identified.
-
-The third. The same.
-
-A gunshot had been heard. Someone had died. But no one had seen the person who fired.
-
-Three times.
-
-Hawkeye's hand stopped.
-
-The shootings that followed were different. People fired at one another. Fleeing figures were seen. Some were caught. Guns were found, and traces remained.
-
-That was what war was like. Noisy. Chaotic. People were visible.
-
-Only the first three were different.
-
-Too clean.
+Only the first three had been too clean.
 
 Hawkeye lifted her eyes from the reports. She knew that feeling. Long ago, in Ishval, she too had killed from a distance. Fired once, then vanished before the other side could find her.
 
@@ -250,23 +232,7 @@ She had been good at that. Because she was good at it, more people had died.
 
 Hawkeye closed her eyes, then opened them. Regret wasn't what she needed now.
 
-She looked at the reports again. There was no evidence it had been the same person. No certainty it had been the same gun. But if the three incidents were connected...
-
-Hawkeye asked herself: What would I have done?
-
-The answer came quickly. Being a good shot wasn't enough. You had to kill someone without leaving a trace of yourself.
-
-Three times. Someone had managed it three times.
-
-Perhaps it wasn't chance that they had failed to find the shooter. Perhaps an exceptional marksman had moved from the outset in ways that would keep him undiscovered.
-
-Hawkeye looked at the locations of the three incidents. Once the war expanded, that method disappeared.
-
-What if it hadn't disappeared? What if it had stopped? Because there was no longer any need to fire personally.
-
-But now the war was ending again. If that person was still in Ishval, another shot might be needed.
-
-Who would he shoot?
+That left one question. If the one who had stopped fired again, who would he shoot?
 
 Mustang. No. The Fuhrer's death would be too great an event.
 

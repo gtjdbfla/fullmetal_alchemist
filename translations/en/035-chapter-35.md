@@ -94,17 +94,7 @@ The ground rose.
 
 Ed shoved the person beside him away. A stone wall rose just behind them. Another piece of metal rolled from the opposite side, this time from the An. The ground split, forming a ridge between people.
 
-Ed ducked. Markers. Distance. And the earth between them.
-
-The Dragon's Pulse.
-
-It was different from Kairun. They marked specific points. Through the earth's flow, they transmuted at a distance. It wasn't one transmutation continuing along every surrounding path, as Kairun's had.
-
-"I knew it," Ed muttered. "It's not the same."
-
-"What isn't?!" Ling shouted behind him.
-
-"Later!"
+Ed ducked. Markers. Distance. The earth between them. Now he could see where a transmutation would rise before it did.
 
 Ed lunged at a man reaching for a metal marker and caught his wrist.
 
@@ -114,27 +104,15 @@ Ed lunged at a man reaching for a metal marker and caught his wrist.
 
 A fist came at him. Ed ducked and drove against the man's waist. They rolled across the ground. The metal piece fell. Ed kicked it away.
 
-"You think I can't beat someone up just because I can't use alchemy?!"
-
-"You're proud of that?!"
-
-"Right now I am!"
-
 The clashes weren't confined to one place. A report came in: An people had been surrounded in the northern alley.
 
 "Send half the troops north!" Ling ordered.
 
 Luhan turned. He stood in front of the Bai people. There was no blood on his scabbard. On the ground, people he had felled with the back of his blade and its hilt were groaning.
 
-"Your Majesty. There are many wounded here too. If you withdraw the troops, the Bai will be in danger."
+This time Luhan said nothing.
 
-"An civilians are trapped in the north. We have to protect both."
-
-Ling cut him off.
-
-"They're both my people."
-
-Luhan's mouth closed.
+It was the same order as yesterday. He knew the same answer would come back.
 
 It wasn't wrong. That made it stranger. Ling wasn't wrong. When the An were in danger, he sent soldiers. When the Bai were hurt, he opened clinics. He said he didn't know who had killed the Bai merchant. He also stopped the claim that the An had burned the Bai shop, because there was no evidence.
 
