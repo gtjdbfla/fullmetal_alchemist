@@ -114,7 +114,7 @@ This time Luhan said nothing.
 
 It was the same order as yesterday. He knew the same answer would come back.
 
-It wasn't wrong. That made it stranger. Ling wasn't wrong. When the An were in danger, he sent soldiers. When the Bai were hurt, he opened clinics. He said he didn't know who had killed the Bai merchant. He also stopped the claim that the An had burned the Bai shop, because there was no evidence.
+The order wasn't wrong. That made it stranger. Ling wasn't wrong. When the An were in danger, he sent soldiers. When the Bai were hurt, he opened clinics. He said he didn't know who had killed the Bai merchant. He also stopped the claim that the An had burned the Bai shop, because there was no evidence.
 
 He was fair. As an emperor.
 
@@ -428,9 +428,9 @@ From the back, someone muttered, "Kairun was right. Even without an emperor..."
 
 Chenluo didn't turn around. "Kairun drew his sword alone. He said if we all came, we'd all die."
 
-At the rear of the column, Xiaolin stood with a hand over her mouth, tears smeared across her face.
-
 No one answered.
+
+At the rear of the column, Xiaolin stood with a hand over her mouth, tears smeared across her face.
 
 He pointed at Luhan. "To become emperor?"
 
