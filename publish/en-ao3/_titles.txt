@@ -41,3 +41,4 @@ AO3 'Chapter Title' 칸에 넣을 제목 / 영어 단어 수
 038-chapter-38	The Trial	2178words
 039-chapter-39	A Country Without an Emperor	2832words
 040-chapter-40	The Last Fuhrer	2041words
+041-chapter-41	Who Decides	2072words
