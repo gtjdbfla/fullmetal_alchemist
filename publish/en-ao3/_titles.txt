@@ -23,6 +23,7 @@ AO3 'Chapter Title' 칸에 넣을 제목 / 영어 단어 수
 020-chapter-20	How to Become an Emperor	1796words
 021-chapter-21	The Second Ling	2176words
 022-chapter-22	A Road Opens Both Ways	2093words
+023-chapter-23	A Good Material	1786words
 025-chapter-25	The Man Who Would Kill the Emperor	2590words
 026-chapter-26	Footsteps	2824words
 035-chapter-35	A Reason to Draw a Sword	2260words
