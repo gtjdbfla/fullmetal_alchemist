@@ -13,6 +13,8 @@ AO3 'Chapter Title' 칸에 넣을 제목 / 영어 단어 수
 010-chapter-10	The People Who Erased the Road	2741words
 011-chapter-11	The Road His Brother Walked	2248words
 012-chapter-12	The Flowing Earth	2356words
+013-chapter-13	The Man from the West	2400words
+014-chapter-14	What His Brother Wanted	2383words
 016-chapter-16	The Price of Information	2095words
 017-chapter-17	Show Me the Instability	2214words
 025-chapter-25	The Man Who Would Kill the Emperor	2590words
