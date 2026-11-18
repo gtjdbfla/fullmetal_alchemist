@@ -21,6 +21,7 @@ AO3 'Chapter Title' 칸에 넣을 제목 / 영어 단어 수
 018-chapter-18	Lieutenant Graus	2354words
 019-chapter-19	The Emperor's People	2175words
 020-chapter-20	How to Become an Emperor	1796words
+021-chapter-21	The Second Ling	2176words
 025-chapter-25	The Man Who Would Kill the Emperor	2590words
 026-chapter-26	Footsteps	2824words
 035-chapter-35	A Reason to Draw a Sword	2260words
