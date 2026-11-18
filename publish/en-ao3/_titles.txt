@@ -30,6 +30,7 @@ AO3 'Chapter Title' 칸에 넣을 제목 / 영어 단어 수
 027-chapter-27	The One Who Crosses the Line	2193words
 028-chapter-28	A War Without Fire	2666words
 029-chapter-29	How to Move a Fuhrer	1990words
+030-chapter-30	Son of the Bai	2577words
 035-chapter-35	A Reason to Draw a Sword	2260words
 036-chapter-36	The Last Shot	2064words
 037-chapter-37	What the War Left Behind	1980words
