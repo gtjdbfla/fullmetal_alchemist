@@ -44,6 +44,8 @@ def smart_quotes(text: str) -> str:
 def inline(text: str) -> str:
     t = html.escape(text, quote=False)
     t = smart_quotes(t)
+    t = re.sub(r"~~(.+?)~~", r"<s>\1</s>", t)
+    t = re.sub(r"\*\*\*(.+?)\*\*\*", r"<strong><em>\1</em></strong>", t)
     t = re.sub(r"\*\*(.+?)\*\*", r"<strong>\1</strong>", t)
     t = re.sub(r"\*(.+?)\*", r"<em>\1</em>", t)
     return t
