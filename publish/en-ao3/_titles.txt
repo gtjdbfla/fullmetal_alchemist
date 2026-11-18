@@ -19,6 +19,7 @@ AO3 'Chapter Title' 칸에 넣을 제목 / 영어 단어 수
 016-chapter-16	The Price of Information	2095words
 017-chapter-17	Show Me the Instability	2214words
 018-chapter-18	Lieutenant Graus	2354words
+019-chapter-19	The Emperor's People	2175words
 025-chapter-25	The Man Who Would Kill the Emperor	2590words
 026-chapter-26	Footsteps	2824words
 035-chapter-35	A Reason to Draw a Sword	2260words
