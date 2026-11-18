@@ -7,7 +7,7 @@ AO3 'Post New Work' 화면에 그대로 옮겨 넣는 값이다. 원고 본문�
 
 0. 계정이 없으면 AO3의 초대 대기열에 먼저 신청한다(대기 기간이 있다). 사이트가 느리거나 'Retry later'가 뜨면 AO3 공식 상태 공지(Tumblr ao3org, X @AO3_Status)를 확인하고 잠시 뒤 다시 시도한다.
 1. Post New Work → 아래 정보 입력 → Chapter 1에 `000-prologue.html` 붙여 넣기(편집기를 HTML로 전환).
-2. 이어서 'Add Chapter'로 `001-chapter-01.html` … `009-chapter-09.html`을 순서대로 올린다.
+2. 이어서 'Add Chapter'로 `001-chapter-01.html` … `043-epilogue.html`을 순서대로 올린다(2026-11-18 기준 프롤로그~에필로그 44개 전부 번역됨).
 3. 회차 제목은 `publish/en-ao3/_titles.txt`의 두 번째 칸을 Chapter Title에 넣는다.
    프롤로그를 AO3 1회차로 올리므로 AO3 번호는 원고 회차보다 한 칸 밀린다(본문에는 번호를 넣지 않았다).
 4. 첫날에 프롤로그~3화(AO3 1~4회차)를 한꺼번에 공개하고, 이후 주 2회씩 이어서 올리는 것을 권한다.
