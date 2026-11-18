@@ -10,8 +10,11 @@ AO3 'Chapter Title' 칸에 넣을 제목 / 영어 단어 수
 007-chapter-07	The Good Fuhrer	2063words
 008-chapter-08	Records from the East	1850words
 009-chapter-09	Into the Desert	2334words
+010-chapter-10	The People Who Erased the Road	2741words
+011-chapter-11	The Road His Brother Walked	2248words
+012-chapter-12	The Flowing Earth	2356words
 016-chapter-16	The Price of Information	2095words
-017-chapter-17	Show Me the Instability	2194words
+017-chapter-17	Show Me the Instability	2214words
 025-chapter-25	The Man Who Would Kill the Emperor	2590words
 026-chapter-26	Footsteps	2824words
 035-chapter-35	A Reason to Draw a Sword	2260words

@@ -350,7 +350,7 @@ After Graus left, Brandt looked at the file again. Ishval service. Rapid promoti
 
 * * *
 
-The next afternoon, a military train pulled into Ishval Station. Miles waited on the platform. The door opened, and Graus stepped down.
+The next afternoon, a military train pulled into Ishval Station. Miles waited on the platform. The door opened, and Graus stepped down. Behind him came two geological engineers and twelve escorts, a small party for something called a special investigation from Central.
 
 "General."
 
