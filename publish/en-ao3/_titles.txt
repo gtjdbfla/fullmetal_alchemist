@@ -33,6 +33,7 @@ AO3 'Chapter Title' 칸에 넣을 제목 / 영어 단어 수
 030-chapter-30	Son of the Bai	2577words
 031-chapter-31	Three Shots	2218words
 032-chapter-32	The War That Started Again	2339words
+033-chapter-33	The One Who Isn't Emperor	2316words
 035-chapter-35	A Reason to Draw a Sword	2260words
 036-chapter-36	The Last Shot	2064words
 037-chapter-37	What the War Left Behind	1980words
