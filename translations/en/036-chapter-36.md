@@ -342,7 +342,7 @@ She had known for a long time.
 
 Inside the spire, Bark looked down.
 
-Scar had entered the place he had been waiting for. Bark didn't hurry. A resident passed through. He waited. Someone else stepped in front of Scar. He waited again.
+Scar had stepped into the spot Bark had been watching. Bark didn't hurry. A resident passed through. He waited. Someone else stepped in front of Scar. He waited again.
 
 Scar came back into view.
 
