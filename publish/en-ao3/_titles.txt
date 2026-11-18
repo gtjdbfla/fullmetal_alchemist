@@ -39,3 +39,4 @@ AO3 'Chapter Title' 칸에 넣을 제목 / 영어 단어 수
 036-chapter-36	The Last Shot	2064words
 037-chapter-37	What the War Left Behind	1980words
 038-chapter-38	The Trial	2178words
+039-chapter-39	A Country Without an Emperor	2832words
