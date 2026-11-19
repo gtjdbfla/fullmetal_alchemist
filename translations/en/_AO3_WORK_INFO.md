@@ -1,54 +1,125 @@
-# AO3 작품 등록 정보 (영어판)
+# AO3 업로드 안내 (영어판)
 
-AO3 'Post New Work' 화면에 그대로 옮겨 넣는 값이다. 원고 본문은 `publish/en-ao3/*.html`을 쓴다.
-작가가 결정할 항목은 [결정]으로 표시했다.
+AO3에 올릴 때 필요한 것을 모두 모아 둔 파일이다. 복사할 영어 문장은 `>` 인용 블록과 표에 그대로 있다.
+본문은 `publish/en-ao3/*.html`, 회차 제목은 `publish/en-ao3/_titles.txt`를 쓴다. 이 파일과 번역 원문은 공개 정적 루트로 복사하지 않는다.
 
-## 업로드 순서
+## 준비물 점검 (2026-11-19)
 
-0. 계정이 없으면 AO3의 초대 대기열에 먼저 신청한다(대기 기간이 있다). 사이트가 느리거나 'Retry later'가 뜨면 AO3 공식 상태 공지(Tumblr ao3org, X @AO3_Status)를 확인하고 잠시 뒤 다시 시도한다.
-1. Post New Work → 아래 정보 입력 → Chapter 1에 `000-prologue.html` 붙여 넣기(편집기를 HTML로 전환).
-2. 이어서 'Add Chapter'로 `001-chapter-01.html` … `043-epilogue.html`을 순서대로 올린다(2026-11-18 기준 프롤로그~에필로그 44개 전부 번역됨).
-3. 회차 제목은 `publish/en-ao3/_titles.txt`의 두 번째 칸을 Chapter Title에 넣는다.
-   프롤로그를 AO3 1회차로 올리므로 AO3 번호는 원고 회차보다 한 칸 밀린다(본문에는 번호를 넣지 않았다).
-4. 첫날에 프롤로그~3화(AO3 1~4회차)를 한꺼번에 공개하고, 이후 주 2회씩 이어서 올리는 것을 권한다.
-   AO3는 예약 게시를 지원하지 않는다. 초안(Draft)은 약 29일 뒤 자동 삭제되므로 미리 쌓아 두지 말고, 올리는 날에 바로 Post한다.
+| 항목 | 상태 |
+|---|---|
+| 본문 HTML 44개 (프롤로그~에필로그) | 완료 — `publish/en-ao3/` |
+| 회차 제목 44개 | 완료 — 아래 회차표, `_titles.txt` |
+| 작품 정보 (제목·팬덤·등급·경고·인물·태그) | 완료 — 아래 1절 |
+| 요약 (Summary, 1,250자 이내) | 완료 — 아래 2절 |
+| 작품 머리말 (Beginning Notes) | 완료 — 아래 3절 |
+| 회차별 메모 (카르사 설명, 31화 내용 경고, 마지막 인사) | 완료 — 아래 회차표 |
+| 업로드 일정 | 완료 — 아래 5절 |
+| 홍보 문구 | 완료 — 아래 6절 |
+| AO3 계정 | **작가가 준비** — 없으면 초대 대기열 신청 |
+| 번역 검토 | **작가가 확인 권장** — 머리말의 "revised by me" 문장을 넣으려면 최소한 앞 몇 화는 직접 읽어 본다 |
 
-## 작품 정보
+## 1. 작품 정보 (Post → New Work 화면)
 
-- **Work Title:** Fullmetal Alchemist: Eastward
-- **Fandom:** Fullmetal Alchemist 계열 팬덤 태그 [결정: AO3에서 만화/Brotherhood 쪽 팬덤 중 정확한 이름 선택]
-- **Rating:** Teen And Up Audiences [결정: 전쟁·희생 묘사가 이후 회차에 있으므로 작품 전체 기준으로 확정]
-- **Archive Warning:** Creator Chose Not To Use Archive Warnings [결정: 이후 회차(아이의 희생 등)를 고려해 확정]
-- **Category:** Gen
-- **Relationships:** 없음(Gen). 필요하면 Edward Elric & Alphonse Elric(가족 관계) 정도만.
-- **Characters:** Edward Elric; Alphonse Elric; Scar (Fullmetal Alchemist); Miles (Fullmetal Alchemist); Roy Mustang; Riza Hawkeye; May Chang; Ling Yao; Original Characters
-- **Additional Tags:** Post-Canon; Post-Promised Day; Edward Elric Can't Use Alchemy; Worldbuilding; Mystery; Alkahestry; Ishval (Fullmetal Alchemist); Xing (Fullmetal Alchemist); Politics; Reconstruction; Character Study; Original Character(s); Lore Speculation
-- **Language:** English
+| 칸 | 값 |
+|---|---|
+| Rating | `Teen And Up Audiences` |
+| Archive Warnings | `Creator Chose Not To Use Archive Warnings` (31화에 아이의 죽음이 있어 "No Archive Warnings Apply"는 쓰지 않는다. 대신 머리말과 31화 메모에 내용 경고를 적는다) |
+| Fandoms | `Fullmetal Alchemist: Brotherhood & Manga` (입력 후 자동완성에서 고른다) |
+| Categories | `Gen` |
+| Relationships | 비워 둔다 |
+| Characters | `Edward Elric`, `Alphonse Elric`, `Scar (Fullmetal Alchemist)`, `Miles (Fullmetal Alchemist)`, `Roy Mustang`, `Riza Hawkeye`, `Ling Yao`, `Lan Fan (Fullmetal Alchemist)`, `Olivier Mira Armstrong`, `May Chang`, `Van Hohenheim`, `Original Characters` |
+| Additional Tags | `Post-Canon`, `Post-Promised Day`, `Edward Elric Can't Use Alchemy`, `Mystery`, `Worldbuilding`, `Alkahestry`, `Xing (Fullmetal Alchemist)`, `Ishval (Fullmetal Alchemist)`, `Politics`, `Emperor Ling Yao`, `Fuhrer Roy Mustang`, `Hohenheim's Past`, `Lore Speculation`, `Original Characters`, `Translation` |
+| Work Title | `Fullmetal Alchemist: Eastward` |
+| Language | `English` |
+| Chapters | "This work has multiple chapters" 체크, 첫 화 번호 1, 전체 `44` |
+| Privacy | 체크하지 않는다(누구나 볼 수 있게 해야 노출이 된다) |
 
-## Summary (스포일러 없음)
+태그는 입력하면 AO3가 기존 태그를 자동완성으로 보여 준다. 자동완성에 같은 뜻의 태그가 뜨면 그것을 고르고, 없으면 위 문구를 그대로 쓴다.
 
-> Two years after the Promised Day, Edward Elric can no longer use alchemy.
+## 2. Summary
+
+> Two years after the Promised Day, Edward Elric can't use alchemy anymore. He can still ask questions.
 >
-> But a letter from Alphonse and a dead scholar's notebook send him east, toward Ishval, Xing, and a mystery that began long before he was born.
+> A dead Ishvalan scholar's notebook sends him and Scar across the desert to a hidden village that moves stone and water without a single transmutation circle, and to four-hundred-year-old records of a golden-eyed traveler from the west.
 >
-> What if the truth behind alchemy was never the whole truth?
-
-## Notes (Beginning Notes — 1회차 위에 붙일 것)
-
-> This is a post-canon story set about two years after the Promised Day. It was originally written in Korean and is being translated into English for AO3.
+> In Xing, Emperor Ling is learning what one man's good decisions can't fix. In Ishval, Fuhrer Mustang is about to find out who wants a war, and why.
 >
-> It follows Ed as he investigates the history behind Ishvalan belief, Xingese alkahestry, and the Truth. Places and people that don't appear in the original work, such as Karsa and Scar's brother's name, are my own creations. The theories Ed forms along the way are speculation, and several of them turn out to be wrong.
+> A complete post-canon mystery about where alchemy came from, who gets to decide, and what you do when no one has the whole answer.
+
+## 3. Beginning Notes (작품 머리말 — "Notes" 칸, 맨 처음 Post할 때 넣는다)
+
+> This story is complete (44 chapters) and will be posted twice a week.
 >
-> Updates twice a week.
+> It is set about two years after the Promised Day. Places and people that don't appear in canon, such as the village of Karsa, the An and Bai clans, and the name of Scar's brother, are my own inventions. The theories Ed forms along the way are speculation, and several of them turn out to be wrong.
+>
+> Content note: later chapters include war, political violence, and the deaths of civilians, including a child. None of it is graphic, but please read with care.
+>
+> The English text is a translation of my Korean original, drafted with AI assistance and revised by me.
 
-[결정] 번역 방식 표기: 원문은 한국어 원고이고, 번역 초안은 AI의 도움으로 만든 뒤 작가가 검토했다는 사실을 노트에 적을지 정한다. 팬덤에 따라 표기를 기대하는 독자가 있으므로 적는 쪽을 권한다.
-예: "The English text is a translation of my Korean original, drafted with AI assistance and revised by me."
+마지막 문단(번역 방식)은 작가 선택이다. AO3는 AI 보조 번역을 금지하지 않지만 표기를 기대하는 독자가 많아 넣는 쪽을 권한다. 넣지 않으려면 그 문단만 지운다.
 
-## 이후 회차 노트로 적어 둘 것
+## 4. 회차표 (Add Chapter할 때 보는 표)
 
-- 프롤로그/1화: 시점(프로미스드 데이 약 2년 뒤)과 에드가 연금술을 쓰지 못한다는 전제.
-- 9화(카르사 도착) 위: 카르사는 원작에 없는 장소이며 작가 창작 설정임을 한 줄 더 적어 두면 독자가 원작과 헷갈리지 않는다.
+AO3는 프롤로그를 1회차로 세므로 AO3 번호가 원고 회차보다 하나 크다. 본문 HTML에는 번호를 넣지 않았다.
+"회차 메모" 칸이 비어 있지 않은 회차는 Add Chapter 화면의 **Chapter Notes → Beginning Notes**(마지막 회는 End Notes)에 붙여 넣는다.
 
-## 홍보 문구(선택, Reddit/Tumblr용)
+| AO3 | 파일 | Chapter Title | 회차 메모 |
+|---|---|---|---|
+| 1 | 000-prologue.html | Prologue: The Alchemist Who Can't Use Alchemy | |
+| 2 | 001-chapter-01.html | The Road East | |
+| 3 | 002-chapter-02.html | His Brother's Notebook | |
+| 4 | 003-chapter-03.html | The One Who Saw God | |
+| 5 | 004-chapter-04.html | The God Beyond the Gate | |
+| 6 | 005-chapter-05.html | The Stone at the Crossings | |
+| 7 | 006-chapter-06.html | Good Intentions | |
+| 8 | 007-chapter-07.html | The Good Fuhrer | |
+| 9 | 008-chapter-08.html | Records from the East | |
+| 10 | 009-chapter-09.html | Into the Desert | Beginning: `Karsa and its people are my own invention; they don't appear in canon.` |
+| 11 | 010-chapter-10.html | The People Who Erased the Road | |
+| 12 | 011-chapter-11.html | The Road His Brother Walked | |
+| 13 | 012-chapter-12.html | The Flowing Earth | |
+| 14 | 013-chapter-13.html | The Man from the West | |
+| 15 | 014-chapter-14.html | What His Brother Wanted | |
+| 16 | 015-chapter-15.html | The City at the Western Edge | |
+| 17 | 016-chapter-16.html | The Price of Information | |
+| 18 | 017-chapter-17.html | Show Me the Instability | |
+| 19 | 018-chapter-18.html | Lieutenant Graus | |
+| 20 | 019-chapter-19.html | The Emperor's People | Beginning: `The An and Bai clans of Xing are my own invention.` |
+| 21 | 020-chapter-20.html | How to Become an Emperor | |
+| 22 | 021-chapter-21.html | The Second Ling | |
+| 23 | 022-chapter-22.html | A Road Opens Both Ways | |
+| 24 | 023-chapter-23.html | A Good Material | |
+| 25 | 024-chapter-24.html | Two Futures | |
+| 26 | 025-chapter-25.html | The Man Who Would Kill the Emperor | |
+| 27 | 026-chapter-26.html | Footsteps | |
+| 28 | 027-chapter-27.html | The One Who Crosses the Line | |
+| 29 | 028-chapter-28.html | A War Without Fire | |
+| 30 | 029-chapter-29.html | How to Move a Fuhrer | |
+| 31 | 030-chapter-30.html | Son of the Bai | |
+| 32 | 031-chapter-31.html | Three Shots | Beginning: `Content note: this chapter includes the deaths of civilians, including a child.` |
+| 33 | 032-chapter-32.html | The War That Started Again | |
+| 34 | 033-chapter-33.html | The One Who Isn't Emperor | |
+| 35 | 034-chapter-34.html | One Person | |
+| 36 | 035-chapter-35.html | A Reason to Draw a Sword | |
+| 37 | 036-chapter-36.html | The Last Shot | |
+| 38 | 037-chapter-37.html | What the War Left Behind | |
+| 39 | 038-chapter-38.html | The Trial | |
+| 40 | 039-chapter-39.html | A Country Without an Emperor | |
+| 41 | 040-chapter-40.html | The Last Fuhrer | |
+| 42 | 041-chapter-41.html | Who Decides | |
+| 43 | 042-chapter-42.html | The Questions That Remain | |
+| 44 | 043-epilogue.html | Epilogue: Eastward | End: `Thank you for reading to the end. Ishvala stays a mystery on purpose. Ed isn't done asking, and neither am I. Comments are always welcome.` |
 
-Ed Elric can't use alchemy anymore, so he's chasing the question behind it. A post-canon mystery about Ishval, Xing, and what alchemy actually is. Chapters 0–9 are up.
+## 5. 업로드 일정
+
+- 첫날: AO3 1~4회차(프롤로그~3화)를 한 번에 올린다. 첫 방문자가 몇 화를 이어 읽고 판단할 수 있게 하기 위해서다.
+- 그 뒤: 주 2회(예: 수·토), 한 번에 1회차씩. 4회차 이후 40회차가 남으므로 약 20주가 걸린다.
+- 더 빨리 끝내고 싶으면 주 3회로 올려도 된다(약 14주). 새 회차가 올라올 때마다 작품이 팬덤 최신 목록 맨 위로 올라오므로, 한꺼번에 올리는 것보다 나눠 올리는 편이 노출이 많다.
+- AO3에는 예약 게시가 없다. 초안(Draft)은 저장 후 약 한 달이 지나면 자동 삭제되므로 미리 쌓아 두지 말고 올리는 날 바로 Post한다.
+- 한국어 원고를 고치면 해당 화의 영어판도 고치고 빌드한 뒤, AO3에서 그 회차의 **Edit Chapter**로 본문을 다시 붙여 넣는다.
+
+## 6. 홍보 문구 (선택, Tumblr·Reddit·X용)
+
+> Ed Elric can't use alchemy anymore, so he goes looking for where it came from. A complete post-canon FMA mystery: a hidden desert village, Hohenheim's four-hundred-year-old trail, Emperor Ling's clan politics, and a war someone in Ishval wants Mustang to lose. Posting twice a week on AO3.
+
+Reddit r/FullmetalAlchemist는 자작 홍보 규칙이 있으므로 올리기 전에 규칙을 확인한다.
